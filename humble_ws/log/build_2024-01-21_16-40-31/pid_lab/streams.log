@@ -1,0 +1,91 @@
+[0.141s] Invoking command in '/home/rstole01/Documents/CSE-596/humble_ws/build/pid_lab': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/rstole01/Documents/CSE-596/humble_ws/build/pid_lab -- -j8 -l8
+[0.221s] [35m[1mConsolidate compiler generated dependencies of target pid[0m
+[0.260s] [ 50%] [32mBuilding CXX object CMakeFiles/pid.dir/src/wall_follow_node.cpp.o[0m
+[4.749s] [01m[K/home/rstole01/Documents/CSE-596/humble_ws/src/pid_lab/src/wall_follow_node.cpp:[m[K In member function ‘[01m[Kvoid WallFollow::scan_callback(const ConstSharedPtr&)[m[K’:
+[4.749s] [01m[K/home/rstole01/Documents/CSE-596/humble_ws/src/pid_lab/src/wall_follow_node.cpp:86:15:[m[K [01;35m[Kwarning: [m[KISO C++ forbids variable length array ‘[01m[Kranges[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wvla-Wvla]8;;[m[K]
+[4.750s]    86 |         float [01;35m[Kranges[m[K[range_len];
+[4.750s]       |               [01;35m[K^~~~~~[m[K
+[4.750s] [01m[K/home/rstole01/Documents/CSE-596/humble_ws/src/pid_lab/src/wall_follow_node.cpp:87:87:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kbegin(float [range_len])[m[K’
+[4.750s]    87 |         std::copy(std::begin(scan_msg->ranges), std::end(scan_msg->ranges), [01;31m[Kstd::begin(ranges)[m[K);
+[4.750s]       |                                                                             [01;31m[K~~~~~~~~~~^~~~~~~~[m[K
+[4.751s] In file included from [01m[K/usr/include/c++/11/utility:76[m[K,
+[4.751s]                  from [01m[K/usr/include/c++/11/bits/unique_ptr.h:36[m[K,
+[4.751s]                  from [01m[K/usr/include/c++/11/memory:76[m[K,
+[4.751s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153[m[K,
+[4.751s]                  from [01m[K/home/rstole01/Documents/CSE-596/humble_ws/src/pid_lab/src/wall_follow_node.cpp:1[m[K:
+[4.751s] [01m[K/usr/include/c++/11/initializer_list:90:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp> constexpr const _Tp* std::begin(std::initializer_list<_Tp>)[m[K’
+[4.751s]    90 |     [01;36m[Kbegin[m[K(initializer_list<_Tp> __ils) noexcept
+[4.752s]       |     [01;36m[K^~~~~[m[K
+[4.752s] [01m[K/usr/include/c++/11/initializer_list:90:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[4.752s] [01m[K/home/rstole01/Documents/CSE-596/humble_ws/src/pid_lab/src/wall_follow_node.cpp:87:87:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kstd::initializer_list<_Tp>[m[K’ and ‘[01m[Kfloat*[m[K’
+[4.752s]    87 |         std::copy(std::begin(scan_msg->ranges), std::end(scan_msg->ranges), [01;36m[Kstd::begin(ranges)[m[K);
+[4.752s]       |                                                                             [01;36m[K~~~~~~~~~~^~~~~~~~[m[K
+[4.752s] In file included from [01m[K/usr/include/c++/11/array:41[m[K,
+[4.752s]                  from [01m[K/usr/include/c++/11/tuple:39[m[K,
+[4.752s]                  from [01m[K/usr/include/c++/11/bits/unique_ptr.h:37[m[K,
+[4.753s]                  from [01m[K/usr/include/c++/11/memory:76[m[K,
+[4.753s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153[m[K,
+[4.753s]                  from [01m[K/home/rstole01/Documents/CSE-596/humble_ws/src/pid_lab/src/wall_follow_node.cpp:1[m[K:
+[4.753s] [01m[K/usr/include/c++/11/bits/range_access.h:51:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Container> constexpr decltype (__cont.begin()) std::begin(_Container&)[m[K’
+[4.753s]    51 |     [01;36m[Kbegin[m[K(_Container& __cont) -> decltype(__cont.begin())
+[4.753s]       |     [01;36m[K^~~~~[m[K
+[4.753s] [01m[K/usr/include/c++/11/bits/range_access.h:51:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[4.753s] [01m[K/home/rstole01/Documents/CSE-596/humble_ws/src/pid_lab/src/wall_follow_node.cpp:87:87:[m[K [01;36m[Knote: [m[K  variable-sized array type ‘[01m[Kfloat [range_len][m[K’ is not a valid template argument
+[4.754s]    87 |         std::copy(std::begin(scan_msg->ranges), std::end(scan_msg->ranges), [01;36m[Kstd::begin(ranges)[m[K);
+[4.754s]       |                                                                             [01;36m[K~~~~~~~~~~^~~~~~~~[m[K
+[4.754s] In file included from [01m[K/usr/include/c++/11/array:41[m[K,
+[4.754s]                  from [01m[K/usr/include/c++/11/tuple:39[m[K,
+[4.754s]                  from [01m[K/usr/include/c++/11/bits/unique_ptr.h:37[m[K,
+[4.754s]                  from [01m[K/usr/include/c++/11/memory:76[m[K,
+[4.754s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153[m[K,
+[4.755s]                  from [01m[K/home/rstole01/Documents/CSE-596/humble_ws/src/pid_lab/src/wall_follow_node.cpp:1[m[K:
+[4.755s] [01m[K/usr/include/c++/11/bits/range_access.h:61:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Container> constexpr decltype (__cont.begin()) std::begin(const _Container&)[m[K’
+[4.755s]    61 |     [01;36m[Kbegin[m[K(const _Container& __cont) -> decltype(__cont.begin())
+[4.755s]       |     [01;36m[K^~~~~[m[K
+[4.755s] [01m[K/usr/include/c++/11/bits/range_access.h:61:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[4.756s] [01m[K/home/rstole01/Documents/CSE-596/humble_ws/src/pid_lab/src/wall_follow_node.cpp:87:87:[m[K [01;36m[Knote: [m[K  variable-sized array type ‘[01m[Kfloat [range_len][m[K’ is not a valid template argument
+[4.756s]    87 |         std::copy(std::begin(scan_msg->ranges), std::end(scan_msg->ranges), [01;36m[Kstd::begin(ranges)[m[K);
+[4.756s]       |                                                                             [01;36m[K~~~~~~~~~~^~~~~~~~[m[K
+[4.756s] In file included from [01m[K/usr/include/c++/11/array:41[m[K,
+[4.756s]                  from [01m[K/usr/include/c++/11/tuple:39[m[K,
+[4.757s]                  from [01m[K/usr/include/c++/11/bits/unique_ptr.h:37[m[K,
+[4.757s]                  from [01m[K/usr/include/c++/11/memory:76[m[K,
+[4.757s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153[m[K,
+[4.757s]                  from [01m[K/home/rstole01/Documents/CSE-596/humble_ws/src/pid_lab/src/wall_follow_node.cpp:1[m[K:
+[4.757s] [01m[K/usr/include/c++/11/bits/range_access.h:90:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, long unsigned int _Nm> constexpr _Tp* std::begin(_Tp (&)[_Nm])[m[K’
+[4.758s]    90 |     [01;36m[Kbegin[m[K(_Tp (&__arr)[_Nm]) noexcept
+[4.758s]       |     [01;36m[K^~~~~[m[K
+[4.758s] [01m[K/usr/include/c++/11/bits/range_access.h:90:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[4.758s] [01m[K/home/rstole01/Documents/CSE-596/humble_ws/src/pid_lab/src/wall_follow_node.cpp:87:87:[m[K [01;36m[Knote: [m[K  variable-sized array type ‘[01m[Klong int[m[K’ is not a valid template argument
+[4.758s]    87 |         std::copy(std::begin(scan_msg->ranges), std::end(scan_msg->ranges), [01;36m[Kstd::begin(ranges)[m[K);
+[4.759s]       |                                                                             [01;36m[K~~~~~~~~~~^~~~~~~~[m[K
+[4.759s] In file included from [01m[K/usr/include/c++/11/array:41[m[K,
+[4.759s]                  from [01m[K/usr/include/c++/11/tuple:39[m[K,
+[4.759s]                  from [01m[K/usr/include/c++/11/bits/unique_ptr.h:37[m[K,
+[4.759s]                  from [01m[K/usr/include/c++/11/memory:76[m[K,
+[4.759s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153[m[K,
+[4.759s]                  from [01m[K/home/rstole01/Documents/CSE-596/humble_ws/src/pid_lab/src/wall_follow_node.cpp:1[m[K:
+[4.760s] [01m[K/usr/include/c++/11/bits/range_access.h:107:31:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp> _Tp* std::begin(std::valarray<_Tp>&)[m[K’
+[4.760s]   107 |   template<typename _Tp> _Tp* [01;36m[Kbegin[m[K(valarray<_Tp>&) noexcept;
+[4.760s]       |                               [01;36m[K^~~~~[m[K
+[4.760s] [01m[K/usr/include/c++/11/bits/range_access.h:107:31:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[4.760s] [01m[K/home/rstole01/Documents/CSE-596/humble_ws/src/pid_lab/src/wall_follow_node.cpp:87:87:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kstd::valarray<_Tp>[m[K’ and ‘[01m[Kfloat [range_len][m[K’
+[4.760s]    87 |         std::copy(std::begin(scan_msg->ranges), std::end(scan_msg->ranges), [01;36m[Kstd::begin(ranges)[m[K);
+[4.760s]       |                                                                             [01;36m[K~~~~~~~~~~^~~~~~~~[m[K
+[4.760s] In file included from [01m[K/usr/include/c++/11/array:41[m[K,
+[4.761s]                  from [01m[K/usr/include/c++/11/tuple:39[m[K,
+[4.761s]                  from [01m[K/usr/include/c++/11/bits/unique_ptr.h:37[m[K,
+[4.761s]                  from [01m[K/usr/include/c++/11/memory:76[m[K,
+[4.761s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153[m[K,
+[4.761s]                  from [01m[K/home/rstole01/Documents/CSE-596/humble_ws/src/pid_lab/src/wall_follow_node.cpp:1[m[K:
+[4.761s] [01m[K/usr/include/c++/11/bits/range_access.h:108:37:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp> const _Tp* std::begin(const std::valarray<_Tp>&)[m[K’
+[4.761s]   108 |   template<typename _Tp> const _Tp* [01;36m[Kbegin[m[K(const valarray<_Tp>&) noexcept;
+[4.762s]       |                                     [01;36m[K^~~~~[m[K
+[4.762s] [01m[K/usr/include/c++/11/bits/range_access.h:108:37:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[4.762s] [01m[K/home/rstole01/Documents/CSE-596/humble_ws/src/pid_lab/src/wall_follow_node.cpp:87:87:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst std::valarray<_Tp>[m[K’ and ‘[01m[Kfloat [range_len][m[K’
+[4.762s]    87 |         std::copy(std::begin(scan_msg->ranges), std::end(scan_msg->ranges), [01;36m[Kstd::begin(ranges)[m[K);
+[4.762s]       |                                                                             [01;36m[K~~~~~~~~~~^~~~~~~~[m[K
+[9.190s] gmake[2]: *** [CMakeFiles/pid.dir/build.make:76: CMakeFiles/pid.dir/src/wall_follow_node.cpp.o] Error 1
+[9.191s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/pid.dir/all] Error 2
+[9.191s] gmake: *** [Makefile:146: all] Error 2
+[9.195s] Invoked command in '/home/rstole01/Documents/CSE-596/humble_ws/build/pid_lab' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/rstole01/Documents/CSE-596/humble_ws/build/pid_lab -- -j8 -l8

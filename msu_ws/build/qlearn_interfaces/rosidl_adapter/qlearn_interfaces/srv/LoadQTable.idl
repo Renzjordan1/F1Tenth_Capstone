@@ -1,0 +1,15 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from qlearn_interfaces/srv/LoadQTable.srv
+// generated code does not contain a copyright notice
+
+
+module qlearn_interfaces {
+  module srv {
+    struct LoadQTable_Request {
+      string filename;
+    };
+    struct LoadQTable_Response {
+      boolean success;
+    };
+  };
+};

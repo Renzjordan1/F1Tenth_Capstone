@@ -1,0 +1,45 @@
+[2.429s] Invoking command in '/home/rstole01/Documents/CSE-596/msu_ws/build/slam_toolbox': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rstole01/Documents/CSE-596/msu_ws/install/waypoint_writer:/home/rstole01/Documents/CSE-596/msu_ws/install/waypoint_follow:/home/rstole01/Documents/CSE-596/msu_ws/install/wall_follower_pid:/home/rstole01/Documents/CSE-596/msu_ws/install/qlearn:/home/rstole01/Documents/CSE-596/msu_ws/install/py_pubsub:/home/rstole01/Documents/CSE-596/msu_ws/install/plexer360:/home/rstole01/Documents/CSE-596/msu_ws/install/painter:/home/rstole01/Documents/CSE-596/msu_ws/install/f1tenth_gym_ros:/opt/ros/humble /usr/bin/cmake --build /home/rstole01/Documents/CSE-596/msu_ws/build/slam_toolbox -- -j8 -l8
+[2.678s] [  1%] Built target slam_toolbox__cpp
+[2.745s] [ 10%] Built target slam_toolbox__rosidl_generator_c
+[2.800s] [ 10%] Built target ament_cmake_python_copy_slam_toolbox
+[2.856s] [ 18%] Built target slam_toolbox__rosidl_typesupport_cpp
+[2.862s] [ 20%] Built target kartoSlamToolbox
+[2.911s] [ 28%] Built target slam_toolbox__rosidl_typesupport_introspection_cpp
+[2.918s] [ 37%] Built target slam_toolbox__rosidl_typesupport_fastrtps_cpp
+[2.926s] [ 46%] Built target slam_toolbox__rosidl_typesupport_fastrtps_c
+[2.949s] [ 54%] Built target slam_toolbox__rosidl_typesupport_introspection_c
+[2.962s] [ 62%] Built target slam_toolbox__rosidl_typesupport_c
+[3.129s] [35m[1mConsolidate compiler generated dependencies of target toolbox_common[0m
+[3.214s] [ 64%] Built target SlamToolboxPlugin
+[3.234s] [ 66%] Built target ceres_solver_plugin
+[3.335s] [ 66%] Built target slam_toolbox
+[3.412s] [ 67%] [32mBuilding CXX object CMakeFiles/toolbox_common.dir/src/slam_toolbox_common.cpp.o[0m
+[3.441s] [ 67%] Built target slam_toolbox__py
+[3.452s] [ 68%] [32mBuilding CXX object CMakeFiles/toolbox_common.dir/src/map_saver.cpp.o[0m
+[3.550s] [ 76%] Built target slam_toolbox__rosidl_generator_py
+[3.694s] [ 77%] Built target slam_toolbox__rosidl_typesupport_fastrtps_c__pyext
+[3.737s] [ 79%] Built target slam_toolbox__rosidl_typesupport_introspection_c__pyext
+[3.772s] [ 81%] Built target slam_toolbox__rosidl_typesupport_c__pyext
+[4.239s] running egg_info
+[4.239s] writing slam_toolbox.egg-info/PKG-INFO
+[4.240s] writing dependency_links to slam_toolbox.egg-info/dependency_links.txt
+[4.240s] writing top-level names to slam_toolbox.egg-info/top_level.txt
+[4.248s] reading manifest file 'slam_toolbox.egg-info/SOURCES.txt'
+[4.250s] writing manifest file 'slam_toolbox.egg-info/SOURCES.txt'
+[4.338s] [ 81%] Built target ament_cmake_python_build_slam_toolbox_egg
+[4.767s] [01m[K/home/rstole01/Documents/CSE-596/msu_ws/src/slam_toolbox/src/map_saver.cpp:40:15:[m[K [01;35m[Kwarning: [m[Kcharacter constant too long for its type
+[4.768s]    40 |   map_name_ = [01;35m[K'/map_slam'[m[K
+[4.768s]       |               [01;35m[K^~~~~~~~~~~[m[K
+[10.156s] [01m[K/home/rstole01/Documents/CSE-596/msu_ws/src/slam_toolbox/src/map_saver.cpp:[m[K In constructor ‘[01m[Kmap_saver::MapSaver::MapSaver(rclcpp::Node::SharedPtr, const string&)[m[K’:
+[10.157s] [01m[K/home/rstole01/Documents/CSE-596/msu_ws/src/slam_toolbox/src/map_saver.cpp:40:15:[m[K [01;35m[Kwarning: [m[Koverflow in conversion from ‘[01m[Kint[m[K’ to ‘[01m[Kchar[m[K’ changes value from ‘[01m[K1936482669[m[K’ to ‘[01m[K'm'[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Woverflow-Woverflow]8;;[m[K]
+[10.157s] [01m[K/home/rstole01/Documents/CSE-596/msu_ws/src/slam_toolbox/src/map_saver.cpp:40:26:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Ksub_[m[K’
+[10.157s]    40 |   map_name_ = '/map_slam'
+[10.157s]       |                          [01;31m[K^[m[K
+[10.157s]       |                          [32m[K;[m[K
+[10.157s]    41 |   [32m[Ksub_[m[K = node_->create_subscription<nav_msgs::msg::OccupancyGrid>(
+[10.157s]       |   [32m[K~~~~[m[K                    
+[11.499s] gmake[2]: *** [CMakeFiles/toolbox_common.dir/build.make:90: CMakeFiles/toolbox_common.dir/src/map_saver.cpp.o] Error 1
+[11.500s] gmake[2]: *** Waiting for unfinished jobs....
+[70.171s] gmake[1]: *** [CMakeFiles/Makefile2:693: CMakeFiles/toolbox_common.dir/all] Error 2
+[70.172s] gmake: *** [Makefile:146: all] Error 2
+[70.176s] Invoked command in '/home/rstole01/Documents/CSE-596/msu_ws/build/slam_toolbox' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rstole01/Documents/CSE-596/msu_ws/install/waypoint_writer:/home/rstole01/Documents/CSE-596/msu_ws/install/waypoint_follow:/home/rstole01/Documents/CSE-596/msu_ws/install/wall_follower_pid:/home/rstole01/Documents/CSE-596/msu_ws/install/qlearn:/home/rstole01/Documents/CSE-596/msu_ws/install/py_pubsub:/home/rstole01/Documents/CSE-596/msu_ws/install/plexer360:/home/rstole01/Documents/CSE-596/msu_ws/install/painter:/home/rstole01/Documents/CSE-596/msu_ws/install/f1tenth_gym_ros:/opt/ros/humble /usr/bin/cmake --build /home/rstole01/Documents/CSE-596/msu_ws/build/slam_toolbox -- -j8 -l8

@@ -1,0 +1,2 @@
+Invoking command in '/home/rstole01/Documents/CSE-596/humble_ws/build/pursuit_lab': /usr/bin/cmake /home/rstole01/Documents/CSE-596/humble_ws/src/pursuit_lab -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/rstole01/Documents/CSE-596/humble_ws/install/pursuit_lab
+Invoked command in '/home/rstole01/Documents/CSE-596/humble_ws/build/pursuit_lab' returned '1': /usr/bin/cmake /home/rstole01/Documents/CSE-596/humble_ws/src/pursuit_lab -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/rstole01/Documents/CSE-596/humble_ws/install/pursuit_lab

@@ -1,0 +1,6 @@
+[31mCMake Error at cmake_install.cmake:70 (file):
+  file INSTALL cannot find
+  "/home/rstole01/Documents/CSE-596/humble_ws/src/pursuit_lab/scripts/pure_pursuit_node.py":
+  No such file or directory.
+
+[0m

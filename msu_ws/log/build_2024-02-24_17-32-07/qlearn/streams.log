@@ -1,0 +1,23 @@
+[7.786s] Invoking command in '/home/rstole01/Documents/CSE-596/msu_ws/src/qlearn': CMAKE_PREFIX_PATH=/home/rstole01/Documents/CSE-596/msu_ws/install/ackermann_msgs:/home/rstole01/Documents/CSE-596/msu_ws/install/waypoint_publisher:/home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox:/home/rstole01/Documents/CSE-596/msu_ws/install/qlearn_interfaces:/home/rstole01/Documents/CSE-596/msu_ws/install/pid_msgs:/home/rstole01/Documents/CSE-596/msu_ws/install/my_messages LD_LIBRARY_PATH=/home/rstole01/Documents/CSE-596/msu_ws/install/ackermann_msgs/lib:/home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/lib:/home/rstole01/Documents/CSE-596/msu_ws/install/qlearn_interfaces/lib:/home/rstole01/Documents/CSE-596/msu_ws/install/pid_msgs/lib:/home/rstole01/Documents/CSE-596/msu_ws/install/my_messages/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/rstole01/Documents/CSE-596/msu_ws/build/qlearn/prefix_override:/home/rstole01/Documents/CSE-596/msu_ws/install/qlearn/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/qlearn build --build-base /home/rstole01/Documents/CSE-596/msu_ws/build/qlearn/build install --record /home/rstole01/Documents/CSE-596/msu_ws/build/qlearn/install.log --single-version-externally-managed
+[8.467s] running egg_info
+[8.469s] writing ../../build/qlearn/qlearn.egg-info/PKG-INFO
+[8.469s] writing dependency_links to ../../build/qlearn/qlearn.egg-info/dependency_links.txt
+[8.470s] writing entry points to ../../build/qlearn/qlearn.egg-info/entry_points.txt
+[8.470s] writing requirements to ../../build/qlearn/qlearn.egg-info/requires.txt
+[8.471s] writing top-level names to ../../build/qlearn/qlearn.egg-info/top_level.txt
+[8.477s] reading manifest file '../../build/qlearn/qlearn.egg-info/SOURCES.txt'
+[8.481s] writing manifest file '../../build/qlearn/qlearn.egg-info/SOURCES.txt'
+[8.481s] running build
+[8.481s] running build_py
+[8.482s] running install
+[8.483s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[8.483s]   warnings.warn(
+[8.484s] running install_lib
+[8.489s] running install_data
+[8.491s] running install_egg_info
+[8.496s] removing '/home/rstole01/Documents/CSE-596/msu_ws/install/qlearn/lib/python3.10/site-packages/qlearn-0.0.0-py3.10.egg-info' (and everything under it)
+[8.497s] Copying ../../build/qlearn/qlearn.egg-info to /home/rstole01/Documents/CSE-596/msu_ws/install/qlearn/lib/python3.10/site-packages/qlearn-0.0.0-py3.10.egg-info
+[8.500s] running install_scripts
+[8.577s] Installing qlearn script to /home/rstole01/Documents/CSE-596/msu_ws/install/qlearn/lib/qlearn
+[8.578s] writing list of installed files to '/home/rstole01/Documents/CSE-596/msu_ws/build/qlearn/install.log'
+[8.897s] Invoked command in '/home/rstole01/Documents/CSE-596/msu_ws/src/qlearn' returned '0': CMAKE_PREFIX_PATH=/home/rstole01/Documents/CSE-596/msu_ws/install/ackermann_msgs:/home/rstole01/Documents/CSE-596/msu_ws/install/waypoint_publisher:/home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox:/home/rstole01/Documents/CSE-596/msu_ws/install/qlearn_interfaces:/home/rstole01/Documents/CSE-596/msu_ws/install/pid_msgs:/home/rstole01/Documents/CSE-596/msu_ws/install/my_messages LD_LIBRARY_PATH=/home/rstole01/Documents/CSE-596/msu_ws/install/ackermann_msgs/lib:/home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/lib:/home/rstole01/Documents/CSE-596/msu_ws/install/qlearn_interfaces/lib:/home/rstole01/Documents/CSE-596/msu_ws/install/pid_msgs/lib:/home/rstole01/Documents/CSE-596/msu_ws/install/my_messages/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/rstole01/Documents/CSE-596/msu_ws/build/qlearn/prefix_override:/home/rstole01/Documents/CSE-596/msu_ws/install/qlearn/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/qlearn build --build-base /home/rstole01/Documents/CSE-596/msu_ws/build/qlearn/build install --record /home/rstole01/Documents/CSE-596/msu_ws/build/qlearn/install.log --single-version-externally-managed

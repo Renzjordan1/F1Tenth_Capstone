@@ -1,0 +1,20 @@
+[2.451s] Invoking command in '/home/rstole01/Documents/CSE-596/humble_ws/build/pid_lab': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rstole01/Documents/CSE-596/humble_ws/install/waypoint_logger:/home/rstole01/Documents/CSE-596/humble_ws/install/f1tenth_gym_ros:/opt/ros/humble /usr/bin/cmake --build /home/rstole01/Documents/CSE-596/humble_ws/build/pid_lab -- -j8 -l8
+[4.751s] [ 50%] [32mBuilding CXX object CMakeFiles/pid.dir/src/wall_follow_node.cpp.o[0m
+[13.267s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[13.267s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[13.267s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[13.267s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[13.268s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[13.268s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[13.268s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[13.268s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[13.269s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[13.269s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[13.269s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[13.269s]                  from [01m[K/home/rstole01/Documents/CSE-596/humble_ws/src/pid_lab/src/wall_follow_node.cpp:1[m[K:
+[13.270s] [01m[K/home/rstole01/Documents/CSE-596/humble_ws/src/pid_lab/src/wall_follow_node.cpp:[m[K In member function ‘[01m[Kvoid WallFollow::scan_callback(const ConstSharedPtr&)[m[K’:
+[13.270s] [01m[K/home/rstole01/Documents/CSE-596/humble_ws/src/pid_lab/src/wall_follow_node.cpp:124:7:[m[K [01;35m[Kwarning: [m[Ktoo many arguments for format [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat-extra-args-Wformat-extra-args]8;;[m[K]
+[13.270s]   124 |       [01;35m[K"index"[m[K, right_angle_ind);
+[13.270s]       |       [01;35m[K^~~~~~~[m[K
+[32.470s] [100%] [32m[1mLinking CXX executable pid[0m
+[33.981s] [100%] Built target pid

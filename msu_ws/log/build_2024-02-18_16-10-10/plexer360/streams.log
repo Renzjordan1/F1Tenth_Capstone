@@ -1,0 +1,26 @@
+[9.746s] Invoking command in '/home/rstole01/Documents/CSE-596/msu_ws/src/plexer360': AMENT_PREFIX_PATH=/home/rstole01/Documents/CSE-596/msu_ws/install/ackermann_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rstole01/Documents/CSE-596/msu_ws/install/ackermann_msgs LD_LIBRARY_PATH=/home/rstole01/Documents/CSE-596/msu_ws/install/ackermann_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rstole01/Documents/CSE-596/msu_ws/build/plexer360/prefix_override:/home/rstole01/Documents/CSE-596/msu_ws/install/plexer360/lib/python3.10/site-packages:/home/rstole01/Documents/CSE-596/msu_ws/install/ackermann_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/plexer360 build --build-base /home/rstole01/Documents/CSE-596/msu_ws/build/plexer360/build install --record /home/rstole01/Documents/CSE-596/msu_ws/build/plexer360/install.log --single-version-externally-managed
+[10.766s] running egg_info
+[10.769s] writing ../../build/plexer360/plexer360.egg-info/PKG-INFO
+[10.771s] writing dependency_links to ../../build/plexer360/plexer360.egg-info/dependency_links.txt
+[10.772s] writing entry points to ../../build/plexer360/plexer360.egg-info/entry_points.txt
+[10.772s] writing requirements to ../../build/plexer360/plexer360.egg-info/requires.txt
+[10.773s] writing top-level names to ../../build/plexer360/plexer360.egg-info/top_level.txt
+[10.777s] reading manifest file '../../build/plexer360/plexer360.egg-info/SOURCES.txt'
+[10.785s] writing manifest file '../../build/plexer360/plexer360.egg-info/SOURCES.txt'
+[10.786s] running build
+[10.786s] running build_py
+[10.789s] running install
+[10.790s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[10.791s]   warnings.warn(
+[10.793s] running install_lib
+[10.798s] running install_data
+[10.802s] running install_egg_info
+[10.811s] removing '/home/rstole01/Documents/CSE-596/msu_ws/install/plexer360/lib/python3.10/site-packages/plexer360-0.0.0-py3.10.egg-info' (and everything under it)
+[10.813s] Copying ../../build/plexer360/plexer360.egg-info to /home/rstole01/Documents/CSE-596/msu_ws/install/plexer360/lib/python3.10/site-packages/plexer360-0.0.0-py3.10.egg-info
+[10.817s] running install_scripts
+[10.923s] Installing dec script to /home/rstole01/Documents/CSE-596/msu_ws/install/plexer360/lib/plexer360
+[10.924s] Installing learn script to /home/rstole01/Documents/CSE-596/msu_ws/install/plexer360/lib/plexer360
+[10.924s] Installing pub script to /home/rstole01/Documents/CSE-596/msu_ws/install/plexer360/lib/plexer360
+[10.924s] Installing sub script to /home/rstole01/Documents/CSE-596/msu_ws/install/plexer360/lib/plexer360
+[10.925s] writing list of installed files to '/home/rstole01/Documents/CSE-596/msu_ws/build/plexer360/install.log'
+[11.782s] Invoked command in '/home/rstole01/Documents/CSE-596/msu_ws/src/plexer360' returned '0': AMENT_PREFIX_PATH=/home/rstole01/Documents/CSE-596/msu_ws/install/ackermann_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rstole01/Documents/CSE-596/msu_ws/install/ackermann_msgs LD_LIBRARY_PATH=/home/rstole01/Documents/CSE-596/msu_ws/install/ackermann_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rstole01/Documents/CSE-596/msu_ws/build/plexer360/prefix_override:/home/rstole01/Documents/CSE-596/msu_ws/install/plexer360/lib/python3.10/site-packages:/home/rstole01/Documents/CSE-596/msu_ws/install/ackermann_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/plexer360 build --build-base /home/rstole01/Documents/CSE-596/msu_ws/build/plexer360/build install --record /home/rstole01/Documents/CSE-596/msu_ws/build/plexer360/install.log --single-version-externally-managed

@@ -1,0 +1,102 @@
+[0.148s] Invoking command in '/home/rstole01/Documents/CSE-596/humble_ws/build/pid_lab': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/rstole01/Documents/CSE-596/humble_ws/build/pid_lab -- -j8 -l8
+[0.230s] [35m[1mConsolidate compiler generated dependencies of target pid[0m
+[0.268s] [ 50%] [32mBuilding CXX object CMakeFiles/pid.dir/src/wall_follow_node.cpp.o[0m
+[5.157s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[5.157s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[5.157s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[5.157s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[5.157s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[5.158s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[5.158s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[5.158s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[5.158s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[5.158s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[5.159s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[5.159s]                  from [01m[K/home/rstole01/Documents/CSE-596/humble_ws/src/pid_lab/src/wall_follow_node.cpp:1[m[K:
+[5.159s] [01m[K/home/rstole01/Documents/CSE-596/humble_ws/src/pid_lab/src/wall_follow_node.cpp:[m[K In member function ‘[01m[Kdouble WallFollow::get_error(float, double, double)[m[K’:
+[5.159s] [01m[K/home/rstole01/Documents/CSE-596/humble_ws/src/pid_lab/src/wall_follow_node.cpp:151:7:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 5 has type ‘[01m[Kdouble[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[5.159s]   151 |       [01;35m[K"Distance: %d,\nNew Distance: %d,\nError: %d,\n"[m[K,
+[5.160s]       |       [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.160s]   152 |       [32m[Kdistance[m[K, new_distance, error);
+[5.160s]       |       [32m[K~~~~~~~~[m[K
+[5.160s]       |       [32m[K|[m[K
+[5.160s]       |       [32m[Kdouble[m[K
+[5.160s] [01m[K/home/rstole01/Documents/CSE-596/humble_ws/src/pid_lab/src/wall_follow_node.cpp:151:19:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[5.161s]   151 |       "Distance: [01;36m[K%d[m[K,\nNew Distance: %d,\nError: %d,\n",
+[5.161s]       |                  [01;36m[K~^[m[K
+[5.161s]       |                   [01;36m[K|[m[K
+[5.161s]       |                   [01;36m[Kint[m[K
+[5.161s]       |                  [32m[K%f[m[K
+[5.161s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[5.161s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[5.162s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[5.162s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[5.162s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[5.162s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[5.162s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[5.162s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[5.162s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[5.162s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[5.163s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[5.163s]                  from [01m[K/home/rstole01/Documents/CSE-596/humble_ws/src/pid_lab/src/wall_follow_node.cpp:1[m[K:
+[5.163s] [01m[K/home/rstole01/Documents/CSE-596/humble_ws/src/pid_lab/src/wall_follow_node.cpp:151:7:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 6 has type ‘[01m[Kdouble[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[5.163s]   151 |       [01;35m[K"Distance: %d,\nNew Distance: %d,\nError: %d,\n"[m[K,
+[5.163s]       |       [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.163s]   152 |       distance, [32m[Knew_distance[m[K, error);
+[5.164s]       |                 [32m[K~~~~~~~~~~~~[m[K
+[5.164s]       |                 [32m[K|[m[K
+[5.164s]       |                 [32m[Kdouble[m[K
+[5.164s] [01m[K/home/rstole01/Documents/CSE-596/humble_ws/src/pid_lab/src/wall_follow_node.cpp:151:38:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[5.164s]   151 |       "Distance: %d,\nNew Distance: [01;36m[K%d[m[K,\nError: %d,\n",
+[5.165s]       |                                     [01;36m[K~^[m[K
+[5.165s]       |                                      [01;36m[K|[m[K
+[5.165s]       |                                      [01;36m[Kint[m[K
+[5.165s]       |                                     [32m[K%f[m[K
+[5.166s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[5.166s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[5.166s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[5.166s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[5.166s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[5.166s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[5.167s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[5.167s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[5.167s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[5.167s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[5.167s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[5.168s]                  from [01m[K/home/rstole01/Documents/CSE-596/humble_ws/src/pid_lab/src/wall_follow_node.cpp:1[m[K:
+[5.168s] [01m[K/home/rstole01/Documents/CSE-596/humble_ws/src/pid_lab/src/wall_follow_node.cpp:151:7:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 7 has type ‘[01m[Kdouble[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[5.168s]   151 |       [01;35m[K"Distance: %d,\nNew Distance: %d,\nError: %d,\n"[m[K,
+[5.168s]       |       [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.169s]   152 |       distance, new_distance, [32m[Kerror[m[K);
+[5.169s]       |                               [32m[K~~~~~[m[K
+[5.169s]       |                               [32m[K|[m[K
+[5.169s]       |                               [32m[Kdouble[m[K
+[5.169s] [01m[K/home/rstole01/Documents/CSE-596/humble_ws/src/pid_lab/src/wall_follow_node.cpp:151:50:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[5.169s]   151 |       "Distance: %d,\nNew Distance: %d,\nError: [01;36m[K%d[m[K,\n",
+[5.169s]       |                                                 [01;36m[K~^[m[K
+[5.170s]       |                                                  [01;36m[K|[m[K
+[5.170s]       |                                                  [01;36m[Kint[m[K
+[5.170s]       |                                                 [32m[K%f[m[K
+[16.210s] [100%] [32m[1mLinking CXX executable pid[0m
+[16.991s] [100%] Built target pid
+[17.012s] Invoked command in '/home/rstole01/Documents/CSE-596/humble_ws/build/pid_lab' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/rstole01/Documents/CSE-596/humble_ws/build/pid_lab -- -j8 -l8
+[17.075s] Invoking command in '/home/rstole01/Documents/CSE-596/humble_ws/build/pid_lab': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/rstole01/Documents/CSE-596/humble_ws/build/pid_lab
+[17.088s] -- Install configuration: ""
+[17.089s] -- Installing: /home/rstole01/Documents/CSE-596/humble_ws/install/pid_lab/lib/pid_lab/pid
+[17.101s] -- Set runtime path of "/home/rstole01/Documents/CSE-596/humble_ws/install/pid_lab/lib/pid_lab/pid" to ""
+[17.101s] -- Up-to-date: /home/rstole01/Documents/CSE-596/humble_ws/install/pid_lab/share/ament_index/resource_index/package_run_dependencies/pid_lab
+[17.102s] -- Up-to-date: /home/rstole01/Documents/CSE-596/humble_ws/install/pid_lab/share/ament_index/resource_index/parent_prefix_path/pid_lab
+[17.102s] -- Up-to-date: /home/rstole01/Documents/CSE-596/humble_ws/install/pid_lab/share/pid_lab/environment/ament_prefix_path.sh
+[17.102s] -- Up-to-date: /home/rstole01/Documents/CSE-596/humble_ws/install/pid_lab/share/pid_lab/environment/ament_prefix_path.dsv
+[17.103s] -- Up-to-date: /home/rstole01/Documents/CSE-596/humble_ws/install/pid_lab/share/pid_lab/environment/path.sh
+[17.103s] -- Up-to-date: /home/rstole01/Documents/CSE-596/humble_ws/install/pid_lab/share/pid_lab/environment/path.dsv
+[17.103s] -- Up-to-date: /home/rstole01/Documents/CSE-596/humble_ws/install/pid_lab/share/pid_lab/local_setup.bash
+[17.103s] -- Up-to-date: /home/rstole01/Documents/CSE-596/humble_ws/install/pid_lab/share/pid_lab/local_setup.sh
+[17.103s] -- Up-to-date: /home/rstole01/Documents/CSE-596/humble_ws/install/pid_lab/share/pid_lab/local_setup.zsh
+[17.104s] -- Up-to-date: /home/rstole01/Documents/CSE-596/humble_ws/install/pid_lab/share/pid_lab/local_setup.dsv
+[17.104s] -- Installing: /home/rstole01/Documents/CSE-596/humble_ws/install/pid_lab/share/pid_lab/package.dsv
+[17.104s] -- Up-to-date: /home/rstole01/Documents/CSE-596/humble_ws/install/pid_lab/share/ament_index/resource_index/packages/pid_lab
+[17.104s] -- Up-to-date: /home/rstole01/Documents/CSE-596/humble_ws/install/pid_lab/share/pid_lab/cmake/pid_labConfig.cmake
+[17.105s] -- Up-to-date: /home/rstole01/Documents/CSE-596/humble_ws/install/pid_lab/share/pid_lab/cmake/pid_labConfig-version.cmake
+[17.106s] -- Up-to-date: /home/rstole01/Documents/CSE-596/humble_ws/install/pid_lab/share/pid_lab/package.xml
+[17.107s] Invoked command in '/home/rstole01/Documents/CSE-596/humble_ws/build/pid_lab' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/rstole01/Documents/CSE-596/humble_ws/build/pid_lab

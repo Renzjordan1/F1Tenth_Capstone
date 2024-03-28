@@ -1,0 +1,51 @@
+[6.662s] Invoking command in '/home/rstole01/Documents/CSE-596/msu_ws/src/waypoint_follow': AMENT_PREFIX_PATH=/home/rstole01/Documents/CSE-596/msu_ws/install/ackermann_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rstole01/Documents/CSE-596/msu_ws/install/ackermann_msgs LD_LIBRARY_PATH=/home/rstole01/Documents/CSE-596/msu_ws/install/ackermann_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rstole01/Documents/CSE-596/msu_ws/build/waypoint_follow/prefix_override:/home/rstole01/Documents/CSE-596/msu_ws/install/waypoint_follow/lib/python3.10/site-packages:/home/rstole01/Documents/CSE-596/msu_ws/install/ackermann_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/waypoint_follow build --build-base /home/rstole01/Documents/CSE-596/msu_ws/build/waypoint_follow/build install --record /home/rstole01/Documents/CSE-596/msu_ws/build/waypoint_follow/install.log --single-version-externally-managed
+[7.605s] running egg_info
+[7.607s] creating ../../build/waypoint_follow/waypoint_follow.egg-info
+[7.608s] writing ../../build/waypoint_follow/waypoint_follow.egg-info/PKG-INFO
+[7.608s] writing dependency_links to ../../build/waypoint_follow/waypoint_follow.egg-info/dependency_links.txt
+[7.609s] writing entry points to ../../build/waypoint_follow/waypoint_follow.egg-info/entry_points.txt
+[7.609s] writing requirements to ../../build/waypoint_follow/waypoint_follow.egg-info/requires.txt
+[7.610s] writing top-level names to ../../build/waypoint_follow/waypoint_follow.egg-info/top_level.txt
+[7.610s] writing manifest file '../../build/waypoint_follow/waypoint_follow.egg-info/SOURCES.txt'
+[7.616s] reading manifest file '../../build/waypoint_follow/waypoint_follow.egg-info/SOURCES.txt'
+[7.619s] writing manifest file '../../build/waypoint_follow/waypoint_follow.egg-info/SOURCES.txt'
+[7.619s] running build
+[7.620s] running build_py
+[7.620s] creating /home/rstole01/Documents/CSE-596/msu_ws/build/waypoint_follow/build
+[7.621s] creating /home/rstole01/Documents/CSE-596/msu_ws/build/waypoint_follow/build/lib
+[7.621s] creating /home/rstole01/Documents/CSE-596/msu_ws/build/waypoint_follow/build/lib/waypoint_follow
+[7.621s] copying waypoint_follow/WaypointNavigator.py -> /home/rstole01/Documents/CSE-596/msu_ws/build/waypoint_follow/build/lib/waypoint_follow
+[7.622s] copying waypoint_follow/__init__.py -> /home/rstole01/Documents/CSE-596/msu_ws/build/waypoint_follow/build/lib/waypoint_follow
+[7.622s] copying waypoint_follow/PurePursuit.py -> /home/rstole01/Documents/CSE-596/msu_ws/build/waypoint_follow/build/lib/waypoint_follow
+[7.622s] copying waypoint_follow/PID.py -> /home/rstole01/Documents/CSE-596/msu_ws/build/waypoint_follow/build/lib/waypoint_follow
+[7.623s] copying waypoint_follow/WaypointHandler.py -> /home/rstole01/Documents/CSE-596/msu_ws/build/waypoint_follow/build/lib/waypoint_follow
+[7.623s] copying waypoint_follow/waypoint_follow.py -> /home/rstole01/Documents/CSE-596/msu_ws/build/waypoint_follow/build/lib/waypoint_follow
+[7.623s] running install
+[7.624s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[7.624s]   warnings.warn(
+[7.625s] running install_lib
+[7.627s] creating /home/rstole01/Documents/CSE-596/msu_ws/install/waypoint_follow/lib/python3.10/site-packages/waypoint_follow
+[7.628s] copying /home/rstole01/Documents/CSE-596/msu_ws/build/waypoint_follow/build/lib/waypoint_follow/WaypointNavigator.py -> /home/rstole01/Documents/CSE-596/msu_ws/install/waypoint_follow/lib/python3.10/site-packages/waypoint_follow
+[7.628s] copying /home/rstole01/Documents/CSE-596/msu_ws/build/waypoint_follow/build/lib/waypoint_follow/__init__.py -> /home/rstole01/Documents/CSE-596/msu_ws/install/waypoint_follow/lib/python3.10/site-packages/waypoint_follow
+[7.628s] copying /home/rstole01/Documents/CSE-596/msu_ws/build/waypoint_follow/build/lib/waypoint_follow/PurePursuit.py -> /home/rstole01/Documents/CSE-596/msu_ws/install/waypoint_follow/lib/python3.10/site-packages/waypoint_follow
+[7.629s] copying /home/rstole01/Documents/CSE-596/msu_ws/build/waypoint_follow/build/lib/waypoint_follow/PID.py -> /home/rstole01/Documents/CSE-596/msu_ws/install/waypoint_follow/lib/python3.10/site-packages/waypoint_follow
+[7.629s] copying /home/rstole01/Documents/CSE-596/msu_ws/build/waypoint_follow/build/lib/waypoint_follow/WaypointHandler.py -> /home/rstole01/Documents/CSE-596/msu_ws/install/waypoint_follow/lib/python3.10/site-packages/waypoint_follow
+[7.629s] copying /home/rstole01/Documents/CSE-596/msu_ws/build/waypoint_follow/build/lib/waypoint_follow/waypoint_follow.py -> /home/rstole01/Documents/CSE-596/msu_ws/install/waypoint_follow/lib/python3.10/site-packages/waypoint_follow
+[7.630s] byte-compiling /home/rstole01/Documents/CSE-596/msu_ws/install/waypoint_follow/lib/python3.10/site-packages/waypoint_follow/WaypointNavigator.py to WaypointNavigator.cpython-310.pyc
+[7.642s] byte-compiling /home/rstole01/Documents/CSE-596/msu_ws/install/waypoint_follow/lib/python3.10/site-packages/waypoint_follow/__init__.py to __init__.cpython-310.pyc
+[7.642s] byte-compiling /home/rstole01/Documents/CSE-596/msu_ws/install/waypoint_follow/lib/python3.10/site-packages/waypoint_follow/PurePursuit.py to PurePursuit.cpython-310.pyc
+[7.643s] byte-compiling /home/rstole01/Documents/CSE-596/msu_ws/install/waypoint_follow/lib/python3.10/site-packages/waypoint_follow/PID.py to PID.cpython-310.pyc
+[7.643s] byte-compiling /home/rstole01/Documents/CSE-596/msu_ws/install/waypoint_follow/lib/python3.10/site-packages/waypoint_follow/WaypointHandler.py to WaypointHandler.cpython-310.pyc
+[7.643s] byte-compiling /home/rstole01/Documents/CSE-596/msu_ws/install/waypoint_follow/lib/python3.10/site-packages/waypoint_follow/waypoint_follow.py to waypoint_follow.cpython-310.pyc
+[7.643s] running install_data
+[7.644s] creating /home/rstole01/Documents/CSE-596/msu_ws/install/waypoint_follow/share/ament_index
+[7.644s] creating /home/rstole01/Documents/CSE-596/msu_ws/install/waypoint_follow/share/ament_index/resource_index
+[7.644s] creating /home/rstole01/Documents/CSE-596/msu_ws/install/waypoint_follow/share/ament_index/resource_index/packages
+[7.644s] copying resource/waypoint_follow -> /home/rstole01/Documents/CSE-596/msu_ws/install/waypoint_follow/share/ament_index/resource_index/packages
+[7.645s] copying package.xml -> /home/rstole01/Documents/CSE-596/msu_ws/install/waypoint_follow/share/waypoint_follow
+[7.645s] running install_egg_info
+[7.650s] Copying ../../build/waypoint_follow/waypoint_follow.egg-info to /home/rstole01/Documents/CSE-596/msu_ws/install/waypoint_follow/lib/python3.10/site-packages/waypoint_follow-0.0.0-py3.10.egg-info
+[7.651s] running install_scripts
+[7.771s] Installing waypoint_follow script to /home/rstole01/Documents/CSE-596/msu_ws/install/waypoint_follow/lib/waypoint_follow
+[7.772s] writing list of installed files to '/home/rstole01/Documents/CSE-596/msu_ws/build/waypoint_follow/install.log'
+[8.266s] Invoked command in '/home/rstole01/Documents/CSE-596/msu_ws/src/waypoint_follow' returned '0': AMENT_PREFIX_PATH=/home/rstole01/Documents/CSE-596/msu_ws/install/ackermann_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rstole01/Documents/CSE-596/msu_ws/install/ackermann_msgs LD_LIBRARY_PATH=/home/rstole01/Documents/CSE-596/msu_ws/install/ackermann_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rstole01/Documents/CSE-596/msu_ws/build/waypoint_follow/prefix_override:/home/rstole01/Documents/CSE-596/msu_ws/install/waypoint_follow/lib/python3.10/site-packages:/home/rstole01/Documents/CSE-596/msu_ws/install/ackermann_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/waypoint_follow build --build-base /home/rstole01/Documents/CSE-596/msu_ws/build/waypoint_follow/build install --record /home/rstole01/Documents/CSE-596/msu_ws/build/waypoint_follow/install.log --single-version-externally-managed

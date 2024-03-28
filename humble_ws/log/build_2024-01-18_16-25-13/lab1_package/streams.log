@@ -1,0 +1,32 @@
+[0.606s] Invoking command in '/home/rstole01/Documents/CSE-596/humble_ws/build/lab1_package': /usr/bin/cmake /home/rstole01/Documents/CSE-596/humble_ws/src/lab1_package -DCMAKE_INSTALL_PREFIX=/home/rstole01/Documents/CSE-596/humble_ws/install/lab1_package
+[0.729s] -- The C compiler identification is GNU 11.4.0
+[0.875s] -- The CXX compiler identification is GNU 11.4.0
+[0.903s] -- Detecting C compiler ABI info
+[1.029s] -- Detecting C compiler ABI info - done
+[1.044s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.044s] -- Detecting C compile features
+[1.045s] -- Detecting C compile features - done
+[1.055s] -- Detecting CXX compiler ABI info
+[1.212s] -- Detecting CXX compiler ABI info - done
+[1.229s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.229s] -- Detecting CXX compile features
+[1.231s] -- Detecting CXX compile features - done
+[1.253s] [31mCMake Error at CMakeLists.txt:9 (find_package):
+[1.254s]   By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project
+[1.254s]   has asked CMake to find a package configuration file provided by
+[1.254s]   "ament_cmake", but CMake did not find one.
+[1.254s] 
+[1.254s]   Could not find a package configuration file provided by "ament_cmake" with
+[1.255s]   any of the following names:
+[1.255s] 
+[1.255s]     ament_cmakeConfig.cmake
+[1.255s]     ament_cmake-config.cmake
+[1.255s] 
+[1.256s]   Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set
+[1.256s]   "ament_cmake_DIR" to a directory containing one of the above files.  If
+[1.256s]   "ament_cmake" provides a separate development package or SDK, be sure it
+[1.256s]   has been installed.
+[1.256s] 
+[1.256s] [0m
+[1.257s] -- Configuring incomplete, errors occurred!
+[1.257s] See also "/home/rstole01/Documents/CSE-596/humble_ws/build/lab1_package/CMakeFiles/CMakeOutput.log".

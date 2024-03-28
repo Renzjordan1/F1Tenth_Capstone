@@ -1,0 +1,413 @@
+[1.740s] Invoking command in '/home/rstole01/Documents/CSE-596/humble_ws/build/vesc_ackermann': AMENT_PREFIX_PATH=/home/rstole01/Documents/CSE-596/humble_ws/install/vesc_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rstole01/Documents/CSE-596/humble_ws/install/vesc_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/rstole01/Documents/CSE-596/humble_ws/install/vesc_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rstole01/Documents/CSE-596/humble_ws/install/vesc_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/rstole01/Documents/CSE-596/humble_ws/build/vesc_ackermann -- -j8 -l8
+[1.830s] [35m[1mConsolidate compiler generated dependencies of target vesc_ackermann[0m
+[1.852s] [ 14%] [32mBuilding CXX object CMakeFiles/ackermann_to_vesc_node.dir/rclcpp_components/node_main_ackermann_to_vesc_node.cpp.o[0m
+[1.932s] [ 28%] [32mBuilding CXX object CMakeFiles/vesc_to_odom_node.dir/rclcpp_components/node_main_vesc_to_odom_node.cpp.o[0m
+[1.954s] [ 42%] [32mBuilding CXX object CMakeFiles/vesc_ackermann.dir/src/ackermann_to_vesc.cpp.o[0m
+[1.971s] [ 57%] [32mBuilding CXX object CMakeFiles/vesc_ackermann.dir/src/vesc_to_odom.cpp.o[0m
+[7.941s] [01m[K/home/rstole01/Documents/CSE-596/humble_ws/src/f1tenth_system/vesc/vesc_ackermann/src/vesc_to_odom.cpp:[m[K In constructor ‘[01m[Kvesc_ackermann::VescToOdom::VescToOdom(const rclcpp::NodeOptions&)[m[K’:
+[7.942s] [01m[K/home/rstole01/Documents/CSE-596/humble_ws/src/f1tenth_system/vesc/vesc_ackermann/src/vesc_to_odom.cpp:63:42:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kvesc_ackermann::VescToOdom::declare_parameter(const char [19])[m[K’
+[7.943s]    63 |   speed_to_erpm_gain_ = [01;31m[Kdeclare_parameter("speed_to_erpm_gain")[m[K.get<double>();
+[7.943s]       |                         [01;31m[K~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~[m[K
+[7.943s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:1321[m[K,
+[7.943s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[7.943s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[7.944s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[7.944s]                  from [01m[K/home/rstole01/Documents/CSE-596/humble_ws/src/f1tenth_system/vesc/vesc_ackermann/include/vesc_ackermann/vesc_to_odom.hpp:35[m[K,
+[7.944s]                  from [01m[K/home/rstole01/Documents/CSE-596/humble_ws/src/f1tenth_system/vesc/vesc_ackermann/src/vesc_to_odom.cpp:31[m[K:
+[7.944s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:195:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ParameterT> auto rclcpp::Node::declare_parameter(const string&, const ParameterT&, const ParameterDescriptor&, bool)[m[K’
+[7.945s]   195 | [01;36m[KNode[m[K::declare_parameter(
+[7.945s]       | [01;36m[K^~~~[m[K
+[7.945s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:195:1:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[7.945s] [01m[K/home/rstole01/Documents/CSE-596/humble_ws/src/f1tenth_system/vesc/vesc_ackermann/src/vesc_to_odom.cpp:63:42:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 1 provided
+[7.946s]    63 |   speed_to_erpm_gain_ = [01;36m[Kdeclare_parameter("speed_to_erpm_gain")[m[K.get<double>();
+[7.946s]       |                         [01;36m[K~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~[m[K
+[7.947s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[7.948s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[7.948s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[7.948s]                  from [01m[K/home/rstole01/Documents/CSE-596/humble_ws/src/f1tenth_system/vesc/vesc_ackermann/include/vesc_ackermann/vesc_to_odom.hpp:35[m[K,
+[7.949s]                  from [01m[K/home/rstole01/Documents/CSE-596/humble_ws/src/f1tenth_system/vesc/vesc_ackermann/src/vesc_to_odom.cpp:31[m[K:
+[7.949s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:434:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ParameterT> auto rclcpp::Node::declare_parameter(const string&, const ParameterDescriptor&, bool)[m[K’
+[7.949s]   434 |   [01;36m[Kdeclare_parameter[m[K(
+[7.949s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[7.950s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:434:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[7.950s] [01m[K/home/rstole01/Documents/CSE-596/humble_ws/src/f1tenth_system/vesc/vesc_ackermann/src/vesc_to_odom.cpp:63:42:[m[K [01;36m[Knote: [m[K  couldn’t deduce template parameter ‘[01m[KParameterT[m[K’
+[7.950s]    63 |   speed_to_erpm_gain_ = [01;36m[Kdeclare_parameter("speed_to_erpm_gain")[m[K.get<double>();
+[7.950s]       |                         [01;36m[K~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~[m[K
+[7.951s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[7.951s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[7.951s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[7.951s]                  from [01m[K/home/rstole01/Documents/CSE-596/humble_ws/src/f1tenth_system/vesc/vesc_ackermann/include/vesc_ackermann/vesc_to_odom.hpp:35[m[K,
+[7.952s]                  from [01m[K/home/rstole01/Documents/CSE-596/humble_ws/src/f1tenth_system/vesc/vesc_ackermann/src/vesc_to_odom.cpp:31[m[K:
+[7.952s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:366:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconst rclcpp::ParameterValue& rclcpp::Node::declare_parameter(const string&, const rclcpp::ParameterValue&, const ParameterDescriptor&, bool)[m[K’
+[7.952s]   366 |   [01;36m[Kdeclare_parameter[m[K(
+[7.952s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[7.953s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:366:3:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 1 provided
+[7.953s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:391:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconst rclcpp::ParameterValue& rclcpp::Node::declare_parameter(const string&, rclcpp::ParameterType, const ParameterDescriptor&, bool)[m[K’
+[7.953s]   391 |   [01;36m[Kdeclare_parameter[m[K(
+[7.953s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[7.954s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:391:3:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 1 provided
+[7.954s] [01m[K/home/rstole01/Documents/CSE-596/humble_ws/src/f1tenth_system/vesc/vesc_ackermann/src/vesc_to_odom.cpp:63:69:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kdouble[m[K’
+[7.954s]    63 |   speed_to_erpm_gain_ = declare_parameter("speed_to_erpm_gain").get<[01;31m[Kdouble[m[K>();
+[7.954s]       |                                                                     [01;31m[K^~~~~~[m[K
+[7.955s] [01m[K/home/rstole01/Documents/CSE-596/humble_ws/src/f1tenth_system/vesc/vesc_ackermann/src/vesc_to_odom.cpp:64:44:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kvesc_ackermann::VescToOdom::declare_parameter(const char [21])[m[K’
+[7.955s]    64 |   speed_to_erpm_offset_ = [01;31m[Kdeclare_parameter("speed_to_erpm_offset")[m[K.get<double>();
+[7.955s]       |                           [01;31m[K~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[7.955s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:1321[m[K,
+[7.955s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[7.956s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[7.956s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[7.956s]                  from [01m[K/home/rstole01/Documents/CSE-596/humble_ws/src/f1tenth_system/vesc/vesc_ackermann/include/vesc_ackermann/vesc_to_odom.hpp:35[m[K,
+[7.956s]                  from [01m[K/home/rstole01/Documents/CSE-596/humble_ws/src/f1tenth_system/vesc/vesc_ackermann/src/vesc_to_odom.cpp:31[m[K:
+[7.957s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:195:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ParameterT> auto rclcpp::Node::declare_parameter(const string&, const ParameterT&, const ParameterDescriptor&, bool)[m[K’
+[7.957s]   195 | [01;36m[KNode[m[K::declare_parameter(
+[7.957s]       | [01;36m[K^~~~[m[K
+[7.957s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:195:1:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[7.958s] [01m[K/home/rstole01/Documents/CSE-596/humble_ws/src/f1tenth_system/vesc/vesc_ackermann/src/vesc_to_odom.cpp:64:44:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 1 provided
+[7.958s]    64 |   speed_to_erpm_offset_ = [01;36m[Kdeclare_parameter("speed_to_erpm_offset")[m[K.get<double>();
+[7.958s]       |                           [01;36m[K~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[7.958s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[7.959s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[7.959s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[7.959s]                  from [01m[K/home/rstole01/Documents/CSE-596/humble_ws/src/f1tenth_system/vesc/vesc_ackermann/include/vesc_ackermann/vesc_to_odom.hpp:35[m[K,
+[7.959s]                  from [01m[K/home/rstole01/Documents/CSE-596/humble_ws/src/f1tenth_system/vesc/vesc_ackermann/src/vesc_to_odom.cpp:31[m[K:
+[7.960s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:434:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ParameterT> auto rclcpp::Node::declare_parameter(const string&, const ParameterDescriptor&, bool)[m[K’
+[7.960s]   434 |   [01;36m[Kdeclare_parameter[m[K(
+[7.960s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[7.960s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:434:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[7.961s] [01m[K/home/rstole01/Documents/CSE-596/humble_ws/src/f1tenth_system/vesc/vesc_ackermann/src/vesc_to_odom.cpp:64:44:[m[K [01;36m[Knote: [m[K  couldn’t deduce template parameter ‘[01m[KParameterT[m[K’
+[7.961s]    64 |   speed_to_erpm_offset_ = [01;36m[Kdeclare_parameter("speed_to_erpm_offset")[m[K.get<double>();
+[7.961s]       |                           [01;36m[K~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[7.961s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[7.961s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[7.962s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[7.962s]                  from [01m[K/home/rstole01/Documents/CSE-596/humble_ws/src/f1tenth_system/vesc/vesc_ackermann/include/vesc_ackermann/vesc_to_odom.hpp:35[m[K,
+[7.962s]                  from [01m[K/home/rstole01/Documents/CSE-596/humble_ws/src/f1tenth_system/vesc/vesc_ackermann/src/vesc_to_odom.cpp:31[m[K:
+[7.962s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:366:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconst rclcpp::ParameterValue& rclcpp::Node::declare_parameter(const string&, const rclcpp::ParameterValue&, const ParameterDescriptor&, bool)[m[K’
+[7.963s]   366 |   [01;36m[Kdeclare_parameter[m[K(
+[7.963s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[7.963s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:366:3:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 1 provided
+[7.963s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:391:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconst rclcpp::ParameterValue& rclcpp::Node::declare_parameter(const string&, rclcpp::ParameterType, const ParameterDescriptor&, bool)[m[K’
+[7.964s]   391 |   [01;36m[Kdeclare_parameter[m[K(
+[7.964s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[7.964s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:391:3:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 1 provided
+[7.964s] [01m[K/home/rstole01/Documents/CSE-596/humble_ws/src/f1tenth_system/vesc/vesc_ackermann/src/vesc_to_odom.cpp:64:73:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kdouble[m[K’
+[7.965s]    64 |   speed_to_erpm_offset_ = declare_parameter("speed_to_erpm_offset").get<[01;31m[Kdouble[m[K>();
+[7.965s]       |                                                                         [01;31m[K^~~~~~[m[K
+[7.965s] [01m[K/home/rstole01/Documents/CSE-596/humble_ws/src/f1tenth_system/vesc/vesc_ackermann/src/vesc_to_odom.cpp:67:48:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kvesc_ackermann::VescToOdom::declare_parameter(const char [29])[m[K’
+[7.965s]    67 |     steering_to_servo_gain_ = [01;31m[Kdeclare_parameter("steering_angle_to_servo_gain")[m[K.get<double>();
+[7.965s]       |                               [01;31m[K~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[7.966s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:1321[m[K,
+[7.966s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[7.966s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[7.967s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[7.967s]                  from [01m[K/home/rstole01/Documents/CSE-596/humble_ws/src/f1tenth_system/vesc/vesc_ackermann/include/vesc_ackermann/vesc_to_odom.hpp:35[m[K,
+[7.967s]                  from [01m[K/home/rstole01/Documents/CSE-596/humble_ws/src/f1tenth_system/vesc/vesc_ackermann/src/vesc_to_odom.cpp:31[m[K:
+[7.967s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:195:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ParameterT> auto rclcpp::Node::declare_parameter(const string&, const ParameterT&, const ParameterDescriptor&, bool)[m[K’
+[7.968s]   195 | [01;36m[KNode[m[K::declare_parameter(
+[7.968s]       | [01;36m[K^~~~[m[K
+[7.968s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:195:1:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[7.968s] [01m[K/home/rstole01/Documents/CSE-596/humble_ws/src/f1tenth_system/vesc/vesc_ackermann/src/vesc_to_odom.cpp:67:48:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 1 provided
+[7.969s]    67 |     steering_to_servo_gain_ = [01;36m[Kdeclare_parameter("steering_angle_to_servo_gain")[m[K.get<double>();
+[7.969s]       |                               [01;36m[K~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[7.969s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[7.969s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[7.969s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[7.970s]                  from [01m[K/home/rstole01/Documents/CSE-596/humble_ws/src/f1tenth_system/vesc/vesc_ackermann/include/vesc_ackermann/vesc_to_odom.hpp:35[m[K,
+[7.970s]                  from [01m[K/home/rstole01/Documents/CSE-596/humble_ws/src/f1tenth_system/vesc/vesc_ackermann/src/vesc_to_odom.cpp:31[m[K:
+[7.970s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:434:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ParameterT> auto rclcpp::Node::declare_parameter(const string&, const ParameterDescriptor&, bool)[m[K’
+[7.970s]   434 |   [01;36m[Kdeclare_parameter[m[K(
+[7.971s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[7.971s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:434:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[7.971s] [01m[K/home/rstole01/Documents/CSE-596/humble_ws/src/f1tenth_system/vesc/vesc_ackermann/src/vesc_to_odom.cpp:67:48:[m[K [01;36m[Knote: [m[K  couldn’t deduce template parameter ‘[01m[KParameterT[m[K’
+[7.971s]    67 |     steering_to_servo_gain_ = [01;36m[Kdeclare_parameter("steering_angle_to_servo_gain")[m[K.get<double>();
+[7.972s]       |                               [01;36m[K~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[7.972s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[7.972s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[7.972s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[7.973s]                  from [01m[K/home/rstole01/Documents/CSE-596/humble_ws/src/f1tenth_system/vesc/vesc_ackermann/include/vesc_ackermann/vesc_to_odom.hpp:35[m[K,
+[7.973s]                  from [01m[K/home/rstole01/Documents/CSE-596/humble_ws/src/f1tenth_system/vesc/vesc_ackermann/src/vesc_to_odom.cpp:31[m[K:
+[7.973s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:366:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconst rclcpp::ParameterValue& rclcpp::Node::declare_parameter(const string&, const rclcpp::ParameterValue&, const ParameterDescriptor&, bool)[m[K’
+[7.973s]   366 |   [01;36m[Kdeclare_parameter[m[K(
+[7.974s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[7.974s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:366:3:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 1 provided
+[7.974s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:391:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconst rclcpp::ParameterValue& rclcpp::Node::declare_parameter(const string&, rclcpp::ParameterType, const ParameterDescriptor&, bool)[m[K’
+[7.974s]   391 |   [01;36m[Kdeclare_parameter[m[K(
+[7.975s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[7.975s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:391:3:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 1 provided
+[7.975s] [01m[K/home/rstole01/Documents/CSE-596/humble_ws/src/f1tenth_system/vesc/vesc_ackermann/src/vesc_to_odom.cpp:67:85:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kdouble[m[K’
+[7.975s]    67 |     steering_to_servo_gain_ = declare_parameter("steering_angle_to_servo_gain").get<[01;31m[Kdouble[m[K>();
+[7.976s]       |                                                                                     [01;31m[K^~~~~~[m[K
+[7.976s] [01m[K/home/rstole01/Documents/CSE-596/humble_ws/src/f1tenth_system/vesc/vesc_ackermann/src/vesc_to_odom.cpp:68:50:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kvesc_ackermann::VescToOdom::declare_parameter(const char [31])[m[K’
+[7.976s]    68 |     steering_to_servo_offset_ = [01;31m[Kdeclare_parameter("steering_angle_to_servo_offset")[m[K.get<double>();
+[7.976s]       |                                 [01;31m[K~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[7.976s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:1321[m[K,
+[7.977s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[7.977s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[7.977s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[7.977s]                  from [01m[K/home/rstole01/Documents/CSE-596/humble_ws/src/f1tenth_system/vesc/vesc_ackermann/include/vesc_ackermann/vesc_to_odom.hpp:35[m[K,
+[7.978s]                  from [01m[K/home/rstole01/Documents/CSE-596/humble_ws/src/f1tenth_system/vesc/vesc_ackermann/src/vesc_to_odom.cpp:31[m[K:
+[7.978s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:195:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ParameterT> auto rclcpp::Node::declare_parameter(const string&, const ParameterT&, const ParameterDescriptor&, bool)[m[K’
+[7.978s]   195 | [01;36m[KNode[m[K::declare_parameter(
+[7.978s]       | [01;36m[K^~~~[m[K
+[7.979s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:195:1:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[7.979s] [01m[K/home/rstole01/Documents/CSE-596/humble_ws/src/f1tenth_system/vesc/vesc_ackermann/src/vesc_to_odom.cpp:68:50:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 1 provided
+[7.979s]    68 |     steering_to_servo_offset_ = [01;36m[Kdeclare_parameter("steering_angle_to_servo_offset")[m[K.get<double>();
+[7.979s]       |                                 [01;36m[K~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[7.980s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[7.980s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[7.980s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[7.980s]                  from [01m[K/home/rstole01/Documents/CSE-596/humble_ws/src/f1tenth_system/vesc/vesc_ackermann/include/vesc_ackermann/vesc_to_odom.hpp:35[m[K,
+[7.980s]                  from [01m[K/home/rstole01/Documents/CSE-596/humble_ws/src/f1tenth_system/vesc/vesc_ackermann/src/vesc_to_odom.cpp:31[m[K:
+[7.981s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:434:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ParameterT> auto rclcpp::Node::declare_parameter(const string&, const ParameterDescriptor&, bool)[m[K’
+[7.981s]   434 |   [01;36m[Kdeclare_parameter[m[K(
+[7.981s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[7.981s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:434:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[7.982s] [01m[K/home/rstole01/Documents/CSE-596/humble_ws/src/f1tenth_system/vesc/vesc_ackermann/src/vesc_to_odom.cpp:68:50:[m[K [01;36m[Knote: [m[K  couldn’t deduce template parameter ‘[01m[KParameterT[m[K’
+[7.982s]    68 |     steering_to_servo_offset_ = [01;36m[Kdeclare_parameter("steering_angle_to_servo_offset")[m[K.get<double>();
+[7.982s]       |                                 [01;36m[K~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[7.982s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[7.983s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[7.983s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[7.983s]                  from [01m[K/home/rstole01/Documents/CSE-596/humble_ws/src/f1tenth_system/vesc/vesc_ackermann/include/vesc_ackermann/vesc_to_odom.hpp:35[m[K,
+[7.983s]                  from [01m[K/home/rstole01/Documents/CSE-596/humble_ws/src/f1tenth_system/vesc/vesc_ackermann/src/vesc_to_odom.cpp:31[m[K:
+[7.984s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:366:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconst rclcpp::ParameterValue& rclcpp::Node::declare_parameter(const string&, const rclcpp::ParameterValue&, const ParameterDescriptor&, bool)[m[K’
+[7.984s]   366 |   [01;36m[Kdeclare_parameter[m[K(
+[7.984s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[7.984s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:366:3:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 1 provided
+[7.984s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:391:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconst rclcpp::ParameterValue& rclcpp::Node::declare_parameter(const string&, rclcpp::ParameterType, const ParameterDescriptor&, bool)[m[K’
+[7.985s]   391 |   [01;36m[Kdeclare_parameter[m[K(
+[7.985s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[7.985s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:391:3:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 1 provided
+[7.985s] [01m[K/home/rstole01/Documents/CSE-596/humble_ws/src/f1tenth_system/vesc/vesc_ackermann/src/vesc_to_odom.cpp:68:89:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kdouble[m[K’
+[7.986s]    68 |     steering_to_servo_offset_ = declare_parameter("steering_angle_to_servo_offset").get<[01;31m[Kdouble[m[K>();
+[7.986s]       |                                                                                         [01;31m[K^~~~~~[m[K
+[7.986s] [01m[K/home/rstole01/Documents/CSE-596/humble_ws/src/f1tenth_system/vesc/vesc_ackermann/src/vesc_to_odom.cpp:69:35:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kvesc_ackermann::VescToOdom::declare_parameter(const char [10])[m[K’
+[7.986s]    69 |     wheelbase_ = [01;31m[Kdeclare_parameter("wheelbase")[m[K.get<double>();
+[7.987s]       |                  [01;31m[K~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~[m[K
+[7.987s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:1321[m[K,
+[7.987s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[7.987s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[7.988s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[7.988s]                  from [01m[K/home/rstole01/Documents/CSE-596/humble_ws/src/f1tenth_system/vesc/vesc_ackermann/include/vesc_ackermann/vesc_to_odom.hpp:35[m[K,
+[7.988s]                  from [01m[K/home/rstole01/Documents/CSE-596/humble_ws/src/f1tenth_system/vesc/vesc_ackermann/src/vesc_to_odom.cpp:31[m[K:
+[7.988s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:195:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ParameterT> auto rclcpp::Node::declare_parameter(const string&, const ParameterT&, const ParameterDescriptor&, bool)[m[K’
+[7.988s]   195 | [01;36m[KNode[m[K::declare_parameter(
+[7.989s]       | [01;36m[K^~~~[m[K
+[7.989s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:195:1:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[7.989s] [01m[K/home/rstole01/Documents/CSE-596/humble_ws/src/f1tenth_system/vesc/vesc_ackermann/src/vesc_to_odom.cpp:69:35:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 1 provided
+[7.989s]    69 |     wheelbase_ = [01;36m[Kdeclare_parameter("wheelbase")[m[K.get<double>();
+[7.990s]       |                  [01;36m[K~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~[m[K
+[7.990s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[7.990s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[7.990s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[7.991s]                  from [01m[K/home/rstole01/Documents/CSE-596/humble_ws/src/f1tenth_system/vesc/vesc_ackermann/include/vesc_ackermann/vesc_to_odom.hpp:35[m[K,
+[7.991s]                  from [01m[K/home/rstole01/Documents/CSE-596/humble_ws/src/f1tenth_system/vesc/vesc_ackermann/src/vesc_to_odom.cpp:31[m[K:
+[7.991s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:434:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ParameterT> auto rclcpp::Node::declare_parameter(const string&, const ParameterDescriptor&, bool)[m[K’
+[7.991s]   434 |   [01;36m[Kdeclare_parameter[m[K(
+[7.992s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[7.992s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:434:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[7.992s] [01m[K/home/rstole01/Documents/CSE-596/humble_ws/src/f1tenth_system/vesc/vesc_ackermann/src/vesc_to_odom.cpp:69:35:[m[K [01;36m[Knote: [m[K  couldn’t deduce template parameter ‘[01m[KParameterT[m[K’
+[7.992s]    69 |     wheelbase_ = [01;36m[Kdeclare_parameter("wheelbase")[m[K.get<double>();
+[7.993s]       |                  [01;36m[K~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~[m[K
+[7.993s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[7.993s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[7.993s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[7.993s]                  from [01m[K/home/rstole01/Documents/CSE-596/humble_ws/src/f1tenth_system/vesc/vesc_ackermann/include/vesc_ackermann/vesc_to_odom.hpp:35[m[K,
+[7.994s]                  from [01m[K/home/rstole01/Documents/CSE-596/humble_ws/src/f1tenth_system/vesc/vesc_ackermann/src/vesc_to_odom.cpp:31[m[K:
+[7.994s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:366:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconst rclcpp::ParameterValue& rclcpp::Node::declare_parameter(const string&, const rclcpp::ParameterValue&, const ParameterDescriptor&, bool)[m[K’
+[7.994s]   366 |   [01;36m[Kdeclare_parameter[m[K(
+[7.994s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[7.995s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:366:3:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 1 provided
+[7.995s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:391:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconst rclcpp::ParameterValue& rclcpp::Node::declare_parameter(const string&, rclcpp::ParameterType, const ParameterDescriptor&, bool)[m[K’
+[7.995s]   391 |   [01;36m[Kdeclare_parameter[m[K(
+[7.995s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[7.996s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:391:3:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 1 provided
+[7.996s] [01m[K/home/rstole01/Documents/CSE-596/humble_ws/src/f1tenth_system/vesc/vesc_ackermann/src/vesc_to_odom.cpp:69:53:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kdouble[m[K’
+[7.996s]    69 |     wheelbase_ = declare_parameter("wheelbase").get<[01;31m[Kdouble[m[K>();
+[7.996s]       |                                                     [01;31m[K^~~~~~[m[K
+[8.449s] [ 71%] [32m[1mLinking CXX executable ackermann_to_vesc_node[0m
+[8.729s] [ 71%] Built target ackermann_to_vesc_node
+[8.791s] [01m[K/home/rstole01/Documents/CSE-596/humble_ws/src/f1tenth_system/vesc/vesc_ackermann/src/ackermann_to_vesc.cpp:[m[K In constructor ‘[01m[Kvesc_ackermann::AckermannToVesc::AckermannToVesc(const rclcpp::NodeOptions&)[m[K’:
+[8.793s] [01m[K/home/rstole01/Documents/CSE-596/humble_ws/src/f1tenth_system/vesc/vesc_ackermann/src/ackermann_to_vesc.cpp:51:42:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kvesc_ackermann::AckermannToVesc::declare_parameter(const char [19])[m[K’
+[8.794s]    51 |   speed_to_erpm_gain_ = [01;31m[Kdeclare_parameter("speed_to_erpm_gain")[m[K.get<double>();
+[8.794s]       |                         [01;31m[K~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~[m[K
+[8.794s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[8.795s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[8.795s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[8.795s]                  from [01m[K/home/rstole01/Documents/CSE-596/humble_ws/src/f1tenth_system/vesc/vesc_ackermann/include/vesc_ackermann/ackermann_to_vesc.hpp:35[m[K,
+[8.795s]                  from [01m[K/home/rstole01/Documents/CSE-596/humble_ws/src/f1tenth_system/vesc/vesc_ackermann/src/ackermann_to_vesc.cpp:31[m[K:
+[8.796s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:421:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ParameterT> auto rclcpp::Node::declare_parameter(const string&, const ParameterT&, const ParameterDescriptor&, bool)[m[K’
+[8.796s]   421 |   [01;36m[Kdeclare_parameter[m[K(
+[8.796s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[8.796s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:421:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[8.797s] [01m[K/home/rstole01/Documents/CSE-596/humble_ws/src/f1tenth_system/vesc/vesc_ackermann/src/ackermann_to_vesc.cpp:51:42:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 1 provided
+[8.797s]    51 |   speed_to_erpm_gain_ = [01;36m[Kdeclare_parameter("speed_to_erpm_gain")[m[K.get<double>();
+[8.797s]       |                         [01;36m[K~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~[m[K
+[8.797s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[8.797s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[8.798s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[8.798s]                  from [01m[K/home/rstole01/Documents/CSE-596/humble_ws/src/f1tenth_system/vesc/vesc_ackermann/include/vesc_ackermann/ackermann_to_vesc.hpp:35[m[K,
+[8.798s]                  from [01m[K/home/rstole01/Documents/CSE-596/humble_ws/src/f1tenth_system/vesc/vesc_ackermann/src/ackermann_to_vesc.cpp:31[m[K:
+[8.798s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:434:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ParameterT> auto rclcpp::Node::declare_parameter(const string&, const ParameterDescriptor&, bool)[m[K’
+[8.799s]   434 |   [01;36m[Kdeclare_parameter[m[K(
+[8.799s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[8.799s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:434:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[8.799s] [01m[K/home/rstole01/Documents/CSE-596/humble_ws/src/f1tenth_system/vesc/vesc_ackermann/src/ackermann_to_vesc.cpp:51:42:[m[K [01;36m[Knote: [m[K  couldn’t deduce template parameter ‘[01m[KParameterT[m[K’
+[8.800s]    51 |   speed_to_erpm_gain_ = [01;36m[Kdeclare_parameter("speed_to_erpm_gain")[m[K.get<double>();
+[8.800s]       |                         [01;36m[K~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~[m[K
+[8.800s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[8.800s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[8.800s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[8.801s]                  from [01m[K/home/rstole01/Documents/CSE-596/humble_ws/src/f1tenth_system/vesc/vesc_ackermann/include/vesc_ackermann/ackermann_to_vesc.hpp:35[m[K,
+[8.801s]                  from [01m[K/home/rstole01/Documents/CSE-596/humble_ws/src/f1tenth_system/vesc/vesc_ackermann/src/ackermann_to_vesc.cpp:31[m[K:
+[8.801s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:366:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconst rclcpp::ParameterValue& rclcpp::Node::declare_parameter(const string&, const rclcpp::ParameterValue&, const ParameterDescriptor&, bool)[m[K’
+[8.801s]   366 |   [01;36m[Kdeclare_parameter[m[K(
+[8.802s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[8.802s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:366:3:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 1 provided
+[8.802s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:391:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconst rclcpp::ParameterValue& rclcpp::Node::declare_parameter(const string&, rclcpp::ParameterType, const ParameterDescriptor&, bool)[m[K’
+[8.802s]   391 |   [01;36m[Kdeclare_parameter[m[K(
+[8.803s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[8.803s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:391:3:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 1 provided
+[8.803s] [01m[K/home/rstole01/Documents/CSE-596/humble_ws/src/f1tenth_system/vesc/vesc_ackermann/src/ackermann_to_vesc.cpp:51:69:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kdouble[m[K’
+[8.803s]    51 | _to_erpm_gain_ = declare_parameter("speed_to_erpm_gain").get<[01;31m[Kdouble[m[K>();
+[8.804s]       |                                                              [01;31m[K^~~~~~[m[K
+[8.804s] 
+[8.804s] [01m[K/home/rstole01/Documents/CSE-596/humble_ws/src/f1tenth_system/vesc/vesc_ackermann/src/ackermann_to_vesc.cpp:52:44:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kvesc_ackermann::AckermannToVesc::declare_parameter(const char [21])[m[K’
+[8.804s]    52 |   speed_to_erpm_offset_ = [01;31m[Kdeclare_parameter("speed_to_erpm_offset")[m[K.get<double>();
+[8.805s]       |                           [01;31m[K~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[8.805s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[8.805s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[8.805s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[8.805s]                  from [01m[K/home/rstole01/Documents/CSE-596/humble_ws/src/f1tenth_system/vesc/vesc_ackermann/include/vesc_ackermann/ackermann_to_vesc.hpp:35[m[K,
+[8.806s]                  from [01m[K/home/rstole01/Documents/CSE-596/humble_ws/src/f1tenth_system/vesc/vesc_ackermann/src/ackermann_to_vesc.cpp:31[m[K:
+[8.806s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:421:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ParameterT> auto rclcpp::Node::declare_parameter(const string&, const ParameterT&, const ParameterDescriptor&, bool)[m[K’
+[8.806s]   421 |   [01;36m[Kdeclare_parameter[m[K(
+[8.806s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[8.807s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:421:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[8.807s] [01m[K/home/rstole01/Documents/CSE-596/humble_ws/src/f1tenth_system/vesc/vesc_ackermann/src/ackermann_to_vesc.cpp:52:44:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 1 provided
+[8.807s]    52 |   speed_to_erpm_offset_ = [01;36m[Kdeclare_parameter("speed_to_erpm_offset")[m[K.get<double>();
+[8.807s]       |                           [01;36m[K~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[8.807s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[8.808s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[8.808s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[8.808s]                  from [01m[K/home/rstole01/Documents/CSE-596/humble_ws/src/f1tenth_system/vesc/vesc_ackermann/include/vesc_ackermann/ackermann_to_vesc.hpp:35[m[K,
+[8.808s]                  from [01m[K/home/rstole01/Documents/CSE-596/humble_ws/src/f1tenth_system/vesc/vesc_ackermann/src/ackermann_to_vesc.cpp:31[m[K:
+[8.809s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:434:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ParameterT> auto rclcpp::Node::declare_parameter(const string&, const ParameterDescriptor&, bool)[m[K’
+[8.809s]   434 |   [01;36m[Kdeclare_parameter[m[K(
+[8.809s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[8.809s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:434:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[8.810s] [01m[K/home/rstole01/Documents/CSE-596/humble_ws/src/f1tenth_system/vesc/vesc_ackermann/src/ackermann_to_vesc.cpp:52:44:[m[K [01;36m[Knote: [m[K  couldn’t deduce template parameter ‘[01m[KParameterT[m[K’
+[8.810s]    52 |   speed_to_erpm_offset_ = [01;36m[Kdeclare_parameter("speed_to_erpm_offset")[m[K.get<double>();
+[8.810s]       |                           [01;36m[K~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[8.810s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[8.810s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[8.811s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[8.811s]                  from [01m[K/home/rstole01/Documents/CSE-596/humble_ws/src/f1tenth_system/vesc/vesc_ackermann/include/vesc_ackermann/ackermann_to_vesc.hpp:35[m[K,
+[8.811s]                  from [01m[K/home/rstole01/Documents/CSE-596/humble_ws/src/f1tenth_system/vesc/vesc_ackermann/src/ackermann_to_vesc.cpp:31[m[K:
+[8.811s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:366:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconst rclcpp::ParameterValue& rclcpp::Node::declare_parameter(const string&, const rclcpp::ParameterValue&, const ParameterDescriptor&, bool)[m[K’
+[8.812s]   366 |   [01;36m[Kdeclare_parameter[m[K(
+[8.812s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[8.812s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:366:3:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 1 provided
+[8.812s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:391:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconst rclcpp::ParameterValue& rclcpp::Node::declare_parameter(const string&, rclcpp::ParameterType, const ParameterDescriptor&, bool)[m[K’
+[8.813s]   391 |   [01;36m[Kdeclare_parameter[m[K(
+[8.813s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[8.813s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:391:3:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 1 provided
+[8.813s] [01m[K/home/rstole01/Documents/CSE-596/humble_ws/src/f1tenth_system/vesc/vesc_ackermann/src/ackermann_to_vesc.cpp:52:73:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kdouble[m[K’
+[8.813s]    52 | erpm_offset_ = declare_parameter("speed_to_erpm_offset").get<[01;31m[Kdouble[m[K>();
+[8.814s]       |                                                              [01;31m[K^~~~~~[m[K
+[8.814s] 
+[8.814s] [01m[K/home/rstole01/Documents/CSE-596/humble_ws/src/f1tenth_system/vesc/vesc_ackermann/src/ackermann_to_vesc.cpp:53:46:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kvesc_ackermann::AckermannToVesc::declare_parameter(const char [29])[m[K’
+[8.814s]    53 |   steering_to_servo_gain_ = [01;31m[Kdeclare_parameter("steering_angle_to_servo_gain")[m[K.get<double>();
+[8.815s]       |                             [01;31m[K~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[8.815s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[8.815s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[8.815s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[8.816s]                  from [01m[K/home/rstole01/Documents/CSE-596/humble_ws/src/f1tenth_system/vesc/vesc_ackermann/include/vesc_ackermann/ackermann_to_vesc.hpp:35[m[K,
+[8.816s]                  from [01m[K/home/rstole01/Documents/CSE-596/humble_ws/src/f1tenth_system/vesc/vesc_ackermann/src/ackermann_to_vesc.cpp:31[m[K:
+[8.816s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:421:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ParameterT> auto rclcpp::Node::declare_parameter(const string&, const ParameterT&, const ParameterDescriptor&, bool)[m[K’
+[8.816s]   421 |   [01;36m[Kdeclare_parameter[m[K(
+[8.817s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[8.817s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:421:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[8.817s] [01m[K/home/rstole01/Documents/CSE-596/humble_ws/src/f1tenth_system/vesc/vesc_ackermann/src/ackermann_to_vesc.cpp:53:46:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 1 provided
+[8.817s]    53 |   steering_to_servo_gain_ = [01;36m[Kdeclare_parameter("steering_angle_to_servo_gain")[m[K.get<double>();
+[8.818s]       |                             [01;36m[K~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[8.818s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[8.818s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[8.818s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[8.819s]                  from [01m[K/home/rstole01/Documents/CSE-596/humble_ws/src/f1tenth_system/vesc/vesc_ackermann/include/vesc_ackermann/ackermann_to_vesc.hpp:35[m[K,
+[8.819s]                  from [01m[K/home/rstole01/Documents/CSE-596/humble_ws/src/f1tenth_system/vesc/vesc_ackermann/src/ackermann_to_vesc.cpp:31[m[K:
+[8.819s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:434:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ParameterT> auto rclcpp::Node::declare_parameter(const string&, const ParameterDescriptor&, bool)[m[K’
+[8.820s]   434 |   [01;36m[Kdeclare_parameter[m[K(
+[8.820s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[8.820s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:434:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[8.820s] [01m[K/home/rstole01/Documents/CSE-596/humble_ws/src/f1tenth_system/vesc/vesc_ackermann/src/ackermann_to_vesc.cpp:53:46:[m[K [01;36m[Knote: [m[K  couldn’t deduce template parameter ‘[01m[KParameterT[m[K’
+[8.820s]    53 |   steering_to_servo_gain_ = [01;36m[Kdeclare_parameter("steering_angle_to_servo_gain")[m[K.get<double>();
+[8.821s]       |                             [01;36m[K~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[8.821s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[8.821s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[8.821s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[8.822s]                  from [01m[K/home/rstole01/Documents/CSE-596/humble_ws/src/f1tenth_system/vesc/vesc_ackermann/include/vesc_ackermann/ackermann_to_vesc.hpp:35[m[K,
+[8.822s]                  from [01m[K/home/rstole01/Documents/CSE-596/humble_ws/src/f1tenth_system/vesc/vesc_ackermann/src/ackermann_to_vesc.cpp:31[m[K:
+[8.822s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:366:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconst rclcpp::ParameterValue& rclcpp::Node::declare_parameter(const string&, const rclcpp::ParameterValue&, const ParameterDescriptor&, bool)[m[K’
+[8.822s]   366 |   [01;36m[Kdeclare_parameter[m[K(
+[8.823s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[8.823s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:366:3:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 1 provided
+[8.823s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:391:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconst rclcpp::ParameterValue& rclcpp::Node::declare_parameter(const string&, rclcpp::ParameterType, const ParameterDescriptor&, bool)[m[K’
+[8.823s]   391 |   [01;36m[Kdeclare_parameter[m[K(
+[8.824s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[8.824s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:391:3:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 1 provided
+[8.824s] [01m[K/home/rstole01/Documents/CSE-596/humble_ws/src/f1tenth_system/vesc/vesc_ackermann/src/ackermann_to_vesc.cpp:53:83:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kdouble[m[K’
+[8.824s]    53 | ain_ = declare_parameter("steering_angle_to_servo_gain").get<[01;31m[Kdouble[m[K>();
+[8.825s]       |                                                              [01;31m[K^~~~~~[m[K
+[8.825s] 
+[8.825s] [01m[K/home/rstole01/Documents/CSE-596/humble_ws/src/f1tenth_system/vesc/vesc_ackermann/src/ackermann_to_vesc.cpp:54:48:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kvesc_ackermann::AckermannToVesc::declare_parameter(const char [31])[m[K’
+[8.825s]    54 |   steering_to_servo_offset_ = [01;31m[Kdeclare_parameter("steering_angle_to_servo_offset")[m[K.get<double>();
+[8.826s]       |                               [01;31m[K~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[8.826s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[8.826s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[8.826s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[8.827s]                  from [01m[K/home/rstole01/Documents/CSE-596/humble_ws/src/f1tenth_system/vesc/vesc_ackermann/include/vesc_ackermann/ackermann_to_vesc.hpp:35[m[K,
+[8.827s]                  from [01m[K/home/rstole01/Documents/CSE-596/humble_ws/src/f1tenth_system/vesc/vesc_ackermann/src/ackermann_to_vesc.cpp:31[m[K:
+[8.827s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:421:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ParameterT> auto rclcpp::Node::declare_parameter(const string&, const ParameterT&, const ParameterDescriptor&, bool)[m[K’
+[8.827s]   421 |   [01;36m[Kdeclare_parameter[m[K(
+[8.827s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[8.828s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:421:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[8.828s] [01m[K/home/rstole01/Documents/CSE-596/humble_ws/src/f1tenth_system/vesc/vesc_ackermann/src/ackermann_to_vesc.cpp:54:48:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 1 provided
+[8.828s]    54 |   steering_to_servo_offset_ = [01;36m[Kdeclare_parameter("steering_angle_to_servo_offset")[m[K.get<double>();
+[8.828s]       |                               [01;36m[K~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[8.829s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[8.829s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[8.829s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[8.829s]                  from [01m[K/home/rstole01/Documents/CSE-596/humble_ws/src/f1tenth_system/vesc/vesc_ackermann/include/vesc_ackermann/ackermann_to_vesc.hpp:35[m[K,
+[8.830s]                  from [01m[K/home/rstole01/Documents/CSE-596/humble_ws/src/f1tenth_system/vesc/vesc_ackermann/src/ackermann_to_vesc.cpp:31[m[K:
+[8.830s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:434:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ParameterT> auto rclcpp::Node::declare_parameter(const string&, const ParameterDescriptor&, bool)[m[K’
+[8.830s]   434 |   [01;36m[Kdeclare_parameter[m[K(
+[8.830s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[8.831s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:434:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[8.831s] [01m[K/home/rstole01/Documents/CSE-596/humble_ws/src/f1tenth_system/vesc/vesc_ackermann/src/ackermann_to_vesc.cpp:54:48:[m[K [01;36m[Knote: [m[K  couldn’t deduce template parameter ‘[01m[KParameterT[m[K’
+[8.831s]    54 |   steering_to_servo_offset_ = [01;36m[Kdeclare_parameter("steering_angle_to_servo_offset")[m[K.get<double>();
+[8.831s]       |                               [01;36m[K~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[8.831s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[8.832s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[8.832s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[8.832s]                  from [01m[K/home/rstole01/Documents/CSE-596/humble_ws/src/f1tenth_system/vesc/vesc_ackermann/include/vesc_ackermann/ackermann_to_vesc.hpp:35[m[K,
+[8.832s]                  from [01m[K/home/rstole01/Documents/CSE-596/humble_ws/src/f1tenth_system/vesc/vesc_ackermann/src/ackermann_to_vesc.cpp:31[m[K:
+[8.833s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:366:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconst rclcpp::ParameterValue& rclcpp::Node::declare_parameter(const string&, const rclcpp::ParameterValue&, const ParameterDescriptor&, bool)[m[K’
+[8.833s]   366 |   [01;36m[Kdeclare_parameter[m[K(
+[8.833s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[8.833s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:366:3:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 1 provided
+[8.834s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:391:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconst rclcpp::ParameterValue& rclcpp::Node::declare_parameter(const string&, rclcpp::ParameterType, const ParameterDescriptor&, bool)[m[K’
+[8.834s]   391 |   [01;36m[Kdeclare_parameter[m[K(
+[8.834s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[8.834s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:391:3:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 1 provided
+[8.835s] [01m[K/home/rstole01/Documents/CSE-596/humble_ws/src/f1tenth_system/vesc/vesc_ackermann/src/ackermann_to_vesc.cpp:54:87:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kdouble[m[K’
+[8.835s]    54 | t_ = declare_parameter("steering_angle_to_servo_offset").get<[01;31m[Kdouble[m[K>();
+[8.835s]       |                                                              [01;31m[K^~~~~~[m[K
+[8.835s] 
+[10.177s] [ 85%] [32m[1mLinking CXX executable vesc_to_odom_node[0m
+[10.377s] [ 85%] Built target vesc_to_odom_node
+[12.385s] gmake[2]: *** [CMakeFiles/vesc_ackermann.dir/build.make:76: CMakeFiles/vesc_ackermann.dir/src/ackermann_to_vesc.cpp.o] Error 1
+[12.386s] gmake[2]: *** Waiting for unfinished jobs....
+[12.849s] gmake[2]: *** [CMakeFiles/vesc_ackermann.dir/build.make:90: CMakeFiles/vesc_ackermann.dir/src/vesc_to_odom.cpp.o] Error 1
+[12.849s] gmake[1]: *** [CMakeFiles/Makefile2:141: CMakeFiles/vesc_ackermann.dir/all] Error 2
+[12.849s] gmake: *** [Makefile:146: all] Error 2

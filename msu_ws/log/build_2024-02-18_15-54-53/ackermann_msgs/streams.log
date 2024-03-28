@@ -1,0 +1,172 @@
+[1.427s] Invoking command in '/home/rstole01/Documents/CSE-596/msu_ws/build/ackermann_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rstole01/Documents/CSE-596/msu_ws/install/waypoint_writer:/home/rstole01/Documents/CSE-596/msu_ws/install/waypoint_follow:/home/rstole01/Documents/CSE-596/msu_ws/install/wall_follower_pid:/home/rstole01/Documents/CSE-596/msu_ws/install/qlearn:/home/rstole01/Documents/CSE-596/msu_ws/install/py_pubsub:/home/rstole01/Documents/CSE-596/msu_ws/install/plexer360:/home/rstole01/Documents/CSE-596/msu_ws/install/painter:/home/rstole01/Documents/CSE-596/msu_ws/install/f1tenth_gym_ros:/opt/ros/humble /usr/bin/cmake --build /home/rstole01/Documents/CSE-596/msu_ws/build/ackermann_msgs -- -j8 -l8
+[3.731s] [35m[1mConsolidate compiler generated dependencies of target ackermann_msgs__rosidl_generator_c[0m
+[3.731s] [ 10%] Built target ackermann_msgs__rosidl_generator_c
+[3.734s] [ 10%] Built target ament_cmake_python_copy_ackermann_msgs
+[3.735s] [ 12%] Built target ackermann_msgs__cpp
+[3.735s] [35m[1mConsolidate compiler generated dependencies of target ackermann_msgs__rosidl_typesupport_c[0m
+[3.736s] [35m[1mConsolidate compiler generated dependencies of target ackermann_msgs__rosidl_typesupport_introspection_c[0m
+[3.736s] [35m[1mConsolidate compiler generated dependencies of target ackermann_msgs__rosidl_typesupport_fastrtps_c[0m
+[3.737s] [ 23%] Built target ackermann_msgs__rosidl_typesupport_c
+[3.739s] [ 33%] Built target ackermann_msgs__rosidl_typesupport_introspection_c
+[3.741s] [ 43%] Built target ackermann_msgs__rosidl_typesupport_fastrtps_c
+[3.742s] [35m[1mConsolidate compiler generated dependencies of target ackermann_msgs__rosidl_typesupport_cpp[0m
+[3.744s] [35m[1mConsolidate compiler generated dependencies of target ackermann_msgs__rosidl_typesupport_fastrtps_cpp[0m
+[3.745s] [35m[1mConsolidate compiler generated dependencies of target ackermann_msgs__rosidl_typesupport_introspection_cpp[0m
+[3.745s] [ 53%] Built target ackermann_msgs__rosidl_typesupport_cpp
+[3.745s] [ 64%] Built target ackermann_msgs__rosidl_typesupport_introspection_cpp
+[3.746s] [ 74%] Built target ackermann_msgs__rosidl_typesupport_fastrtps_cpp
+[3.746s] [ 74%] Built target ackermann_msgs
+[3.747s] [ 76%] Built target ackermann_msgs__py
+[3.747s] [35m[1mConsolidate compiler generated dependencies of target ackermann_msgs__rosidl_generator_py[0m
+[3.749s] [ 84%] Built target ackermann_msgs__rosidl_generator_py
+[3.750s] [35m[1mConsolidate compiler generated dependencies of target ackermann_msgs__rosidl_typesupport_introspection_c__pyext[0m
+[3.750s] [35m[1mConsolidate compiler generated dependencies of target ackermann_msgs__rosidl_typesupport_c__pyext[0m
+[3.750s] [35m[1mConsolidate compiler generated dependencies of target ackermann_msgs__rosidl_typesupport_fastrtps_c__pyext[0m
+[3.751s] [ 89%] Built target ackermann_msgs__rosidl_typesupport_introspection_c__pyext
+[3.751s] [ 94%] Built target ackermann_msgs__rosidl_typesupport_fastrtps_c__pyext
+[3.751s] [100%] Built target ackermann_msgs__rosidl_typesupport_c__pyext
+[3.752s] running egg_info
+[3.752s] writing ackermann_msgs.egg-info/PKG-INFO
+[3.752s] writing dependency_links to ackermann_msgs.egg-info/dependency_links.txt
+[3.752s] writing top-level names to ackermann_msgs.egg-info/top_level.txt
+[3.753s] reading manifest file 'ackermann_msgs.egg-info/SOURCES.txt'
+[3.753s] writing manifest file 'ackermann_msgs.egg-info/SOURCES.txt'
+[3.753s] [100%] Built target ament_cmake_python_build_ackermann_msgs_egg
+[3.792s] Invoked command in '/home/rstole01/Documents/CSE-596/msu_ws/build/ackermann_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rstole01/Documents/CSE-596/msu_ws/install/waypoint_writer:/home/rstole01/Documents/CSE-596/msu_ws/install/waypoint_follow:/home/rstole01/Documents/CSE-596/msu_ws/install/wall_follower_pid:/home/rstole01/Documents/CSE-596/msu_ws/install/qlearn:/home/rstole01/Documents/CSE-596/msu_ws/install/py_pubsub:/home/rstole01/Documents/CSE-596/msu_ws/install/plexer360:/home/rstole01/Documents/CSE-596/msu_ws/install/painter:/home/rstole01/Documents/CSE-596/msu_ws/install/f1tenth_gym_ros:/opt/ros/humble /usr/bin/cmake --build /home/rstole01/Documents/CSE-596/msu_ws/build/ackermann_msgs -- -j8 -l8
+[5.054s] Invoking command in '/home/rstole01/Documents/CSE-596/msu_ws/build/ackermann_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rstole01/Documents/CSE-596/msu_ws/install/waypoint_writer:/home/rstole01/Documents/CSE-596/msu_ws/install/waypoint_follow:/home/rstole01/Documents/CSE-596/msu_ws/install/wall_follower_pid:/home/rstole01/Documents/CSE-596/msu_ws/install/qlearn:/home/rstole01/Documents/CSE-596/msu_ws/install/py_pubsub:/home/rstole01/Documents/CSE-596/msu_ws/install/plexer360:/home/rstole01/Documents/CSE-596/msu_ws/install/painter:/home/rstole01/Documents/CSE-596/msu_ws/install/f1tenth_gym_ros:/opt/ros/humble /usr/bin/cmake --install /home/rstole01/Documents/CSE-596/msu_ws/build/ackermann_msgs
+[5.120s] -- Install configuration: ""
+[5.120s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/ackermann_msgs/share/ament_index/resource_index/rosidl_interfaces/ackermann_msgs
+[5.120s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/ackermann_msgs/include/ackermann_msgs/ackermann_msgs
+[5.121s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/ackermann_msgs/include/ackermann_msgs/ackermann_msgs/msg
+[5.121s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/ackermann_msgs/include/ackermann_msgs/ackermann_msgs/msg/rosidl_generator_c__visibility_control.h
+[5.121s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/ackermann_msgs/include/ackermann_msgs/ackermann_msgs/msg/detail
+[5.121s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/ackermann_msgs/include/ackermann_msgs/ackermann_msgs/msg/detail/ackermann_drive_stamped__functions.c
+[5.122s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/ackermann_msgs/include/ackermann_msgs/ackermann_msgs/msg/detail/ackermann_drive__functions.h
+[5.122s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/ackermann_msgs/include/ackermann_msgs/ackermann_msgs/msg/detail/ackermann_drive_stamped__struct.h
+[5.122s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/ackermann_msgs/include/ackermann_msgs/ackermann_msgs/msg/detail/ackermann_drive_stamped__type_support.h
+[5.122s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/ackermann_msgs/include/ackermann_msgs/ackermann_msgs/msg/detail/ackermann_drive__functions.c
+[5.123s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/ackermann_msgs/include/ackermann_msgs/ackermann_msgs/msg/detail/ackermann_drive__struct.h
+[5.123s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/ackermann_msgs/include/ackermann_msgs/ackermann_msgs/msg/detail/ackermann_drive__type_support.h
+[5.123s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/ackermann_msgs/include/ackermann_msgs/ackermann_msgs/msg/detail/ackermann_drive_stamped__functions.h
+[5.123s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/ackermann_msgs/include/ackermann_msgs/ackermann_msgs/msg/ackermann_drive_stamped.h
+[5.124s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/ackermann_msgs/include/ackermann_msgs/ackermann_msgs/msg/ackermann_drive.h
+[5.124s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/ackermann_msgs/share/ackermann_msgs/environment/library_path.sh
+[5.124s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/ackermann_msgs/share/ackermann_msgs/environment/library_path.dsv
+[5.124s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/ackermann_msgs/lib/libackermann_msgs__rosidl_generator_c.so
+[5.125s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/ackermann_msgs/include/ackermann_msgs/ackermann_msgs
+[5.125s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/ackermann_msgs/include/ackermann_msgs/ackermann_msgs/msg
+[5.125s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/ackermann_msgs/include/ackermann_msgs/ackermann_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[5.125s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/ackermann_msgs/include/ackermann_msgs/ackermann_msgs/msg/detail
+[5.126s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/ackermann_msgs/include/ackermann_msgs/ackermann_msgs/msg/detail/ackermann_drive__rosidl_typesupport_fastrtps_c.h
+[5.126s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/ackermann_msgs/include/ackermann_msgs/ackermann_msgs/msg/detail/ackermann_drive_stamped__rosidl_typesupport_fastrtps_c.h
+[5.126s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/ackermann_msgs/lib/libackermann_msgs__rosidl_typesupport_fastrtps_c.so
+[5.126s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/ackermann_msgs/include/ackermann_msgs/ackermann_msgs
+[5.127s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/ackermann_msgs/include/ackermann_msgs/ackermann_msgs/msg
+[5.127s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/ackermann_msgs/include/ackermann_msgs/ackermann_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[5.127s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/ackermann_msgs/include/ackermann_msgs/ackermann_msgs/msg/detail
+[5.127s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/ackermann_msgs/include/ackermann_msgs/ackermann_msgs/msg/detail/ackermann_drive_stamped__type_support.c
+[5.128s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/ackermann_msgs/include/ackermann_msgs/ackermann_msgs/msg/detail/ackermann_drive_stamped__rosidl_typesupport_introspection_c.h
+[5.128s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/ackermann_msgs/include/ackermann_msgs/ackermann_msgs/msg/detail/ackermann_drive__rosidl_typesupport_introspection_c.h
+[5.128s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/ackermann_msgs/include/ackermann_msgs/ackermann_msgs/msg/detail/ackermann_drive__type_support.c
+[5.128s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/ackermann_msgs/lib/libackermann_msgs__rosidl_typesupport_introspection_c.so
+[5.129s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/ackermann_msgs/lib/libackermann_msgs__rosidl_typesupport_c.so
+[5.129s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/ackermann_msgs/include/ackermann_msgs/ackermann_msgs
+[5.129s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/ackermann_msgs/include/ackermann_msgs/ackermann_msgs/msg
+[5.129s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/ackermann_msgs/include/ackermann_msgs/ackermann_msgs/msg/ackermann_drive.hpp
+[5.130s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/ackermann_msgs/include/ackermann_msgs/ackermann_msgs/msg/detail
+[5.130s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/ackermann_msgs/include/ackermann_msgs/ackermann_msgs/msg/detail/ackermann_drive_stamped__traits.hpp
+[5.130s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/ackermann_msgs/include/ackermann_msgs/ackermann_msgs/msg/detail/ackermann_drive_stamped__builder.hpp
+[5.130s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/ackermann_msgs/include/ackermann_msgs/ackermann_msgs/msg/detail/ackermann_drive__builder.hpp
+[5.131s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/ackermann_msgs/include/ackermann_msgs/ackermann_msgs/msg/detail/ackermann_drive__struct.hpp
+[5.131s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/ackermann_msgs/include/ackermann_msgs/ackermann_msgs/msg/detail/ackermann_drive__traits.hpp
+[5.131s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/ackermann_msgs/include/ackermann_msgs/ackermann_msgs/msg/detail/ackermann_drive_stamped__struct.hpp
+[5.131s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/ackermann_msgs/include/ackermann_msgs/ackermann_msgs/msg/ackermann_drive_stamped.hpp
+[5.132s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/ackermann_msgs/include/ackermann_msgs/ackermann_msgs
+[5.132s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/ackermann_msgs/include/ackermann_msgs/ackermann_msgs/msg
+[5.132s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/ackermann_msgs/include/ackermann_msgs/ackermann_msgs/msg/detail
+[5.132s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/ackermann_msgs/include/ackermann_msgs/ackermann_msgs/msg/detail/ackermann_drive__rosidl_typesupport_fastrtps_cpp.hpp
+[5.133s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/ackermann_msgs/include/ackermann_msgs/ackermann_msgs/msg/detail/ackermann_drive_stamped__rosidl_typesupport_fastrtps_cpp.hpp
+[5.145s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/ackermann_msgs/include/ackermann_msgs/ackermann_msgs/msg/detail/dds_fastrtps
+[5.146s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/ackermann_msgs/include/ackermann_msgs/ackermann_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[5.146s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/ackermann_msgs/lib/libackermann_msgs__rosidl_typesupport_fastrtps_cpp.so
+[5.146s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/ackermann_msgs/include/ackermann_msgs/ackermann_msgs
+[5.146s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/ackermann_msgs/include/ackermann_msgs/ackermann_msgs/msg
+[5.147s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/ackermann_msgs/include/ackermann_msgs/ackermann_msgs/msg/detail
+[5.150s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/ackermann_msgs/include/ackermann_msgs/ackermann_msgs/msg/detail/ackermann_drive_stamped__rosidl_typesupport_introspection_cpp.hpp
+[5.151s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/ackermann_msgs/include/ackermann_msgs/ackermann_msgs/msg/detail/ackermann_drive__rosidl_typesupport_introspection_cpp.hpp
+[5.152s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/ackermann_msgs/include/ackermann_msgs/ackermann_msgs/msg/detail/ackermann_drive_stamped__type_support.cpp
+[5.152s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/ackermann_msgs/include/ackermann_msgs/ackermann_msgs/msg/detail/ackermann_drive__type_support.cpp
+[5.173s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/ackermann_msgs/lib/libackermann_msgs__rosidl_typesupport_introspection_cpp.so
+[5.174s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/ackermann_msgs/lib/libackermann_msgs__rosidl_typesupport_cpp.so
+[5.175s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/ackermann_msgs/share/ackermann_msgs/environment/pythonpath.sh
+[5.175s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/ackermann_msgs/share/ackermann_msgs/environment/pythonpath.dsv
+[5.175s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/ackermann_msgs/local/lib/python3.10/dist-packages/ackermann_msgs-2.0.2-py3.10.egg-info
+[5.176s] -- Installing: /home/rstole01/Documents/CSE-596/msu_ws/install/ackermann_msgs/local/lib/python3.10/dist-packages/ackermann_msgs-2.0.2-py3.10.egg-info/top_level.txt
+[5.176s] -- Installing: /home/rstole01/Documents/CSE-596/msu_ws/install/ackermann_msgs/local/lib/python3.10/dist-packages/ackermann_msgs-2.0.2-py3.10.egg-info/SOURCES.txt
+[5.176s] -- Installing: /home/rstole01/Documents/CSE-596/msu_ws/install/ackermann_msgs/local/lib/python3.10/dist-packages/ackermann_msgs-2.0.2-py3.10.egg-info/PKG-INFO
+[5.176s] -- Installing: /home/rstole01/Documents/CSE-596/msu_ws/install/ackermann_msgs/local/lib/python3.10/dist-packages/ackermann_msgs-2.0.2-py3.10.egg-info/dependency_links.txt
+[5.177s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/ackermann_msgs/local/lib/python3.10/dist-packages/ackermann_msgs
+[5.178s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/ackermann_msgs/local/lib/python3.10/dist-packages/ackermann_msgs/ackermann_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[5.179s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/ackermann_msgs/local/lib/python3.10/dist-packages/ackermann_msgs/_ackermann_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[5.180s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/ackermann_msgs/local/lib/python3.10/dist-packages/ackermann_msgs/__init__.py
+[5.180s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/ackermann_msgs/local/lib/python3.10/dist-packages/ackermann_msgs/msg
+[5.181s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/ackermann_msgs/local/lib/python3.10/dist-packages/ackermann_msgs/msg/_ackermann_drive_stamped.py
+[5.182s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/ackermann_msgs/local/lib/python3.10/dist-packages/ackermann_msgs/msg/_ackermann_drive.py
+[5.183s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/ackermann_msgs/local/lib/python3.10/dist-packages/ackermann_msgs/msg/_ackermann_drive_stamped_s.c
+[5.183s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/ackermann_msgs/local/lib/python3.10/dist-packages/ackermann_msgs/msg/_ackermann_drive_s.c
+[5.183s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/ackermann_msgs/local/lib/python3.10/dist-packages/ackermann_msgs/msg/__init__.py
+[5.184s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/ackermann_msgs/local/lib/python3.10/dist-packages/ackermann_msgs/libackermann_msgs__rosidl_generator_py.so
+[5.184s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/ackermann_msgs/local/lib/python3.10/dist-packages/ackermann_msgs/ackermann_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[5.184s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/ackermann_msgs/local/lib/python3.10/dist-packages/ackermann_msgs/ackermann_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[5.184s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/ackermann_msgs/local/lib/python3.10/dist-packages/ackermann_msgs/_ackermann_msgs_s.ep.rosidl_typesupport_c.c
+[5.185s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/ackermann_msgs/local/lib/python3.10/dist-packages/ackermann_msgs/_ackermann_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[5.339s] Listing '/home/rstole01/Documents/CSE-596/msu_ws/install/ackermann_msgs/local/lib/python3.10/dist-packages/ackermann_msgs'...
+[5.340s] Listing '/home/rstole01/Documents/CSE-596/msu_ws/install/ackermann_msgs/local/lib/python3.10/dist-packages/ackermann_msgs/msg'...
+[5.354s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/ackermann_msgs/local/lib/python3.10/dist-packages/ackermann_msgs/ackermann_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[5.354s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/ackermann_msgs/local/lib/python3.10/dist-packages/ackermann_msgs/ackermann_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[5.356s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/ackermann_msgs/local/lib/python3.10/dist-packages/ackermann_msgs/ackermann_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[5.360s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/ackermann_msgs/lib/libackermann_msgs__rosidl_generator_py.so
+[5.360s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/ackermann_msgs/share/ackermann_msgs/msg/AckermannDrive.idl
+[5.360s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/ackermann_msgs/share/ackermann_msgs/msg/AckermannDriveStamped.idl
+[5.361s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/ackermann_msgs/share/ackermann_msgs/msg/AckermannDrive.msg
+[5.361s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/ackermann_msgs/share/ackermann_msgs/msg/AckermannDriveStamped.msg
+[5.361s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/ackermann_msgs/share/ament_index/resource_index/package_run_dependencies/ackermann_msgs
+[5.361s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/ackermann_msgs/share/ament_index/resource_index/parent_prefix_path/ackermann_msgs
+[5.362s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/ackermann_msgs/share/ackermann_msgs/environment/ament_prefix_path.sh
+[5.362s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/ackermann_msgs/share/ackermann_msgs/environment/ament_prefix_path.dsv
+[5.362s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/ackermann_msgs/share/ackermann_msgs/environment/path.sh
+[5.362s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/ackermann_msgs/share/ackermann_msgs/environment/path.dsv
+[5.365s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/ackermann_msgs/share/ackermann_msgs/local_setup.bash
+[5.366s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/ackermann_msgs/share/ackermann_msgs/local_setup.sh
+[5.366s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/ackermann_msgs/share/ackermann_msgs/local_setup.zsh
+[5.366s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/ackermann_msgs/share/ackermann_msgs/local_setup.dsv
+[5.367s] -- Installing: /home/rstole01/Documents/CSE-596/msu_ws/install/ackermann_msgs/share/ackermann_msgs/package.dsv
+[5.367s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/ackermann_msgs/share/ament_index/resource_index/packages/ackermann_msgs
+[5.367s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/ackermann_msgs/share/ackermann_msgs/cmake/export_ackermann_msgs__rosidl_generator_cExport.cmake
+[5.368s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/ackermann_msgs/share/ackermann_msgs/cmake/export_ackermann_msgs__rosidl_generator_cExport-noconfig.cmake
+[5.368s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/ackermann_msgs/share/ackermann_msgs/cmake/export_ackermann_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[5.368s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/ackermann_msgs/share/ackermann_msgs/cmake/export_ackermann_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[5.368s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/ackermann_msgs/share/ackermann_msgs/cmake/ackermann_msgs__rosidl_typesupport_introspection_cExport.cmake
+[5.369s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/ackermann_msgs/share/ackermann_msgs/cmake/ackermann_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[5.370s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/ackermann_msgs/share/ackermann_msgs/cmake/ackermann_msgs__rosidl_typesupport_cExport.cmake
+[5.371s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/ackermann_msgs/share/ackermann_msgs/cmake/ackermann_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[5.371s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/ackermann_msgs/share/ackermann_msgs/cmake/export_ackermann_msgs__rosidl_generator_cppExport.cmake
+[5.382s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/ackermann_msgs/share/ackermann_msgs/cmake/export_ackermann_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[5.384s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/ackermann_msgs/share/ackermann_msgs/cmake/export_ackermann_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[5.384s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/ackermann_msgs/share/ackermann_msgs/cmake/ackermann_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[5.386s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/ackermann_msgs/share/ackermann_msgs/cmake/ackermann_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[5.387s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/ackermann_msgs/share/ackermann_msgs/cmake/ackermann_msgs__rosidl_typesupport_cppExport.cmake
+[5.388s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/ackermann_msgs/share/ackermann_msgs/cmake/ackermann_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[5.388s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/ackermann_msgs/share/ackermann_msgs/cmake/export_ackermann_msgs__rosidl_generator_pyExport.cmake
+[5.389s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/ackermann_msgs/share/ackermann_msgs/cmake/export_ackermann_msgs__rosidl_generator_pyExport-noconfig.cmake
+[5.390s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/ackermann_msgs/share/ackermann_msgs/cmake/rosidl_cmake-extras.cmake
+[5.391s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/ackermann_msgs/share/ackermann_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[5.392s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/ackermann_msgs/share/ackermann_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[5.392s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/ackermann_msgs/share/ackermann_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[5.393s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/ackermann_msgs/share/ackermann_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[5.395s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/ackermann_msgs/share/ackermann_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[5.396s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/ackermann_msgs/share/ackermann_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[5.397s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/ackermann_msgs/share/ackermann_msgs/cmake/ackermann_msgsConfig.cmake
+[5.398s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/ackermann_msgs/share/ackermann_msgs/cmake/ackermann_msgsConfig-version.cmake
+[5.398s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/ackermann_msgs/share/ackermann_msgs/package.xml
+[6.147s] Invoked command in '/home/rstole01/Documents/CSE-596/msu_ws/build/ackermann_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rstole01/Documents/CSE-596/msu_ws/install/waypoint_writer:/home/rstole01/Documents/CSE-596/msu_ws/install/waypoint_follow:/home/rstole01/Documents/CSE-596/msu_ws/install/wall_follower_pid:/home/rstole01/Documents/CSE-596/msu_ws/install/qlearn:/home/rstole01/Documents/CSE-596/msu_ws/install/py_pubsub:/home/rstole01/Documents/CSE-596/msu_ws/install/plexer360:/home/rstole01/Documents/CSE-596/msu_ws/install/painter:/home/rstole01/Documents/CSE-596/msu_ws/install/f1tenth_gym_ros:/opt/ros/humble /usr/bin/cmake --install /home/rstole01/Documents/CSE-596/msu_ws/build/ackermann_msgs

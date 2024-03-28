@@ -1,0 +1,211 @@
+[0.000000] (-) TimerEvent: {}
+[0.000351] (-) JobUnselected: {'identifier': 'aeb_lab'}
+[0.000451] (-) JobUnselected: {'identifier': 'cpp_pubsub'}
+[0.000510] (-) JobUnselected: {'identifier': 'f1tenth_gym_ros'}
+[0.000612] (-) JobUnselected: {'identifier': 'lab1_package'}
+[0.000922] (-) JobUnselected: {'identifier': 'scan_pubsub'}
+[0.000987] (-) JobUnselected: {'identifier': 'tutorial_interfaces'}
+[0.001071] (pid_lab) JobQueued: {'identifier': 'pid_lab', 'dependencies': OrderedDict()}
+[0.001119] (pid_lab) JobStarted: {'identifier': 'pid_lab'}
+[0.098818] (-) TimerEvent: {}
+[0.116058] (pid_lab) JobProgress: {'identifier': 'pid_lab', 'progress': 'cmake'}
+[0.137212] (pid_lab) JobProgress: {'identifier': 'pid_lab', 'progress': 'build'}
+[0.138656] (pid_lab) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/rstole01/Documents/CSE-596/humble_ws/build/pid_lab', '--', '-j8', '-l8'], 'cwd': '/home/rstole01/Documents/CSE-596/humble_ws/build/pid_lab', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'rstole01'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/rstole01'), ('OLDPWD', '/home/rstole01/Documents/CSE-596/humble_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '6302'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=59b32b0c441ec335d369dbdc65ad6373'), ('COLORTERM', 'truecolor'), ('LIBVIRT_DEFAULT_URI', 'qemu:///system'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'rstole01'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'rstole01'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/rstole01/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/rstole01-Lenovo-ideapad-FLEX-5-1570:@/tmp/.ICE-unix/6302,unix/rstole01-Lenovo-ideapad-FLEX-5-1570:/tmp/.ICE-unix/6302'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/f4199152_2de7_47e8_bef5_1b3f619e04ff'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.E0GHH2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.111'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/rstole01/Documents/CSE-596/humble_ws/build/pid_lab'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=59b32b0c441ec335d369dbdc65ad6373'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.198970] (-) TimerEvent: {}
+[0.220046] (pid_lab) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target pid\x1b[0m\n'}
+[0.256554] (pid_lab) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/pid.dir/src/wall_follow_node.cpp.o\x1b[0m\n'}
+[0.299116] (-) TimerEvent: {}
+[0.399524] (-) TimerEvent: {}
+[0.499915] (-) TimerEvent: {}
+[0.600337] (-) TimerEvent: {}
+[0.700737] (-) TimerEvent: {}
+[0.801128] (-) TimerEvent: {}
+[0.901527] (-) TimerEvent: {}
+[1.001923] (-) TimerEvent: {}
+[1.102318] (-) TimerEvent: {}
+[1.202697] (-) TimerEvent: {}
+[1.303079] (-) TimerEvent: {}
+[1.403467] (-) TimerEvent: {}
+[1.503868] (-) TimerEvent: {}
+[1.604280] (-) TimerEvent: {}
+[1.704676] (-) TimerEvent: {}
+[1.805067] (-) TimerEvent: {}
+[1.905464] (-) TimerEvent: {}
+[2.005848] (-) TimerEvent: {}
+[2.106239] (-) TimerEvent: {}
+[2.206616] (-) TimerEvent: {}
+[2.306991] (-) TimerEvent: {}
+[2.407375] (-) TimerEvent: {}
+[2.507758] (-) TimerEvent: {}
+[2.608167] (-) TimerEvent: {}
+[2.708548] (-) TimerEvent: {}
+[2.808925] (-) TimerEvent: {}
+[2.909315] (-) TimerEvent: {}
+[3.009700] (-) TimerEvent: {}
+[3.110091] (-) TimerEvent: {}
+[3.210474] (-) TimerEvent: {}
+[3.310889] (-) TimerEvent: {}
+[3.411266] (-) TimerEvent: {}
+[3.511682] (-) TimerEvent: {}
+[3.612133] (-) TimerEvent: {}
+[3.712519] (-) TimerEvent: {}
+[3.812922] (-) TimerEvent: {}
+[3.913333] (-) TimerEvent: {}
+[4.013736] (-) TimerEvent: {}
+[4.114129] (-) TimerEvent: {}
+[4.214528] (-) TimerEvent: {}
+[4.314938] (-) TimerEvent: {}
+[4.415340] (-) TimerEvent: {}
+[4.515748] (-) TimerEvent: {}
+[4.616147] (-) TimerEvent: {}
+[4.622325] (pid_lab) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rstole01/Documents/CSE-596/humble_ws/src/pid_lab/src/wall_follow_node.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid WallFollow::scan_callback(const ConstSharedPtr&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.622614] (pid_lab) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rstole01/Documents/CSE-596/humble_ws/src/pid_lab/src/wall_follow_node.cpp:100:13:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kvariable \xe2\x80\x98\x1b[01m\x1b[Kind\x1b[m\x1b[K\xe2\x80\x99 set but not used [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable\x07-Wunused-but-set-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[4.622769] (pid_lab) StderrLine: {'line': b'  100 |         int \x1b[01;35m\x1b[Kind\x1b[m\x1b[K;\n'}
+[4.622903] (pid_lab) StderrLine: {'line': b'      |             \x1b[01;35m\x1b[K^~~\x1b[m\x1b[K\n'}
+[4.716291] (-) TimerEvent: {}
+[4.816682] (-) TimerEvent: {}
+[4.917092] (-) TimerEvent: {}
+[5.017602] (-) TimerEvent: {}
+[5.118010] (-) TimerEvent: {}
+[5.218441] (-) TimerEvent: {}
+[5.318871] (-) TimerEvent: {}
+[5.419329] (-) TimerEvent: {}
+[5.519729] (-) TimerEvent: {}
+[5.620127] (-) TimerEvent: {}
+[5.720472] (-) TimerEvent: {}
+[5.820867] (-) TimerEvent: {}
+[5.921259] (-) TimerEvent: {}
+[6.021665] (-) TimerEvent: {}
+[6.122079] (-) TimerEvent: {}
+[6.222477] (-) TimerEvent: {}
+[6.322875] (-) TimerEvent: {}
+[6.423270] (-) TimerEvent: {}
+[6.523685] (-) TimerEvent: {}
+[6.624091] (-) TimerEvent: {}
+[6.724487] (-) TimerEvent: {}
+[6.824867] (-) TimerEvent: {}
+[6.925260] (-) TimerEvent: {}
+[7.025664] (-) TimerEvent: {}
+[7.126069] (-) TimerEvent: {}
+[7.226432] (-) TimerEvent: {}
+[7.326850] (-) TimerEvent: {}
+[7.427263] (-) TimerEvent: {}
+[7.527679] (-) TimerEvent: {}
+[7.628060] (-) TimerEvent: {}
+[7.728477] (-) TimerEvent: {}
+[7.828871] (-) TimerEvent: {}
+[7.929269] (-) TimerEvent: {}
+[8.029657] (-) TimerEvent: {}
+[8.130051] (-) TimerEvent: {}
+[8.230445] (-) TimerEvent: {}
+[8.330843] (-) TimerEvent: {}
+[8.431242] (-) TimerEvent: {}
+[8.531634] (-) TimerEvent: {}
+[8.632032] (-) TimerEvent: {}
+[8.732436] (-) TimerEvent: {}
+[8.832824] (-) TimerEvent: {}
+[8.933216] (-) TimerEvent: {}
+[9.033620] (-) TimerEvent: {}
+[9.134037] (-) TimerEvent: {}
+[9.234473] (-) TimerEvent: {}
+[9.334909] (-) TimerEvent: {}
+[9.435277] (-) TimerEvent: {}
+[9.535651] (-) TimerEvent: {}
+[9.636033] (-) TimerEvent: {}
+[9.736424] (-) TimerEvent: {}
+[9.836807] (-) TimerEvent: {}
+[9.937214] (-) TimerEvent: {}
+[10.037631] (-) TimerEvent: {}
+[10.138039] (-) TimerEvent: {}
+[10.238430] (-) TimerEvent: {}
+[10.338828] (-) TimerEvent: {}
+[10.439218] (-) TimerEvent: {}
+[10.539605] (-) TimerEvent: {}
+[10.640007] (-) TimerEvent: {}
+[10.740439] (-) TimerEvent: {}
+[10.840831] (-) TimerEvent: {}
+[10.941209] (-) TimerEvent: {}
+[11.041604] (-) TimerEvent: {}
+[11.141993] (-) TimerEvent: {}
+[11.242373] (-) TimerEvent: {}
+[11.342753] (-) TimerEvent: {}
+[11.443130] (-) TimerEvent: {}
+[11.543514] (-) TimerEvent: {}
+[11.643897] (-) TimerEvent: {}
+[11.744260] (-) TimerEvent: {}
+[11.844636] (-) TimerEvent: {}
+[11.945008] (-) TimerEvent: {}
+[12.045393] (-) TimerEvent: {}
+[12.145786] (-) TimerEvent: {}
+[12.246172] (-) TimerEvent: {}
+[12.346549] (-) TimerEvent: {}
+[12.446937] (-) TimerEvent: {}
+[12.547320] (-) TimerEvent: {}
+[12.647707] (-) TimerEvent: {}
+[12.748111] (-) TimerEvent: {}
+[12.848500] (-) TimerEvent: {}
+[12.948887] (-) TimerEvent: {}
+[13.049277] (-) TimerEvent: {}
+[13.149663] (-) TimerEvent: {}
+[13.250040] (-) TimerEvent: {}
+[13.350427] (-) TimerEvent: {}
+[13.450802] (-) TimerEvent: {}
+[13.551184] (-) TimerEvent: {}
+[13.651560] (-) TimerEvent: {}
+[13.751946] (-) TimerEvent: {}
+[13.852348] (-) TimerEvent: {}
+[13.952727] (-) TimerEvent: {}
+[14.053113] (-) TimerEvent: {}
+[14.153486] (-) TimerEvent: {}
+[14.253860] (-) TimerEvent: {}
+[14.354243] (-) TimerEvent: {}
+[14.454627] (-) TimerEvent: {}
+[14.555009] (-) TimerEvent: {}
+[14.655398] (-) TimerEvent: {}
+[14.755784] (-) TimerEvent: {}
+[14.856162] (-) TimerEvent: {}
+[14.956638] (-) TimerEvent: {}
+[15.057034] (-) TimerEvent: {}
+[15.157429] (-) TimerEvent: {}
+[15.257828] (-) TimerEvent: {}
+[15.358222] (-) TimerEvent: {}
+[15.458623] (-) TimerEvent: {}
+[15.559030] (-) TimerEvent: {}
+[15.646681] (pid_lab) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable pid\x1b[0m\n'}
+[15.659166] (-) TimerEvent: {}
+[15.759538] (-) TimerEvent: {}
+[15.859946] (-) TimerEvent: {}
+[15.960334] (-) TimerEvent: {}
+[16.060735] (-) TimerEvent: {}
+[16.161128] (-) TimerEvent: {}
+[16.261541] (-) TimerEvent: {}
+[16.361948] (-) TimerEvent: {}
+[16.411757] (pid_lab) StdoutLine: {'line': b'[100%] Built target pid\n'}
+[16.441822] (pid_lab) CommandEnded: {'returncode': 0}
+[16.462072] (-) TimerEvent: {}
+[16.488630] (pid_lab) JobProgress: {'identifier': 'pid_lab', 'progress': 'install'}
+[16.505515] (pid_lab) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/rstole01/Documents/CSE-596/humble_ws/build/pid_lab'], 'cwd': '/home/rstole01/Documents/CSE-596/humble_ws/build/pid_lab', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'rstole01'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/rstole01'), ('OLDPWD', '/home/rstole01/Documents/CSE-596/humble_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '6302'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=59b32b0c441ec335d369dbdc65ad6373'), ('COLORTERM', 'truecolor'), ('LIBVIRT_DEFAULT_URI', 'qemu:///system'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'rstole01'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'rstole01'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/rstole01/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/rstole01-Lenovo-ideapad-FLEX-5-1570:@/tmp/.ICE-unix/6302,unix/rstole01-Lenovo-ideapad-FLEX-5-1570:/tmp/.ICE-unix/6302'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/f4199152_2de7_47e8_bef5_1b3f619e04ff'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.E0GHH2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.111'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/rstole01/Documents/CSE-596/humble_ws/build/pid_lab'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=59b32b0c441ec335d369dbdc65ad6373'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[16.519417] (pid_lab) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[16.519969] (pid_lab) StdoutLine: {'line': b'-- Installing: /home/rstole01/Documents/CSE-596/humble_ws/install/pid_lab/lib/pid_lab/pid\n'}
+[16.530692] (pid_lab) StdoutLine: {'line': b'-- Set runtime path of "/home/rstole01/Documents/CSE-596/humble_ws/install/pid_lab/lib/pid_lab/pid" to ""\n'}
+[16.531058] (pid_lab) StdoutLine: {'line': b'-- Up-to-date: /home/rstole01/Documents/CSE-596/humble_ws/install/pid_lab/share/ament_index/resource_index/package_run_dependencies/pid_lab\n'}
+[16.531291] (pid_lab) StdoutLine: {'line': b'-- Up-to-date: /home/rstole01/Documents/CSE-596/humble_ws/install/pid_lab/share/ament_index/resource_index/parent_prefix_path/pid_lab\n'}
+[16.531462] (pid_lab) StdoutLine: {'line': b'-- Up-to-date: /home/rstole01/Documents/CSE-596/humble_ws/install/pid_lab/share/pid_lab/environment/ament_prefix_path.sh\n'}
+[16.531620] (pid_lab) StdoutLine: {'line': b'-- Up-to-date: /home/rstole01/Documents/CSE-596/humble_ws/install/pid_lab/share/pid_lab/environment/ament_prefix_path.dsv\n'}
+[16.531813] (pid_lab) StdoutLine: {'line': b'-- Up-to-date: /home/rstole01/Documents/CSE-596/humble_ws/install/pid_lab/share/pid_lab/environment/path.sh\n'}
+[16.531948] (pid_lab) StdoutLine: {'line': b'-- Up-to-date: /home/rstole01/Documents/CSE-596/humble_ws/install/pid_lab/share/pid_lab/environment/path.dsv\n'}
+[16.532191] (pid_lab) StdoutLine: {'line': b'-- Up-to-date: /home/rstole01/Documents/CSE-596/humble_ws/install/pid_lab/share/pid_lab/local_setup.bash\n'}
+[16.532323] (pid_lab) StdoutLine: {'line': b'-- Up-to-date: /home/rstole01/Documents/CSE-596/humble_ws/install/pid_lab/share/pid_lab/local_setup.sh\n'}
+[16.532451] (pid_lab) StdoutLine: {'line': b'-- Up-to-date: /home/rstole01/Documents/CSE-596/humble_ws/install/pid_lab/share/pid_lab/local_setup.zsh\n'}
+[16.532576] (pid_lab) StdoutLine: {'line': b'-- Up-to-date: /home/rstole01/Documents/CSE-596/humble_ws/install/pid_lab/share/pid_lab/local_setup.dsv\n'}
+[16.532825] (pid_lab) StdoutLine: {'line': b'-- Installing: /home/rstole01/Documents/CSE-596/humble_ws/install/pid_lab/share/pid_lab/package.dsv\n'}
+[16.532985] (pid_lab) StdoutLine: {'line': b'-- Up-to-date: /home/rstole01/Documents/CSE-596/humble_ws/install/pid_lab/share/ament_index/resource_index/packages/pid_lab\n'}
+[16.533111] (pid_lab) StdoutLine: {'line': b'-- Up-to-date: /home/rstole01/Documents/CSE-596/humble_ws/install/pid_lab/share/pid_lab/cmake/pid_labConfig.cmake\n'}
+[16.533237] (pid_lab) StdoutLine: {'line': b'-- Up-to-date: /home/rstole01/Documents/CSE-596/humble_ws/install/pid_lab/share/pid_lab/cmake/pid_labConfig-version.cmake\n'}
+[16.533362] (pid_lab) StdoutLine: {'line': b'-- Up-to-date: /home/rstole01/Documents/CSE-596/humble_ws/install/pid_lab/share/pid_lab/package.xml\n'}
+[16.536367] (pid_lab) CommandEnded: {'returncode': 0}
+[16.562229] (-) TimerEvent: {}
+[16.663360] (-) TimerEvent: {}
+[16.763973] (-) TimerEvent: {}
+[16.857213] (pid_lab) JobEnded: {'identifier': 'pid_lab', 'rc': 0}
+[16.858654] (-) EventReactorShutdown: {}

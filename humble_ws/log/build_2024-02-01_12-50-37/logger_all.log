@@ -1,0 +1,560 @@
+[1.803s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[1.804s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7ff8674e19f0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7ff8674a6c50>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7ff8674a6c50>>, mixin_verb=('build',))
+[1.922s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.922s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.922s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.922s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.923s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.923s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.923s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/rstole01/Documents/CSE-596/humble_ws'
+[1.923s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.923s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.923s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.923s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.923s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.924s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.924s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.924s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.924s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.946s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[1.946s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[1.947s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[1.947s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[1.947s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[1.947s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files) by extensions ['ignore', 'ignore_ament_install']
+[1.947s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files) by extension 'ignore'
+[1.947s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files) by extension 'ignore_ament_install'
+[1.947s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files) by extensions ['colcon_pkg']
+[1.947s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files) by extension 'colcon_pkg'
+[1.948s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files) by extensions ['colcon_meta']
+[1.948s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files) by extension 'colcon_meta'
+[1.948s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files) by extensions ['ros']
+[1.948s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files) by extension 'ros'
+[1.948s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files) by extensions ['cmake', 'python']
+[1.948s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files) by extension 'cmake'
+[1.948s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files) by extension 'python'
+[1.948s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files) by extensions ['python_setup_py']
+[1.948s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files) by extension 'python_setup_py'
+[1.949s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/rosbag2_2024_01_14-12_54_13) by extensions ['ignore', 'ignore_ament_install']
+[1.949s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/rosbag2_2024_01_14-12_54_13) by extension 'ignore'
+[1.949s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/rosbag2_2024_01_14-12_54_13) by extension 'ignore_ament_install'
+[1.949s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/rosbag2_2024_01_14-12_54_13) by extensions ['colcon_pkg']
+[1.949s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/rosbag2_2024_01_14-12_54_13) by extension 'colcon_pkg'
+[1.949s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/rosbag2_2024_01_14-12_54_13) by extensions ['colcon_meta']
+[1.949s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/rosbag2_2024_01_14-12_54_13) by extension 'colcon_meta'
+[1.949s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/rosbag2_2024_01_14-12_54_13) by extensions ['ros']
+[1.949s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/rosbag2_2024_01_14-12_54_13) by extension 'ros'
+[1.950s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/rosbag2_2024_01_14-12_54_13) by extensions ['cmake', 'python']
+[1.950s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/rosbag2_2024_01_14-12_54_13) by extension 'cmake'
+[1.950s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/rosbag2_2024_01_14-12_54_13) by extension 'python'
+[1.950s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/rosbag2_2024_01_14-12_54_13) by extensions ['python_setup_py']
+[1.950s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/rosbag2_2024_01_14-12_54_13) by extension 'python_setup_py'
+[1.950s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/subset) by extensions ['ignore', 'ignore_ament_install']
+[1.950s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/subset) by extension 'ignore'
+[1.950s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/subset) by extension 'ignore_ament_install'
+[1.951s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/subset) by extensions ['colcon_pkg']
+[1.951s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/subset) by extension 'colcon_pkg'
+[1.951s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/subset) by extensions ['colcon_meta']
+[1.951s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/subset) by extension 'colcon_meta'
+[1.951s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/subset) by extensions ['ros']
+[1.951s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/subset) by extension 'ros'
+[1.951s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/subset) by extensions ['cmake', 'python']
+[1.951s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/subset) by extension 'cmake'
+[1.951s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/subset) by extension 'python'
+[1.952s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/subset) by extensions ['python_setup_py']
+[1.952s] Level 1:colcon.colcon_core.package_identification:_identify(bag_files/subset) by extension 'python_setup_py'
+[1.952s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[1.952s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[1.952s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[1.952s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[1.953s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[1.953s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[1.953s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[1.953s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[1.953s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[1.954s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[1.954s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[1.954s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[1.954s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[1.954s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[1.954s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[1.954s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[1.954s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[1.954s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[1.955s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[1.955s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[1.955s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[1.955s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[1.955s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[1.955s] Level 1:colcon.colcon_core.package_identification:_identify(src/aeb_lab) by extensions ['ignore', 'ignore_ament_install']
+[1.955s] Level 1:colcon.colcon_core.package_identification:_identify(src/aeb_lab) by extension 'ignore'
+[1.955s] Level 1:colcon.colcon_core.package_identification:_identify(src/aeb_lab) by extension 'ignore_ament_install'
+[1.956s] Level 1:colcon.colcon_core.package_identification:_identify(src/aeb_lab) by extensions ['colcon_pkg']
+[1.956s] Level 1:colcon.colcon_core.package_identification:_identify(src/aeb_lab) by extension 'colcon_pkg'
+[1.956s] Level 1:colcon.colcon_core.package_identification:_identify(src/aeb_lab) by extensions ['colcon_meta']
+[1.956s] Level 1:colcon.colcon_core.package_identification:_identify(src/aeb_lab) by extension 'colcon_meta'
+[1.956s] Level 1:colcon.colcon_core.package_identification:_identify(src/aeb_lab) by extensions ['ros']
+[1.956s] Level 1:colcon.colcon_core.package_identification:_identify(src/aeb_lab) by extension 'ros'
+[1.961s] DEBUG:colcon.colcon_core.package_identification:Package 'src/aeb_lab' with type 'ros.ament_cmake' and name 'aeb_lab'
+[1.961s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_pubsub) by extensions ['ignore', 'ignore_ament_install']
+[1.961s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_pubsub) by extension 'ignore'
+[1.962s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_pubsub) by extension 'ignore_ament_install'
+[1.962s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_pubsub) by extensions ['colcon_pkg']
+[1.962s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_pubsub) by extension 'colcon_pkg'
+[1.962s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_pubsub) by extensions ['colcon_meta']
+[1.962s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_pubsub) by extension 'colcon_meta'
+[1.962s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_pubsub) by extensions ['ros']
+[1.962s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_pubsub) by extension 'ros'
+[1.963s] DEBUG:colcon.colcon_core.package_identification:Package 'src/cpp_pubsub' with type 'ros.ament_cmake' and name 'cpp_pubsub'
+[1.964s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1tenth_gym_ros) by extensions ['ignore', 'ignore_ament_install']
+[1.964s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1tenth_gym_ros) by extension 'ignore'
+[1.964s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1tenth_gym_ros) by extension 'ignore_ament_install'
+[1.964s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1tenth_gym_ros) by extensions ['colcon_pkg']
+[1.964s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1tenth_gym_ros) by extension 'colcon_pkg'
+[1.964s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1tenth_gym_ros) by extensions ['colcon_meta']
+[1.964s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1tenth_gym_ros) by extension 'colcon_meta'
+[1.964s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1tenth_gym_ros) by extensions ['ros']
+[1.965s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1tenth_gym_ros) by extension 'ros'
+[1.966s] DEBUG:colcon.colcon_core.package_identification:Package 'src/f1tenth_gym_ros' with type 'ros.ament_python' and name 'f1tenth_gym_ros'
+[1.967s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab1_package) by extensions ['ignore', 'ignore_ament_install']
+[1.967s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab1_package) by extension 'ignore'
+[1.967s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab1_package) by extension 'ignore_ament_install'
+[1.967s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab1_package) by extensions ['colcon_pkg']
+[1.967s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab1_package) by extension 'colcon_pkg'
+[1.967s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab1_package) by extensions ['colcon_meta']
+[1.967s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab1_package) by extension 'colcon_meta'
+[1.967s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab1_package) by extensions ['ros']
+[1.967s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab1_package) by extension 'ros'
+[1.968s] DEBUG:colcon.colcon_core.package_identification:Package 'src/lab1_package' with type 'ros.ament_cmake' and name 'lab1_package'
+[1.968s] Level 1:colcon.colcon_core.package_identification:_identify(src/pid_lab) by extensions ['ignore', 'ignore_ament_install']
+[1.969s] Level 1:colcon.colcon_core.package_identification:_identify(src/pid_lab) by extension 'ignore'
+[1.969s] Level 1:colcon.colcon_core.package_identification:_identify(src/pid_lab) by extension 'ignore_ament_install'
+[1.969s] Level 1:colcon.colcon_core.package_identification:_identify(src/pid_lab) by extensions ['colcon_pkg']
+[1.969s] Level 1:colcon.colcon_core.package_identification:_identify(src/pid_lab) by extension 'colcon_pkg'
+[1.969s] Level 1:colcon.colcon_core.package_identification:_identify(src/pid_lab) by extensions ['colcon_meta']
+[1.969s] Level 1:colcon.colcon_core.package_identification:_identify(src/pid_lab) by extension 'colcon_meta'
+[1.969s] Level 1:colcon.colcon_core.package_identification:_identify(src/pid_lab) by extensions ['ros']
+[1.969s] Level 1:colcon.colcon_core.package_identification:_identify(src/pid_lab) by extension 'ros'
+[1.971s] DEBUG:colcon.colcon_core.package_identification:Package 'src/pid_lab' with type 'ros.ament_cmake' and name 'pid_lab'
+[1.971s] Level 1:colcon.colcon_core.package_identification:_identify(src/scan_pubsub) by extensions ['ignore', 'ignore_ament_install']
+[1.971s] Level 1:colcon.colcon_core.package_identification:_identify(src/scan_pubsub) by extension 'ignore'
+[1.971s] Level 1:colcon.colcon_core.package_identification:_identify(src/scan_pubsub) by extension 'ignore_ament_install'
+[1.972s] Level 1:colcon.colcon_core.package_identification:_identify(src/scan_pubsub) by extensions ['colcon_pkg']
+[1.972s] Level 1:colcon.colcon_core.package_identification:_identify(src/scan_pubsub) by extension 'colcon_pkg'
+[1.972s] Level 1:colcon.colcon_core.package_identification:_identify(src/scan_pubsub) by extensions ['colcon_meta']
+[1.972s] Level 1:colcon.colcon_core.package_identification:_identify(src/scan_pubsub) by extension 'colcon_meta'
+[1.972s] Level 1:colcon.colcon_core.package_identification:_identify(src/scan_pubsub) by extensions ['ros']
+[1.972s] Level 1:colcon.colcon_core.package_identification:_identify(src/scan_pubsub) by extension 'ros'
+[1.974s] DEBUG:colcon.colcon_core.package_identification:Package 'src/scan_pubsub' with type 'ros.ament_cmake' and name 'scan_pubsub'
+[1.974s] Level 1:colcon.colcon_core.package_identification:_identify(src/tutorial_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[1.974s] Level 1:colcon.colcon_core.package_identification:_identify(src/tutorial_interfaces) by extension 'ignore'
+[1.974s] Level 1:colcon.colcon_core.package_identification:_identify(src/tutorial_interfaces) by extension 'ignore_ament_install'
+[1.975s] Level 1:colcon.colcon_core.package_identification:_identify(src/tutorial_interfaces) by extensions ['colcon_pkg']
+[1.975s] Level 1:colcon.colcon_core.package_identification:_identify(src/tutorial_interfaces) by extension 'colcon_pkg'
+[1.975s] Level 1:colcon.colcon_core.package_identification:_identify(src/tutorial_interfaces) by extensions ['colcon_meta']
+[1.975s] Level 1:colcon.colcon_core.package_identification:_identify(src/tutorial_interfaces) by extension 'colcon_meta'
+[1.975s] Level 1:colcon.colcon_core.package_identification:_identify(src/tutorial_interfaces) by extensions ['ros']
+[1.975s] Level 1:colcon.colcon_core.package_identification:_identify(src/tutorial_interfaces) by extension 'ros'
+[1.976s] DEBUG:colcon.colcon_core.package_identification:Package 'src/tutorial_interfaces' with type 'ros.ament_cmake' and name 'tutorial_interfaces'
+[1.976s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.976s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.976s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.976s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.976s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[2.207s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[2.207s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[2.284s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 334 installed packages in /opt/ros/humble
+[2.287s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[2.512s] Level 5:colcon.colcon_core.verb:set package 'aeb_lab' build argument 'cmake_args' from command line to 'None'
+[2.513s] Level 5:colcon.colcon_core.verb:set package 'aeb_lab' build argument 'cmake_target' from command line to 'None'
+[2.513s] Level 5:colcon.colcon_core.verb:set package 'aeb_lab' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.513s] Level 5:colcon.colcon_core.verb:set package 'aeb_lab' build argument 'cmake_clean_cache' from command line to 'False'
+[2.513s] Level 5:colcon.colcon_core.verb:set package 'aeb_lab' build argument 'cmake_clean_first' from command line to 'False'
+[2.513s] Level 5:colcon.colcon_core.verb:set package 'aeb_lab' build argument 'cmake_force_configure' from command line to 'False'
+[2.513s] Level 5:colcon.colcon_core.verb:set package 'aeb_lab' build argument 'ament_cmake_args' from command line to 'None'
+[2.513s] Level 5:colcon.colcon_core.verb:set package 'aeb_lab' build argument 'catkin_cmake_args' from command line to 'None'
+[2.513s] Level 5:colcon.colcon_core.verb:set package 'aeb_lab' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.513s] DEBUG:colcon.colcon_core.verb:Building package 'aeb_lab' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/rstole01/Documents/CSE-596/humble_ws/build/aeb_lab', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/rstole01/Documents/CSE-596/humble_ws/install/aeb_lab', 'merge_install': False, 'path': '/home/rstole01/Documents/CSE-596/humble_ws/src/aeb_lab', 'symlink_install': False, 'test_result_base': None}
+[2.552s] Level 5:colcon.colcon_core.verb:set package 'f1tenth_gym_ros' build argument 'cmake_args' from command line to 'None'
+[2.552s] Level 5:colcon.colcon_core.verb:set package 'f1tenth_gym_ros' build argument 'cmake_target' from command line to 'None'
+[2.552s] Level 5:colcon.colcon_core.verb:set package 'f1tenth_gym_ros' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.552s] Level 5:colcon.colcon_core.verb:set package 'f1tenth_gym_ros' build argument 'cmake_clean_cache' from command line to 'False'
+[2.552s] Level 5:colcon.colcon_core.verb:set package 'f1tenth_gym_ros' build argument 'cmake_clean_first' from command line to 'False'
+[2.552s] Level 5:colcon.colcon_core.verb:set package 'f1tenth_gym_ros' build argument 'cmake_force_configure' from command line to 'False'
+[2.552s] Level 5:colcon.colcon_core.verb:set package 'f1tenth_gym_ros' build argument 'ament_cmake_args' from command line to 'None'
+[2.552s] Level 5:colcon.colcon_core.verb:set package 'f1tenth_gym_ros' build argument 'catkin_cmake_args' from command line to 'None'
+[2.552s] Level 5:colcon.colcon_core.verb:set package 'f1tenth_gym_ros' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.552s] DEBUG:colcon.colcon_core.verb:Building package 'f1tenth_gym_ros' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/rstole01/Documents/CSE-596/humble_ws/build/f1tenth_gym_ros', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/rstole01/Documents/CSE-596/humble_ws/install/f1tenth_gym_ros', 'merge_install': False, 'path': '/home/rstole01/Documents/CSE-596/humble_ws/src/f1tenth_gym_ros', 'symlink_install': False, 'test_result_base': None}
+[2.590s] Level 5:colcon.colcon_core.verb:set package 'lab1_package' build argument 'cmake_args' from command line to 'None'
+[2.590s] Level 5:colcon.colcon_core.verb:set package 'lab1_package' build argument 'cmake_target' from command line to 'None'
+[2.590s] Level 5:colcon.colcon_core.verb:set package 'lab1_package' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.591s] Level 5:colcon.colcon_core.verb:set package 'lab1_package' build argument 'cmake_clean_cache' from command line to 'False'
+[2.591s] Level 5:colcon.colcon_core.verb:set package 'lab1_package' build argument 'cmake_clean_first' from command line to 'False'
+[2.591s] Level 5:colcon.colcon_core.verb:set package 'lab1_package' build argument 'cmake_force_configure' from command line to 'False'
+[2.591s] Level 5:colcon.colcon_core.verb:set package 'lab1_package' build argument 'ament_cmake_args' from command line to 'None'
+[2.591s] Level 5:colcon.colcon_core.verb:set package 'lab1_package' build argument 'catkin_cmake_args' from command line to 'None'
+[2.591s] Level 5:colcon.colcon_core.verb:set package 'lab1_package' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.591s] DEBUG:colcon.colcon_core.verb:Building package 'lab1_package' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/rstole01/Documents/CSE-596/humble_ws/build/lab1_package', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/rstole01/Documents/CSE-596/humble_ws/install/lab1_package', 'merge_install': False, 'path': '/home/rstole01/Documents/CSE-596/humble_ws/src/lab1_package', 'symlink_install': False, 'test_result_base': None}
+[2.612s] Level 5:colcon.colcon_core.verb:set package 'pid_lab' build argument 'cmake_args' from command line to 'None'
+[2.612s] Level 5:colcon.colcon_core.verb:set package 'pid_lab' build argument 'cmake_target' from command line to 'None'
+[2.612s] Level 5:colcon.colcon_core.verb:set package 'pid_lab' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.612s] Level 5:colcon.colcon_core.verb:set package 'pid_lab' build argument 'cmake_clean_cache' from command line to 'False'
+[2.612s] Level 5:colcon.colcon_core.verb:set package 'pid_lab' build argument 'cmake_clean_first' from command line to 'False'
+[2.612s] Level 5:colcon.colcon_core.verb:set package 'pid_lab' build argument 'cmake_force_configure' from command line to 'False'
+[2.612s] Level 5:colcon.colcon_core.verb:set package 'pid_lab' build argument 'ament_cmake_args' from command line to 'None'
+[2.612s] Level 5:colcon.colcon_core.verb:set package 'pid_lab' build argument 'catkin_cmake_args' from command line to 'None'
+[2.612s] Level 5:colcon.colcon_core.verb:set package 'pid_lab' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.612s] DEBUG:colcon.colcon_core.verb:Building package 'pid_lab' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/rstole01/Documents/CSE-596/humble_ws/build/pid_lab', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/rstole01/Documents/CSE-596/humble_ws/install/pid_lab', 'merge_install': False, 'path': '/home/rstole01/Documents/CSE-596/humble_ws/src/pid_lab', 'symlink_install': False, 'test_result_base': None}
+[2.628s] Level 5:colcon.colcon_core.verb:set package 'tutorial_interfaces' build argument 'cmake_args' from command line to 'None'
+[2.628s] Level 5:colcon.colcon_core.verb:set package 'tutorial_interfaces' build argument 'cmake_target' from command line to 'None'
+[2.628s] Level 5:colcon.colcon_core.verb:set package 'tutorial_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.628s] Level 5:colcon.colcon_core.verb:set package 'tutorial_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[2.628s] Level 5:colcon.colcon_core.verb:set package 'tutorial_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[2.628s] Level 5:colcon.colcon_core.verb:set package 'tutorial_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[2.628s] Level 5:colcon.colcon_core.verb:set package 'tutorial_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[2.629s] Level 5:colcon.colcon_core.verb:set package 'tutorial_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[2.629s] Level 5:colcon.colcon_core.verb:set package 'tutorial_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.629s] DEBUG:colcon.colcon_core.verb:Building package 'tutorial_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/rstole01/Documents/CSE-596/humble_ws/build/tutorial_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/rstole01/Documents/CSE-596/humble_ws/install/tutorial_interfaces', 'merge_install': False, 'path': '/home/rstole01/Documents/CSE-596/humble_ws/src/tutorial_interfaces', 'symlink_install': False, 'test_result_base': None}
+[2.645s] Level 5:colcon.colcon_core.verb:set package 'cpp_pubsub' build argument 'cmake_args' from command line to 'None'
+[2.645s] Level 5:colcon.colcon_core.verb:set package 'cpp_pubsub' build argument 'cmake_target' from command line to 'None'
+[2.645s] Level 5:colcon.colcon_core.verb:set package 'cpp_pubsub' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.645s] Level 5:colcon.colcon_core.verb:set package 'cpp_pubsub' build argument 'cmake_clean_cache' from command line to 'False'
+[2.645s] Level 5:colcon.colcon_core.verb:set package 'cpp_pubsub' build argument 'cmake_clean_first' from command line to 'False'
+[2.645s] Level 5:colcon.colcon_core.verb:set package 'cpp_pubsub' build argument 'cmake_force_configure' from command line to 'False'
+[2.645s] Level 5:colcon.colcon_core.verb:set package 'cpp_pubsub' build argument 'ament_cmake_args' from command line to 'None'
+[2.645s] Level 5:colcon.colcon_core.verb:set package 'cpp_pubsub' build argument 'catkin_cmake_args' from command line to 'None'
+[2.645s] Level 5:colcon.colcon_core.verb:set package 'cpp_pubsub' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.645s] DEBUG:colcon.colcon_core.verb:Building package 'cpp_pubsub' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/rstole01/Documents/CSE-596/humble_ws/build/cpp_pubsub', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/rstole01/Documents/CSE-596/humble_ws/install/cpp_pubsub', 'merge_install': False, 'path': '/home/rstole01/Documents/CSE-596/humble_ws/src/cpp_pubsub', 'symlink_install': False, 'test_result_base': None}
+[2.662s] Level 5:colcon.colcon_core.verb:set package 'scan_pubsub' build argument 'cmake_args' from command line to 'None'
+[2.662s] Level 5:colcon.colcon_core.verb:set package 'scan_pubsub' build argument 'cmake_target' from command line to 'None'
+[2.662s] Level 5:colcon.colcon_core.verb:set package 'scan_pubsub' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.662s] Level 5:colcon.colcon_core.verb:set package 'scan_pubsub' build argument 'cmake_clean_cache' from command line to 'False'
+[2.662s] Level 5:colcon.colcon_core.verb:set package 'scan_pubsub' build argument 'cmake_clean_first' from command line to 'False'
+[2.662s] Level 5:colcon.colcon_core.verb:set package 'scan_pubsub' build argument 'cmake_force_configure' from command line to 'False'
+[2.662s] Level 5:colcon.colcon_core.verb:set package 'scan_pubsub' build argument 'ament_cmake_args' from command line to 'None'
+[2.662s] Level 5:colcon.colcon_core.verb:set package 'scan_pubsub' build argument 'catkin_cmake_args' from command line to 'None'
+[2.662s] Level 5:colcon.colcon_core.verb:set package 'scan_pubsub' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.662s] DEBUG:colcon.colcon_core.verb:Building package 'scan_pubsub' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/rstole01/Documents/CSE-596/humble_ws/build/scan_pubsub', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/rstole01/Documents/CSE-596/humble_ws/install/scan_pubsub', 'merge_install': False, 'path': '/home/rstole01/Documents/CSE-596/humble_ws/src/scan_pubsub', 'symlink_install': False, 'test_result_base': None}
+[2.678s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[2.695s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[2.695s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/rstole01/Documents/CSE-596/humble_ws/src/tutorial_interfaces' with build type 'ament_cmake'
+[2.695s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/rstole01/Documents/CSE-596/humble_ws/src/tutorial_interfaces'
+[2.715s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[2.715s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.715s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.754s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/rstole01/Documents/CSE-596/humble_ws/src/aeb_lab' with build type 'ament_cmake'
+[2.755s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/rstole01/Documents/CSE-596/humble_ws/src/aeb_lab'
+[2.774s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.774s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.813s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/rstole01/Documents/CSE-596/humble_ws/src/f1tenth_gym_ros' with build type 'ament_python'
+[2.813s] Level 1:colcon.colcon_core.shell:create_environment_hook('f1tenth_gym_ros', 'ament_prefix_path')
+[2.832s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rstole01/Documents/CSE-596/humble_ws/install/f1tenth_gym_ros/share/f1tenth_gym_ros/hook/ament_prefix_path.ps1'
+[2.833s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rstole01/Documents/CSE-596/humble_ws/install/f1tenth_gym_ros/share/f1tenth_gym_ros/hook/ament_prefix_path.dsv'
+[2.833s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rstole01/Documents/CSE-596/humble_ws/install/f1tenth_gym_ros/share/f1tenth_gym_ros/hook/ament_prefix_path.sh'
+[2.853s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.853s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.889s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/rstole01/Documents/CSE-596/humble_ws/src/lab1_package' with build type 'ament_cmake'
+[2.889s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/rstole01/Documents/CSE-596/humble_ws/src/lab1_package'
+[2.908s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.908s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.947s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/rstole01/Documents/CSE-596/humble_ws/src/pid_lab' with build type 'ament_cmake'
+[2.947s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/rstole01/Documents/CSE-596/humble_ws/src/pid_lab'
+[2.967s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.967s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.014s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rstole01/Documents/CSE-596/humble_ws/build/tutorial_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/rstole01/Documents/CSE-596/humble_ws/build/tutorial_interfaces -- -j8 -l8
+[3.017s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rstole01/Documents/CSE-596/humble_ws/build/aeb_lab': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/rstole01/Documents/CSE-596/humble_ws/build/aeb_lab -- -j8 -l8
+[3.398s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/rstole01/Documents/CSE-596/humble_ws/src/f1tenth_gym_ros'
+[3.418s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.418s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.487s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rstole01/Documents/CSE-596/humble_ws/build/lab1_package': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/rstole01/Documents/CSE-596/humble_ws/build/lab1_package -- -j8 -l8
+[3.506s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rstole01/Documents/CSE-596/humble_ws/build/pid_lab': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/rstole01/Documents/CSE-596/humble_ws/build/pid_lab -- -j8 -l8
+[3.507s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rstole01/Documents/CSE-596/humble_ws/build/aeb_lab' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/rstole01/Documents/CSE-596/humble_ws/build/aeb_lab -- -j8 -l8
+[3.553s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rstole01/Documents/CSE-596/humble_ws/build/aeb_lab': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/rstole01/Documents/CSE-596/humble_ws/build/aeb_lab
+[3.555s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rstole01/Documents/CSE-596/humble_ws/build/tutorial_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/rstole01/Documents/CSE-596/humble_ws/build/tutorial_interfaces -- -j8 -l8
+[3.571s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(aeb_lab)
+[3.572s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rstole01/Documents/CSE-596/humble_ws/build/aeb_lab' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/rstole01/Documents/CSE-596/humble_ws/build/aeb_lab
+[3.610s] Level 1:colcon.colcon_core.environment:checking '/home/rstole01/Documents/CSE-596/humble_ws/install/aeb_lab' for CMake module files
+[3.611s] Level 1:colcon.colcon_core.environment:checking '/home/rstole01/Documents/CSE-596/humble_ws/install/aeb_lab' for CMake config files
+[3.611s] Level 1:colcon.colcon_core.shell:create_environment_hook('aeb_lab', 'cmake_prefix_path')
+[3.636s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rstole01/Documents/CSE-596/humble_ws/install/aeb_lab/share/aeb_lab/hook/cmake_prefix_path.ps1'
+[3.637s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rstole01/Documents/CSE-596/humble_ws/install/aeb_lab/share/aeb_lab/hook/cmake_prefix_path.dsv'
+[3.637s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rstole01/Documents/CSE-596/humble_ws/install/aeb_lab/share/aeb_lab/hook/cmake_prefix_path.sh'
+[3.638s] Level 1:colcon.colcon_core.environment:checking '/home/rstole01/Documents/CSE-596/humble_ws/install/aeb_lab/lib'
+[3.638s] Level 1:colcon.colcon_core.environment:checking '/home/rstole01/Documents/CSE-596/humble_ws/install/aeb_lab/bin'
+[3.638s] Level 1:colcon.colcon_core.environment:checking '/home/rstole01/Documents/CSE-596/humble_ws/install/aeb_lab/lib/pkgconfig/aeb_lab.pc'
+[3.638s] Level 1:colcon.colcon_core.environment:checking '/home/rstole01/Documents/CSE-596/humble_ws/install/aeb_lab/lib/python3.10/site-packages'
+[3.639s] Level 1:colcon.colcon_core.environment:checking '/home/rstole01/Documents/CSE-596/humble_ws/install/aeb_lab/bin'
+[3.666s] INFO:colcon.colcon_core.shell:Creating package script '/home/rstole01/Documents/CSE-596/humble_ws/install/aeb_lab/share/aeb_lab/package.ps1'
+[3.667s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rstole01/Documents/CSE-596/humble_ws/install/aeb_lab/share/aeb_lab/package.dsv'
+[3.668s] INFO:colcon.colcon_core.shell:Creating package script '/home/rstole01/Documents/CSE-596/humble_ws/install/aeb_lab/share/aeb_lab/package.sh'
+[3.669s] INFO:colcon.colcon_core.shell:Creating package script '/home/rstole01/Documents/CSE-596/humble_ws/install/aeb_lab/share/aeb_lab/package.bash'
+[3.670s] INFO:colcon.colcon_core.shell:Creating package script '/home/rstole01/Documents/CSE-596/humble_ws/install/aeb_lab/share/aeb_lab/package.zsh'
+[3.671s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rstole01/Documents/CSE-596/humble_ws/install/aeb_lab/share/colcon-core/packages/aeb_lab)
+[3.674s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rstole01/Documents/CSE-596/humble_ws/build/lab1_package' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/rstole01/Documents/CSE-596/humble_ws/build/lab1_package -- -j8 -l8
+[3.676s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rstole01/Documents/CSE-596/humble_ws/build/pid_lab' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/rstole01/Documents/CSE-596/humble_ws/build/pid_lab -- -j8 -l8
+[3.756s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(aeb_lab)
+[3.779s] Level 1:colcon.colcon_core.environment:checking '/home/rstole01/Documents/CSE-596/humble_ws/install/aeb_lab' for CMake module files
+[3.780s] Level 1:colcon.colcon_core.environment:checking '/home/rstole01/Documents/CSE-596/humble_ws/install/aeb_lab' for CMake config files
+[3.780s] Level 1:colcon.colcon_core.shell:create_environment_hook('aeb_lab', 'cmake_prefix_path')
+[3.806s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rstole01/Documents/CSE-596/humble_ws/install/aeb_lab/share/aeb_lab/hook/cmake_prefix_path.ps1'
+[3.806s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rstole01/Documents/CSE-596/humble_ws/install/aeb_lab/share/aeb_lab/hook/cmake_prefix_path.dsv'
+[3.807s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rstole01/Documents/CSE-596/humble_ws/install/aeb_lab/share/aeb_lab/hook/cmake_prefix_path.sh'
+[3.807s] Level 1:colcon.colcon_core.environment:checking '/home/rstole01/Documents/CSE-596/humble_ws/install/aeb_lab/lib'
+[3.808s] Level 1:colcon.colcon_core.environment:checking '/home/rstole01/Documents/CSE-596/humble_ws/install/aeb_lab/bin'
+[3.808s] Level 1:colcon.colcon_core.environment:checking '/home/rstole01/Documents/CSE-596/humble_ws/install/aeb_lab/lib/pkgconfig/aeb_lab.pc'
+[3.808s] Level 1:colcon.colcon_core.environment:checking '/home/rstole01/Documents/CSE-596/humble_ws/install/aeb_lab/lib/python3.10/site-packages'
+[3.808s] Level 1:colcon.colcon_core.environment:checking '/home/rstole01/Documents/CSE-596/humble_ws/install/aeb_lab/bin'
+[3.833s] INFO:colcon.colcon_core.shell:Creating package script '/home/rstole01/Documents/CSE-596/humble_ws/install/aeb_lab/share/aeb_lab/package.ps1'
+[3.833s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rstole01/Documents/CSE-596/humble_ws/install/aeb_lab/share/aeb_lab/package.dsv'
+[3.834s] INFO:colcon.colcon_core.shell:Creating package script '/home/rstole01/Documents/CSE-596/humble_ws/install/aeb_lab/share/aeb_lab/package.sh'
+[3.835s] INFO:colcon.colcon_core.shell:Creating package script '/home/rstole01/Documents/CSE-596/humble_ws/install/aeb_lab/share/aeb_lab/package.bash'
+[3.835s] INFO:colcon.colcon_core.shell:Creating package script '/home/rstole01/Documents/CSE-596/humble_ws/install/aeb_lab/share/aeb_lab/package.zsh'
+[3.836s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rstole01/Documents/CSE-596/humble_ws/install/aeb_lab/share/colcon-core/packages/aeb_lab)
+[3.840s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rstole01/Documents/CSE-596/humble_ws/build/tutorial_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/rstole01/Documents/CSE-596/humble_ws/build/tutorial_interfaces
+[3.842s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rstole01/Documents/CSE-596/humble_ws/build/pid_lab': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/rstole01/Documents/CSE-596/humble_ws/build/pid_lab
+[3.845s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rstole01/Documents/CSE-596/humble_ws/build/lab1_package': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/rstole01/Documents/CSE-596/humble_ws/build/lab1_package
+[3.862s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(pid_lab)
+[3.904s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rstole01/Documents/CSE-596/humble_ws/build/pid_lab' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/rstole01/Documents/CSE-596/humble_ws/build/pid_lab
+[3.934s] Level 1:colcon.colcon_core.environment:checking '/home/rstole01/Documents/CSE-596/humble_ws/install/pid_lab' for CMake module files
+[3.937s] Level 1:colcon.colcon_core.environment:checking '/home/rstole01/Documents/CSE-596/humble_ws/install/pid_lab' for CMake config files
+[3.938s] Level 1:colcon.colcon_core.shell:create_environment_hook('pid_lab', 'cmake_prefix_path')
+[3.970s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rstole01/Documents/CSE-596/humble_ws/install/pid_lab/share/pid_lab/hook/cmake_prefix_path.ps1'
+[3.970s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rstole01/Documents/CSE-596/humble_ws/install/pid_lab/share/pid_lab/hook/cmake_prefix_path.dsv'
+[3.971s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rstole01/Documents/CSE-596/humble_ws/install/pid_lab/share/pid_lab/hook/cmake_prefix_path.sh'
+[3.972s] Level 1:colcon.colcon_core.environment:checking '/home/rstole01/Documents/CSE-596/humble_ws/install/pid_lab/lib'
+[3.972s] Level 1:colcon.colcon_core.environment:checking '/home/rstole01/Documents/CSE-596/humble_ws/install/pid_lab/bin'
+[3.972s] Level 1:colcon.colcon_core.environment:checking '/home/rstole01/Documents/CSE-596/humble_ws/install/pid_lab/lib/pkgconfig/pid_lab.pc'
+[3.972s] Level 1:colcon.colcon_core.environment:checking '/home/rstole01/Documents/CSE-596/humble_ws/install/pid_lab/lib/python3.10/site-packages'
+[3.973s] Level 1:colcon.colcon_core.environment:checking '/home/rstole01/Documents/CSE-596/humble_ws/install/pid_lab/bin'
+[3.994s] INFO:colcon.colcon_core.shell:Creating package script '/home/rstole01/Documents/CSE-596/humble_ws/install/pid_lab/share/pid_lab/package.ps1'
+[3.995s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rstole01/Documents/CSE-596/humble_ws/install/pid_lab/share/pid_lab/package.dsv'
+[3.995s] INFO:colcon.colcon_core.shell:Creating package script '/home/rstole01/Documents/CSE-596/humble_ws/install/pid_lab/share/pid_lab/package.sh'
+[3.996s] INFO:colcon.colcon_core.shell:Creating package script '/home/rstole01/Documents/CSE-596/humble_ws/install/pid_lab/share/pid_lab/package.bash'
+[3.996s] INFO:colcon.colcon_core.shell:Creating package script '/home/rstole01/Documents/CSE-596/humble_ws/install/pid_lab/share/pid_lab/package.zsh'
+[3.996s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rstole01/Documents/CSE-596/humble_ws/install/pid_lab/share/colcon-core/packages/pid_lab)
+[3.998s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(lab1_package)
+[3.999s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rstole01/Documents/CSE-596/humble_ws/build/lab1_package' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/rstole01/Documents/CSE-596/humble_ws/build/lab1_package
+[4.029s] Level 1:colcon.colcon_core.environment:checking '/home/rstole01/Documents/CSE-596/humble_ws/install/lab1_package' for CMake module files
+[4.030s] Level 1:colcon.colcon_core.environment:checking '/home/rstole01/Documents/CSE-596/humble_ws/install/lab1_package' for CMake config files
+[4.030s] Level 1:colcon.colcon_core.shell:create_environment_hook('lab1_package', 'cmake_prefix_path')
+[4.050s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rstole01/Documents/CSE-596/humble_ws/install/lab1_package/share/lab1_package/hook/cmake_prefix_path.ps1'
+[4.051s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rstole01/Documents/CSE-596/humble_ws/install/lab1_package/share/lab1_package/hook/cmake_prefix_path.dsv'
+[4.051s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rstole01/Documents/CSE-596/humble_ws/install/lab1_package/share/lab1_package/hook/cmake_prefix_path.sh'
+[4.052s] Level 1:colcon.colcon_core.environment:checking '/home/rstole01/Documents/CSE-596/humble_ws/install/lab1_package/lib'
+[4.052s] Level 1:colcon.colcon_core.environment:checking '/home/rstole01/Documents/CSE-596/humble_ws/install/lab1_package/bin'
+[4.052s] Level 1:colcon.colcon_core.environment:checking '/home/rstole01/Documents/CSE-596/humble_ws/install/lab1_package/lib/pkgconfig/lab1_package.pc'
+[4.052s] Level 1:colcon.colcon_core.environment:checking '/home/rstole01/Documents/CSE-596/humble_ws/install/lab1_package/lib/python3.10/site-packages'
+[4.052s] Level 1:colcon.colcon_core.environment:checking '/home/rstole01/Documents/CSE-596/humble_ws/install/lab1_package/bin'
+[4.074s] INFO:colcon.colcon_core.shell:Creating package script '/home/rstole01/Documents/CSE-596/humble_ws/install/lab1_package/share/lab1_package/package.ps1'
+[4.074s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rstole01/Documents/CSE-596/humble_ws/install/lab1_package/share/lab1_package/package.dsv'
+[4.075s] INFO:colcon.colcon_core.shell:Creating package script '/home/rstole01/Documents/CSE-596/humble_ws/install/lab1_package/share/lab1_package/package.sh'
+[4.075s] INFO:colcon.colcon_core.shell:Creating package script '/home/rstole01/Documents/CSE-596/humble_ws/install/lab1_package/share/lab1_package/package.bash'
+[4.075s] INFO:colcon.colcon_core.shell:Creating package script '/home/rstole01/Documents/CSE-596/humble_ws/install/lab1_package/share/lab1_package/package.zsh'
+[4.076s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rstole01/Documents/CSE-596/humble_ws/install/lab1_package/share/colcon-core/packages/lab1_package)
+[4.078s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(tutorial_interfaces)
+[4.078s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rstole01/Documents/CSE-596/humble_ws/build/tutorial_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/rstole01/Documents/CSE-596/humble_ws/build/tutorial_interfaces
+[4.099s] Level 1:colcon.colcon_core.environment:checking '/home/rstole01/Documents/CSE-596/humble_ws/install/tutorial_interfaces' for CMake module files
+[4.100s] Level 1:colcon.colcon_core.environment:checking '/home/rstole01/Documents/CSE-596/humble_ws/install/tutorial_interfaces' for CMake config files
+[4.100s] Level 1:colcon.colcon_core.shell:create_environment_hook('tutorial_interfaces', 'cmake_prefix_path')
+[4.119s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rstole01/Documents/CSE-596/humble_ws/install/tutorial_interfaces/share/tutorial_interfaces/hook/cmake_prefix_path.ps1'
+[4.120s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rstole01/Documents/CSE-596/humble_ws/install/tutorial_interfaces/share/tutorial_interfaces/hook/cmake_prefix_path.dsv'
+[4.120s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rstole01/Documents/CSE-596/humble_ws/install/tutorial_interfaces/share/tutorial_interfaces/hook/cmake_prefix_path.sh'
+[4.121s] Level 1:colcon.colcon_core.environment:checking '/home/rstole01/Documents/CSE-596/humble_ws/install/tutorial_interfaces/lib'
+[4.121s] Level 1:colcon.colcon_core.shell:create_environment_hook('tutorial_interfaces', 'ld_library_path_lib')
+[4.139s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rstole01/Documents/CSE-596/humble_ws/install/tutorial_interfaces/share/tutorial_interfaces/hook/ld_library_path_lib.ps1'
+[4.140s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rstole01/Documents/CSE-596/humble_ws/install/tutorial_interfaces/share/tutorial_interfaces/hook/ld_library_path_lib.dsv'
+[4.140s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rstole01/Documents/CSE-596/humble_ws/install/tutorial_interfaces/share/tutorial_interfaces/hook/ld_library_path_lib.sh'
+[4.141s] Level 1:colcon.colcon_core.environment:checking '/home/rstole01/Documents/CSE-596/humble_ws/install/tutorial_interfaces/bin'
+[4.141s] Level 1:colcon.colcon_core.environment:checking '/home/rstole01/Documents/CSE-596/humble_ws/install/tutorial_interfaces/lib/pkgconfig/tutorial_interfaces.pc'
+[4.141s] Level 1:colcon.colcon_core.environment:checking '/home/rstole01/Documents/CSE-596/humble_ws/install/tutorial_interfaces/lib/python3.10/site-packages'
+[4.141s] Level 1:colcon.colcon_core.environment:checking '/home/rstole01/Documents/CSE-596/humble_ws/install/tutorial_interfaces/bin'
+[4.175s] INFO:colcon.colcon_core.shell:Creating package script '/home/rstole01/Documents/CSE-596/humble_ws/install/tutorial_interfaces/share/tutorial_interfaces/package.ps1'
+[4.176s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rstole01/Documents/CSE-596/humble_ws/install/tutorial_interfaces/share/tutorial_interfaces/package.dsv'
+[4.177s] INFO:colcon.colcon_core.shell:Creating package script '/home/rstole01/Documents/CSE-596/humble_ws/install/tutorial_interfaces/share/tutorial_interfaces/package.sh'
+[4.178s] INFO:colcon.colcon_core.shell:Creating package script '/home/rstole01/Documents/CSE-596/humble_ws/install/tutorial_interfaces/share/tutorial_interfaces/package.bash'
+[4.178s] INFO:colcon.colcon_core.shell:Creating package script '/home/rstole01/Documents/CSE-596/humble_ws/install/tutorial_interfaces/share/tutorial_interfaces/package.zsh'
+[4.179s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rstole01/Documents/CSE-596/humble_ws/install/tutorial_interfaces/share/colcon-core/packages/tutorial_interfaces)
+[4.221s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(pid_lab)
+[4.258s] Level 1:colcon.colcon_core.environment:checking '/home/rstole01/Documents/CSE-596/humble_ws/install/pid_lab' for CMake module files
+[4.259s] Level 1:colcon.colcon_core.environment:checking '/home/rstole01/Documents/CSE-596/humble_ws/install/pid_lab' for CMake config files
+[4.260s] Level 1:colcon.colcon_core.shell:create_environment_hook('pid_lab', 'cmake_prefix_path')
+[4.297s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rstole01/Documents/CSE-596/humble_ws/install/pid_lab/share/pid_lab/hook/cmake_prefix_path.ps1'
+[4.298s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rstole01/Documents/CSE-596/humble_ws/install/pid_lab/share/pid_lab/hook/cmake_prefix_path.dsv'
+[4.299s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rstole01/Documents/CSE-596/humble_ws/install/pid_lab/share/pid_lab/hook/cmake_prefix_path.sh'
+[4.300s] Level 1:colcon.colcon_core.environment:checking '/home/rstole01/Documents/CSE-596/humble_ws/install/pid_lab/lib'
+[4.300s] Level 1:colcon.colcon_core.environment:checking '/home/rstole01/Documents/CSE-596/humble_ws/install/pid_lab/bin'
+[4.300s] Level 1:colcon.colcon_core.environment:checking '/home/rstole01/Documents/CSE-596/humble_ws/install/pid_lab/lib/pkgconfig/pid_lab.pc'
+[4.300s] Level 1:colcon.colcon_core.environment:checking '/home/rstole01/Documents/CSE-596/humble_ws/install/pid_lab/lib/python3.10/site-packages'
+[4.301s] Level 1:colcon.colcon_core.environment:checking '/home/rstole01/Documents/CSE-596/humble_ws/install/pid_lab/bin'
+[4.340s] INFO:colcon.colcon_core.shell:Creating package script '/home/rstole01/Documents/CSE-596/humble_ws/install/pid_lab/share/pid_lab/package.ps1'
+[4.341s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rstole01/Documents/CSE-596/humble_ws/install/pid_lab/share/pid_lab/package.dsv'
+[4.342s] INFO:colcon.colcon_core.shell:Creating package script '/home/rstole01/Documents/CSE-596/humble_ws/install/pid_lab/share/pid_lab/package.sh'
+[4.343s] INFO:colcon.colcon_core.shell:Creating package script '/home/rstole01/Documents/CSE-596/humble_ws/install/pid_lab/share/pid_lab/package.bash'
+[4.343s] INFO:colcon.colcon_core.shell:Creating package script '/home/rstole01/Documents/CSE-596/humble_ws/install/pid_lab/share/pid_lab/package.zsh'
+[4.344s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rstole01/Documents/CSE-596/humble_ws/install/pid_lab/share/colcon-core/packages/pid_lab)
+[4.351s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rstole01/Documents/CSE-596/humble_ws/src/f1tenth_gym_ros': PYTHONPATH=/home/rstole01/Documents/CSE-596/humble_ws/build/f1tenth_gym_ros/prefix_override:/home/rstole01/Documents/CSE-596/humble_ws/install/f1tenth_gym_ros/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/f1tenth_gym_ros build --build-base /home/rstole01/Documents/CSE-596/humble_ws/build/f1tenth_gym_ros/build install --record /home/rstole01/Documents/CSE-596/humble_ws/build/f1tenth_gym_ros/install.log --install-scripts $base/lib/f1tenth_gym_ros --single-version-externally-managed
+[4.390s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(lab1_package)
+[4.434s] Level 1:colcon.colcon_core.environment:checking '/home/rstole01/Documents/CSE-596/humble_ws/install/lab1_package' for CMake module files
+[4.435s] Level 1:colcon.colcon_core.environment:checking '/home/rstole01/Documents/CSE-596/humble_ws/install/lab1_package' for CMake config files
+[4.435s] Level 1:colcon.colcon_core.shell:create_environment_hook('lab1_package', 'cmake_prefix_path')
+[4.472s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rstole01/Documents/CSE-596/humble_ws/install/lab1_package/share/lab1_package/hook/cmake_prefix_path.ps1'
+[4.473s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rstole01/Documents/CSE-596/humble_ws/install/lab1_package/share/lab1_package/hook/cmake_prefix_path.dsv'
+[4.473s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rstole01/Documents/CSE-596/humble_ws/install/lab1_package/share/lab1_package/hook/cmake_prefix_path.sh'
+[4.474s] Level 1:colcon.colcon_core.environment:checking '/home/rstole01/Documents/CSE-596/humble_ws/install/lab1_package/lib'
+[4.474s] Level 1:colcon.colcon_core.environment:checking '/home/rstole01/Documents/CSE-596/humble_ws/install/lab1_package/bin'
+[4.475s] Level 1:colcon.colcon_core.environment:checking '/home/rstole01/Documents/CSE-596/humble_ws/install/lab1_package/lib/pkgconfig/lab1_package.pc'
+[4.475s] Level 1:colcon.colcon_core.environment:checking '/home/rstole01/Documents/CSE-596/humble_ws/install/lab1_package/lib/python3.10/site-packages'
+[4.475s] Level 1:colcon.colcon_core.environment:checking '/home/rstole01/Documents/CSE-596/humble_ws/install/lab1_package/bin'
+[4.514s] INFO:colcon.colcon_core.shell:Creating package script '/home/rstole01/Documents/CSE-596/humble_ws/install/lab1_package/share/lab1_package/package.ps1'
+[4.515s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rstole01/Documents/CSE-596/humble_ws/install/lab1_package/share/lab1_package/package.dsv'
+[4.516s] INFO:colcon.colcon_core.shell:Creating package script '/home/rstole01/Documents/CSE-596/humble_ws/install/lab1_package/share/lab1_package/package.sh'
+[4.517s] INFO:colcon.colcon_core.shell:Creating package script '/home/rstole01/Documents/CSE-596/humble_ws/install/lab1_package/share/lab1_package/package.bash'
+[4.518s] INFO:colcon.colcon_core.shell:Creating package script '/home/rstole01/Documents/CSE-596/humble_ws/install/lab1_package/share/lab1_package/package.zsh'
+[4.518s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rstole01/Documents/CSE-596/humble_ws/install/lab1_package/share/colcon-core/packages/lab1_package)
+[4.559s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(tutorial_interfaces)
+[4.596s] Level 1:colcon.colcon_core.environment:checking '/home/rstole01/Documents/CSE-596/humble_ws/install/tutorial_interfaces' for CMake module files
+[4.598s] Level 1:colcon.colcon_core.environment:checking '/home/rstole01/Documents/CSE-596/humble_ws/install/tutorial_interfaces' for CMake config files
+[4.599s] Level 1:colcon.colcon_core.shell:create_environment_hook('tutorial_interfaces', 'cmake_prefix_path')
+[4.639s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rstole01/Documents/CSE-596/humble_ws/install/tutorial_interfaces/share/tutorial_interfaces/hook/cmake_prefix_path.ps1'
+[4.640s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rstole01/Documents/CSE-596/humble_ws/install/tutorial_interfaces/share/tutorial_interfaces/hook/cmake_prefix_path.dsv'
+[4.640s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rstole01/Documents/CSE-596/humble_ws/install/tutorial_interfaces/share/tutorial_interfaces/hook/cmake_prefix_path.sh'
+[4.641s] Level 1:colcon.colcon_core.environment:checking '/home/rstole01/Documents/CSE-596/humble_ws/install/tutorial_interfaces/lib'
+[4.641s] Level 1:colcon.colcon_core.shell:create_environment_hook('tutorial_interfaces', 'ld_library_path_lib')
+[4.679s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rstole01/Documents/CSE-596/humble_ws/install/tutorial_interfaces/share/tutorial_interfaces/hook/ld_library_path_lib.ps1'
+[4.679s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rstole01/Documents/CSE-596/humble_ws/install/tutorial_interfaces/share/tutorial_interfaces/hook/ld_library_path_lib.dsv'
+[4.680s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rstole01/Documents/CSE-596/humble_ws/install/tutorial_interfaces/share/tutorial_interfaces/hook/ld_library_path_lib.sh'
+[4.681s] Level 1:colcon.colcon_core.environment:checking '/home/rstole01/Documents/CSE-596/humble_ws/install/tutorial_interfaces/bin'
+[4.681s] Level 1:colcon.colcon_core.environment:checking '/home/rstole01/Documents/CSE-596/humble_ws/install/tutorial_interfaces/lib/pkgconfig/tutorial_interfaces.pc'
+[4.681s] Level 1:colcon.colcon_core.environment:checking '/home/rstole01/Documents/CSE-596/humble_ws/install/tutorial_interfaces/lib/python3.10/site-packages'
+[4.682s] Level 1:colcon.colcon_core.environment:checking '/home/rstole01/Documents/CSE-596/humble_ws/install/tutorial_interfaces/bin'
+[4.718s] INFO:colcon.colcon_core.shell:Creating package script '/home/rstole01/Documents/CSE-596/humble_ws/install/tutorial_interfaces/share/tutorial_interfaces/package.ps1'
+[4.719s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rstole01/Documents/CSE-596/humble_ws/install/tutorial_interfaces/share/tutorial_interfaces/package.dsv'
+[4.720s] INFO:colcon.colcon_core.shell:Creating package script '/home/rstole01/Documents/CSE-596/humble_ws/install/tutorial_interfaces/share/tutorial_interfaces/package.sh'
+[4.721s] INFO:colcon.colcon_core.shell:Creating package script '/home/rstole01/Documents/CSE-596/humble_ws/install/tutorial_interfaces/share/tutorial_interfaces/package.bash'
+[4.722s] INFO:colcon.colcon_core.shell:Creating package script '/home/rstole01/Documents/CSE-596/humble_ws/install/tutorial_interfaces/share/tutorial_interfaces/package.zsh'
+[4.722s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rstole01/Documents/CSE-596/humble_ws/install/tutorial_interfaces/share/colcon-core/packages/tutorial_interfaces)
+[4.723s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/rstole01/Documents/CSE-596/humble_ws/src/cpp_pubsub' with build type 'ament_cmake'
+[4.723s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/rstole01/Documents/CSE-596/humble_ws/src/cpp_pubsub'
+[4.763s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.764s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.843s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/rstole01/Documents/CSE-596/humble_ws/src/scan_pubsub' with build type 'ament_cmake'
+[4.843s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/rstole01/Documents/CSE-596/humble_ws/src/scan_pubsub'
+[4.884s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.884s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.987s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rstole01/Documents/CSE-596/humble_ws/build/cpp_pubsub': AMENT_PREFIX_PATH=/home/rstole01/Documents/CSE-596/humble_ws/install/tutorial_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rstole01/Documents/CSE-596/humble_ws/install/tutorial_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/rstole01/Documents/CSE-596/humble_ws/install/tutorial_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rstole01/Documents/CSE-596/humble_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/rstole01/Documents/CSE-596/humble_ws/build/cpp_pubsub -- -j8 -l8
+[4.995s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rstole01/Documents/CSE-596/humble_ws/build/scan_pubsub': AMENT_PREFIX_PATH=/home/rstole01/Documents/CSE-596/humble_ws/install/tutorial_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rstole01/Documents/CSE-596/humble_ws/install/tutorial_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/rstole01/Documents/CSE-596/humble_ws/install/tutorial_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rstole01/Documents/CSE-596/humble_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/rstole01/Documents/CSE-596/humble_ws/build/scan_pubsub -- -j8 -l8
+[4.996s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rstole01/Documents/CSE-596/humble_ws/src/f1tenth_gym_ros' returned '0': PYTHONPATH=/home/rstole01/Documents/CSE-596/humble_ws/build/f1tenth_gym_ros/prefix_override:/home/rstole01/Documents/CSE-596/humble_ws/install/f1tenth_gym_ros/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/f1tenth_gym_ros build --build-base /home/rstole01/Documents/CSE-596/humble_ws/build/f1tenth_gym_ros/build install --record /home/rstole01/Documents/CSE-596/humble_ws/build/f1tenth_gym_ros/install.log --install-scripts $base/lib/f1tenth_gym_ros --single-version-externally-managed
+[5.036s] Level 1:colcon.colcon_core.environment:checking '/home/rstole01/Documents/CSE-596/humble_ws/install/f1tenth_gym_ros' for CMake module files
+[5.037s] Level 1:colcon.colcon_core.environment:checking '/home/rstole01/Documents/CSE-596/humble_ws/install/f1tenth_gym_ros' for CMake config files
+[5.039s] Level 1:colcon.colcon_core.environment:checking '/home/rstole01/Documents/CSE-596/humble_ws/install/f1tenth_gym_ros/lib'
+[5.039s] Level 1:colcon.colcon_core.environment:checking '/home/rstole01/Documents/CSE-596/humble_ws/install/f1tenth_gym_ros/bin'
+[5.039s] Level 1:colcon.colcon_core.environment:checking '/home/rstole01/Documents/CSE-596/humble_ws/install/f1tenth_gym_ros/lib/pkgconfig/f1tenth_gym_ros.pc'
+[5.039s] Level 1:colcon.colcon_core.environment:checking '/home/rstole01/Documents/CSE-596/humble_ws/install/f1tenth_gym_ros/lib/python3.10/site-packages'
+[5.039s] Level 1:colcon.colcon_core.shell:create_environment_hook('f1tenth_gym_ros', 'pythonpath')
+[5.078s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rstole01/Documents/CSE-596/humble_ws/install/f1tenth_gym_ros/share/f1tenth_gym_ros/hook/pythonpath.ps1'
+[5.079s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rstole01/Documents/CSE-596/humble_ws/install/f1tenth_gym_ros/share/f1tenth_gym_ros/hook/pythonpath.dsv'
+[5.080s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rstole01/Documents/CSE-596/humble_ws/install/f1tenth_gym_ros/share/f1tenth_gym_ros/hook/pythonpath.sh'
+[5.081s] Level 1:colcon.colcon_core.environment:checking '/home/rstole01/Documents/CSE-596/humble_ws/install/f1tenth_gym_ros/bin'
+[5.081s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(f1tenth_gym_ros)
+[5.127s] INFO:colcon.colcon_core.shell:Creating package script '/home/rstole01/Documents/CSE-596/humble_ws/install/f1tenth_gym_ros/share/f1tenth_gym_ros/package.ps1'
+[5.128s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rstole01/Documents/CSE-596/humble_ws/install/f1tenth_gym_ros/share/f1tenth_gym_ros/package.dsv'
+[5.128s] INFO:colcon.colcon_core.shell:Creating package script '/home/rstole01/Documents/CSE-596/humble_ws/install/f1tenth_gym_ros/share/f1tenth_gym_ros/package.sh'
+[5.129s] INFO:colcon.colcon_core.shell:Creating package script '/home/rstole01/Documents/CSE-596/humble_ws/install/f1tenth_gym_ros/share/f1tenth_gym_ros/package.bash'
+[5.130s] INFO:colcon.colcon_core.shell:Creating package script '/home/rstole01/Documents/CSE-596/humble_ws/install/f1tenth_gym_ros/share/f1tenth_gym_ros/package.zsh'
+[5.130s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rstole01/Documents/CSE-596/humble_ws/install/f1tenth_gym_ros/share/colcon-core/packages/f1tenth_gym_ros)
+[5.135s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rstole01/Documents/CSE-596/humble_ws/build/cpp_pubsub' returned '0': AMENT_PREFIX_PATH=/home/rstole01/Documents/CSE-596/humble_ws/install/tutorial_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rstole01/Documents/CSE-596/humble_ws/install/tutorial_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/rstole01/Documents/CSE-596/humble_ws/install/tutorial_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rstole01/Documents/CSE-596/humble_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/rstole01/Documents/CSE-596/humble_ws/build/cpp_pubsub -- -j8 -l8
+[5.136s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rstole01/Documents/CSE-596/humble_ws/build/scan_pubsub' returned '0': AMENT_PREFIX_PATH=/home/rstole01/Documents/CSE-596/humble_ws/install/tutorial_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rstole01/Documents/CSE-596/humble_ws/install/tutorial_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/rstole01/Documents/CSE-596/humble_ws/install/tutorial_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rstole01/Documents/CSE-596/humble_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/rstole01/Documents/CSE-596/humble_ws/build/scan_pubsub -- -j8 -l8
+[5.187s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rstole01/Documents/CSE-596/humble_ws/build/scan_pubsub': AMENT_PREFIX_PATH=/home/rstole01/Documents/CSE-596/humble_ws/install/tutorial_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rstole01/Documents/CSE-596/humble_ws/install/tutorial_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/rstole01/Documents/CSE-596/humble_ws/install/tutorial_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rstole01/Documents/CSE-596/humble_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/rstole01/Documents/CSE-596/humble_ws/build/scan_pubsub
+[5.192s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rstole01/Documents/CSE-596/humble_ws/build/cpp_pubsub': AMENT_PREFIX_PATH=/home/rstole01/Documents/CSE-596/humble_ws/install/tutorial_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rstole01/Documents/CSE-596/humble_ws/install/tutorial_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/rstole01/Documents/CSE-596/humble_ws/install/tutorial_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rstole01/Documents/CSE-596/humble_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/rstole01/Documents/CSE-596/humble_ws/build/cpp_pubsub
+[5.212s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(scan_pubsub)
+[5.220s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rstole01/Documents/CSE-596/humble_ws/build/scan_pubsub' returned '0': AMENT_PREFIX_PATH=/home/rstole01/Documents/CSE-596/humble_ws/install/tutorial_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rstole01/Documents/CSE-596/humble_ws/install/tutorial_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/rstole01/Documents/CSE-596/humble_ws/install/tutorial_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rstole01/Documents/CSE-596/humble_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/rstole01/Documents/CSE-596/humble_ws/build/scan_pubsub
+[5.257s] Level 1:colcon.colcon_core.environment:checking '/home/rstole01/Documents/CSE-596/humble_ws/install/scan_pubsub' for CMake module files
+[5.258s] Level 1:colcon.colcon_core.environment:checking '/home/rstole01/Documents/CSE-596/humble_ws/install/scan_pubsub' for CMake config files
+[5.258s] Level 1:colcon.colcon_core.shell:create_environment_hook('scan_pubsub', 'cmake_prefix_path')
+[5.295s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rstole01/Documents/CSE-596/humble_ws/install/scan_pubsub/share/scan_pubsub/hook/cmake_prefix_path.ps1'
+[5.296s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rstole01/Documents/CSE-596/humble_ws/install/scan_pubsub/share/scan_pubsub/hook/cmake_prefix_path.dsv'
+[5.296s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rstole01/Documents/CSE-596/humble_ws/install/scan_pubsub/share/scan_pubsub/hook/cmake_prefix_path.sh'
+[5.297s] Level 1:colcon.colcon_core.environment:checking '/home/rstole01/Documents/CSE-596/humble_ws/install/scan_pubsub/lib'
+[5.298s] Level 1:colcon.colcon_core.environment:checking '/home/rstole01/Documents/CSE-596/humble_ws/install/scan_pubsub/bin'
+[5.298s] Level 1:colcon.colcon_core.environment:checking '/home/rstole01/Documents/CSE-596/humble_ws/install/scan_pubsub/lib/pkgconfig/scan_pubsub.pc'
+[5.298s] Level 1:colcon.colcon_core.environment:checking '/home/rstole01/Documents/CSE-596/humble_ws/install/scan_pubsub/lib/python3.10/site-packages'
+[5.298s] Level 1:colcon.colcon_core.environment:checking '/home/rstole01/Documents/CSE-596/humble_ws/install/scan_pubsub/bin'
+[5.339s] INFO:colcon.colcon_core.shell:Creating package script '/home/rstole01/Documents/CSE-596/humble_ws/install/scan_pubsub/share/scan_pubsub/package.ps1'
+[5.340s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rstole01/Documents/CSE-596/humble_ws/install/scan_pubsub/share/scan_pubsub/package.dsv'
+[5.341s] INFO:colcon.colcon_core.shell:Creating package script '/home/rstole01/Documents/CSE-596/humble_ws/install/scan_pubsub/share/scan_pubsub/package.sh'
+[5.342s] INFO:colcon.colcon_core.shell:Creating package script '/home/rstole01/Documents/CSE-596/humble_ws/install/scan_pubsub/share/scan_pubsub/package.bash'
+[5.342s] INFO:colcon.colcon_core.shell:Creating package script '/home/rstole01/Documents/CSE-596/humble_ws/install/scan_pubsub/share/scan_pubsub/package.zsh'
+[5.343s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rstole01/Documents/CSE-596/humble_ws/install/scan_pubsub/share/colcon-core/packages/scan_pubsub)
+[5.346s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cpp_pubsub)
+[5.347s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rstole01/Documents/CSE-596/humble_ws/build/cpp_pubsub' returned '0': AMENT_PREFIX_PATH=/home/rstole01/Documents/CSE-596/humble_ws/install/tutorial_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rstole01/Documents/CSE-596/humble_ws/install/tutorial_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/rstole01/Documents/CSE-596/humble_ws/install/tutorial_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rstole01/Documents/CSE-596/humble_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/rstole01/Documents/CSE-596/humble_ws/build/cpp_pubsub
+[5.385s] Level 1:colcon.colcon_core.environment:checking '/home/rstole01/Documents/CSE-596/humble_ws/install/cpp_pubsub' for CMake module files
+[5.386s] Level 1:colcon.colcon_core.environment:checking '/home/rstole01/Documents/CSE-596/humble_ws/install/cpp_pubsub' for CMake config files
+[5.387s] Level 1:colcon.colcon_core.shell:create_environment_hook('cpp_pubsub', 'cmake_prefix_path')
+[5.425s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rstole01/Documents/CSE-596/humble_ws/install/cpp_pubsub/share/cpp_pubsub/hook/cmake_prefix_path.ps1'
+[5.426s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rstole01/Documents/CSE-596/humble_ws/install/cpp_pubsub/share/cpp_pubsub/hook/cmake_prefix_path.dsv'
+[5.426s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rstole01/Documents/CSE-596/humble_ws/install/cpp_pubsub/share/cpp_pubsub/hook/cmake_prefix_path.sh'
+[5.427s] Level 1:colcon.colcon_core.environment:checking '/home/rstole01/Documents/CSE-596/humble_ws/install/cpp_pubsub/lib'
+[5.427s] Level 1:colcon.colcon_core.environment:checking '/home/rstole01/Documents/CSE-596/humble_ws/install/cpp_pubsub/bin'
+[5.428s] Level 1:colcon.colcon_core.environment:checking '/home/rstole01/Documents/CSE-596/humble_ws/install/cpp_pubsub/lib/pkgconfig/cpp_pubsub.pc'
+[5.428s] Level 1:colcon.colcon_core.environment:checking '/home/rstole01/Documents/CSE-596/humble_ws/install/cpp_pubsub/lib/python3.10/site-packages'
+[5.428s] Level 1:colcon.colcon_core.environment:checking '/home/rstole01/Documents/CSE-596/humble_ws/install/cpp_pubsub/bin'
+[5.466s] INFO:colcon.colcon_core.shell:Creating package script '/home/rstole01/Documents/CSE-596/humble_ws/install/cpp_pubsub/share/cpp_pubsub/package.ps1'
+[5.467s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rstole01/Documents/CSE-596/humble_ws/install/cpp_pubsub/share/cpp_pubsub/package.dsv'
+[5.467s] INFO:colcon.colcon_core.shell:Creating package script '/home/rstole01/Documents/CSE-596/humble_ws/install/cpp_pubsub/share/cpp_pubsub/package.sh'
+[5.468s] INFO:colcon.colcon_core.shell:Creating package script '/home/rstole01/Documents/CSE-596/humble_ws/install/cpp_pubsub/share/cpp_pubsub/package.bash'
+[5.469s] INFO:colcon.colcon_core.shell:Creating package script '/home/rstole01/Documents/CSE-596/humble_ws/install/cpp_pubsub/share/cpp_pubsub/package.zsh'
+[5.469s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rstole01/Documents/CSE-596/humble_ws/install/cpp_pubsub/share/colcon-core/packages/cpp_pubsub)
+[5.509s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(scan_pubsub)
+[5.547s] Level 1:colcon.colcon_core.environment:checking '/home/rstole01/Documents/CSE-596/humble_ws/install/scan_pubsub' for CMake module files
+[5.548s] Level 1:colcon.colcon_core.environment:checking '/home/rstole01/Documents/CSE-596/humble_ws/install/scan_pubsub' for CMake config files
+[5.548s] Level 1:colcon.colcon_core.shell:create_environment_hook('scan_pubsub', 'cmake_prefix_path')
+[5.586s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rstole01/Documents/CSE-596/humble_ws/install/scan_pubsub/share/scan_pubsub/hook/cmake_prefix_path.ps1'
+[5.587s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rstole01/Documents/CSE-596/humble_ws/install/scan_pubsub/share/scan_pubsub/hook/cmake_prefix_path.dsv'
+[5.587s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rstole01/Documents/CSE-596/humble_ws/install/scan_pubsub/share/scan_pubsub/hook/cmake_prefix_path.sh'
+[5.588s] Level 1:colcon.colcon_core.environment:checking '/home/rstole01/Documents/CSE-596/humble_ws/install/scan_pubsub/lib'
+[5.589s] Level 1:colcon.colcon_core.environment:checking '/home/rstole01/Documents/CSE-596/humble_ws/install/scan_pubsub/bin'
+[5.589s] Level 1:colcon.colcon_core.environment:checking '/home/rstole01/Documents/CSE-596/humble_ws/install/scan_pubsub/lib/pkgconfig/scan_pubsub.pc'
+[5.589s] Level 1:colcon.colcon_core.environment:checking '/home/rstole01/Documents/CSE-596/humble_ws/install/scan_pubsub/lib/python3.10/site-packages'
+[5.590s] Level 1:colcon.colcon_core.environment:checking '/home/rstole01/Documents/CSE-596/humble_ws/install/scan_pubsub/bin'
+[5.628s] INFO:colcon.colcon_core.shell:Creating package script '/home/rstole01/Documents/CSE-596/humble_ws/install/scan_pubsub/share/scan_pubsub/package.ps1'
+[5.629s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rstole01/Documents/CSE-596/humble_ws/install/scan_pubsub/share/scan_pubsub/package.dsv'
+[5.630s] INFO:colcon.colcon_core.shell:Creating package script '/home/rstole01/Documents/CSE-596/humble_ws/install/scan_pubsub/share/scan_pubsub/package.sh'
+[5.630s] INFO:colcon.colcon_core.shell:Creating package script '/home/rstole01/Documents/CSE-596/humble_ws/install/scan_pubsub/share/scan_pubsub/package.bash'
+[5.631s] INFO:colcon.colcon_core.shell:Creating package script '/home/rstole01/Documents/CSE-596/humble_ws/install/scan_pubsub/share/scan_pubsub/package.zsh'
+[5.632s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rstole01/Documents/CSE-596/humble_ws/install/scan_pubsub/share/colcon-core/packages/scan_pubsub)
+[5.673s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cpp_pubsub)
+[5.709s] Level 1:colcon.colcon_core.environment:checking '/home/rstole01/Documents/CSE-596/humble_ws/install/cpp_pubsub' for CMake module files
+[5.710s] Level 1:colcon.colcon_core.environment:checking '/home/rstole01/Documents/CSE-596/humble_ws/install/cpp_pubsub' for CMake config files
+[5.711s] Level 1:colcon.colcon_core.shell:create_environment_hook('cpp_pubsub', 'cmake_prefix_path')
+[5.731s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rstole01/Documents/CSE-596/humble_ws/install/cpp_pubsub/share/cpp_pubsub/hook/cmake_prefix_path.ps1'
+[5.731s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rstole01/Documents/CSE-596/humble_ws/install/cpp_pubsub/share/cpp_pubsub/hook/cmake_prefix_path.dsv'
+[5.732s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rstole01/Documents/CSE-596/humble_ws/install/cpp_pubsub/share/cpp_pubsub/hook/cmake_prefix_path.sh'
+[5.732s] Level 1:colcon.colcon_core.environment:checking '/home/rstole01/Documents/CSE-596/humble_ws/install/cpp_pubsub/lib'
+[5.732s] Level 1:colcon.colcon_core.environment:checking '/home/rstole01/Documents/CSE-596/humble_ws/install/cpp_pubsub/bin'
+[5.732s] Level 1:colcon.colcon_core.environment:checking '/home/rstole01/Documents/CSE-596/humble_ws/install/cpp_pubsub/lib/pkgconfig/cpp_pubsub.pc'
+[5.733s] Level 1:colcon.colcon_core.environment:checking '/home/rstole01/Documents/CSE-596/humble_ws/install/cpp_pubsub/lib/python3.10/site-packages'
+[5.733s] Level 1:colcon.colcon_core.environment:checking '/home/rstole01/Documents/CSE-596/humble_ws/install/cpp_pubsub/bin'
+[5.753s] INFO:colcon.colcon_core.shell:Creating package script '/home/rstole01/Documents/CSE-596/humble_ws/install/cpp_pubsub/share/cpp_pubsub/package.ps1'
+[5.754s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rstole01/Documents/CSE-596/humble_ws/install/cpp_pubsub/share/cpp_pubsub/package.dsv'
+[5.754s] INFO:colcon.colcon_core.shell:Creating package script '/home/rstole01/Documents/CSE-596/humble_ws/install/cpp_pubsub/share/cpp_pubsub/package.sh'
+[5.755s] INFO:colcon.colcon_core.shell:Creating package script '/home/rstole01/Documents/CSE-596/humble_ws/install/cpp_pubsub/share/cpp_pubsub/package.bash'
+[5.755s] INFO:colcon.colcon_core.shell:Creating package script '/home/rstole01/Documents/CSE-596/humble_ws/install/cpp_pubsub/share/cpp_pubsub/package.zsh'
+[5.756s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rstole01/Documents/CSE-596/humble_ws/install/cpp_pubsub/share/colcon-core/packages/cpp_pubsub)
+[5.756s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[5.756s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[5.756s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[5.756s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[5.783s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[5.784s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[5.784s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[5.796s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[5.815s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/rstole01/Documents/CSE-596/humble_ws/install/local_setup.ps1'
+[5.816s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/rstole01/Documents/CSE-596/humble_ws/install/_local_setup_util_ps1.py'
+[5.817s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/rstole01/Documents/CSE-596/humble_ws/install/setup.ps1'
+[5.839s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/rstole01/Documents/CSE-596/humble_ws/install/local_setup.sh'
+[5.840s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/rstole01/Documents/CSE-596/humble_ws/install/_local_setup_util_sh.py'
+[5.841s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/rstole01/Documents/CSE-596/humble_ws/install/setup.sh'
+[5.870s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/rstole01/Documents/CSE-596/humble_ws/install/local_setup.bash'
+[5.871s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/rstole01/Documents/CSE-596/humble_ws/install/setup.bash'
+[5.891s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/rstole01/Documents/CSE-596/humble_ws/install/local_setup.zsh'
+[5.892s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/rstole01/Documents/CSE-596/humble_ws/install/setup.zsh'

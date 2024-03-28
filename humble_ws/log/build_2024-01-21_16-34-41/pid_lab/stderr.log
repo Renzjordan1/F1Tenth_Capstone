@@ -1,0 +1,14 @@
+[01m[K/home/rstole01/Documents/CSE-596/humble_ws/src/pid_lab/src/wall_follow_node.cpp:[m[K In member function ‘[01m[Kint WallFollow::find_angle_index(float, float, float, float)[m[K’:
+[01m[K/home/rstole01/Documents/CSE-596/humble_ws/src/pid_lab/src/wall_follow_node.cpp:55:49:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kangle_max[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   55 |     int find_angle_index(float angle_min, [01;35m[Kfloat angle_max[m[K, float angle_increment, float angle){
+      |                                           [01;35m[K~~~~~~^~~~~~~~~[m[K
+[01m[K/home/rstole01/Documents/CSE-596/humble_ws/src/pid_lab/src/wall_follow_node.cpp:[m[K In member function ‘[01m[Kvoid WallFollow::scan_callback(sensor_msgs::msg::LaserScan_<std::allocator<void> >::ConstSharedPtr)[m[K’:
+[01m[K/home/rstole01/Documents/CSE-596/humble_ws/src/pid_lab/src/wall_follow_node.cpp:85:39:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst ConstSharedPtr[m[K’ {aka ‘[01m[Kconst class std::shared_ptr<const sensor_msgs::msg::LaserScan_<std::allocator<void> > >[m[K’} has no member named ‘[01m[Kranges[m[K’
+   85 |         std::copy(std::begin(scan_msg.[01;31m[Kranges[m[K), std::end(scan_msg.ranges), std::begin(ranges));
+      |                                       [01;31m[K^~~~~~[m[K
+[01m[K/home/rstole01/Documents/CSE-596/humble_ws/src/pid_lab/src/wall_follow_node.cpp:85:66:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst ConstSharedPtr[m[K’ {aka ‘[01m[Kconst class std::shared_ptr<const sensor_msgs::msg::LaserScan_<std::allocator<void> > >[m[K’} has no member named ‘[01m[Kranges[m[K’
+   85 |         std::copy(std::begin(scan_msg.ranges), std::end(scan_msg.[01;31m[Kranges[m[K), std::begin(ranges));
+      |                                                                  [01;31m[K^~~~~~[m[K
+gmake[2]: *** [CMakeFiles/pid.dir/build.make:76: CMakeFiles/pid.dir/src/wall_follow_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/pid.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

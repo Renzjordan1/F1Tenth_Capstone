@@ -1,0 +1,18 @@
+Traceback (most recent call last):
+  File "/home/rstole01/Documents/CSE-596/msu_ws/src/f1tenth_gym_ros/setup.py", line 1, in <module>
+    from setuptools import setup
+  File "/usr/lib/python3/dist-packages/setuptools/__init__.py", line 16, in <module>
+    import setuptools.version
+  File "/usr/lib/python3/dist-packages/setuptools/version.py", line 1, in <module>
+    import pkg_resources
+  File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 76, in <module>
+    __import__('pkg_resources.extern.packaging.version')
+  File "/usr/lib/python3/dist-packages/pkg_resources/_vendor/packaging/version.py", line 9, in <module>
+    from typing import Callable, Iterator, List, Optional, SupportsInt, Tuple, Union
+  File "/usr/lib/python3.10/typing.py", line 2617, in <module>
+    class TextIO(IO[str]):
+  File "/usr/lib/python3.10/typing.py", line 2629, in TextIO
+    def encoding(self) -> str:
+  File "/usr/lib/python3.10/abc.py", line 7, in abstractmethod
+    def abstractmethod(funcobj):
+KeyboardInterrupt

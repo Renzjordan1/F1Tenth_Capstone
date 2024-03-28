@@ -1,0 +1,15 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from qlearn_interfaces/srv/SaveQTable.srv
+// generated code does not contain a copyright notice
+
+
+module qlearn_interfaces {
+  module srv {
+    struct SaveQTable_Request {
+      string filename;
+    };
+    struct SaveQTable_Response {
+      boolean success;
+    };
+  };
+};

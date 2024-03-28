@@ -1,0 +1,14 @@
+[1.622s] Invoking command in '/home/rstole01/Documents/CSE-596/humble_ws/build/vesc_driver': AMENT_PREFIX_PATH=/home/rstole01/Documents/CSE-596/humble_ws/install/vesc_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rstole01/Documents/CSE-596/humble_ws/install/vesc_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/rstole01/Documents/CSE-596/humble_ws/install/vesc_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rstole01/Documents/CSE-596/humble_ws/install/vesc_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/rstole01/Documents/CSE-596/humble_ws/build/vesc_driver -- -j8 -l8
+[1.732s] [35m[1mConsolidate compiler generated dependencies of target vesc_driver[0m
+[1.831s] [ 10%] [32mBuilding CXX object CMakeFiles/vesc_driver_node.dir/rclcpp_components/node_main_vesc_driver_node.cpp.o[0m
+[1.849s] [ 20%] [32mBuilding CXX object CMakeFiles/vesc_driver.dir/src/vesc_interface.cpp.o[0m
+[2.448s] [01m[K/home/rstole01/Documents/CSE-596/humble_ws/src/f1tenth_system/vesc/vesc_driver/src/vesc_interface.cpp:45:10:[m[K [01;31m[Kfatal error: [m[Kserial_driver/serial_driver.hpp: No such file or directory
+[2.448s]    45 | #include [01;31m[K"serial_driver/serial_driver.hpp"[m[K
+[2.448s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.448s] compilation terminated.
+[2.460s] gmake[2]: *** [CMakeFiles/vesc_driver.dir/build.make:90: CMakeFiles/vesc_driver.dir/src/vesc_interface.cpp.o] Error 1
+[2.460s] gmake[1]: *** [CMakeFiles/Makefile2:141: CMakeFiles/vesc_driver.dir/all] Error 2
+[2.478s] gmake[1]: *** Waiting for unfinished jobs....
+[8.874s] [ 30%] [32m[1mLinking CXX executable vesc_driver_node[0m
+[9.133s] [ 30%] Built target vesc_driver_node
+[9.135s] gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,132 @@
+[0.000000] (-) TimerEvent: {}
+[0.000255] (aeb_lab) JobQueued: {'identifier': 'aeb_lab', 'dependencies': OrderedDict()}
+[0.000453] (f1tenth_gym_ros) JobQueued: {'identifier': 'f1tenth_gym_ros', 'dependencies': OrderedDict()}
+[0.000613] (lab1_package) JobQueued: {'identifier': 'lab1_package', 'dependencies': OrderedDict()}
+[0.000835] (tutorial_interfaces) JobQueued: {'identifier': 'tutorial_interfaces', 'dependencies': OrderedDict()}
+[0.000957] (cpp_pubsub) JobQueued: {'identifier': 'cpp_pubsub', 'dependencies': OrderedDict([('tutorial_interfaces', '/home/rstole01/Documents/CSE-596/humble_ws/install/tutorial_interfaces')])}
+[0.001096] (scan_pubsub) JobQueued: {'identifier': 'scan_pubsub', 'dependencies': OrderedDict([('tutorial_interfaces', '/home/rstole01/Documents/CSE-596/humble_ws/install/tutorial_interfaces')])}
+[0.001218] (tutorial_interfaces) JobStarted: {'identifier': 'tutorial_interfaces'}
+[0.049192] (aeb_lab) JobStarted: {'identifier': 'aeb_lab'}
+[0.095813] (f1tenth_gym_ros) JobStarted: {'identifier': 'f1tenth_gym_ros'}
+[0.098903] (-) TimerEvent: {}
+[0.166802] (lab1_package) JobStarted: {'identifier': 'lab1_package'}
+[0.199195] (-) TimerEvent: {}
+[0.218309] (tutorial_interfaces) JobProgress: {'identifier': 'tutorial_interfaces', 'progress': 'cmake'}
+[0.219042] (tutorial_interfaces) Command: {'cmd': ['/usr/bin/cmake', '/home/rstole01/Documents/CSE-596/humble_ws/src/tutorial_interfaces', '-DCMAKE_INSTALL_PREFIX=/home/rstole01/Documents/CSE-596/humble_ws/install/tutorial_interfaces'], 'cwd': '/home/rstole01/Documents/CSE-596/humble_ws/build/tutorial_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'rstole01'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('HOME', '/home/rstole01'), ('DESKTOP_SESSION', 'ubuntu'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '2071'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=2b4083bef0d03a5fa66d88c165a97953'), ('COLORTERM', 'truecolor'), ('LIBVIRT_DEFAULT_URI', 'qemu:///system'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'rstole01'), ('_', '/usr/bin/colcon'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'rstole01'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINDOWPATH', '2'), ('PATH', '/home/rstole01/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/rstole01-Lenovo-ideapad-FLEX-5-1570:@/tmp/.ICE-unix/2071,unix/rstole01-Lenovo-ideapad-FLEX-5-1570:/tmp/.ICE-unix/2071'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/d7b6a25e_2eeb_4b2b_ae17_2ddd9e4a6e3c'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.148'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/rstole01/Documents/CSE-596/humble_ws/build/tutorial_interfaces'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=2b4083bef0d03a5fa66d88c165a97953'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('COLCON', '1'), ('VTE_VERSION', '6800')]), 'shell': False}
+[0.224846] (aeb_lab) JobProgress: {'identifier': 'aeb_lab', 'progress': 'cmake'}
+[0.226558] (aeb_lab) Command: {'cmd': ['/usr/bin/cmake', '/home/rstole01/Documents/CSE-596/humble_ws/src/aeb_lab', '-DCMAKE_INSTALL_PREFIX=/home/rstole01/Documents/CSE-596/humble_ws/install/aeb_lab'], 'cwd': '/home/rstole01/Documents/CSE-596/humble_ws/build/aeb_lab', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'rstole01'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('HOME', '/home/rstole01'), ('DESKTOP_SESSION', 'ubuntu'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '2071'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=2b4083bef0d03a5fa66d88c165a97953'), ('COLORTERM', 'truecolor'), ('LIBVIRT_DEFAULT_URI', 'qemu:///system'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'rstole01'), ('_', '/usr/bin/colcon'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'rstole01'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINDOWPATH', '2'), ('PATH', '/home/rstole01/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/rstole01-Lenovo-ideapad-FLEX-5-1570:@/tmp/.ICE-unix/2071,unix/rstole01-Lenovo-ideapad-FLEX-5-1570:/tmp/.ICE-unix/2071'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/d7b6a25e_2eeb_4b2b_ae17_2ddd9e4a6e3c'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.148'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/rstole01/Documents/CSE-596/humble_ws/build/aeb_lab'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=2b4083bef0d03a5fa66d88c165a97953'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('COLCON', '1'), ('VTE_VERSION', '6800')]), 'shell': False}
+[0.299326] (-) TimerEvent: {}
+[0.399838] (-) TimerEvent: {}
+[0.500367] (-) TimerEvent: {}
+[0.600800] (-) TimerEvent: {}
+[0.702092] (-) TimerEvent: {}
+[0.746979] (tutorial_interfaces) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.750434] (tutorial_interfaces) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.751236] (tutorial_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.752895] (tutorial_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.757150] (tutorial_interfaces) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.758839] (tutorial_interfaces) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.759436] (tutorial_interfaces) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.760172] (tutorial_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.760916] (aeb_lab) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.761415] (aeb_lab) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.766368] (aeb_lab) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.766714] (aeb_lab) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.767041] (aeb_lab) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.768235] (aeb_lab) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.768567] (aeb_lab) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.768914] (aeb_lab) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.769256] (lab1_package) JobProgress: {'identifier': 'lab1_package', 'progress': 'cmake'}
+[0.769353] (lab1_package) Command: {'cmd': ['/usr/bin/cmake', '/home/rstole01/Documents/CSE-596/humble_ws/src/lab1_package', '-DCMAKE_INSTALL_PREFIX=/home/rstole01/Documents/CSE-596/humble_ws/install/lab1_package'], 'cwd': '/home/rstole01/Documents/CSE-596/humble_ws/build/lab1_package', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'rstole01'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('HOME', '/home/rstole01'), ('DESKTOP_SESSION', 'ubuntu'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '2071'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=2b4083bef0d03a5fa66d88c165a97953'), ('COLORTERM', 'truecolor'), ('LIBVIRT_DEFAULT_URI', 'qemu:///system'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'rstole01'), ('_', '/usr/bin/colcon'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'rstole01'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINDOWPATH', '2'), ('PATH', '/home/rstole01/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/rstole01-Lenovo-ideapad-FLEX-5-1570:@/tmp/.ICE-unix/2071,unix/rstole01-Lenovo-ideapad-FLEX-5-1570:/tmp/.ICE-unix/2071'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/d7b6a25e_2eeb_4b2b_ae17_2ddd9e4a6e3c'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.148'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/rstole01/Documents/CSE-596/humble_ws/build/lab1_package'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=2b4083bef0d03a5fa66d88c165a97953'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('COLCON', '1'), ('VTE_VERSION', '6800')]), 'shell': False}
+[0.802611] (-) TimerEvent: {}
+[0.895465] (lab1_package) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.902736] (-) TimerEvent: {}
+[0.909148] (aeb_lab) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.924447] (aeb_lab) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.924965] (aeb_lab) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.925878] (aeb_lab) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.937122] (tutorial_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.948489] (aeb_lab) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:10 (find_package):\n'}
+[0.948976] (aeb_lab) StderrLine: {'line': b'  By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project\n'}
+[0.949186] (aeb_lab) StderrLine: {'line': b'  has asked CMake to find a package configuration file provided by\n'}
+[0.949324] (aeb_lab) StderrLine: {'line': b'  "ament_cmake", but CMake did not find one.\n'}
+[0.949455] (aeb_lab) StderrLine: {'line': b'\n'}
+[0.949581] (aeb_lab) StderrLine: {'line': b'  Could not find a package configuration file provided by "ament_cmake" with\n'}
+[0.949707] (aeb_lab) StderrLine: {'line': b'  any of the following names:\n'}
+[0.949830] (aeb_lab) StderrLine: {'line': b'\n'}
+[0.949955] (aeb_lab) StderrLine: {'line': b'    ament_cmakeConfig.cmake\n'}
+[0.950091] (aeb_lab) StderrLine: {'line': b'    ament_cmake-config.cmake\n'}
+[0.950538] (aeb_lab) StderrLine: {'line': b'\n'}
+[0.950667] (aeb_lab) StderrLine: {'line': b'  Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set\n'}
+[0.950796] (aeb_lab) StderrLine: {'line': b'  "ament_cmake_DIR" to a directory containing one of the above files.  If\n'}
+[0.950922] (aeb_lab) StderrLine: {'line': b'  "ament_cmake" provides a separate development package or SDK, be sure it\n'}
+[0.951046] (aeb_lab) StderrLine: {'line': b'  has been installed.\n'}
+[0.951169] (aeb_lab) StderrLine: {'line': b'\n'}
+[0.951292] (aeb_lab) StderrLine: {'line': b'\x1b[0m\n'}
+[0.951414] (aeb_lab) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[0.951547] (aeb_lab) StdoutLine: {'line': b'See also "/home/rstole01/Documents/CSE-596/humble_ws/build/aeb_lab/CMakeFiles/CMakeOutput.log".\n'}
+[0.957594] (aeb_lab) CommandEnded: {'returncode': 1}
+[0.967185] (tutorial_interfaces) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.967768] (tutorial_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.968594] (tutorial_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.990667] (tutorial_interfaces) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:9 (find_package):\n'}
+[0.991281] (tutorial_interfaces) StderrLine: {'line': b'  By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project\n'}
+[0.991673] (tutorial_interfaces) StderrLine: {'line': b'  has asked CMake to find a package configuration file provided by\n'}
+[0.992183] (tutorial_interfaces) StderrLine: {'line': b'  "ament_cmake", but CMake did not find one.\n'}
+[0.992837] (tutorial_interfaces) StderrLine: {'line': b'\n'}
+[0.993617] (tutorial_interfaces) StderrLine: {'line': b'  Could not find a package configuration file provided by "ament_cmake" with\n'}
+[0.993914] (tutorial_interfaces) StderrLine: {'line': b'  any of the following names:\n'}
+[0.994508] (tutorial_interfaces) StderrLine: {'line': b'\n'}
+[0.994750] (tutorial_interfaces) StderrLine: {'line': b'    ament_cmakeConfig.cmake\n'}
+[0.995597] (tutorial_interfaces) StderrLine: {'line': b'    ament_cmake-config.cmake\n'}
+[0.996818] (tutorial_interfaces) StderrLine: {'line': b'\n'}
+[0.997163] (tutorial_interfaces) StderrLine: {'line': b'  Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set\n'}
+[0.997891] (tutorial_interfaces) StderrLine: {'line': b'  "ament_cmake_DIR" to a directory containing one of the above files.  If\n'}
+[0.998282] (tutorial_interfaces) StderrLine: {'line': b'  "ament_cmake" provides a separate development package or SDK, be sure it\n'}
+[0.998892] (tutorial_interfaces) StderrLine: {'line': b'  has been installed.\n'}
+[0.999142] (tutorial_interfaces) StderrLine: {'line': b'\n'}
+[0.999382] (tutorial_interfaces) StderrLine: {'line': b'\x1b[0m\n'}
+[0.999610] (tutorial_interfaces) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[0.999865] (tutorial_interfaces) StdoutLine: {'line': b'See also "/home/rstole01/Documents/CSE-596/humble_ws/build/tutorial_interfaces/CMakeFiles/CMakeOutput.log".\n'}
+[1.002939] (-) TimerEvent: {}
+[1.041370] (lab1_package) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[1.059949] (aeb_lab) JobEnded: {'identifier': 'aeb_lab', 'rc': 1}
+[1.069413] (tutorial_interfaces) JobEnded: {'identifier': 'tutorial_interfaces', 'rc': 'SIGINT'}
+[1.070161] (lab1_package) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.103065] (-) TimerEvent: {}
+[1.195515] (lab1_package) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.203861] (-) TimerEvent: {}
+[1.210641] (lab1_package) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.211136] (lab1_package) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.212225] (lab1_package) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.221731] (lab1_package) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.304016] (-) TimerEvent: {}
+[1.378520] (lab1_package) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.395552] (lab1_package) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.396093] (lab1_package) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.397564] (lab1_package) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.404136] (-) TimerEvent: {}
+[1.419965] (lab1_package) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:9 (find_package):\n'}
+[1.420464] (lab1_package) StderrLine: {'line': b'  By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project\n'}
+[1.420758] (lab1_package) StderrLine: {'line': b'  has asked CMake to find a package configuration file provided by\n'}
+[1.421037] (lab1_package) StderrLine: {'line': b'  "ament_cmake", but CMake did not find one.\n'}
+[1.421204] (lab1_package) StderrLine: {'line': b'\n'}
+[1.421341] (lab1_package) StderrLine: {'line': b'  Could not find a package configuration file provided by "ament_cmake" with\n'}
+[1.421498] (lab1_package) StderrLine: {'line': b'  any of the following names:\n'}
+[1.421709] (lab1_package) StderrLine: {'line': b'\n'}
+[1.421930] (lab1_package) StderrLine: {'line': b'    ament_cmakeConfig.cmake\n'}
+[1.422151] (lab1_package) StderrLine: {'line': b'    ament_cmake-config.cmake\n'}
+[1.422290] (lab1_package) StderrLine: {'line': b'\n'}
+[1.422419] (lab1_package) StderrLine: {'line': b'  Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set\n'}
+[1.422663] (lab1_package) StderrLine: {'line': b'  "ament_cmake_DIR" to a directory containing one of the above files.  If\n'}
+[1.422932] (lab1_package) StderrLine: {'line': b'  "ament_cmake" provides a separate development package or SDK, be sure it\n'}
+[1.423134] (lab1_package) StderrLine: {'line': b'  has been installed.\n'}
+[1.423270] (lab1_package) StderrLine: {'line': b'\n'}
+[1.423402] (lab1_package) StderrLine: {'line': b'\x1b[0m\n'}
+[1.423571] (lab1_package) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[1.423795] (lab1_package) StdoutLine: {'line': b'See also "/home/rstole01/Documents/CSE-596/humble_ws/build/lab1_package/CMakeFiles/CMakeOutput.log".\n'}
+[1.428194] (lab1_package) JobEnded: {'identifier': 'lab1_package', 'rc': 'SIGINT'}
+[1.448679] (f1tenth_gym_ros) JobEnded: {'identifier': 'f1tenth_gym_ros', 'rc': 'SIGINT'}
+[1.459440] (cpp_pubsub) JobSkipped: {'identifier': 'cpp_pubsub'}
+[1.459570] (scan_pubsub) JobSkipped: {'identifier': 'scan_pubsub'}
+[1.459638] (-) EventReactorShutdown: {}
