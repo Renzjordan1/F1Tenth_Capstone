@@ -1,0 +1,197 @@
+[0.000000] (-) TimerEvent: {}
+[0.000216] (-) JobUnselected: {'identifier': 'aeb_lab'}
+[0.000275] (-) JobUnselected: {'identifier': 'cpp_pubsub'}
+[0.000319] (-) JobUnselected: {'identifier': 'f1tenth_gym_ros'}
+[0.000546] (-) JobUnselected: {'identifier': 'lab1_package'}
+[0.000818] (-) JobUnselected: {'identifier': 'scan_pubsub'}
+[0.001116] (-) JobUnselected: {'identifier': 'tutorial_interfaces'}
+[0.001371] (pid_lab) JobQueued: {'identifier': 'pid_lab', 'dependencies': OrderedDict()}
+[0.001699] (pid_lab) JobStarted: {'identifier': 'pid_lab'}
+[0.099301] (-) TimerEvent: {}
+[0.120802] (pid_lab) JobProgress: {'identifier': 'pid_lab', 'progress': 'cmake'}
+[0.141952] (pid_lab) JobProgress: {'identifier': 'pid_lab', 'progress': 'build'}
+[0.143930] (pid_lab) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/rstole01/Documents/CSE-596/humble_ws/build/pid_lab', '--', '-j8', '-l8'], 'cwd': '/home/rstole01/Documents/CSE-596/humble_ws/build/pid_lab', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'rstole01'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/rstole01'), ('OLDPWD', '/home/rstole01/Documents/CSE-596/humble_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '6302'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=59b32b0c441ec335d369dbdc65ad6373'), ('COLORTERM', 'truecolor'), ('LIBVIRT_DEFAULT_URI', 'qemu:///system'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'rstole01'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'rstole01'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/rstole01/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/rstole01-Lenovo-ideapad-FLEX-5-1570:@/tmp/.ICE-unix/6302,unix/rstole01-Lenovo-ideapad-FLEX-5-1570:/tmp/.ICE-unix/6302'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/f4199152_2de7_47e8_bef5_1b3f619e04ff'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.E0GHH2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.111'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/rstole01/Documents/CSE-596/humble_ws/build/pid_lab'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=59b32b0c441ec335d369dbdc65ad6373'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.199460] (-) TimerEvent: {}
+[0.226969] (pid_lab) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target pid\x1b[0m\n'}
+[0.264933] (pid_lab) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/pid.dir/src/wall_follow_node.cpp.o\x1b[0m\n'}
+[0.299984] (-) TimerEvent: {}
+[0.400498] (-) TimerEvent: {}
+[0.500905] (-) TimerEvent: {}
+[0.601289] (-) TimerEvent: {}
+[0.701686] (-) TimerEvent: {}
+[0.802080] (-) TimerEvent: {}
+[0.902473] (-) TimerEvent: {}
+[1.002879] (-) TimerEvent: {}
+[1.103274] (-) TimerEvent: {}
+[1.203667] (-) TimerEvent: {}
+[1.304086] (-) TimerEvent: {}
+[1.404489] (-) TimerEvent: {}
+[1.504882] (-) TimerEvent: {}
+[1.605290] (-) TimerEvent: {}
+[1.705655] (-) TimerEvent: {}
+[1.806074] (-) TimerEvent: {}
+[1.906481] (-) TimerEvent: {}
+[2.006882] (-) TimerEvent: {}
+[2.107282] (-) TimerEvent: {}
+[2.207682] (-) TimerEvent: {}
+[2.308104] (-) TimerEvent: {}
+[2.408494] (-) TimerEvent: {}
+[2.508883] (-) TimerEvent: {}
+[2.609268] (-) TimerEvent: {}
+[2.709672] (-) TimerEvent: {}
+[2.810077] (-) TimerEvent: {}
+[2.910484] (-) TimerEvent: {}
+[3.010885] (-) TimerEvent: {}
+[3.111279] (-) TimerEvent: {}
+[3.211688] (-) TimerEvent: {}
+[3.312083] (-) TimerEvent: {}
+[3.412496] (-) TimerEvent: {}
+[3.512909] (-) TimerEvent: {}
+[3.613317] (-) TimerEvent: {}
+[3.713721] (-) TimerEvent: {}
+[3.814130] (-) TimerEvent: {}
+[3.914543] (-) TimerEvent: {}
+[4.014954] (-) TimerEvent: {}
+[4.115361] (-) TimerEvent: {}
+[4.215771] (-) TimerEvent: {}
+[4.316195] (-) TimerEvent: {}
+[4.416601] (-) TimerEvent: {}
+[4.517005] (-) TimerEvent: {}
+[4.617411] (-) TimerEvent: {}
+[4.705916] (pid_lab) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rstole01/Documents/CSE-596/humble_ws/src/pid_lab/src/wall_follow_node.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid WallFollow::scan_callback(const ConstSharedPtr&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.706541] (pid_lab) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rstole01/Documents/CSE-596/humble_ws/src/pid_lab/src/wall_follow_node.cpp:86:15:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids variable length array \xe2\x80\x98\x1b[01m\x1b[Kranges\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wvla\x07-Wvla\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[4.707253] (pid_lab) StderrLine: {'line': b'   86 |         float \x1b[01;35m\x1b[Kranges\x1b[m\x1b[K[range_len];\n'}
+[4.707519] (pid_lab) StderrLine: {'line': b'      |               \x1b[01;35m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[4.707758] (pid_lab) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rstole01/Documents/CSE-596/humble_ws/src/pid_lab/src/wall_follow_node.cpp:87:87:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Kbegin(float [range_len])\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.708036] (pid_lab) StderrLine: {'line': b'   87 |         std::copy(std::begin(scan_msg->ranges), std::end(scan_msg->ranges), \x1b[01;31m\x1b[Kstd::begin(ranges)\x1b[m\x1b[K);\n'}
+[4.708292] (pid_lab) StderrLine: {'line': b'      |                                                                             \x1b[01;31m\x1b[K~~~~~~~~~~^~~~~~~~\x1b[m\x1b[K\n'}
+[4.708561] (pid_lab) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/utility:76\x1b[m\x1b[K,\n'}
+[4.708809] (pid_lab) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/bits/unique_ptr.h:36\x1b[m\x1b[K,\n'}
+[4.709048] (pid_lab) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/memory:76\x1b[m\x1b[K,\n'}
+[4.709290] (pid_lab) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153\x1b[m\x1b[K,\n'}
+[4.709540] (pid_lab) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/rstole01/Documents/CSE-596/humble_ws/src/pid_lab/src/wall_follow_node.cpp:1\x1b[m\x1b[K:\n'}
+[4.709784] (pid_lab) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/initializer_list:90:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp> constexpr const _Tp* std::begin(std::initializer_list<_Tp>)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.710031] (pid_lab) StderrLine: {'line': b'   90 |     \x1b[01;36m\x1b[Kbegin\x1b[m\x1b[K(initializer_list<_Tp> __ils) noexcept\n'}
+[4.710274] (pid_lab) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[4.710516] (pid_lab) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/initializer_list:90:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[4.710766] (pid_lab) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rstole01/Documents/CSE-596/humble_ws/src/pid_lab/src/wall_follow_node.cpp:87:87:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kstd::initializer_list<_Tp>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kfloat*\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.710992] (pid_lab) StderrLine: {'line': b'   87 |         std::copy(std::begin(scan_msg->ranges), std::end(scan_msg->ranges), \x1b[01;36m\x1b[Kstd::begin(ranges)\x1b[m\x1b[K);\n'}
+[4.711204] (pid_lab) StderrLine: {'line': b'      |                                                                             \x1b[01;36m\x1b[K~~~~~~~~~~^~~~~~~~\x1b[m\x1b[K\n'}
+[4.711413] (pid_lab) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/array:41\x1b[m\x1b[K,\n'}
+[4.711630] (pid_lab) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/tuple:39\x1b[m\x1b[K,\n'}
+[4.711861] (pid_lab) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/bits/unique_ptr.h:37\x1b[m\x1b[K,\n'}
+[4.712112] (pid_lab) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/memory:76\x1b[m\x1b[K,\n'}
+[4.712352] (pid_lab) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153\x1b[m\x1b[K,\n'}
+[4.712595] (pid_lab) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/rstole01/Documents/CSE-596/humble_ws/src/pid_lab/src/wall_follow_node.cpp:1\x1b[m\x1b[K:\n'}
+[4.712840] (pid_lab) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/range_access.h:51:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Container> constexpr decltype (__cont.begin()) std::begin(_Container&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.713091] (pid_lab) StderrLine: {'line': b'   51 |     \x1b[01;36m\x1b[Kbegin\x1b[m\x1b[K(_Container& __cont) -> decltype(__cont.begin())\n'}
+[4.713315] (pid_lab) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[4.713533] (pid_lab) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/range_access.h:51:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[4.713773] (pid_lab) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rstole01/Documents/CSE-596/humble_ws/src/pid_lab/src/wall_follow_node.cpp:87:87:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  variable-sized array type \xe2\x80\x98\x1b[01m\x1b[Kfloat [range_len]\x1b[m\x1b[K\xe2\x80\x99 is not a valid template argument\n'}
+[4.714059] (pid_lab) StderrLine: {'line': b'   87 |         std::copy(std::begin(scan_msg->ranges), std::end(scan_msg->ranges), \x1b[01;36m\x1b[Kstd::begin(ranges)\x1b[m\x1b[K);\n'}
+[4.714309] (pid_lab) StderrLine: {'line': b'      |                                                                             \x1b[01;36m\x1b[K~~~~~~~~~~^~~~~~~~\x1b[m\x1b[K\n'}
+[4.714549] (pid_lab) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/array:41\x1b[m\x1b[K,\n'}
+[4.714799] (pid_lab) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/tuple:39\x1b[m\x1b[K,\n'}
+[4.715044] (pid_lab) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/bits/unique_ptr.h:37\x1b[m\x1b[K,\n'}
+[4.715310] (pid_lab) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/memory:76\x1b[m\x1b[K,\n'}
+[4.715557] (pid_lab) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153\x1b[m\x1b[K,\n'}
+[4.715821] (pid_lab) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/rstole01/Documents/CSE-596/humble_ws/src/pid_lab/src/wall_follow_node.cpp:1\x1b[m\x1b[K:\n'}
+[4.716093] (pid_lab) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/range_access.h:61:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Container> constexpr decltype (__cont.begin()) std::begin(const _Container&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.716343] (pid_lab) StderrLine: {'line': b'   61 |     \x1b[01;36m\x1b[Kbegin\x1b[m\x1b[K(const _Container& __cont) -> decltype(__cont.begin())\n'}
+[4.716592] (pid_lab) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[4.716833] (pid_lab) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/range_access.h:61:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[4.717083] (pid_lab) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rstole01/Documents/CSE-596/humble_ws/src/pid_lab/src/wall_follow_node.cpp:87:87:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  variable-sized array type \xe2\x80\x98\x1b[01m\x1b[Kfloat [range_len]\x1b[m\x1b[K\xe2\x80\x99 is not a valid template argument\n'}
+[4.717334] (pid_lab) StderrLine: {'line': b'   87 |         std::copy(std::begin(scan_msg->ranges), std::end(scan_msg->ranges), \x1b[01;36m\x1b[Kstd::begin(ranges)\x1b[m\x1b[K);\n'}
+[4.717568] (-) TimerEvent: {}
+[4.717803] (pid_lab) StderrLine: {'line': b'      |                                                                             \x1b[01;36m\x1b[K~~~~~~~~~~^~~~~~~~\x1b[m\x1b[K\n'}
+[4.718068] (pid_lab) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/array:41\x1b[m\x1b[K,\n'}
+[4.718318] (pid_lab) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/tuple:39\x1b[m\x1b[K,\n'}
+[4.718565] (pid_lab) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/bits/unique_ptr.h:37\x1b[m\x1b[K,\n'}
+[4.718813] (pid_lab) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/memory:76\x1b[m\x1b[K,\n'}
+[4.719060] (pid_lab) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153\x1b[m\x1b[K,\n'}
+[4.719285] (pid_lab) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/rstole01/Documents/CSE-596/humble_ws/src/pid_lab/src/wall_follow_node.cpp:1\x1b[m\x1b[K:\n'}
+[4.719501] (pid_lab) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/range_access.h:90:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp, long unsigned int _Nm> constexpr _Tp* std::begin(_Tp (&)[_Nm])\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.719727] (pid_lab) StderrLine: {'line': b'   90 |     \x1b[01;36m\x1b[Kbegin\x1b[m\x1b[K(_Tp (&__arr)[_Nm]) noexcept\n'}
+[4.719969] (pid_lab) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[4.720230] (pid_lab) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/range_access.h:90:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[4.720472] (pid_lab) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rstole01/Documents/CSE-596/humble_ws/src/pid_lab/src/wall_follow_node.cpp:87:87:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  variable-sized array type \xe2\x80\x98\x1b[01m\x1b[Klong int\x1b[m\x1b[K\xe2\x80\x99 is not a valid template argument\n'}
+[4.720713] (pid_lab) StderrLine: {'line': b'   87 |         std::copy(std::begin(scan_msg->ranges), std::end(scan_msg->ranges), \x1b[01;36m\x1b[Kstd::begin(ranges)\x1b[m\x1b[K);\n'}
+[4.720954] (pid_lab) StderrLine: {'line': b'      |                                                                             \x1b[01;36m\x1b[K~~~~~~~~~~^~~~~~~~\x1b[m\x1b[K\n'}
+[4.721170] (pid_lab) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/array:41\x1b[m\x1b[K,\n'}
+[4.721392] (pid_lab) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/tuple:39\x1b[m\x1b[K,\n'}
+[4.721616] (pid_lab) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/bits/unique_ptr.h:37\x1b[m\x1b[K,\n'}
+[4.721845] (pid_lab) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/memory:76\x1b[m\x1b[K,\n'}
+[4.722083] (pid_lab) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153\x1b[m\x1b[K,\n'}
+[4.722322] (pid_lab) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/rstole01/Documents/CSE-596/humble_ws/src/pid_lab/src/wall_follow_node.cpp:1\x1b[m\x1b[K:\n'}
+[4.722567] (pid_lab) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/range_access.h:107:31:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp> _Tp* std::begin(std::valarray<_Tp>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.722814] (pid_lab) StderrLine: {'line': b'  107 |   template<typename _Tp> _Tp* \x1b[01;36m\x1b[Kbegin\x1b[m\x1b[K(valarray<_Tp>&) noexcept;\n'}
+[4.723078] (pid_lab) StderrLine: {'line': b'      |                               \x1b[01;36m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[4.723320] (pid_lab) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/range_access.h:107:31:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[4.723573] (pid_lab) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rstole01/Documents/CSE-596/humble_ws/src/pid_lab/src/wall_follow_node.cpp:87:87:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kstd::valarray<_Tp>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kfloat [range_len]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.723825] (pid_lab) StderrLine: {'line': b'   87 |         std::copy(std::begin(scan_msg->ranges), std::end(scan_msg->ranges), \x1b[01;36m\x1b[Kstd::begin(ranges)\x1b[m\x1b[K);\n'}
+[4.724087] (pid_lab) StderrLine: {'line': b'      |                                                                             \x1b[01;36m\x1b[K~~~~~~~~~~^~~~~~~~\x1b[m\x1b[K\n'}
+[4.724328] (pid_lab) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/array:41\x1b[m\x1b[K,\n'}
+[4.724564] (pid_lab) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/tuple:39\x1b[m\x1b[K,\n'}
+[4.724823] (pid_lab) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/bits/unique_ptr.h:37\x1b[m\x1b[K,\n'}
+[4.725067] (pid_lab) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/memory:76\x1b[m\x1b[K,\n'}
+[4.725337] (pid_lab) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153\x1b[m\x1b[K,\n'}
+[4.725582] (pid_lab) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/rstole01/Documents/CSE-596/humble_ws/src/pid_lab/src/wall_follow_node.cpp:1\x1b[m\x1b[K:\n'}
+[4.725852] (pid_lab) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/range_access.h:108:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp> const _Tp* std::begin(const std::valarray<_Tp>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.726102] (pid_lab) StderrLine: {'line': b'  108 |   template<typename _Tp> const _Tp* \x1b[01;36m\x1b[Kbegin\x1b[m\x1b[K(const valarray<_Tp>&) noexcept;\n'}
+[4.726344] (pid_lab) StderrLine: {'line': b'      |                                     \x1b[01;36m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[4.726585] (pid_lab) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/range_access.h:108:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[4.726828] (pid_lab) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rstole01/Documents/CSE-596/humble_ws/src/pid_lab/src/wall_follow_node.cpp:87:87:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kconst std::valarray<_Tp>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kfloat [range_len]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.727077] (pid_lab) StderrLine: {'line': b'   87 |         std::copy(std::begin(scan_msg->ranges), std::end(scan_msg->ranges), \x1b[01;36m\x1b[Kstd::begin(ranges)\x1b[m\x1b[K);\n'}
+[4.727323] (pid_lab) StderrLine: {'line': b'      |                                                                             \x1b[01;36m\x1b[K~~~~~~~~~~^~~~~~~~\x1b[m\x1b[K\n'}
+[4.817729] (-) TimerEvent: {}
+[4.918211] (-) TimerEvent: {}
+[5.018666] (-) TimerEvent: {}
+[5.119140] (-) TimerEvent: {}
+[5.219598] (-) TimerEvent: {}
+[5.320088] (-) TimerEvent: {}
+[5.420550] (-) TimerEvent: {}
+[5.521012] (-) TimerEvent: {}
+[5.621474] (-) TimerEvent: {}
+[5.721941] (-) TimerEvent: {}
+[5.822423] (-) TimerEvent: {}
+[5.922889] (-) TimerEvent: {}
+[6.023356] (-) TimerEvent: {}
+[6.123825] (-) TimerEvent: {}
+[6.224299] (-) TimerEvent: {}
+[6.324771] (-) TimerEvent: {}
+[6.425268] (-) TimerEvent: {}
+[6.525737] (-) TimerEvent: {}
+[6.626197] (-) TimerEvent: {}
+[6.726645] (-) TimerEvent: {}
+[6.827107] (-) TimerEvent: {}
+[6.927573] (-) TimerEvent: {}
+[7.028080] (-) TimerEvent: {}
+[7.128536] (-) TimerEvent: {}
+[7.228993] (-) TimerEvent: {}
+[7.329430] (-) TimerEvent: {}
+[7.429851] (-) TimerEvent: {}
+[7.530285] (-) TimerEvent: {}
+[7.630705] (-) TimerEvent: {}
+[7.731150] (-) TimerEvent: {}
+[7.831603] (-) TimerEvent: {}
+[7.932110] (-) TimerEvent: {}
+[8.032592] (-) TimerEvent: {}
+[8.133052] (-) TimerEvent: {}
+[8.233496] (-) TimerEvent: {}
+[8.333957] (-) TimerEvent: {}
+[8.434418] (-) TimerEvent: {}
+[8.534864] (-) TimerEvent: {}
+[8.635304] (-) TimerEvent: {}
+[8.735732] (-) TimerEvent: {}
+[8.836214] (-) TimerEvent: {}
+[8.936678] (-) TimerEvent: {}
+[9.037149] (-) TimerEvent: {}
+[9.122566] (pid_lab) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/pid.dir/build.make:76: CMakeFiles/pid.dir/src/wall_follow_node.cpp.o] Error 1\n'}
+[9.122917] (pid_lab) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/pid.dir/all] Error 2\n'}
+[9.123245] (pid_lab) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[9.126695] (pid_lab) CommandEnded: {'returncode': 2}
+[9.137249] (-) TimerEvent: {}
+[9.237876] (-) TimerEvent: {}
+[9.332891] (pid_lab) JobEnded: {'identifier': 'pid_lab', 'rc': 2}
+[9.337960] (-) TimerEvent: {}
+[9.343528] (-) EventReactorShutdown: {}

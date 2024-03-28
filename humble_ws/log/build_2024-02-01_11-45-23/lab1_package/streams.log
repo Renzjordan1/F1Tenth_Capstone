@@ -1,0 +1,22 @@
+[1.204s] Invoking command in '/home/rstole01/Documents/CSE-596/humble_ws/build/lab1_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rstole01/Documents/CSE-596/humble_ws/install/joy_teleop:/home/rstole01/Documents/CSE-596/humble_ws/install/mouse_teleop:/home/rstole01/Documents/CSE-596/humble_ws/install/key_teleop:/home/rstole01/Documents/CSE-596/humble_ws/install/f1tenth_gym_ros:/opt/ros/humble /usr/bin/cmake --build /home/rstole01/Documents/CSE-596/humble_ws/build/lab1_package -- -j8 -l8
+[1.311s] [100%] Built target my_node
+[1.347s] Invoked command in '/home/rstole01/Documents/CSE-596/humble_ws/build/lab1_package' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rstole01/Documents/CSE-596/humble_ws/install/joy_teleop:/home/rstole01/Documents/CSE-596/humble_ws/install/mouse_teleop:/home/rstole01/Documents/CSE-596/humble_ws/install/key_teleop:/home/rstole01/Documents/CSE-596/humble_ws/install/f1tenth_gym_ros:/opt/ros/humble /usr/bin/cmake --build /home/rstole01/Documents/CSE-596/humble_ws/build/lab1_package -- -j8 -l8
+[1.565s] Invoking command in '/home/rstole01/Documents/CSE-596/humble_ws/build/lab1_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rstole01/Documents/CSE-596/humble_ws/install/joy_teleop:/home/rstole01/Documents/CSE-596/humble_ws/install/mouse_teleop:/home/rstole01/Documents/CSE-596/humble_ws/install/key_teleop:/home/rstole01/Documents/CSE-596/humble_ws/install/f1tenth_gym_ros:/opt/ros/humble /usr/bin/cmake --install /home/rstole01/Documents/CSE-596/humble_ws/build/lab1_package
+[1.599s] -- Install configuration: ""
+[1.602s] -- Up-to-date: /home/rstole01/Documents/CSE-596/humble_ws/install/lab1_package/lib/lab1_package/my_node
+[1.602s] -- Up-to-date: /home/rstole01/Documents/CSE-596/humble_ws/install/lab1_package/share/ament_index/resource_index/package_run_dependencies/lab1_package
+[1.602s] -- Up-to-date: /home/rstole01/Documents/CSE-596/humble_ws/install/lab1_package/share/ament_index/resource_index/parent_prefix_path/lab1_package
+[1.603s] -- Up-to-date: /home/rstole01/Documents/CSE-596/humble_ws/install/lab1_package/share/lab1_package/environment/ament_prefix_path.sh
+[1.604s] -- Up-to-date: /home/rstole01/Documents/CSE-596/humble_ws/install/lab1_package/share/lab1_package/environment/ament_prefix_path.dsv
+[1.604s] -- Up-to-date: /home/rstole01/Documents/CSE-596/humble_ws/install/lab1_package/share/lab1_package/environment/path.sh
+[1.604s] -- Up-to-date: /home/rstole01/Documents/CSE-596/humble_ws/install/lab1_package/share/lab1_package/environment/path.dsv
+[1.605s] -- Up-to-date: /home/rstole01/Documents/CSE-596/humble_ws/install/lab1_package/share/lab1_package/local_setup.bash
+[1.606s] -- Up-to-date: /home/rstole01/Documents/CSE-596/humble_ws/install/lab1_package/share/lab1_package/local_setup.sh
+[1.608s] -- Up-to-date: /home/rstole01/Documents/CSE-596/humble_ws/install/lab1_package/share/lab1_package/local_setup.zsh
+[1.608s] -- Up-to-date: /home/rstole01/Documents/CSE-596/humble_ws/install/lab1_package/share/lab1_package/local_setup.dsv
+[1.609s] -- Installing: /home/rstole01/Documents/CSE-596/humble_ws/install/lab1_package/share/lab1_package/package.dsv
+[1.658s] -- Up-to-date: /home/rstole01/Documents/CSE-596/humble_ws/install/lab1_package/share/ament_index/resource_index/packages/lab1_package
+[1.659s] -- Up-to-date: /home/rstole01/Documents/CSE-596/humble_ws/install/lab1_package/share/lab1_package/cmake/lab1_packageConfig.cmake
+[1.660s] -- Up-to-date: /home/rstole01/Documents/CSE-596/humble_ws/install/lab1_package/share/lab1_package/cmake/lab1_packageConfig-version.cmake
+[1.660s] -- Up-to-date: /home/rstole01/Documents/CSE-596/humble_ws/install/lab1_package/share/lab1_package/package.xml
+[1.681s] Invoked command in '/home/rstole01/Documents/CSE-596/humble_ws/build/lab1_package' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rstole01/Documents/CSE-596/humble_ws/install/joy_teleop:/home/rstole01/Documents/CSE-596/humble_ws/install/mouse_teleop:/home/rstole01/Documents/CSE-596/humble_ws/install/key_teleop:/home/rstole01/Documents/CSE-596/humble_ws/install/f1tenth_gym_ros:/opt/ros/humble /usr/bin/cmake --install /home/rstole01/Documents/CSE-596/humble_ws/build/lab1_package

@@ -1,0 +1,51 @@
+[7.157s] Invoking command in '/home/rstole01/Documents/CSE-596/msu_ws/src/qlearn': AMENT_PREFIX_PATH=/home/rstole01/Documents/CSE-596/msu_ws/install/ackermann_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rstole01/Documents/CSE-596/msu_ws/install/ackermann_msgs LD_LIBRARY_PATH=/home/rstole01/Documents/CSE-596/msu_ws/install/ackermann_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rstole01/Documents/CSE-596/msu_ws/build/qlearn/prefix_override:/home/rstole01/Documents/CSE-596/msu_ws/install/qlearn/lib/python3.10/site-packages:/home/rstole01/Documents/CSE-596/msu_ws/install/ackermann_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/qlearn build --build-base /home/rstole01/Documents/CSE-596/msu_ws/build/qlearn/build install --record /home/rstole01/Documents/CSE-596/msu_ws/build/qlearn/install.log --single-version-externally-managed
+[8.083s] running egg_info
+[8.086s] creating ../../build/qlearn/qlearn.egg-info
+[8.087s] writing ../../build/qlearn/qlearn.egg-info/PKG-INFO
+[8.088s] writing dependency_links to ../../build/qlearn/qlearn.egg-info/dependency_links.txt
+[8.089s] writing entry points to ../../build/qlearn/qlearn.egg-info/entry_points.txt
+[8.089s] writing requirements to ../../build/qlearn/qlearn.egg-info/requires.txt
+[8.089s] writing top-level names to ../../build/qlearn/qlearn.egg-info/top_level.txt
+[8.089s] writing manifest file '../../build/qlearn/qlearn.egg-info/SOURCES.txt'
+[8.093s] reading manifest file '../../build/qlearn/qlearn.egg-info/SOURCES.txt'
+[8.096s] writing manifest file '../../build/qlearn/qlearn.egg-info/SOURCES.txt'
+[8.097s] running build
+[8.098s] running build_py
+[8.098s] creating /home/rstole01/Documents/CSE-596/msu_ws/build/qlearn/build
+[8.098s] creating /home/rstole01/Documents/CSE-596/msu_ws/build/qlearn/build/lib
+[8.099s] creating /home/rstole01/Documents/CSE-596/msu_ws/build/qlearn/build/lib/qlearn
+[8.099s] copying qlearn/qlearn.py -> /home/rstole01/Documents/CSE-596/msu_ws/build/qlearn/build/lib/qlearn
+[8.099s] copying qlearn/DQN.py -> /home/rstole01/Documents/CSE-596/msu_ws/build/qlearn/build/lib/qlearn
+[8.100s] copying qlearn/QNetwork.py -> /home/rstole01/Documents/CSE-596/msu_ws/build/qlearn/build/lib/qlearn
+[8.100s] copying qlearn/__init__.py -> /home/rstole01/Documents/CSE-596/msu_ws/build/qlearn/build/lib/qlearn
+[8.100s] copying qlearn/ReplayBuffer.py -> /home/rstole01/Documents/CSE-596/msu_ws/build/qlearn/build/lib/qlearn
+[8.101s] copying qlearn/QTable.py -> /home/rstole01/Documents/CSE-596/msu_ws/build/qlearn/build/lib/qlearn
+[8.101s] running install
+[8.102s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[8.102s]   warnings.warn(
+[8.103s] running install_lib
+[8.106s] creating /home/rstole01/Documents/CSE-596/msu_ws/install/qlearn/lib/python3.10/site-packages/qlearn
+[8.107s] copying /home/rstole01/Documents/CSE-596/msu_ws/build/qlearn/build/lib/qlearn/qlearn.py -> /home/rstole01/Documents/CSE-596/msu_ws/install/qlearn/lib/python3.10/site-packages/qlearn
+[8.121s] copying /home/rstole01/Documents/CSE-596/msu_ws/build/qlearn/build/lib/qlearn/DQN.py -> /home/rstole01/Documents/CSE-596/msu_ws/install/qlearn/lib/python3.10/site-packages/qlearn
+[8.121s] copying /home/rstole01/Documents/CSE-596/msu_ws/build/qlearn/build/lib/qlearn/QNetwork.py -> /home/rstole01/Documents/CSE-596/msu_ws/install/qlearn/lib/python3.10/site-packages/qlearn
+[8.122s] copying /home/rstole01/Documents/CSE-596/msu_ws/build/qlearn/build/lib/qlearn/__init__.py -> /home/rstole01/Documents/CSE-596/msu_ws/install/qlearn/lib/python3.10/site-packages/qlearn
+[8.123s] copying /home/rstole01/Documents/CSE-596/msu_ws/build/qlearn/build/lib/qlearn/ReplayBuffer.py -> /home/rstole01/Documents/CSE-596/msu_ws/install/qlearn/lib/python3.10/site-packages/qlearn
+[8.123s] copying /home/rstole01/Documents/CSE-596/msu_ws/build/qlearn/build/lib/qlearn/QTable.py -> /home/rstole01/Documents/CSE-596/msu_ws/install/qlearn/lib/python3.10/site-packages/qlearn
+[8.123s] byte-compiling /home/rstole01/Documents/CSE-596/msu_ws/install/qlearn/lib/python3.10/site-packages/qlearn/qlearn.py to qlearn.cpython-310.pyc
+[8.127s] byte-compiling /home/rstole01/Documents/CSE-596/msu_ws/install/qlearn/lib/python3.10/site-packages/qlearn/DQN.py to DQN.cpython-310.pyc
+[8.128s] byte-compiling /home/rstole01/Documents/CSE-596/msu_ws/install/qlearn/lib/python3.10/site-packages/qlearn/QNetwork.py to QNetwork.cpython-310.pyc
+[8.129s] byte-compiling /home/rstole01/Documents/CSE-596/msu_ws/install/qlearn/lib/python3.10/site-packages/qlearn/__init__.py to __init__.cpython-310.pyc
+[8.129s] byte-compiling /home/rstole01/Documents/CSE-596/msu_ws/install/qlearn/lib/python3.10/site-packages/qlearn/ReplayBuffer.py to ReplayBuffer.cpython-310.pyc
+[8.129s] byte-compiling /home/rstole01/Documents/CSE-596/msu_ws/install/qlearn/lib/python3.10/site-packages/qlearn/QTable.py to QTable.cpython-310.pyc
+[8.132s] running install_data
+[8.133s] creating /home/rstole01/Documents/CSE-596/msu_ws/install/qlearn/share/ament_index
+[8.134s] creating /home/rstole01/Documents/CSE-596/msu_ws/install/qlearn/share/ament_index/resource_index
+[8.134s] creating /home/rstole01/Documents/CSE-596/msu_ws/install/qlearn/share/ament_index/resource_index/packages
+[8.134s] copying resource/qlearn -> /home/rstole01/Documents/CSE-596/msu_ws/install/qlearn/share/ament_index/resource_index/packages
+[8.135s] copying package.xml -> /home/rstole01/Documents/CSE-596/msu_ws/install/qlearn/share/qlearn
+[8.135s] running install_egg_info
+[8.139s] Copying ../../build/qlearn/qlearn.egg-info to /home/rstole01/Documents/CSE-596/msu_ws/install/qlearn/lib/python3.10/site-packages/qlearn-0.0.0-py3.10.egg-info
+[8.142s] running install_scripts
+[8.208s] Installing qlearn script to /home/rstole01/Documents/CSE-596/msu_ws/install/qlearn/lib/qlearn
+[8.210s] writing list of installed files to '/home/rstole01/Documents/CSE-596/msu_ws/build/qlearn/install.log'
+[8.628s] Invoked command in '/home/rstole01/Documents/CSE-596/msu_ws/src/qlearn' returned '0': AMENT_PREFIX_PATH=/home/rstole01/Documents/CSE-596/msu_ws/install/ackermann_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rstole01/Documents/CSE-596/msu_ws/install/ackermann_msgs LD_LIBRARY_PATH=/home/rstole01/Documents/CSE-596/msu_ws/install/ackermann_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rstole01/Documents/CSE-596/msu_ws/build/qlearn/prefix_override:/home/rstole01/Documents/CSE-596/msu_ws/install/qlearn/lib/python3.10/site-packages:/home/rstole01/Documents/CSE-596/msu_ws/install/ackermann_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/qlearn build --build-base /home/rstole01/Documents/CSE-596/msu_ws/build/qlearn/build install --record /home/rstole01/Documents/CSE-596/msu_ws/build/qlearn/install.log --single-version-externally-managed

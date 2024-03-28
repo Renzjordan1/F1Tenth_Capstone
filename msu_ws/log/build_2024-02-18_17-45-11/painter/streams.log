@@ -1,0 +1,23 @@
+[5.874s] Invoking command in '/home/rstole01/Documents/CSE-596/msu_ws/src/painter': PYTHONPATH=/home/rstole01/Documents/CSE-596/msu_ws/build/painter/prefix_override:/home/rstole01/Documents/CSE-596/msu_ws/install/painter/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/painter build --build-base /home/rstole01/Documents/CSE-596/msu_ws/build/painter/build install --record /home/rstole01/Documents/CSE-596/msu_ws/build/painter/install.log --single-version-externally-managed
+[7.144s] running egg_info
+[7.145s] writing ../../build/painter/painter.egg-info/PKG-INFO
+[7.147s] writing dependency_links to ../../build/painter/painter.egg-info/dependency_links.txt
+[7.147s] writing entry points to ../../build/painter/painter.egg-info/entry_points.txt
+[7.148s] writing requirements to ../../build/painter/painter.egg-info/requires.txt
+[7.149s] writing top-level names to ../../build/painter/painter.egg-info/top_level.txt
+[7.150s] reading manifest file '../../build/painter/painter.egg-info/SOURCES.txt'
+[7.150s] writing manifest file '../../build/painter/painter.egg-info/SOURCES.txt'
+[7.151s] running build
+[7.151s] running build_py
+[7.152s] running install
+[7.152s] running install_lib
+[7.153s] running install_data
+[7.154s] running install_egg_info
+[7.155s] removing '/home/rstole01/Documents/CSE-596/msu_ws/install/painter/lib/python3.10/site-packages/painter-0.0.0-py3.10.egg-info' (and everything under it)
+[7.155s] Copying ../../build/painter/painter.egg-info to /home/rstole01/Documents/CSE-596/msu_ws/install/painter/lib/python3.10/site-packages/painter-0.0.0-py3.10.egg-info
+[7.156s] running install_scripts
+[7.157s] Installing painter script to /home/rstole01/Documents/CSE-596/msu_ws/install/painter/lib/painter
+[7.157s] writing list of installed files to '/home/rstole01/Documents/CSE-596/msu_ws/build/painter/install.log'
+[7.158s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[7.158s]   warnings.warn(
+[8.186s] Invoked command in '/home/rstole01/Documents/CSE-596/msu_ws/src/painter' returned '0': PYTHONPATH=/home/rstole01/Documents/CSE-596/msu_ws/build/painter/prefix_override:/home/rstole01/Documents/CSE-596/msu_ws/install/painter/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/painter build --build-base /home/rstole01/Documents/CSE-596/msu_ws/build/painter/build install --record /home/rstole01/Documents/CSE-596/msu_ws/build/painter/install.log --single-version-externally-managed

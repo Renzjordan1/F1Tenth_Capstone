@@ -1,0 +1,23 @@
+[8.883s] Invoking command in '/home/rstole01/Documents/CSE-596/msu_ws/src/waypoint_follow': AMENT_PREFIX_PATH=/home/rstole01/Documents/CSE-596/msu_ws/install/ackermann_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rstole01/Documents/CSE-596/msu_ws/install/ackermann_msgs LD_LIBRARY_PATH=/home/rstole01/Documents/CSE-596/msu_ws/install/ackermann_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rstole01/Documents/CSE-596/msu_ws/build/waypoint_follow/prefix_override:/home/rstole01/Documents/CSE-596/msu_ws/install/waypoint_follow/lib/python3.10/site-packages:/home/rstole01/Documents/CSE-596/msu_ws/install/ackermann_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/waypoint_follow build --build-base /home/rstole01/Documents/CSE-596/msu_ws/build/waypoint_follow/build install --record /home/rstole01/Documents/CSE-596/msu_ws/build/waypoint_follow/install.log --single-version-externally-managed
+[10.107s] running egg_info
+[10.113s] writing ../../build/waypoint_follow/waypoint_follow.egg-info/PKG-INFO
+[10.114s] writing dependency_links to ../../build/waypoint_follow/waypoint_follow.egg-info/dependency_links.txt
+[10.115s] writing entry points to ../../build/waypoint_follow/waypoint_follow.egg-info/entry_points.txt
+[10.116s] writing requirements to ../../build/waypoint_follow/waypoint_follow.egg-info/requires.txt
+[10.117s] writing top-level names to ../../build/waypoint_follow/waypoint_follow.egg-info/top_level.txt
+[10.128s] reading manifest file '../../build/waypoint_follow/waypoint_follow.egg-info/SOURCES.txt'
+[10.133s] writing manifest file '../../build/waypoint_follow/waypoint_follow.egg-info/SOURCES.txt'
+[10.133s] running build
+[10.133s] running build_py
+[10.135s] running install
+[10.135s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[10.135s]   warnings.warn(
+[10.136s] running install_lib
+[10.141s] running install_data
+[10.146s] running install_egg_info
+[10.152s] removing '/home/rstole01/Documents/CSE-596/msu_ws/install/waypoint_follow/lib/python3.10/site-packages/waypoint_follow-0.0.0-py3.10.egg-info' (and everything under it)
+[10.154s] Copying ../../build/waypoint_follow/waypoint_follow.egg-info to /home/rstole01/Documents/CSE-596/msu_ws/install/waypoint_follow/lib/python3.10/site-packages/waypoint_follow-0.0.0-py3.10.egg-info
+[10.157s] running install_scripts
+[10.239s] Installing waypoint_follow script to /home/rstole01/Documents/CSE-596/msu_ws/install/waypoint_follow/lib/waypoint_follow
+[10.242s] writing list of installed files to '/home/rstole01/Documents/CSE-596/msu_ws/build/waypoint_follow/install.log'
+[10.600s] Invoked command in '/home/rstole01/Documents/CSE-596/msu_ws/src/waypoint_follow' returned '0': AMENT_PREFIX_PATH=/home/rstole01/Documents/CSE-596/msu_ws/install/ackermann_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rstole01/Documents/CSE-596/msu_ws/install/ackermann_msgs LD_LIBRARY_PATH=/home/rstole01/Documents/CSE-596/msu_ws/install/ackermann_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rstole01/Documents/CSE-596/msu_ws/build/waypoint_follow/prefix_override:/home/rstole01/Documents/CSE-596/msu_ws/install/waypoint_follow/lib/python3.10/site-packages:/home/rstole01/Documents/CSE-596/msu_ws/install/ackermann_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/waypoint_follow build --build-base /home/rstole01/Documents/CSE-596/msu_ws/build/waypoint_follow/build install --record /home/rstole01/Documents/CSE-596/msu_ws/build/waypoint_follow/install.log --single-version-externally-managed

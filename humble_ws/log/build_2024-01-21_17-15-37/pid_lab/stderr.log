@@ -1,0 +1,4 @@
+[01m[K/home/rstole01/Documents/CSE-596/humble_ws/src/pid_lab/src/wall_follow_node.cpp:[m[K In member function ‘[01m[Kvoid WallFollow::scan_callback(const ConstSharedPtr&)[m[K’:
+[01m[K/home/rstole01/Documents/CSE-596/humble_ws/src/pid_lab/src/wall_follow_node.cpp:100:13:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kind[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+  100 |         int [01;35m[Kind[m[K;
+      |             [01;35m[K^~~[m[K

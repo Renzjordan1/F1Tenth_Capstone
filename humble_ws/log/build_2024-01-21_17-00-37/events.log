@@ -1,0 +1,285 @@
+[0.000000] (-) TimerEvent: {}
+[0.000645] (-) JobUnselected: {'identifier': 'aeb_lab'}
+[0.000879] (-) JobUnselected: {'identifier': 'cpp_pubsub'}
+[0.000935] (-) JobUnselected: {'identifier': 'f1tenth_gym_ros'}
+[0.001259] (-) JobUnselected: {'identifier': 'lab1_package'}
+[0.001325] (-) JobUnselected: {'identifier': 'scan_pubsub'}
+[0.001393] (-) JobUnselected: {'identifier': 'tutorial_interfaces'}
+[0.001678] (pid_lab) JobQueued: {'identifier': 'pid_lab', 'dependencies': OrderedDict()}
+[0.001800] (pid_lab) JobStarted: {'identifier': 'pid_lab'}
+[0.098923] (-) TimerEvent: {}
+[0.129741] (pid_lab) JobProgress: {'identifier': 'pid_lab', 'progress': 'cmake'}
+[0.150241] (pid_lab) JobProgress: {'identifier': 'pid_lab', 'progress': 'build'}
+[0.150340] (pid_lab) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/rstole01/Documents/CSE-596/humble_ws/build/pid_lab', '--', '-j8', '-l8'], 'cwd': '/home/rstole01/Documents/CSE-596/humble_ws/build/pid_lab', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'rstole01'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/rstole01'), ('OLDPWD', '/home/rstole01/Documents/CSE-596/humble_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '6302'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=59b32b0c441ec335d369dbdc65ad6373'), ('COLORTERM', 'truecolor'), ('LIBVIRT_DEFAULT_URI', 'qemu:///system'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'rstole01'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'rstole01'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/rstole01/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/rstole01-Lenovo-ideapad-FLEX-5-1570:@/tmp/.ICE-unix/6302,unix/rstole01-Lenovo-ideapad-FLEX-5-1570:/tmp/.ICE-unix/6302'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/f4199152_2de7_47e8_bef5_1b3f619e04ff'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.E0GHH2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.111'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/rstole01/Documents/CSE-596/humble_ws/build/pid_lab'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=59b32b0c441ec335d369dbdc65ad6373'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.199104] (-) TimerEvent: {}
+[0.235583] (pid_lab) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target pid\x1b[0m\n'}
+[0.274382] (pid_lab) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/pid.dir/src/wall_follow_node.cpp.o\x1b[0m\n'}
+[0.299257] (-) TimerEvent: {}
+[0.399767] (-) TimerEvent: {}
+[0.500147] (-) TimerEvent: {}
+[0.600527] (-) TimerEvent: {}
+[0.701013] (-) TimerEvent: {}
+[0.801393] (-) TimerEvent: {}
+[0.901771] (-) TimerEvent: {}
+[1.002237] (-) TimerEvent: {}
+[1.102706] (-) TimerEvent: {}
+[1.203196] (-) TimerEvent: {}
+[1.303665] (-) TimerEvent: {}
+[1.404161] (-) TimerEvent: {}
+[1.504632] (-) TimerEvent: {}
+[1.605104] (-) TimerEvent: {}
+[1.705588] (-) TimerEvent: {}
+[1.806058] (-) TimerEvent: {}
+[1.906535] (-) TimerEvent: {}
+[2.007033] (-) TimerEvent: {}
+[2.107496] (-) TimerEvent: {}
+[2.207949] (-) TimerEvent: {}
+[2.308416] (-) TimerEvent: {}
+[2.408881] (-) TimerEvent: {}
+[2.509375] (-) TimerEvent: {}
+[2.609845] (-) TimerEvent: {}
+[2.710326] (-) TimerEvent: {}
+[2.810788] (-) TimerEvent: {}
+[2.911282] (-) TimerEvent: {}
+[3.011741] (-) TimerEvent: {}
+[3.112195] (-) TimerEvent: {}
+[3.212656] (-) TimerEvent: {}
+[3.313110] (-) TimerEvent: {}
+[3.413581] (-) TimerEvent: {}
+[3.514039] (-) TimerEvent: {}
+[3.614505] (-) TimerEvent: {}
+[3.714976] (-) TimerEvent: {}
+[3.815468] (-) TimerEvent: {}
+[3.915889] (-) TimerEvent: {}
+[4.016338] (-) TimerEvent: {}
+[4.116794] (-) TimerEvent: {}
+[4.217247] (-) TimerEvent: {}
+[4.317698] (-) TimerEvent: {}
+[4.418161] (-) TimerEvent: {}
+[4.518629] (-) TimerEvent: {}
+[4.619105] (-) TimerEvent: {}
+[4.719591] (-) TimerEvent: {}
+[4.752534] (pid_lab) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[4.752841] (pid_lab) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[4.752988] (pid_lab) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[4.753125] (pid_lab) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[4.753253] (pid_lab) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[4.753380] (pid_lab) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[4.753508] (pid_lab) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[4.753634] (pid_lab) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[4.753760] (pid_lab) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[4.753901] (pid_lab) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[4.754027] (pid_lab) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[4.754152] (pid_lab) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/rstole01/Documents/CSE-596/humble_ws/src/pid_lab/src/wall_follow_node.cpp:1\x1b[m\x1b[K:\n'}
+[4.754277] (pid_lab) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rstole01/Documents/CSE-596/humble_ws/src/pid_lab/src/wall_follow_node.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kdouble WallFollow::get_error(float, double, double)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.754405] (pid_lab) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rstole01/Documents/CSE-596/humble_ws/src/pid_lab/src/wall_follow_node.cpp:151:7:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kformat \xe2\x80\x98\x1b[01m\x1b[K%d\x1b[m\x1b[K\xe2\x80\x99 expects argument of type \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99, but argument 5 has type \xe2\x80\x98\x1b[01m\x1b[Kdouble\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=\x07-Wformat=\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[4.754541] (pid_lab) StderrLine: {'line': b'  151 |       \x1b[01;35m\x1b[K"Distance: %d,\\nNew Distance: %d,\\nError: %d,\\n"\x1b[m\x1b[K,\n'}
+[4.754689] (pid_lab) StderrLine: {'line': b'      |       \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.754814] (pid_lab) StderrLine: {'line': b'  152 |       \x1b[32m\x1b[Kdistance\x1b[m\x1b[K, new_distance, error);\n'}
+[4.754938] (pid_lab) StderrLine: {'line': b'      |       \x1b[32m\x1b[K~~~~~~~~\x1b[m\x1b[K\n'}
+[4.755088] (pid_lab) StderrLine: {'line': b'      |       \x1b[32m\x1b[K|\x1b[m\x1b[K\n'}
+[4.755218] (pid_lab) StderrLine: {'line': b'      |       \x1b[32m\x1b[Kdouble\x1b[m\x1b[K\n'}
+[4.755341] (pid_lab) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rstole01/Documents/CSE-596/humble_ws/src/pid_lab/src/wall_follow_node.cpp:151:19:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kformat string is defined here\n'}
+[4.755468] (pid_lab) StderrLine: {'line': b'  151 |       "Distance: \x1b[01;36m\x1b[K%d\x1b[m\x1b[K,\\nNew Distance: %d,\\nError: %d,\\n",\n'}
+[4.755592] (pid_lab) StderrLine: {'line': b'      |                  \x1b[01;36m\x1b[K~^\x1b[m\x1b[K\n'}
+[4.755714] (pid_lab) StderrLine: {'line': b'      |                   \x1b[01;36m\x1b[K|\x1b[m\x1b[K\n'}
+[4.755836] (pid_lab) StderrLine: {'line': b'      |                   \x1b[01;36m\x1b[Kint\x1b[m\x1b[K\n'}
+[4.755958] (pid_lab) StderrLine: {'line': b'      |                  \x1b[32m\x1b[K%f\x1b[m\x1b[K\n'}
+[4.756079] (pid_lab) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[4.756201] (pid_lab) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[4.756324] (pid_lab) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[4.756448] (pid_lab) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[4.756571] (pid_lab) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[4.756694] (pid_lab) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[4.756815] (pid_lab) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[4.756937] (pid_lab) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[4.757059] (pid_lab) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[4.757198] (pid_lab) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[4.757335] (pid_lab) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[4.757460] (pid_lab) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/rstole01/Documents/CSE-596/humble_ws/src/pid_lab/src/wall_follow_node.cpp:1\x1b[m\x1b[K:\n'}
+[4.757583] (pid_lab) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rstole01/Documents/CSE-596/humble_ws/src/pid_lab/src/wall_follow_node.cpp:151:7:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kformat \xe2\x80\x98\x1b[01m\x1b[K%d\x1b[m\x1b[K\xe2\x80\x99 expects argument of type \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99, but argument 6 has type \xe2\x80\x98\x1b[01m\x1b[Kdouble\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=\x07-Wformat=\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[4.757740] (pid_lab) StderrLine: {'line': b'  151 |       \x1b[01;35m\x1b[K"Distance: %d,\\nNew Distance: %d,\\nError: %d,\\n"\x1b[m\x1b[K,\n'}
+[4.757877] (pid_lab) StderrLine: {'line': b'      |       \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.758000] (pid_lab) StderrLine: {'line': b'  152 |       distance, \x1b[32m\x1b[Knew_distance\x1b[m\x1b[K, error);\n'}
+[4.758122] (pid_lab) StderrLine: {'line': b'      |                 \x1b[32m\x1b[K~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.758244] (pid_lab) StderrLine: {'line': b'      |                 \x1b[32m\x1b[K|\x1b[m\x1b[K\n'}
+[4.758366] (pid_lab) StderrLine: {'line': b'      |                 \x1b[32m\x1b[Kdouble\x1b[m\x1b[K\n'}
+[4.758487] (pid_lab) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rstole01/Documents/CSE-596/humble_ws/src/pid_lab/src/wall_follow_node.cpp:151:38:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kformat string is defined here\n'}
+[4.758609] (pid_lab) StderrLine: {'line': b'  151 |       "Distance: %d,\\nNew Distance: \x1b[01;36m\x1b[K%d\x1b[m\x1b[K,\\nError: %d,\\n",\n'}
+[4.758731] (pid_lab) StderrLine: {'line': b'      |                                     \x1b[01;36m\x1b[K~^\x1b[m\x1b[K\n'}
+[4.758853] (pid_lab) StderrLine: {'line': b'      |                                      \x1b[01;36m\x1b[K|\x1b[m\x1b[K\n'}
+[4.758973] (pid_lab) StderrLine: {'line': b'      |                                      \x1b[01;36m\x1b[Kint\x1b[m\x1b[K\n'}
+[4.759112] (pid_lab) StderrLine: {'line': b'      |                                     \x1b[32m\x1b[K%f\x1b[m\x1b[K\n'}
+[4.759235] (pid_lab) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[4.759355] (pid_lab) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[4.759477] (pid_lab) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[4.759599] (pid_lab) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[4.759722] (pid_lab) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[4.759843] (pid_lab) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[4.759964] (pid_lab) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[4.760086] (pid_lab) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[4.760209] (pid_lab) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[4.760343] (pid_lab) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[4.760464] (pid_lab) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[4.760585] (pid_lab) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/rstole01/Documents/CSE-596/humble_ws/src/pid_lab/src/wall_follow_node.cpp:1\x1b[m\x1b[K:\n'}
+[4.760707] (pid_lab) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rstole01/Documents/CSE-596/humble_ws/src/pid_lab/src/wall_follow_node.cpp:151:7:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kformat \xe2\x80\x98\x1b[01m\x1b[K%d\x1b[m\x1b[K\xe2\x80\x99 expects argument of type \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99, but argument 7 has type \xe2\x80\x98\x1b[01m\x1b[Kdouble\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=\x07-Wformat=\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[4.760836] (pid_lab) StderrLine: {'line': b'  151 |       \x1b[01;35m\x1b[K"Distance: %d,\\nNew Distance: %d,\\nError: %d,\\n"\x1b[m\x1b[K,\n'}
+[4.760958] (pid_lab) StderrLine: {'line': b'      |       \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.761078] (pid_lab) StderrLine: {'line': b'  152 |       distance, new_distance, \x1b[32m\x1b[Kerror\x1b[m\x1b[K);\n'}
+[4.761199] (pid_lab) StderrLine: {'line': b'      |                               \x1b[32m\x1b[K~~~~~\x1b[m\x1b[K\n'}
+[4.761320] (pid_lab) StderrLine: {'line': b'      |                               \x1b[32m\x1b[K|\x1b[m\x1b[K\n'}
+[4.761441] (pid_lab) StderrLine: {'line': b'      |                               \x1b[32m\x1b[Kdouble\x1b[m\x1b[K\n'}
+[4.761562] (pid_lab) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rstole01/Documents/CSE-596/humble_ws/src/pid_lab/src/wall_follow_node.cpp:151:50:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kformat string is defined here\n'}
+[4.761686] (pid_lab) StderrLine: {'line': b'  151 |       "Distance: %d,\\nNew Distance: %d,\\nError: \x1b[01;36m\x1b[K%d\x1b[m\x1b[K,\\n",\n'}
+[4.761808] (pid_lab) StderrLine: {'line': b'      |                                                 \x1b[01;36m\x1b[K~^\x1b[m\x1b[K\n'}
+[4.761928] (pid_lab) StderrLine: {'line': b'      |                                                  \x1b[01;36m\x1b[K|\x1b[m\x1b[K\n'}
+[4.762059] (pid_lab) StderrLine: {'line': b'      |                                                  \x1b[01;36m\x1b[Kint\x1b[m\x1b[K\n'}
+[4.762181] (pid_lab) StderrLine: {'line': b'      |                                                 \x1b[32m\x1b[K%f\x1b[m\x1b[K\n'}
+[4.819733] (-) TimerEvent: {}
+[4.920162] (-) TimerEvent: {}
+[5.020559] (-) TimerEvent: {}
+[5.120961] (-) TimerEvent: {}
+[5.221360] (-) TimerEvent: {}
+[5.321761] (-) TimerEvent: {}
+[5.422160] (-) TimerEvent: {}
+[5.522564] (-) TimerEvent: {}
+[5.622967] (-) TimerEvent: {}
+[5.723402] (-) TimerEvent: {}
+[5.823812] (-) TimerEvent: {}
+[5.924218] (-) TimerEvent: {}
+[6.024622] (-) TimerEvent: {}
+[6.125026] (-) TimerEvent: {}
+[6.225430] (-) TimerEvent: {}
+[6.325786] (-) TimerEvent: {}
+[6.426237] (-) TimerEvent: {}
+[6.526635] (-) TimerEvent: {}
+[6.627065] (-) TimerEvent: {}
+[6.727472] (-) TimerEvent: {}
+[6.827871] (-) TimerEvent: {}
+[6.928267] (-) TimerEvent: {}
+[7.028662] (-) TimerEvent: {}
+[7.129052] (-) TimerEvent: {}
+[7.229450] (-) TimerEvent: {}
+[7.329847] (-) TimerEvent: {}
+[7.430254] (-) TimerEvent: {}
+[7.530670] (-) TimerEvent: {}
+[7.631071] (-) TimerEvent: {}
+[7.731456] (-) TimerEvent: {}
+[7.831877] (-) TimerEvent: {}
+[7.932272] (-) TimerEvent: {}
+[8.032670] (-) TimerEvent: {}
+[8.133069] (-) TimerEvent: {}
+[8.233469] (-) TimerEvent: {}
+[8.333869] (-) TimerEvent: {}
+[8.434265] (-) TimerEvent: {}
+[8.534664] (-) TimerEvent: {}
+[8.635086] (-) TimerEvent: {}
+[8.735484] (-) TimerEvent: {}
+[8.835886] (-) TimerEvent: {}
+[8.936290] (-) TimerEvent: {}
+[9.036691] (-) TimerEvent: {}
+[9.137105] (-) TimerEvent: {}
+[9.237525] (-) TimerEvent: {}
+[9.337934] (-) TimerEvent: {}
+[9.438338] (-) TimerEvent: {}
+[9.538753] (-) TimerEvent: {}
+[9.639118] (-) TimerEvent: {}
+[9.739585] (-) TimerEvent: {}
+[9.840065] (-) TimerEvent: {}
+[9.940527] (-) TimerEvent: {}
+[10.040973] (-) TimerEvent: {}
+[10.141409] (-) TimerEvent: {}
+[10.241851] (-) TimerEvent: {}
+[10.342316] (-) TimerEvent: {}
+[10.442764] (-) TimerEvent: {}
+[10.543277] (-) TimerEvent: {}
+[10.643727] (-) TimerEvent: {}
+[10.744186] (-) TimerEvent: {}
+[10.844629] (-) TimerEvent: {}
+[10.945070] (-) TimerEvent: {}
+[11.045499] (-) TimerEvent: {}
+[11.145956] (-) TimerEvent: {}
+[11.246394] (-) TimerEvent: {}
+[11.346836] (-) TimerEvent: {}
+[11.447300] (-) TimerEvent: {}
+[11.547748] (-) TimerEvent: {}
+[11.648215] (-) TimerEvent: {}
+[11.748662] (-) TimerEvent: {}
+[11.849114] (-) TimerEvent: {}
+[11.949560] (-) TimerEvent: {}
+[12.050003] (-) TimerEvent: {}
+[12.150461] (-) TimerEvent: {}
+[12.250910] (-) TimerEvent: {}
+[12.351380] (-) TimerEvent: {}
+[12.451830] (-) TimerEvent: {}
+[12.552297] (-) TimerEvent: {}
+[12.652744] (-) TimerEvent: {}
+[12.753239] (-) TimerEvent: {}
+[12.857280] (-) TimerEvent: {}
+[12.957724] (-) TimerEvent: {}
+[13.058169] (-) TimerEvent: {}
+[13.158626] (-) TimerEvent: {}
+[13.259085] (-) TimerEvent: {}
+[13.359527] (-) TimerEvent: {}
+[13.459974] (-) TimerEvent: {}
+[13.560416] (-) TimerEvent: {}
+[13.660874] (-) TimerEvent: {}
+[13.761311] (-) TimerEvent: {}
+[13.861754] (-) TimerEvent: {}
+[13.962190] (-) TimerEvent: {}
+[14.062645] (-) TimerEvent: {}
+[14.163094] (-) TimerEvent: {}
+[14.263526] (-) TimerEvent: {}
+[14.363958] (-) TimerEvent: {}
+[14.464402] (-) TimerEvent: {}
+[14.564846] (-) TimerEvent: {}
+[14.665294] (-) TimerEvent: {}
+[14.765746] (-) TimerEvent: {}
+[14.866204] (-) TimerEvent: {}
+[14.966604] (-) TimerEvent: {}
+[15.067005] (-) TimerEvent: {}
+[15.167427] (-) TimerEvent: {}
+[15.267823] (-) TimerEvent: {}
+[15.368218] (-) TimerEvent: {}
+[15.468606] (-) TimerEvent: {}
+[15.569031] (-) TimerEvent: {}
+[15.669430] (-) TimerEvent: {}
+[15.769821] (-) TimerEvent: {}
+[15.833436] (pid_lab) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable pid\x1b[0m\n'}
+[15.869967] (-) TimerEvent: {}
+[15.970351] (-) TimerEvent: {}
+[16.070740] (-) TimerEvent: {}
+[16.171177] (-) TimerEvent: {}
+[16.271595] (-) TimerEvent: {}
+[16.371983] (-) TimerEvent: {}
+[16.472381] (-) TimerEvent: {}
+[16.572782] (-) TimerEvent: {}
+[16.605600] (pid_lab) StdoutLine: {'line': b'[100%] Built target pid\n'}
+[16.641761] (pid_lab) CommandEnded: {'returncode': 0}
+[16.672970] (-) TimerEvent: {}
+[16.705940] (pid_lab) JobProgress: {'identifier': 'pid_lab', 'progress': 'install'}
+[16.723259] (pid_lab) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/rstole01/Documents/CSE-596/humble_ws/build/pid_lab'], 'cwd': '/home/rstole01/Documents/CSE-596/humble_ws/build/pid_lab', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'rstole01'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/rstole01'), ('OLDPWD', '/home/rstole01/Documents/CSE-596/humble_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '6302'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=59b32b0c441ec335d369dbdc65ad6373'), ('COLORTERM', 'truecolor'), ('LIBVIRT_DEFAULT_URI', 'qemu:///system'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'rstole01'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'rstole01'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/rstole01/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/rstole01-Lenovo-ideapad-FLEX-5-1570:@/tmp/.ICE-unix/6302,unix/rstole01-Lenovo-ideapad-FLEX-5-1570:/tmp/.ICE-unix/6302'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/f4199152_2de7_47e8_bef5_1b3f619e04ff'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.E0GHH2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.111'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/rstole01/Documents/CSE-596/humble_ws/build/pid_lab'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=59b32b0c441ec335d369dbdc65ad6373'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[16.736925] (pid_lab) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[16.737585] (pid_lab) StdoutLine: {'line': b'-- Installing: /home/rstole01/Documents/CSE-596/humble_ws/install/pid_lab/lib/pid_lab/pid\n'}
+[16.748950] (pid_lab) StdoutLine: {'line': b'-- Set runtime path of "/home/rstole01/Documents/CSE-596/humble_ws/install/pid_lab/lib/pid_lab/pid" to ""\n'}
+[16.749546] (pid_lab) StdoutLine: {'line': b'-- Up-to-date: /home/rstole01/Documents/CSE-596/humble_ws/install/pid_lab/share/ament_index/resource_index/package_run_dependencies/pid_lab\n'}
+[16.749827] (pid_lab) StdoutLine: {'line': b'-- Up-to-date: /home/rstole01/Documents/CSE-596/humble_ws/install/pid_lab/share/ament_index/resource_index/parent_prefix_path/pid_lab\n'}
+[16.750145] (pid_lab) StdoutLine: {'line': b'-- Up-to-date: /home/rstole01/Documents/CSE-596/humble_ws/install/pid_lab/share/pid_lab/environment/ament_prefix_path.sh\n'}
+[16.750297] (pid_lab) StdoutLine: {'line': b'-- Up-to-date: /home/rstole01/Documents/CSE-596/humble_ws/install/pid_lab/share/pid_lab/environment/ament_prefix_path.dsv\n'}
+[16.750494] (pid_lab) StdoutLine: {'line': b'-- Up-to-date: /home/rstole01/Documents/CSE-596/humble_ws/install/pid_lab/share/pid_lab/environment/path.sh\n'}
+[16.750752] (pid_lab) StdoutLine: {'line': b'-- Up-to-date: /home/rstole01/Documents/CSE-596/humble_ws/install/pid_lab/share/pid_lab/environment/path.dsv\n'}
+[16.750887] (pid_lab) StdoutLine: {'line': b'-- Up-to-date: /home/rstole01/Documents/CSE-596/humble_ws/install/pid_lab/share/pid_lab/local_setup.bash\n'}
+[16.751033] (pid_lab) StdoutLine: {'line': b'-- Up-to-date: /home/rstole01/Documents/CSE-596/humble_ws/install/pid_lab/share/pid_lab/local_setup.sh\n'}
+[16.751173] (pid_lab) StdoutLine: {'line': b'-- Up-to-date: /home/rstole01/Documents/CSE-596/humble_ws/install/pid_lab/share/pid_lab/local_setup.zsh\n'}
+[16.751303] (pid_lab) StdoutLine: {'line': b'-- Up-to-date: /home/rstole01/Documents/CSE-596/humble_ws/install/pid_lab/share/pid_lab/local_setup.dsv\n'}
+[16.751430] (pid_lab) StdoutLine: {'line': b'-- Installing: /home/rstole01/Documents/CSE-596/humble_ws/install/pid_lab/share/pid_lab/package.dsv\n'}
+[16.751583] (pid_lab) StdoutLine: {'line': b'-- Up-to-date: /home/rstole01/Documents/CSE-596/humble_ws/install/pid_lab/share/ament_index/resource_index/packages/pid_lab\n'}
+[16.751719] (pid_lab) StdoutLine: {'line': b'-- Up-to-date: /home/rstole01/Documents/CSE-596/humble_ws/install/pid_lab/share/pid_lab/cmake/pid_labConfig.cmake\n'}
+[16.751847] (pid_lab) StdoutLine: {'line': b'-- Up-to-date: /home/rstole01/Documents/CSE-596/humble_ws/install/pid_lab/share/pid_lab/cmake/pid_labConfig-version.cmake\n'}
+[16.751978] (pid_lab) StdoutLine: {'line': b'-- Up-to-date: /home/rstole01/Documents/CSE-596/humble_ws/install/pid_lab/share/pid_lab/package.xml\n'}
+[16.754170] (pid_lab) CommandEnded: {'returncode': 0}
+[16.773171] (-) TimerEvent: {}
+[16.874606] (-) TimerEvent: {}
+[16.975195] (-) TimerEvent: {}
+[17.068316] (pid_lab) JobEnded: {'identifier': 'pid_lab', 'rc': 0}
+[17.069607] (-) EventReactorShutdown: {}

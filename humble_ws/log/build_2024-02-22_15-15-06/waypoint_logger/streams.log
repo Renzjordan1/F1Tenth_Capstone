@@ -1,0 +1,32 @@
+[2.206s] Invoking command in '/home/rstole01/Documents/CSE-596/humble_ws/src/waypoint_logger': PYTHONPATH=/home/rstole01/Documents/CSE-596/humble_ws/build/waypoint_logger/prefix_override:/home/rstole01/Documents/CSE-596/humble_ws/install/waypoint_logger/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/waypoint_logger build --build-base /home/rstole01/Documents/CSE-596/humble_ws/build/waypoint_logger/build install --record /home/rstole01/Documents/CSE-596/humble_ws/build/waypoint_logger/install.log --single-version-externally-managed
+[2.769s] running egg_info
+[2.770s] writing ../../build/waypoint_logger/waypoint_logger.egg-info/PKG-INFO
+[2.771s] writing dependency_links to ../../build/waypoint_logger/waypoint_logger.egg-info/dependency_links.txt
+[2.771s] writing entry points to ../../build/waypoint_logger/waypoint_logger.egg-info/entry_points.txt
+[2.771s] writing requirements to ../../build/waypoint_logger/waypoint_logger.egg-info/requires.txt
+[2.771s] writing top-level names to ../../build/waypoint_logger/waypoint_logger.egg-info/top_level.txt
+[2.776s] reading manifest file '../../build/waypoint_logger/waypoint_logger.egg-info/SOURCES.txt'
+[2.776s] adding license file 'LICENSE'
+[2.779s] writing manifest file '../../build/waypoint_logger/waypoint_logger.egg-info/SOURCES.txt'
+[2.779s] running build
+[2.779s] running build_py
+[2.779s] copying waypoint_logger/waypoint_logger.py -> /home/rstole01/Documents/CSE-596/humble_ws/build/waypoint_logger/build/lib/waypoint_logger
+[2.780s] running install
+[2.780s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[2.781s]   warnings.warn(
+[2.781s] running install_lib
+[2.783s] copying /home/rstole01/Documents/CSE-596/humble_ws/build/waypoint_logger/build/lib/waypoint_logger/waypoint_logger.py -> /home/rstole01/Documents/CSE-596/humble_ws/install/waypoint_logger/lib/python3.10/site-packages/waypoint_logger
+[2.784s] byte-compiling /home/rstole01/Documents/CSE-596/humble_ws/install/waypoint_logger/lib/python3.10/site-packages/waypoint_logger/waypoint_logger.py to waypoint_logger.cpython-310.pyc
+[2.785s]   File "/home/rstole01/Documents/CSE-596/humble_ws/install/waypoint_logger/lib/python3.10/site-packages/waypoint_logger/waypoint_logger.py", line 32
+[2.785s]     self.get_logger().info('I heard: "%s"' % msg.data)self.get_logger().info('I heard: "%s"' % msg.data)
+[2.785s]                                                       ^^^^
+[2.785s] SyntaxError: invalid syntax
+[2.785s] 
+[2.785s] running install_data
+[2.786s] running install_egg_info
+[2.790s] removing '/home/rstole01/Documents/CSE-596/humble_ws/install/waypoint_logger/lib/python3.10/site-packages/waypoint_logger-0.0.0-py3.10.egg-info' (and everything under it)
+[2.790s] Copying ../../build/waypoint_logger/waypoint_logger.egg-info to /home/rstole01/Documents/CSE-596/humble_ws/install/waypoint_logger/lib/python3.10/site-packages/waypoint_logger-0.0.0-py3.10.egg-info
+[2.792s] running install_scripts
+[2.833s] Installing waypoint_logger script to /home/rstole01/Documents/CSE-596/humble_ws/install/waypoint_logger/lib/waypoint_logger
+[2.833s] writing list of installed files to '/home/rstole01/Documents/CSE-596/humble_ws/build/waypoint_logger/install.log'
+[2.875s] Invoked command in '/home/rstole01/Documents/CSE-596/humble_ws/src/waypoint_logger' returned '0': PYTHONPATH=/home/rstole01/Documents/CSE-596/humble_ws/build/waypoint_logger/prefix_override:/home/rstole01/Documents/CSE-596/humble_ws/install/waypoint_logger/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/waypoint_logger build --build-base /home/rstole01/Documents/CSE-596/humble_ws/build/waypoint_logger/build install --record /home/rstole01/Documents/CSE-596/humble_ws/build/waypoint_logger/install.log --single-version-externally-managed

@@ -1,0 +1,109 @@
+[0.000000] (-) TimerEvent: {}
+[0.000335] (-) JobUnselected: {'identifier': 'aeb_lab'}
+[0.000404] (-) JobUnselected: {'identifier': 'cpp_pubsub'}
+[0.000426] (-) JobUnselected: {'identifier': 'f1tenth_gym_ros'}
+[0.000500] (-) JobUnselected: {'identifier': 'lab1_package'}
+[0.000573] (-) JobUnselected: {'identifier': 'pid_lab'}
+[0.000592] (-) JobUnselected: {'identifier': 'pure_pursuit'}
+[0.000629] (-) JobUnselected: {'identifier': 'scan_pubsub'}
+[0.000646] (-) JobUnselected: {'identifier': 'tutorial_interfaces'}
+[0.000662] (-) JobUnselected: {'identifier': 'waypoint_logger'}
+[0.000762] (pure-pursuit_lab) JobQueued: {'identifier': 'pure-pursuit_lab', 'dependencies': OrderedDict()}
+[0.000785] (pure-pursuit_lab) JobStarted: {'identifier': 'pure-pursuit_lab'}
+[0.056728] (pure-pursuit_lab) JobProgress: {'identifier': 'pure-pursuit_lab', 'progress': 'cmake'}
+[0.079897] (pure-pursuit_lab) JobProgress: {'identifier': 'pure-pursuit_lab', 'progress': 'build'}
+[0.081364] (pure-pursuit_lab) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/rstole01/Documents/CSE-596/humble_ws/build/pure-pursuit_lab', '--', '-j8', '-l8'], 'cwd': '/home/rstole01/Documents/CSE-596/humble_ws/build/pure-pursuit_lab', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'rstole01'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/rstole01'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1977'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=2bc30ec7316687546537dbb665da5893'), ('COLORTERM', 'truecolor'), ('LIBVIRT_DEFAULT_URI', 'qemu:///system'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'rstole01'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'rstole01'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/rstole01/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/rstole01-Lenovo-ideapad-FLEX-5-1570:@/tmp/.ICE-unix/1977,unix/rstole01-Lenovo-ideapad-FLEX-5-1570:/tmp/.ICE-unix/1977'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/f63a134e_7007_42be_91a7_f1849b68d020'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.LQ8IJ2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.830'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/rstole01/Documents/CSE-596/humble_ws/build/pure-pursuit_lab'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=2bc30ec7316687546537dbb665da5893'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.099539] (-) TimerEvent: {}
+[0.132619] (pure-pursuit_lab) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target pure_pursuit_node\x1b[0m\n'}
+[0.155779] (pure-pursuit_lab) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/pure_pursuit_node.dir/src/pure_pursuit_node.cpp.o\x1b[0m\n'}
+[0.199685] (-) TimerEvent: {}
+[0.300068] (-) TimerEvent: {}
+[0.400450] (-) TimerEvent: {}
+[0.500824] (-) TimerEvent: {}
+[0.601239] (-) TimerEvent: {}
+[0.701606] (-) TimerEvent: {}
+[0.801989] (-) TimerEvent: {}
+[0.902364] (-) TimerEvent: {}
+[1.002750] (-) TimerEvent: {}
+[1.103185] (-) TimerEvent: {}
+[1.203563] (-) TimerEvent: {}
+[1.303951] (-) TimerEvent: {}
+[1.404385] (-) TimerEvent: {}
+[1.504917] (-) TimerEvent: {}
+[1.605314] (-) TimerEvent: {}
+[1.705689] (-) TimerEvent: {}
+[1.806063] (-) TimerEvent: {}
+[1.906344] (-) TimerEvent: {}
+[2.006671] (-) TimerEvent: {}
+[2.106958] (-) TimerEvent: {}
+[2.207237] (-) TimerEvent: {}
+[2.307531] (-) TimerEvent: {}
+[2.407803] (-) TimerEvent: {}
+[2.508071] (-) TimerEvent: {}
+[2.608342] (-) TimerEvent: {}
+[2.708618] (-) TimerEvent: {}
+[2.808918] (-) TimerEvent: {}
+[2.909204] (-) TimerEvent: {}
+[3.009506] (-) TimerEvent: {}
+[3.109817] (-) TimerEvent: {}
+[3.210119] (-) TimerEvent: {}
+[3.310406] (-) TimerEvent: {}
+[3.383639] (pure-pursuit_lab) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rstole01/Documents/CSE-596/humble_ws/src/pure-pursuit_lab/src/pure_pursuit_node.cpp:48:81:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::msg::PoseStamped_<std::allocator<void> >::ConstPtr\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.383819] (pure-pursuit_lab) StderrLine: {'line': b'   48 | ose_callback(const geometry_msgs::msg::PoseStamped::ConstPtr &pose_msg\x1b[01;35m\x1b[K)\x1b[m\x1b[K\n'}
+[3.383895] (pure-pursuit_lab) StderrLine: {'line': b'      |                                                                       \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[3.383960] (pure-pursuit_lab) StderrLine: {'line': b'\n'}
+[3.384088] (pure-pursuit_lab) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/pose_stamped.hpp:7\x1b[m\x1b[K,\n'}
+[3.384156] (pure-pursuit_lab) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/rstole01/Documents/CSE-596/humble_ws/src/pure-pursuit_lab/src/pure_pursuit_node.cpp:10\x1b[m\x1b[K:\n'}
+[3.384220] (pure-pursuit_lab) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__struct.hpp:115:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[3.384298] (pure-pursuit_lab) StderrLine: {'line': b'  115 |     \x1b[01;36m\x1b[KConstPtr\x1b[m\x1b[K;\n'}
+[3.384368] (pure-pursuit_lab) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.384476] (pure-pursuit_lab) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rstole01/Documents/CSE-596/humble_ws/src/pure-pursuit_lab/src/pure_pursuit_node.cpp:26:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[Kstd\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.384541] (pure-pursuit_lab) StderrLine: {'line': b'   26 |     \x1b[01;31m\x1b[Kstd\x1b[m\x1b[K::string file = folder + "/4_corners_levine.csv"\n'}
+[3.384601] (pure-pursuit_lab) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[3.384661] (pure-pursuit_lab) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rstole01/Documents/CSE-596/humble_ws/src/pure-pursuit_lab/src/pure_pursuit_node.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KPurePursuit::PurePursuit()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.384722] (pure-pursuit_lab) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rstole01/Documents/CSE-596/humble_ws/src/pure-pursuit_lab/src/pure_pursuit_node.cpp:41:49:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KSafety\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[3.384783] (pure-pursuit_lab) StderrLine: {'line': b'   41 |             "/ego_racecar/odom", 10, std::bind(&\x1b[01;31m\x1b[KSafety\x1b[m\x1b[K::odom_callback, this, _1));\n'}
+[3.384843] (pure-pursuit_lab) StderrLine: {'line': b'      |                                                 \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[3.385020] (pure-pursuit_lab) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rstole01/Documents/CSE-596/humble_ws/src/pure-pursuit_lab/src/pure_pursuit_node.cpp:41:78:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K_1\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kstd::placeholders::_1\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[3.385159] (pure-pursuit_lab) StderrLine: {'line': b'   41 |  "/ego_racecar/odom", 10, std::bind(&Safety::odom_callback, this, \x1b[01;31m\x1b[K_1\x1b[m\x1b[K));\n'}
+[3.385238] (pure-pursuit_lab) StderrLine: {'line': b'      |                                                                   \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[3.385300] (pure-pursuit_lab) StderrLine: {'line': b'      |                                                                   \x1b[32m\x1b[Kstd::placeholders::_1\x1b[m\x1b[K\n'}
+[3.385363] (pure-pursuit_lab) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/pstl/glue_algorithm_defs.h:13\x1b[m\x1b[K,\n'}
+[3.385425] (pure-pursuit_lab) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/algorithm:74\x1b[m\x1b[K,\n'}
+[3.385487] (pure-pursuit_lab) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:18\x1b[m\x1b[K,\n'}
+[3.385549] (pure-pursuit_lab) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[3.385612] (pure-pursuit_lab) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[3.385673] (pure-pursuit_lab) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[3.385738] (pure-pursuit_lab) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/rstole01/Documents/CSE-596/humble_ws/src/pure-pursuit_lab/src/pure_pursuit_node.cpp:6\x1b[m\x1b[K:\n'}
+[3.385800] (pure-pursuit_lab) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/functional:225:34:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstd::placeholders::_1\x1b[m\x1b[K\xe2\x80\x99 declared here\n'}
+[3.385863] (pure-pursuit_lab) StderrLine: {'line': b'  225 |     extern const _Placeholder<1> \x1b[01;36m\x1b[K_1\x1b[m\x1b[K;\n'}
+[3.385932] (pure-pursuit_lab) StderrLine: {'line': b'      |                                  \x1b[01;36m\x1b[K^~\x1b[m\x1b[K\n'}
+[3.392343] (pure-pursuit_lab) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rstole01/Documents/CSE-596/humble_ws/src/pure-pursuit_lab/src/pure_pursuit_node.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid PurePursuit::pose_callback(const ConstPtr&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.392490] (pure-pursuit_lab) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rstole01/Documents/CSE-596/humble_ws/src/pure-pursuit_lab/src/pure_pursuit_node.cpp:55:30:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ky_dist\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[3.392566] (pure-pursuit_lab) StderrLine: {'line': b'   55 |         float curvature = 2*(\x1b[01;31m\x1b[Ky_dist\x1b[m\x1b[K) / pow(lookahead, 2);\n'}
+[3.392633] (pure-pursuit_lab) StderrLine: {'line': b'      |                              \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[3.395990] (pure-pursuit_lab) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rstole01/Documents/CSE-596/humble_ws/src/pure-pursuit_lab/src/pure_pursuit_node.cpp:56:32:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kkp\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[3.396105] (pure-pursuit_lab) StderrLine: {'line': b'   56 |         float steering_angle = \x1b[01;31m\x1b[Kkp\x1b[m\x1b[K * curvature;\n'}
+[3.396193] (pure-pursuit_lab) StderrLine: {'line': b'      |                                \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[3.396352] (pure-pursuit_lab) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rstole01/Documents/CSE-596/humble_ws/src/pure-pursuit_lab/src/pure_pursuit_node.cpp:56:15:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Ksteering_angle\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.396430] (pure-pursuit_lab) StderrLine: {'line': b'   56 |         float \x1b[01;35m\x1b[Ksteering_angle\x1b[m\x1b[K = kp * curvature;\n'}
+[3.396496] (pure-pursuit_lab) StderrLine: {'line': b'      |               \x1b[01;35m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.396558] (pure-pursuit_lab) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rstole01/Documents/CSE-596/humble_ws/src/pure-pursuit_lab/src/pure_pursuit_node.cpp:48:73:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kpose_msg\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.396630] (pure-pursuit_lab) StderrLine: {'line': b'   48 | ose_callback(\x1b[01;35m\x1b[Kconst geometry_msgs::msg::PoseStamped::ConstPtr &pose_msg\x1b[m\x1b[K)\n'}
+[3.396696] (pure-pursuit_lab) StderrLine: {'line': b'      |              \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~\x1b[m\x1b[K\n'}
+[3.396758] (pure-pursuit_lab) StderrLine: {'line': b'\n'}
+[3.410522] (-) TimerEvent: {}
+[3.510794] (-) TimerEvent: {}
+[3.611067] (-) TimerEvent: {}
+[3.711353] (-) TimerEvent: {}
+[3.811614] (-) TimerEvent: {}
+[3.911902] (-) TimerEvent: {}
+[4.012157] (-) TimerEvent: {}
+[4.112417] (-) TimerEvent: {}
+[4.176478] (pure-pursuit_lab) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/pure_pursuit_node.dir/build.make:76: CMakeFiles/pure_pursuit_node.dir/src/pure_pursuit_node.cpp.o] Error 1\n'}
+[4.176797] (pure-pursuit_lab) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/pure_pursuit_node.dir/all] Error 2\n'}
+[4.176991] (pure-pursuit_lab) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[4.179236] (pure-pursuit_lab) CommandEnded: {'returncode': 2}
+[4.212860] (-) TimerEvent: {}
+[4.287780] (pure-pursuit_lab) JobEnded: {'identifier': 'pure-pursuit_lab', 'rc': 2}
+[4.298734] (-) EventReactorShutdown: {}

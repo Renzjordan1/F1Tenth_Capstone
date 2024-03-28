@@ -1,0 +1,4 @@
+source;share/pursuit_lab/local_setup.bash
+source;share/pursuit_lab/local_setup.dsv
+source;share/pursuit_lab/local_setup.sh
+source;share/pursuit_lab/local_setup.zsh

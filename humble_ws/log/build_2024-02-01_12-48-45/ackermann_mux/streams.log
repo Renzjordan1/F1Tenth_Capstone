@@ -1,0 +1,38 @@
+[0.362s] Invoking command in '/home/rstole01/Documents/CSE-596/humble_ws/build/ackermann_mux': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/rstole01/Documents/CSE-596/humble_ws/build/ackermann_mux -- -j8 -l8
+[1.868s] [100%] Built target ackermann_mux
+[1.879s] Invoked command in '/home/rstole01/Documents/CSE-596/humble_ws/build/ackermann_mux' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/rstole01/Documents/CSE-596/humble_ws/build/ackermann_mux -- -j8 -l8
+[2.012s] Invoking command in '/home/rstole01/Documents/CSE-596/humble_ws/build/ackermann_mux': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/rstole01/Documents/CSE-596/humble_ws/build/ackermann_mux
+[2.035s] -- Install configuration: ""
+[2.037s] -- Up-to-date: /home/rstole01/Documents/CSE-596/humble_ws/install/ackermann_mux/lib/ackermann_mux/ackermann_mux
+[2.038s] -- Up-to-date: /home/rstole01/Documents/CSE-596/humble_ws/install/ackermann_mux/share/ackermann_mux/launch
+[2.038s] -- Up-to-date: /home/rstole01/Documents/CSE-596/humble_ws/install/ackermann_mux/share/ackermann_mux/launch/ackermann_mux_launch.py
+[2.049s] -- Up-to-date: /home/rstole01/Documents/CSE-596/humble_ws/install/ackermann_mux/share/ackermann_mux/config
+[2.049s] -- Up-to-date: /home/rstole01/Documents/CSE-596/humble_ws/install/ackermann_mux/share/ackermann_mux/config/ackermann_mux_locks.yaml
+[2.049s] -- Up-to-date: /home/rstole01/Documents/CSE-596/humble_ws/install/ackermann_mux/share/ackermann_mux/config/ackermann_mux_topics.yaml
+[2.050s] -- Up-to-date: /home/rstole01/Documents/CSE-596/humble_ws/install/ackermann_mux/share/ackermann_mux/config/joystick.yaml
+[2.050s] -- Up-to-date: /home/rstole01/Documents/CSE-596/humble_ws/install/ackermann_mux/include
+[2.050s] -- Up-to-date: /home/rstole01/Documents/CSE-596/humble_ws/install/ackermann_mux/include/ackermann_mux
+[2.051s] -- Up-to-date: /home/rstole01/Documents/CSE-596/humble_ws/install/ackermann_mux/include/ackermann_mux/topic_handle.hpp
+[2.051s] -- Up-to-date: /home/rstole01/Documents/CSE-596/humble_ws/install/ackermann_mux/include/ackermann_mux/ackermann_mux.hpp
+[2.052s] -- Up-to-date: /home/rstole01/Documents/CSE-596/humble_ws/install/ackermann_mux/include/ackermann_mux/utils.hpp
+[2.057s] -- Up-to-date: /home/rstole01/Documents/CSE-596/humble_ws/install/ackermann_mux/include/ackermann_mux/ackermann_mux_diagnostics_status.hpp
+[2.057s] -- Up-to-date: /home/rstole01/Documents/CSE-596/humble_ws/install/ackermann_mux/include/ackermann_mux/params_helpers.hpp
+[2.059s] -- Up-to-date: /home/rstole01/Documents/CSE-596/humble_ws/install/ackermann_mux/include/ackermann_mux/ackermann_mux_diagnostics.hpp
+[2.059s] -- Up-to-date: /home/rstole01/Documents/CSE-596/humble_ws/install/ackermann_mux/share/ament_index/resource_index/package_run_dependencies/ackermann_mux
+[2.060s] -- Up-to-date: /home/rstole01/Documents/CSE-596/humble_ws/install/ackermann_mux/share/ament_index/resource_index/parent_prefix_path/ackermann_mux
+[2.061s] -- Up-to-date: /home/rstole01/Documents/CSE-596/humble_ws/install/ackermann_mux/share/ackermann_mux/environment/ament_prefix_path.sh
+[2.062s] -- Up-to-date: /home/rstole01/Documents/CSE-596/humble_ws/install/ackermann_mux/share/ackermann_mux/environment/ament_prefix_path.dsv
+[2.062s] -- Up-to-date: /home/rstole01/Documents/CSE-596/humble_ws/install/ackermann_mux/share/ackermann_mux/environment/path.sh
+[2.062s] -- Up-to-date: /home/rstole01/Documents/CSE-596/humble_ws/install/ackermann_mux/share/ackermann_mux/environment/path.dsv
+[2.063s] -- Up-to-date: /home/rstole01/Documents/CSE-596/humble_ws/install/ackermann_mux/share/ackermann_mux/local_setup.bash
+[2.063s] -- Up-to-date: /home/rstole01/Documents/CSE-596/humble_ws/install/ackermann_mux/share/ackermann_mux/local_setup.sh
+[2.065s] -- Up-to-date: /home/rstole01/Documents/CSE-596/humble_ws/install/ackermann_mux/share/ackermann_mux/local_setup.zsh
+[2.065s] -- Up-to-date: /home/rstole01/Documents/CSE-596/humble_ws/install/ackermann_mux/share/ackermann_mux/local_setup.dsv
+[2.066s] -- Installing: /home/rstole01/Documents/CSE-596/humble_ws/install/ackermann_mux/share/ackermann_mux/package.dsv
+[2.067s] -- Up-to-date: /home/rstole01/Documents/CSE-596/humble_ws/install/ackermann_mux/share/ament_index/resource_index/packages/ackermann_mux
+[2.067s] -- Up-to-date: /home/rstole01/Documents/CSE-596/humble_ws/install/ackermann_mux/share/ackermann_mux/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.068s] -- Up-to-date: /home/rstole01/Documents/CSE-596/humble_ws/install/ackermann_mux/share/ackermann_mux/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.068s] -- Up-to-date: /home/rstole01/Documents/CSE-596/humble_ws/install/ackermann_mux/share/ackermann_mux/cmake/ackermann_muxConfig.cmake
+[2.068s] -- Up-to-date: /home/rstole01/Documents/CSE-596/humble_ws/install/ackermann_mux/share/ackermann_mux/cmake/ackermann_muxConfig-version.cmake
+[2.069s] -- Up-to-date: /home/rstole01/Documents/CSE-596/humble_ws/install/ackermann_mux/share/ackermann_mux/package.xml
+[2.306s] Invoked command in '/home/rstole01/Documents/CSE-596/humble_ws/build/ackermann_mux' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/rstole01/Documents/CSE-596/humble_ws/build/ackermann_mux

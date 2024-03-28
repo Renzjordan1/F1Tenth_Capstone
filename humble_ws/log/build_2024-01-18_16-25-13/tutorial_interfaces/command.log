@@ -1,0 +1,1 @@
+Invoking command in '/home/rstole01/Documents/CSE-596/humble_ws/build/tutorial_interfaces': /usr/bin/cmake /home/rstole01/Documents/CSE-596/humble_ws/src/tutorial_interfaces -DCMAKE_INSTALL_PREFIX=/home/rstole01/Documents/CSE-596/humble_ws/install/tutorial_interfaces

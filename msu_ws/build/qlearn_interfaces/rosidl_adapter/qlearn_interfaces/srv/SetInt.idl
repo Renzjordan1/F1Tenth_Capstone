@@ -1,0 +1,15 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from qlearn_interfaces/srv/SetInt.srv
+// generated code does not contain a copyright notice
+
+
+module qlearn_interfaces {
+  module srv {
+    struct SetInt_Request {
+      int64 data;
+    };
+    struct SetInt_Response {
+      boolean success;
+    };
+  };
+};

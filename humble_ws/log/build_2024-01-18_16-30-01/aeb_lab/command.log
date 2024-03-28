@@ -1,0 +1,2 @@
+Invoking command in '/home/rstole01/Documents/CSE-596/humble_ws/build/aeb_lab': /usr/bin/cmake /home/rstole01/Documents/CSE-596/humble_ws/src/aeb_lab -DCMAKE_INSTALL_PREFIX=/home/rstole01/Documents/CSE-596/humble_ws/install/aeb_lab
+Invoked command in '/home/rstole01/Documents/CSE-596/humble_ws/build/aeb_lab' returned '1': /usr/bin/cmake /home/rstole01/Documents/CSE-596/humble_ws/src/aeb_lab -DCMAKE_INSTALL_PREFIX=/home/rstole01/Documents/CSE-596/humble_ws/install/aeb_lab

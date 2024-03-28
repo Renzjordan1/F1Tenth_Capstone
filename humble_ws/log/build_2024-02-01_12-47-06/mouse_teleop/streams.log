@@ -1,0 +1,38 @@
+[4.043s] Invoking command in '/home/rstole01/Documents/CSE-596/humble_ws/src/f1tenth_system/teleop_tools/mouse_teleop': PYTHONPATH=/home/rstole01/Documents/CSE-596/humble_ws/build/mouse_teleop/prefix_override:/home/rstole01/Documents/CSE-596/humble_ws/install/mouse_teleop/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../build/mouse_teleop build --build-base /home/rstole01/Documents/CSE-596/humble_ws/build/mouse_teleop/build install --record /home/rstole01/Documents/CSE-596/humble_ws/build/mouse_teleop/install.log --install-scripts $base/lib/mouse_teleop --single-version-externally-managed
+[4.833s] /usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[4.834s]   warnings.warn(
+[4.857s] running egg_info
+[4.859s] writing ../../../../build/mouse_teleop/mouse_teleop.egg-info/PKG-INFO
+[4.859s] writing dependency_links to ../../../../build/mouse_teleop/mouse_teleop.egg-info/dependency_links.txt
+[4.859s] writing entry points to ../../../../build/mouse_teleop/mouse_teleop.egg-info/entry_points.txt
+[4.860s] writing requirements to ../../../../build/mouse_teleop/mouse_teleop.egg-info/requires.txt
+[4.860s] writing top-level names to ../../../../build/mouse_teleop/mouse_teleop.egg-info/top_level.txt
+[4.864s] reading manifest file '../../../../build/mouse_teleop/mouse_teleop.egg-info/SOURCES.txt'
+[4.898s] adding license file 'LICENSE'
+[4.900s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[4.900s]   warnings.warn(
+[4.900s] writing manifest file '../../../../build/mouse_teleop/mouse_teleop.egg-info/SOURCES.txt'
+[4.900s] running build
+[4.900s] running build_py
+[4.900s] running install
+[4.901s] running install_lib
+[4.905s] creating /home/rstole01/Documents/CSE-596/humble_ws/install/mouse_teleop/lib/python3.10/site-packages/mouse_teleop
+[4.905s] copying /home/rstole01/Documents/CSE-596/humble_ws/build/mouse_teleop/build/lib/mouse_teleop/__init__.py -> /home/rstole01/Documents/CSE-596/humble_ws/install/mouse_teleop/lib/python3.10/site-packages/mouse_teleop
+[4.906s] copying /home/rstole01/Documents/CSE-596/humble_ws/build/mouse_teleop/build/lib/mouse_teleop/mouse_teleop.py -> /home/rstole01/Documents/CSE-596/humble_ws/install/mouse_teleop/lib/python3.10/site-packages/mouse_teleop
+[4.913s] byte-compiling /home/rstole01/Documents/CSE-596/humble_ws/install/mouse_teleop/lib/python3.10/site-packages/mouse_teleop/__init__.py to __init__.cpython-310.pyc
+[4.913s] byte-compiling /home/rstole01/Documents/CSE-596/humble_ws/install/mouse_teleop/lib/python3.10/site-packages/mouse_teleop/mouse_teleop.py to mouse_teleop.cpython-310.pyc
+[4.923s] running install_data
+[4.923s] copying package.xml -> /home/rstole01/Documents/CSE-596/humble_ws/install/mouse_teleop/share/mouse_teleop
+[4.923s] creating /home/rstole01/Documents/CSE-596/humble_ws/install/mouse_teleop/share/mouse_teleop/config
+[4.924s] copying config/mouse_teleop.yaml -> /home/rstole01/Documents/CSE-596/humble_ws/install/mouse_teleop/share/mouse_teleop/config
+[4.924s] creating /home/rstole01/Documents/CSE-596/humble_ws/install/mouse_teleop/share/mouse_teleop/launch
+[4.924s] copying launch/mouse_teleop.launch.py -> /home/rstole01/Documents/CSE-596/humble_ws/install/mouse_teleop/share/mouse_teleop/launch
+[4.925s] creating /home/rstole01/Documents/CSE-596/humble_ws/install/mouse_teleop/share/ament_index
+[4.926s] creating /home/rstole01/Documents/CSE-596/humble_ws/install/mouse_teleop/share/ament_index/resource_index
+[4.926s] creating /home/rstole01/Documents/CSE-596/humble_ws/install/mouse_teleop/share/ament_index/resource_index/packages
+[4.926s] copying resource/mouse_teleop -> /home/rstole01/Documents/CSE-596/humble_ws/install/mouse_teleop/share/ament_index/resource_index/packages
+[4.926s] running install_egg_info
+[4.933s] Copying ../../../../build/mouse_teleop/mouse_teleop.egg-info to /home/rstole01/Documents/CSE-596/humble_ws/install/mouse_teleop/lib/python3.10/site-packages/mouse_teleop-0.3.0-py3.10.egg-info
+[4.943s] running install_scripts
+[4.993s] Installing mouse_teleop script to /home/rstole01/Documents/CSE-596/humble_ws/install/mouse_teleop/lib/mouse_teleop
+[4.993s] writing list of installed files to '/home/rstole01/Documents/CSE-596/humble_ws/build/mouse_teleop/install.log'

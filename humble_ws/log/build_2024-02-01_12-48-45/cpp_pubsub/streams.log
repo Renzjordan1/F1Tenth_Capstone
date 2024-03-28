@@ -1,0 +1,3 @@
+[0.713s] Invoking command in '/home/rstole01/Documents/CSE-596/humble_ws/build/cpp_pubsub': AMENT_PREFIX_PATH=/home/rstole01/Documents/CSE-596/humble_ws/install/tutorial_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rstole01/Documents/CSE-596/humble_ws/install/tutorial_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/rstole01/Documents/CSE-596/humble_ws/install/tutorial_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rstole01/Documents/CSE-596/humble_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/rstole01/Documents/CSE-596/humble_ws/build/cpp_pubsub -- -j8 -l8
+[0.870s] [ 50%] Built target listener
+[0.894s] [100%] Built target talker

@@ -1,0 +1,33 @@
+[0.749s] Invoking command in '/home/rstole01/Documents/CSE-596/humble_ws/build/trajectory_follower_f1tenth': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/rstole01/Documents/CSE-596/humble_ws/src/trajectory_follower_f1tenth -DCMAKE_INSTALL_PREFIX=/home/rstole01/Documents/CSE-596/humble_ws/install/trajectory_follower_f1tenth
+[0.894s] -- The C compiler identification is GNU 11.4.0
+[1.147s] -- The CXX compiler identification is GNU 11.4.0
+[1.194s] -- Detecting C compiler ABI info
+[1.652s] -- Detecting C compiler ABI info - done
+[1.671s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.672s] -- Detecting C compile features
+[1.674s] -- Detecting C compile features - done
+[1.692s] -- Detecting CXX compiler ABI info
+[2.200s] -- Detecting CXX compiler ABI info - done
+[2.237s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.238s] -- Detecting CXX compile features
+[2.238s] -- Detecting CXX compile features - done
+[2.279s] [31mCMake Error at CMakeLists.txt:4 (find_package):
+[2.279s]   By not providing "Findautoware_cmake.cmake" in CMAKE_MODULE_PATH this
+[2.309s]   project has asked CMake to find a package configuration file provided by
+[2.309s]   "autoware_cmake", but CMake did not find one.
+[2.310s] 
+[2.310s]   Could not find a package configuration file provided by "autoware_cmake"
+[2.311s]   with any of the following names:
+[2.311s] 
+[2.312s]     autoware_cmakeConfig.cmake
+[2.313s]     autoware_cmake-config.cmake
+[2.313s] 
+[2.314s]   Add the installation prefix of "autoware_cmake" to CMAKE_PREFIX_PATH or set
+[2.314s]   "autoware_cmake_DIR" to a directory containing one of the above files.  If
+[2.315s]   "autoware_cmake" provides a separate development package or SDK, be sure it
+[2.315s]   has been installed.
+[2.316s] 
+[2.317s] [0m
+[2.317s] -- Configuring incomplete, errors occurred!
+[2.317s] See also "/home/rstole01/Documents/CSE-596/humble_ws/build/trajectory_follower_f1tenth/CMakeFiles/CMakeOutput.log".
+[2.557s] Invoked command in '/home/rstole01/Documents/CSE-596/humble_ws/build/trajectory_follower_f1tenth' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/rstole01/Documents/CSE-596/humble_ws/src/trajectory_follower_f1tenth -DCMAKE_INSTALL_PREFIX=/home/rstole01/Documents/CSE-596/humble_ws/install/trajectory_follower_f1tenth

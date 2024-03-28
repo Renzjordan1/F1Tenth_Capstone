@@ -1,0 +1,23 @@
+[7.489s] Invoking command in '/home/rstole01/Documents/CSE-596/msu_ws/src/f1tenth_gym_ros': CMAKE_PREFIX_PATH=/home/rstole01/Documents/CSE-596/msu_ws/install/ackermann_msgs:/home/rstole01/Documents/CSE-596/msu_ws/install/waypoint_publisher:/home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox:/home/rstole01/Documents/CSE-596/msu_ws/install/qlearn_interfaces:/home/rstole01/Documents/CSE-596/msu_ws/install/pid_msgs:/home/rstole01/Documents/CSE-596/msu_ws/install/my_messages LD_LIBRARY_PATH=/home/rstole01/Documents/CSE-596/msu_ws/install/ackermann_msgs/lib:/home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/lib:/home/rstole01/Documents/CSE-596/msu_ws/install/qlearn_interfaces/lib:/home/rstole01/Documents/CSE-596/msu_ws/install/pid_msgs/lib:/home/rstole01/Documents/CSE-596/msu_ws/install/my_messages/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/rstole01/Documents/CSE-596/msu_ws/build/f1tenth_gym_ros/prefix_override:/home/rstole01/Documents/CSE-596/msu_ws/install/f1tenth_gym_ros/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/f1tenth_gym_ros build --build-base /home/rstole01/Documents/CSE-596/msu_ws/build/f1tenth_gym_ros/build install --record /home/rstole01/Documents/CSE-596/msu_ws/build/f1tenth_gym_ros/install.log --single-version-externally-managed
+[8.475s] running egg_info
+[8.477s] writing ../../build/f1tenth_gym_ros/f1tenth_gym_ros.egg-info/PKG-INFO
+[8.478s] writing dependency_links to ../../build/f1tenth_gym_ros/f1tenth_gym_ros.egg-info/dependency_links.txt
+[8.485s] writing entry points to ../../build/f1tenth_gym_ros/f1tenth_gym_ros.egg-info/entry_points.txt
+[8.485s] writing requirements to ../../build/f1tenth_gym_ros/f1tenth_gym_ros.egg-info/requires.txt
+[8.485s] writing top-level names to ../../build/f1tenth_gym_ros/f1tenth_gym_ros.egg-info/top_level.txt
+[8.485s] reading manifest file '../../build/f1tenth_gym_ros/f1tenth_gym_ros.egg-info/SOURCES.txt'
+[8.489s] writing manifest file '../../build/f1tenth_gym_ros/f1tenth_gym_ros.egg-info/SOURCES.txt'
+[8.489s] running build
+[8.490s] running build_py
+[8.490s] running install
+[8.491s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[8.491s]   warnings.warn(
+[8.492s] running install_lib
+[8.495s] running install_data
+[8.497s] running install_egg_info
+[8.503s] removing '/home/rstole01/Documents/CSE-596/msu_ws/install/f1tenth_gym_ros/lib/python3.10/site-packages/f1tenth_gym_ros-0.0.0-py3.10.egg-info' (and everything under it)
+[8.504s] Copying ../../build/f1tenth_gym_ros/f1tenth_gym_ros.egg-info to /home/rstole01/Documents/CSE-596/msu_ws/install/f1tenth_gym_ros/lib/python3.10/site-packages/f1tenth_gym_ros-0.0.0-py3.10.egg-info
+[8.507s] running install_scripts
+[8.575s] Installing gym_bridge script to /home/rstole01/Documents/CSE-596/msu_ws/install/f1tenth_gym_ros/lib/f1tenth_gym_ros
+[8.576s] writing list of installed files to '/home/rstole01/Documents/CSE-596/msu_ws/build/f1tenth_gym_ros/install.log'
+[8.850s] Invoked command in '/home/rstole01/Documents/CSE-596/msu_ws/src/f1tenth_gym_ros' returned '0': CMAKE_PREFIX_PATH=/home/rstole01/Documents/CSE-596/msu_ws/install/ackermann_msgs:/home/rstole01/Documents/CSE-596/msu_ws/install/waypoint_publisher:/home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox:/home/rstole01/Documents/CSE-596/msu_ws/install/qlearn_interfaces:/home/rstole01/Documents/CSE-596/msu_ws/install/pid_msgs:/home/rstole01/Documents/CSE-596/msu_ws/install/my_messages LD_LIBRARY_PATH=/home/rstole01/Documents/CSE-596/msu_ws/install/ackermann_msgs/lib:/home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/lib:/home/rstole01/Documents/CSE-596/msu_ws/install/qlearn_interfaces/lib:/home/rstole01/Documents/CSE-596/msu_ws/install/pid_msgs/lib:/home/rstole01/Documents/CSE-596/msu_ws/install/my_messages/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/rstole01/Documents/CSE-596/msu_ws/build/f1tenth_gym_ros/prefix_override:/home/rstole01/Documents/CSE-596/msu_ws/install/f1tenth_gym_ros/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/f1tenth_gym_ros build --build-base /home/rstole01/Documents/CSE-596/msu_ws/build/f1tenth_gym_ros/build install --record /home/rstole01/Documents/CSE-596/msu_ws/build/f1tenth_gym_ros/install.log --single-version-externally-managed

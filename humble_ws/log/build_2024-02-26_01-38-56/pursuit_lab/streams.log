@@ -1,0 +1,42 @@
+[0.243s] Invoking command in '/home/rstole01/Documents/CSE-596/humble_ws/build/pursuit_lab': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rstole01/Documents/CSE-596/humble_ws/install/waypoint_logger:/home/rstole01/Documents/CSE-596/humble_ws/install/f1tenth_gym_ros:/opt/ros/humble /usr/bin/cmake --build /home/rstole01/Documents/CSE-596/humble_ws/build/pursuit_lab -- -j8 -l8
+[0.368s] Built target ament_cmake_python_copy_pursuit_lab_setup
+[0.371s] Built target ament_cmake_python_copy_pursuit_lab
+[1.127s] running egg_info
+[1.130s] writing pursuit_lab.egg-info/PKG-INFO
+[1.131s] writing dependency_links to pursuit_lab.egg-info/dependency_links.txt
+[1.131s] writing top-level names to pursuit_lab.egg-info/top_level.txt
+[1.139s] reading manifest file 'pursuit_lab.egg-info/SOURCES.txt'
+[1.160s] writing manifest file 'pursuit_lab.egg-info/SOURCES.txt'
+[1.251s] Built target ament_cmake_python_build_pursuit_lab_egg
+[1.283s] Invoked command in '/home/rstole01/Documents/CSE-596/humble_ws/build/pursuit_lab' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rstole01/Documents/CSE-596/humble_ws/install/waypoint_logger:/home/rstole01/Documents/CSE-596/humble_ws/install/f1tenth_gym_ros:/opt/ros/humble /usr/bin/cmake --build /home/rstole01/Documents/CSE-596/humble_ws/build/pursuit_lab -- -j8 -l8
+[1.384s] Invoking command in '/home/rstole01/Documents/CSE-596/humble_ws/build/pursuit_lab': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rstole01/Documents/CSE-596/humble_ws/install/waypoint_logger:/home/rstole01/Documents/CSE-596/humble_ws/install/f1tenth_gym_ros:/opt/ros/humble /usr/bin/cmake --install /home/rstole01/Documents/CSE-596/humble_ws/build/pursuit_lab
+[1.402s] -- Install configuration: ""
+[1.403s] -- Up-to-date: /home/rstole01/Documents/CSE-596/humble_ws/install/pursuit_lab/share/pursuit_lab/environment/pythonpath.sh
+[1.403s] -- Up-to-date: /home/rstole01/Documents/CSE-596/humble_ws/install/pursuit_lab/share/pursuit_lab/environment/pythonpath.dsv
+[1.403s] -- Up-to-date: /home/rstole01/Documents/CSE-596/humble_ws/install/pursuit_lab/local/lib/python3.10/dist-packages/pursuit_lab-0.0.0-py3.10.egg-info
+[1.403s] -- Installing: /home/rstole01/Documents/CSE-596/humble_ws/install/pursuit_lab/local/lib/python3.10/dist-packages/pursuit_lab-0.0.0-py3.10.egg-info/top_level.txt
+[1.403s] -- Installing: /home/rstole01/Documents/CSE-596/humble_ws/install/pursuit_lab/local/lib/python3.10/dist-packages/pursuit_lab-0.0.0-py3.10.egg-info/SOURCES.txt
+[1.404s] -- Installing: /home/rstole01/Documents/CSE-596/humble_ws/install/pursuit_lab/local/lib/python3.10/dist-packages/pursuit_lab-0.0.0-py3.10.egg-info/PKG-INFO
+[1.404s] -- Installing: /home/rstole01/Documents/CSE-596/humble_ws/install/pursuit_lab/local/lib/python3.10/dist-packages/pursuit_lab-0.0.0-py3.10.egg-info/dependency_links.txt
+[1.405s] -- Up-to-date: /home/rstole01/Documents/CSE-596/humble_ws/install/pursuit_lab/local/lib/python3.10/dist-packages/pursuit_lab
+[1.405s] -- Up-to-date: /home/rstole01/Documents/CSE-596/humble_ws/install/pursuit_lab/local/lib/python3.10/dist-packages/pursuit_lab/__init__.py
+[1.405s] -- Installing: /home/rstole01/Documents/CSE-596/humble_ws/install/pursuit_lab/local/lib/python3.10/dist-packages/pursuit_lab/pure_pursuit_node.py
+[1.489s] Listing '/home/rstole01/Documents/CSE-596/humble_ws/install/pursuit_lab/local/lib/python3.10/dist-packages/pursuit_lab'...
+[1.489s] Compiling '/home/rstole01/Documents/CSE-596/humble_ws/install/pursuit_lab/local/lib/python3.10/dist-packages/pursuit_lab/pure_pursuit_node.py'...
+[1.503s] -- Installing: /home/rstole01/Documents/CSE-596/humble_ws/install/pursuit_lab/lib/pursuit_lab/pure_pursuit_node.py
+[1.504s] -- Up-to-date: /home/rstole01/Documents/CSE-596/humble_ws/install/pursuit_lab/share/ament_index/resource_index/package_run_dependencies/pursuit_lab
+[1.504s] -- Up-to-date: /home/rstole01/Documents/CSE-596/humble_ws/install/pursuit_lab/share/ament_index/resource_index/parent_prefix_path/pursuit_lab
+[1.505s] -- Up-to-date: /home/rstole01/Documents/CSE-596/humble_ws/install/pursuit_lab/share/pursuit_lab/environment/ament_prefix_path.sh
+[1.505s] -- Up-to-date: /home/rstole01/Documents/CSE-596/humble_ws/install/pursuit_lab/share/pursuit_lab/environment/ament_prefix_path.dsv
+[1.506s] -- Up-to-date: /home/rstole01/Documents/CSE-596/humble_ws/install/pursuit_lab/share/pursuit_lab/environment/path.sh
+[1.506s] -- Up-to-date: /home/rstole01/Documents/CSE-596/humble_ws/install/pursuit_lab/share/pursuit_lab/environment/path.dsv
+[1.506s] -- Up-to-date: /home/rstole01/Documents/CSE-596/humble_ws/install/pursuit_lab/share/pursuit_lab/local_setup.bash
+[1.506s] -- Up-to-date: /home/rstole01/Documents/CSE-596/humble_ws/install/pursuit_lab/share/pursuit_lab/local_setup.sh
+[1.506s] -- Up-to-date: /home/rstole01/Documents/CSE-596/humble_ws/install/pursuit_lab/share/pursuit_lab/local_setup.zsh
+[1.507s] -- Up-to-date: /home/rstole01/Documents/CSE-596/humble_ws/install/pursuit_lab/share/pursuit_lab/local_setup.dsv
+[1.507s] -- Installing: /home/rstole01/Documents/CSE-596/humble_ws/install/pursuit_lab/share/pursuit_lab/package.dsv
+[1.507s] -- Up-to-date: /home/rstole01/Documents/CSE-596/humble_ws/install/pursuit_lab/share/ament_index/resource_index/packages/pursuit_lab
+[1.507s] -- Up-to-date: /home/rstole01/Documents/CSE-596/humble_ws/install/pursuit_lab/share/pursuit_lab/cmake/pursuit_labConfig.cmake
+[1.507s] -- Up-to-date: /home/rstole01/Documents/CSE-596/humble_ws/install/pursuit_lab/share/pursuit_lab/cmake/pursuit_labConfig-version.cmake
+[1.507s] -- Up-to-date: /home/rstole01/Documents/CSE-596/humble_ws/install/pursuit_lab/share/pursuit_lab/package.xml
+[1.511s] Invoked command in '/home/rstole01/Documents/CSE-596/humble_ws/build/pursuit_lab' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rstole01/Documents/CSE-596/humble_ws/install/waypoint_logger:/home/rstole01/Documents/CSE-596/humble_ws/install/f1tenth_gym_ros:/opt/ros/humble /usr/bin/cmake --install /home/rstole01/Documents/CSE-596/humble_ws/build/pursuit_lab

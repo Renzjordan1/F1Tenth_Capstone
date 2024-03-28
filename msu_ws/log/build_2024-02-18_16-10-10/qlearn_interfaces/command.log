@@ -1,0 +1,4 @@
+Invoking command in '/home/rstole01/Documents/CSE-596/msu_ws/build/qlearn_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/rstole01/Documents/CSE-596/msu_ws/build/qlearn_interfaces -- -j8 -l8
+Invoked command in '/home/rstole01/Documents/CSE-596/msu_ws/build/qlearn_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/rstole01/Documents/CSE-596/msu_ws/build/qlearn_interfaces -- -j8 -l8
+Invoking command in '/home/rstole01/Documents/CSE-596/msu_ws/build/qlearn_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/rstole01/Documents/CSE-596/msu_ws/build/qlearn_interfaces
+Invoked command in '/home/rstole01/Documents/CSE-596/msu_ws/build/qlearn_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/rstole01/Documents/CSE-596/msu_ws/build/qlearn_interfaces

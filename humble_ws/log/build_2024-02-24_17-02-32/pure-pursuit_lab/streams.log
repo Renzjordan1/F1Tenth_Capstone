@@ -1,0 +1,55 @@
+[2.376s] Invoking command in '/home/rstole01/Documents/CSE-596/humble_ws/build/pure-pursuit_lab': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rstole01/Documents/CSE-596/humble_ws/install/waypoint_logger:/home/rstole01/Documents/CSE-596/humble_ws/install/f1tenth_gym_ros:/opt/ros/humble /usr/bin/cmake /home/rstole01/Documents/CSE-596/humble_ws/src/pure-pursuit_lab -DCMAKE_INSTALL_PREFIX=/home/rstole01/Documents/CSE-596/humble_ws/install/pure-pursuit_lab
+[4.649s] -- The C compiler identification is GNU 11.4.0
+[4.650s] -- The CXX compiler identification is GNU 11.4.0
+[4.650s] -- Detecting C compiler ABI info
+[4.650s] -- Detecting C compiler ABI info - done
+[4.650s] -- Check for working C compiler: /usr/bin/cc - skipped
+[4.651s] -- Detecting C compile features
+[4.651s] -- Detecting C compile features - done
+[4.651s] -- Detecting CXX compiler ABI info
+[4.651s] -- Detecting CXX compiler ABI info - done
+[4.651s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[4.652s] -- Detecting CXX compile features
+[4.652s] -- Detecting CXX compile features - done
+[4.652s] -- Found ament_cmake: 1.3.7 (/opt/ros/humble/share/ament_cmake/cmake)
+[5.617s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[6.270s] -- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+[6.510s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[6.536s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[6.601s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[6.746s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[6.947s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[7.601s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[7.625s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[7.841s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[7.949s] -- Looking for pthread.h
+[8.361s] -- Looking for pthread.h - found
+[8.361s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[8.709s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[8.713s] -- Found Threads: TRUE  
+[9.392s] -- Found rclpy: 3.3.11 (/opt/ros/humble/share/rclpy/cmake)
+[9.398s] -- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)
+[9.561s] -- Found nav_msgs: 4.2.3 (/opt/ros/humble/share/nav_msgs/cmake)
+[9.959s] -- Found ackermann_msgs: 2.0.2 (/opt/ros/humble/share/ackermann_msgs/cmake)
+[10.147s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+[10.464s] -- Found visualization_msgs: 4.2.3 (/opt/ros/humble/share/visualization_msgs/cmake)
+[11.013s] -- Configuring incomplete, errors occurred!
+[11.013s] See also "/home/rstole01/Documents/CSE-596/humble_ws/build/pure-pursuit_lab/CMakeFiles/CMakeOutput.log".
+[11.014s] [31mCMake Error at CMakeLists.txt:28 (find_package):
+[11.014s]   By not providing "Findeigen.cmake" in CMAKE_MODULE_PATH this project has
+[11.015s]   asked CMake to find a package configuration file provided by "eigen", but
+[11.015s]   CMake did not find one.
+[11.016s] 
+[11.017s]   Could not find a package configuration file provided by "eigen" with any of
+[11.017s]   the following names:
+[11.017s] 
+[11.018s]     eigenConfig.cmake
+[11.018s]     eigen-config.cmake
+[11.018s] 
+[11.018s]   Add the installation prefix of "eigen" to CMAKE_PREFIX_PATH or set
+[11.019s]   "eigen_DIR" to a directory containing one of the above files.  If "eigen"
+[11.019s]   provides a separate development package or SDK, be sure it has been
+[11.019s]   installed.
+[11.019s] 
+[11.020s] [0m
+[11.176s] Invoked command in '/home/rstole01/Documents/CSE-596/humble_ws/build/pure-pursuit_lab' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rstole01/Documents/CSE-596/humble_ws/install/waypoint_logger:/home/rstole01/Documents/CSE-596/humble_ws/install/f1tenth_gym_ros:/opt/ros/humble /usr/bin/cmake /home/rstole01/Documents/CSE-596/humble_ws/src/pure-pursuit_lab -DCMAKE_INSTALL_PREFIX=/home/rstole01/Documents/CSE-596/humble_ws/install/pure-pursuit_lab
