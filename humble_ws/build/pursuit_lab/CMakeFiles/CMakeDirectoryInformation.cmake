@@ -3,8 +3,13 @@
 
 # Relative path conversion top directories.
 <<<<<<< HEAD
+<<<<<<< HEAD
 set(CMAKE_RELATIVE_PATH_TOP_SOURCE "/home/rstole01/Documents/CapstoneGit/humble_ws/src/pursuit_lab")
 set(CMAKE_RELATIVE_PATH_TOP_BINARY "/home/rstole01/Documents/CapstoneGit/humble_ws/build/pursuit_lab")
+=======
+set(CMAKE_RELATIVE_PATH_TOP_SOURCE "/home/rstole01/Documents/CSE-596/humble_ws/src/pursuit_lab")
+set(CMAKE_RELATIVE_PATH_TOP_BINARY "/home/rstole01/Documents/CSE-596/humble_ws/build/pursuit_lab")
+>>>>>>> ce1a67ebf7edb694f0f93a1943a2aeb630cdb943
 =======
 set(CMAKE_RELATIVE_PATH_TOP_SOURCE "/home/rstole01/Documents/CSE-596/humble_ws/src/pursuit_lab")
 set(CMAKE_RELATIVE_PATH_TOP_BINARY "/home/rstole01/Documents/CSE-596/humble_ws/build/pursuit_lab")

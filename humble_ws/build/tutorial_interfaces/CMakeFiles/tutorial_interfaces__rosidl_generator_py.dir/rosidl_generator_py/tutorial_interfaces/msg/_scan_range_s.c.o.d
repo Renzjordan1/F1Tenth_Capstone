@@ -1,6 +1,10 @@
 CMakeFiles/tutorial_interfaces__rosidl_generator_py.dir/rosidl_generator_py/tutorial_interfaces/msg/_scan_range_s.c.o: \
 <<<<<<< HEAD
+<<<<<<< HEAD
  /home/rstole01/Documents/CapstoneGit/humble_ws/build/tutorial_interfaces/rosidl_generator_py/tutorial_interfaces/msg/_scan_range_s.c \
+=======
+ /home/rstole01/Documents/CSE-596/humble_ws/build/tutorial_interfaces/rosidl_generator_py/tutorial_interfaces/msg/_scan_range_s.c \
+>>>>>>> ce1a67ebf7edb694f0f93a1943a2aeb630cdb943
 =======
  /home/rstole01/Documents/CSE-596/humble_ws/build/tutorial_interfaces/rosidl_generator_py/tutorial_interfaces/msg/_scan_range_s.c \
 >>>>>>> ce1a67ebf7edb694f0f93a1943a2aeb630cdb943
@@ -212,9 +216,15 @@ CMakeFiles/tutorial_interfaces__rosidl_generator_py.dir/rosidl_generator_py/tuto
  /usr/include/python3.10/numpy/__multiarray_api.h \
  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/visibility_control.h \
 <<<<<<< HEAD
+<<<<<<< HEAD
  /home/rstole01/Documents/CapstoneGit/humble_ws/build/tutorial_interfaces/rosidl_generator_c/tutorial_interfaces/msg/detail/scan_range__struct.h \
  /home/rstole01/Documents/CapstoneGit/humble_ws/build/tutorial_interfaces/rosidl_generator_c/tutorial_interfaces/msg/detail/scan_range__functions.h \
  /home/rstole01/Documents/CapstoneGit/humble_ws/build/tutorial_interfaces/rosidl_generator_c/tutorial_interfaces/msg/rosidl_generator_c__visibility_control.h
+=======
+ /home/rstole01/Documents/CSE-596/humble_ws/build/tutorial_interfaces/rosidl_generator_c/tutorial_interfaces/msg/detail/scan_range__struct.h \
+ /home/rstole01/Documents/CSE-596/humble_ws/build/tutorial_interfaces/rosidl_generator_c/tutorial_interfaces/msg/detail/scan_range__functions.h \
+ /home/rstole01/Documents/CSE-596/humble_ws/build/tutorial_interfaces/rosidl_generator_c/tutorial_interfaces/msg/rosidl_generator_c__visibility_control.h
+>>>>>>> ce1a67ebf7edb694f0f93a1943a2aeb630cdb943
 =======
  /home/rstole01/Documents/CSE-596/humble_ws/build/tutorial_interfaces/rosidl_generator_c/tutorial_interfaces/msg/detail/scan_range__struct.h \
  /home/rstole01/Documents/CSE-596/humble_ws/build/tutorial_interfaces/rosidl_generator_c/tutorial_interfaces/msg/detail/scan_range__functions.h \

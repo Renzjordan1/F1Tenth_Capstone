@@ -1,0 +1,3 @@
+[console_scripts]
+waypoint_writer = waypoint_writer.waypoint_writer:main
+

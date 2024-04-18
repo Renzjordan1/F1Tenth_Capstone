@@ -1,0 +1,49 @@
+running egg_info
+creating ../../build/waypoint_follow/waypoint_follow.egg-info
+writing ../../build/waypoint_follow/waypoint_follow.egg-info/PKG-INFO
+writing dependency_links to ../../build/waypoint_follow/waypoint_follow.egg-info/dependency_links.txt
+writing entry points to ../../build/waypoint_follow/waypoint_follow.egg-info/entry_points.txt
+writing requirements to ../../build/waypoint_follow/waypoint_follow.egg-info/requires.txt
+writing top-level names to ../../build/waypoint_follow/waypoint_follow.egg-info/top_level.txt
+writing manifest file '../../build/waypoint_follow/waypoint_follow.egg-info/SOURCES.txt'
+reading manifest file '../../build/waypoint_follow/waypoint_follow.egg-info/SOURCES.txt'
+writing manifest file '../../build/waypoint_follow/waypoint_follow.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/rstole01/Documents/CSE-596/msu_ws/build/waypoint_follow/build
+creating /home/rstole01/Documents/CSE-596/msu_ws/build/waypoint_follow/build/lib
+creating /home/rstole01/Documents/CSE-596/msu_ws/build/waypoint_follow/build/lib/waypoint_follow
+copying waypoint_follow/WaypointNavigator.py -> /home/rstole01/Documents/CSE-596/msu_ws/build/waypoint_follow/build/lib/waypoint_follow
+copying waypoint_follow/__init__.py -> /home/rstole01/Documents/CSE-596/msu_ws/build/waypoint_follow/build/lib/waypoint_follow
+copying waypoint_follow/PurePursuit.py -> /home/rstole01/Documents/CSE-596/msu_ws/build/waypoint_follow/build/lib/waypoint_follow
+copying waypoint_follow/PID.py -> /home/rstole01/Documents/CSE-596/msu_ws/build/waypoint_follow/build/lib/waypoint_follow
+copying waypoint_follow/WaypointHandler.py -> /home/rstole01/Documents/CSE-596/msu_ws/build/waypoint_follow/build/lib/waypoint_follow
+copying waypoint_follow/waypoint_follow.py -> /home/rstole01/Documents/CSE-596/msu_ws/build/waypoint_follow/build/lib/waypoint_follow
+running install
+/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+running install_lib
+creating /home/rstole01/Documents/CSE-596/msu_ws/install/waypoint_follow/lib/python3.10/site-packages/waypoint_follow
+copying /home/rstole01/Documents/CSE-596/msu_ws/build/waypoint_follow/build/lib/waypoint_follow/WaypointNavigator.py -> /home/rstole01/Documents/CSE-596/msu_ws/install/waypoint_follow/lib/python3.10/site-packages/waypoint_follow
+copying /home/rstole01/Documents/CSE-596/msu_ws/build/waypoint_follow/build/lib/waypoint_follow/__init__.py -> /home/rstole01/Documents/CSE-596/msu_ws/install/waypoint_follow/lib/python3.10/site-packages/waypoint_follow
+copying /home/rstole01/Documents/CSE-596/msu_ws/build/waypoint_follow/build/lib/waypoint_follow/PurePursuit.py -> /home/rstole01/Documents/CSE-596/msu_ws/install/waypoint_follow/lib/python3.10/site-packages/waypoint_follow
+copying /home/rstole01/Documents/CSE-596/msu_ws/build/waypoint_follow/build/lib/waypoint_follow/PID.py -> /home/rstole01/Documents/CSE-596/msu_ws/install/waypoint_follow/lib/python3.10/site-packages/waypoint_follow
+copying /home/rstole01/Documents/CSE-596/msu_ws/build/waypoint_follow/build/lib/waypoint_follow/WaypointHandler.py -> /home/rstole01/Documents/CSE-596/msu_ws/install/waypoint_follow/lib/python3.10/site-packages/waypoint_follow
+copying /home/rstole01/Documents/CSE-596/msu_ws/build/waypoint_follow/build/lib/waypoint_follow/waypoint_follow.py -> /home/rstole01/Documents/CSE-596/msu_ws/install/waypoint_follow/lib/python3.10/site-packages/waypoint_follow
+byte-compiling /home/rstole01/Documents/CSE-596/msu_ws/install/waypoint_follow/lib/python3.10/site-packages/waypoint_follow/WaypointNavigator.py to WaypointNavigator.cpython-310.pyc
+byte-compiling /home/rstole01/Documents/CSE-596/msu_ws/install/waypoint_follow/lib/python3.10/site-packages/waypoint_follow/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/rstole01/Documents/CSE-596/msu_ws/install/waypoint_follow/lib/python3.10/site-packages/waypoint_follow/PurePursuit.py to PurePursuit.cpython-310.pyc
+byte-compiling /home/rstole01/Documents/CSE-596/msu_ws/install/waypoint_follow/lib/python3.10/site-packages/waypoint_follow/PID.py to PID.cpython-310.pyc
+byte-compiling /home/rstole01/Documents/CSE-596/msu_ws/install/waypoint_follow/lib/python3.10/site-packages/waypoint_follow/WaypointHandler.py to WaypointHandler.cpython-310.pyc
+byte-compiling /home/rstole01/Documents/CSE-596/msu_ws/install/waypoint_follow/lib/python3.10/site-packages/waypoint_follow/waypoint_follow.py to waypoint_follow.cpython-310.pyc
+running install_data
+creating /home/rstole01/Documents/CSE-596/msu_ws/install/waypoint_follow/share/ament_index
+creating /home/rstole01/Documents/CSE-596/msu_ws/install/waypoint_follow/share/ament_index/resource_index
+creating /home/rstole01/Documents/CSE-596/msu_ws/install/waypoint_follow/share/ament_index/resource_index/packages
+copying resource/waypoint_follow -> /home/rstole01/Documents/CSE-596/msu_ws/install/waypoint_follow/share/ament_index/resource_index/packages
+copying package.xml -> /home/rstole01/Documents/CSE-596/msu_ws/install/waypoint_follow/share/waypoint_follow
+running install_egg_info
+Copying ../../build/waypoint_follow/waypoint_follow.egg-info to /home/rstole01/Documents/CSE-596/msu_ws/install/waypoint_follow/lib/python3.10/site-packages/waypoint_follow-0.0.0-py3.10.egg-info
+running install_scripts
+Installing waypoint_follow script to /home/rstole01/Documents/CSE-596/msu_ws/install/waypoint_follow/lib/waypoint_follow
+writing list of installed files to '/home/rstole01/Documents/CSE-596/msu_ws/build/waypoint_follow/install.log'

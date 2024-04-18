@@ -1,6 +1,7 @@
 {
   "package_name": "tutorial_interfaces",
 <<<<<<< HEAD
+<<<<<<< HEAD
   "output_dir": "/home/rstole01/Documents/CapstoneGit/humble_ws/build/tutorial_interfaces/rosidl_typesupport_fastrtps_c/tutorial_interfaces",
   "template_dir": "/opt/ros/humble/share/rosidl_typesupport_fastrtps_c/resource",
   "idl_tuples": [
@@ -9,6 +10,8 @@
     "/home/rstole01/Documents/CapstoneGit/humble_ws/build/tutorial_interfaces/rosidl_adapter/tutorial_interfaces:srv/AddThreeInts.idl",
     "/home/rstole01/Documents/CapstoneGit/humble_ws/build/tutorial_interfaces/rosidl_adapter/tutorial_interfaces:msg/ScanRange.idl"
 =======
+=======
+>>>>>>> ce1a67ebf7edb694f0f93a1943a2aeb630cdb943
   "output_dir": "/home/rstole01/Documents/CSE-596/humble_ws/build/tutorial_interfaces/rosidl_typesupport_fastrtps_c/tutorial_interfaces",
   "template_dir": "/opt/ros/humble/share/rosidl_typesupport_fastrtps_c/resource",
   "idl_tuples": [
@@ -16,6 +19,9 @@
     "/home/rstole01/Documents/CSE-596/humble_ws/build/tutorial_interfaces/rosidl_adapter/tutorial_interfaces:msg/Sphere.idl",
     "/home/rstole01/Documents/CSE-596/humble_ws/build/tutorial_interfaces/rosidl_adapter/tutorial_interfaces:srv/AddThreeInts.idl",
     "/home/rstole01/Documents/CSE-596/humble_ws/build/tutorial_interfaces/rosidl_adapter/tutorial_interfaces:msg/ScanRange.idl"
+<<<<<<< HEAD
+>>>>>>> ce1a67ebf7edb694f0f93a1943a2aeb630cdb943
+=======
 >>>>>>> ce1a67ebf7edb694f0f93a1943a2aeb630cdb943
   ],
   "ros_interface_dependencies": [
@@ -89,15 +95,21 @@
     "/opt/ros/humble/share/rosidl_typesupport_fastrtps_c/resource/srv__rosidl_typesupport_fastrtps_c.h.em",
     "/opt/ros/humble/share/rosidl_typesupport_fastrtps_c/resource/srv__type_support_c.cpp.em",
 <<<<<<< HEAD
+<<<<<<< HEAD
     "/home/rstole01/Documents/CapstoneGit/humble_ws/build/tutorial_interfaces/rosidl_adapter/tutorial_interfaces/msg/Num.idl",
     "/home/rstole01/Documents/CapstoneGit/humble_ws/build/tutorial_interfaces/rosidl_adapter/tutorial_interfaces/msg/Sphere.idl",
     "/home/rstole01/Documents/CapstoneGit/humble_ws/build/tutorial_interfaces/rosidl_adapter/tutorial_interfaces/srv/AddThreeInts.idl",
     "/home/rstole01/Documents/CapstoneGit/humble_ws/build/tutorial_interfaces/rosidl_adapter/tutorial_interfaces/msg/ScanRange.idl",
 =======
+=======
+>>>>>>> ce1a67ebf7edb694f0f93a1943a2aeb630cdb943
     "/home/rstole01/Documents/CSE-596/humble_ws/build/tutorial_interfaces/rosidl_adapter/tutorial_interfaces/msg/Num.idl",
     "/home/rstole01/Documents/CSE-596/humble_ws/build/tutorial_interfaces/rosidl_adapter/tutorial_interfaces/msg/Sphere.idl",
     "/home/rstole01/Documents/CSE-596/humble_ws/build/tutorial_interfaces/rosidl_adapter/tutorial_interfaces/srv/AddThreeInts.idl",
     "/home/rstole01/Documents/CSE-596/humble_ws/build/tutorial_interfaces/rosidl_adapter/tutorial_interfaces/msg/ScanRange.idl",
+<<<<<<< HEAD
+>>>>>>> ce1a67ebf7edb694f0f93a1943a2aeb630cdb943
+=======
 >>>>>>> ce1a67ebf7edb694f0f93a1943a2aeb630cdb943
     "/opt/ros/humble/share/geometry_msgs/msg/Accel.idl",
     "/opt/ros/humble/share/geometry_msgs/msg/AccelStamped.idl",

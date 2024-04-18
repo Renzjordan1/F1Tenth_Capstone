@@ -1,6 +1,10 @@
 # This is the CMakeCache file.
 <<<<<<< HEAD
+<<<<<<< HEAD
 # For build in directory: /home/rstole01/Documents/CapstoneGit/humble_ws/build/tutorial_interfaces
+=======
+# For build in directory: /home/rstole01/Documents/CSE-596/humble_ws/build/tutorial_interfaces
+>>>>>>> ce1a67ebf7edb694f0f93a1943a2aeb630cdb943
 =======
 # For build in directory: /home/rstole01/Documents/CSE-596/humble_ws/build/tutorial_interfaces
 >>>>>>> ce1a67ebf7edb694f0f93a1943a2aeb630cdb943
@@ -37,7 +41,11 @@ AMENT_CMAKE_UNINSTALL_TARGET:BOOL=ON
 
 //The path where test results are generated
 <<<<<<< HEAD
+<<<<<<< HEAD
 AMENT_TEST_RESULTS_DIR:PATH=/home/rstole01/Documents/CapstoneGit/humble_ws/build/tutorial_interfaces/test_results
+=======
+AMENT_TEST_RESULTS_DIR:PATH=/home/rstole01/Documents/CSE-596/humble_ws/build/tutorial_interfaces/test_results
+>>>>>>> ce1a67ebf7edb694f0f93a1943a2aeb630cdb943
 =======
 AMENT_TEST_RESULTS_DIR:PATH=/home/rstole01/Documents/CSE-596/humble_ws/build/tutorial_interfaces/test_results
 >>>>>>> ce1a67ebf7edb694f0f93a1943a2aeb630cdb943
@@ -138,7 +146,11 @@ CMAKE_EXPORT_COMPILE_COMMANDS:BOOL=
 
 //Install path prefix, prepended onto install directories.
 <<<<<<< HEAD
+<<<<<<< HEAD
 CMAKE_INSTALL_PREFIX:PATH=/home/rstole01/Documents/CapstoneGit/humble_ws/install/tutorial_interfaces
+=======
+CMAKE_INSTALL_PREFIX:PATH=/home/rstole01/Documents/CSE-596/humble_ws/install/tutorial_interfaces
+>>>>>>> ce1a67ebf7edb694f0f93a1943a2aeb630cdb943
 =======
 CMAKE_INSTALL_PREFIX:PATH=/home/rstole01/Documents/CSE-596/humble_ws/install/tutorial_interfaces
 >>>>>>> ce1a67ebf7edb694f0f93a1943a2aeb630cdb943
@@ -262,9 +274,12 @@ PYTHON_LIBRARY:FILEPATH=/usr/lib/x86_64-linux-gnu/libpython3.10.so
 PYTHON_LIBRARY_DEBUG:FILEPATH=PYTHON_LIBRARY_DEBUG-NOTFOUND
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 //Path to a program.
 Python3_EXECUTABLE:FILEPATH=/usr/bin/python3
 
+=======
+>>>>>>> ce1a67ebf7edb694f0f93a1943a2aeb630cdb943
 =======
 >>>>>>> ce1a67ebf7edb694f0f93a1943a2aeb630cdb943
 //Name of the computer/site where compile is being run
@@ -443,7 +458,11 @@ std_msgs_DIR:PATH=/opt/ros/humble/share/std_msgs/cmake
 
 //Value Computed by CMake
 <<<<<<< HEAD
+<<<<<<< HEAD
 tutorial_interfaces_BINARY_DIR:STATIC=/home/rstole01/Documents/CapstoneGit/humble_ws/build/tutorial_interfaces
+=======
+tutorial_interfaces_BINARY_DIR:STATIC=/home/rstole01/Documents/CSE-596/humble_ws/build/tutorial_interfaces
+>>>>>>> ce1a67ebf7edb694f0f93a1943a2aeb630cdb943
 =======
 tutorial_interfaces_BINARY_DIR:STATIC=/home/rstole01/Documents/CSE-596/humble_ws/build/tutorial_interfaces
 >>>>>>> ce1a67ebf7edb694f0f93a1943a2aeb630cdb943
@@ -453,7 +472,11 @@ tutorial_interfaces_IS_TOP_LEVEL:STATIC=ON
 
 //Value Computed by CMake
 <<<<<<< HEAD
+<<<<<<< HEAD
 tutorial_interfaces_SOURCE_DIR:STATIC=/home/rstole01/Documents/CapstoneGit/humble_ws/src/tutorial_interfaces
+=======
+tutorial_interfaces_SOURCE_DIR:STATIC=/home/rstole01/Documents/CSE-596/humble_ws/src/tutorial_interfaces
+>>>>>>> ce1a67ebf7edb694f0f93a1943a2aeb630cdb943
 =======
 tutorial_interfaces_SOURCE_DIR:STATIC=/home/rstole01/Documents/CSE-596/humble_ws/src/tutorial_interfaces
 >>>>>>> ce1a67ebf7edb694f0f93a1943a2aeb630cdb943
@@ -505,7 +528,11 @@ CMAKE_ADDR2LINE-ADVANCED:INTERNAL=1
 CMAKE_AR-ADVANCED:INTERNAL=1
 //This is the directory where this CMakeCache.txt was created
 <<<<<<< HEAD
+<<<<<<< HEAD
 CMAKE_CACHEFILE_DIR:INTERNAL=/home/rstole01/Documents/CapstoneGit/humble_ws/build/tutorial_interfaces
+=======
+CMAKE_CACHEFILE_DIR:INTERNAL=/home/rstole01/Documents/CSE-596/humble_ws/build/tutorial_interfaces
+>>>>>>> ce1a67ebf7edb694f0f93a1943a2aeb630cdb943
 =======
 CMAKE_CACHEFILE_DIR:INTERNAL=/home/rstole01/Documents/CSE-596/humble_ws/build/tutorial_interfaces
 >>>>>>> ce1a67ebf7edb694f0f93a1943a2aeb630cdb943
@@ -584,7 +611,11 @@ CMAKE_GENERATOR_TOOLSET:INTERNAL=
 //Source directory with the top level CMakeLists.txt file for this
 // project
 <<<<<<< HEAD
+<<<<<<< HEAD
 CMAKE_HOME_DIRECTORY:INTERNAL=/home/rstole01/Documents/CapstoneGit/humble_ws/src/tutorial_interfaces
+=======
+CMAKE_HOME_DIRECTORY:INTERNAL=/home/rstole01/Documents/CSE-596/humble_ws/src/tutorial_interfaces
+>>>>>>> ce1a67ebf7edb694f0f93a1943a2aeb630cdb943
 =======
 CMAKE_HOME_DIRECTORY:INTERNAL=/home/rstole01/Documents/CSE-596/humble_ws/src/tutorial_interfaces
 >>>>>>> ce1a67ebf7edb694f0f93a1943a2aeb630cdb943
@@ -652,7 +683,11 @@ CMAKE_UNAME:INTERNAL=/usr/bin/uname
 CMAKE_VERBOSE_MAKEFILE-ADVANCED:INTERNAL=1
 //Details about finding Python3
 <<<<<<< HEAD
+<<<<<<< HEAD
 FIND_PACKAGE_MESSAGE_DETAILS_Python3:INTERNAL=[/usr/bin/python3][cfound components: Interpreter ][v3.10.12()]
+=======
+FIND_PACKAGE_MESSAGE_DETAILS_Python3:INTERNAL=[/usr/bin/python3.10][cfound components: Interpreter ][v3.10.12()]
+>>>>>>> ce1a67ebf7edb694f0f93a1943a2aeb630cdb943
 =======
 FIND_PACKAGE_MESSAGE_DETAILS_Python3:INTERNAL=[/usr/bin/python3.10][cfound components: Interpreter ][v3.10.12()]
 >>>>>>> ce1a67ebf7edb694f0f93a1943a2aeb630cdb943
@@ -679,14 +714,20 @@ PYTHON_SOABI:INTERNAL=cpython-310-x86_64-linux-gnu
 //The full suffix for Python native extensions. See PEP-3149: https://www.python.org/dev/peps/pep-3149/.
 PythonExtra_EXTENSION_SUFFIX:INTERNAL=.cpython-310-x86_64-linux-gnu
 <<<<<<< HEAD
+<<<<<<< HEAD
 _Python3_EXECUTABLE:INTERNAL=/usr/bin/python3
 //Python3 Properties
 _Python3_INTERPRETER_PROPERTIES:INTERNAL=Python;3;10;12;64;;cpython-310-x86_64-linux-gnu;/usr/lib/python3.10;/usr/lib/python3.10;/usr/lib/python3/dist-packages;/usr/lib/python3/dist-packages
 _Python3_INTERPRETER_SIGNATURE:INTERNAL=0f3e53742e142b1d9e50e4ca5b901dd8
 =======
+=======
+>>>>>>> ce1a67ebf7edb694f0f93a1943a2aeb630cdb943
 _Python3_EXECUTABLE:INTERNAL=/usr/bin/python3.10
 //Python3 Properties
 _Python3_INTERPRETER_PROPERTIES:INTERNAL=Python;3;10;12;64;;cpython-310-x86_64-linux-gnu;/usr/lib/python3.10;/usr/lib/python3.10;/usr/lib/python3/dist-packages;/usr/lib/python3/dist-packages
 _Python3_INTERPRETER_SIGNATURE:INTERNAL=b91b4035ecb3bb3f5760d35922531bcd
+<<<<<<< HEAD
+>>>>>>> ce1a67ebf7edb694f0f93a1943a2aeb630cdb943
+=======
 >>>>>>> ce1a67ebf7edb694f0f93a1943a2aeb630cdb943
 

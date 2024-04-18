@@ -3,8 +3,13 @@
 
 # Relative path conversion top directories.
 <<<<<<< HEAD
+<<<<<<< HEAD
 set(CMAKE_RELATIVE_PATH_TOP_SOURCE "/home/rstole01/Documents/CapstoneGit/humble_ws/src/scan_pubsub")
 set(CMAKE_RELATIVE_PATH_TOP_BINARY "/home/rstole01/Documents/CapstoneGit/humble_ws/build/scan_pubsub")
+=======
+set(CMAKE_RELATIVE_PATH_TOP_SOURCE "/home/rstole01/Documents/CSE-596/humble_ws/src/scan_pubsub")
+set(CMAKE_RELATIVE_PATH_TOP_BINARY "/home/rstole01/Documents/CSE-596/humble_ws/build/scan_pubsub")
+>>>>>>> ce1a67ebf7edb694f0f93a1943a2aeb630cdb943
 =======
 set(CMAKE_RELATIVE_PATH_TOP_SOURCE "/home/rstole01/Documents/CSE-596/humble_ws/src/scan_pubsub")
 set(CMAKE_RELATIVE_PATH_TOP_BINARY "/home/rstole01/Documents/CSE-596/humble_ws/build/scan_pubsub")

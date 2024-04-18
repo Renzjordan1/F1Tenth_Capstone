@@ -26,6 +26,7 @@ class PurePursuit(Node):
     """
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     ##READ CSV FILE
     folder = "/home/rstole01/Documents/CSE-596/humble_ws/waypoints"
     file = folder + "/SLAM-good1.csv"
@@ -45,6 +46,8 @@ class PurePursuit(Node):
         
         ##SUBSCRIBE TO ODOM
 =======
+=======
+>>>>>>> ce1a67ebf7edb694f0f93a1943a2aeb630cdb943
     folder = "/home/rstole01/Documents/CSE-596/humble_ws/waypoints"
     file = folder + "/see.csv"
 
@@ -55,12 +58,16 @@ class PurePursuit(Node):
     def __init__(self):
         super().__init__('pure_pursuit_node')
         # TODO: create ROS subscribers and publishers
+<<<<<<< HEAD
+>>>>>>> ce1a67ebf7edb694f0f93a1943a2aeb630cdb943
+=======
 >>>>>>> ce1a67ebf7edb694f0f93a1943a2aeb630cdb943
         self.odom_sub = self.create_subscription(
             Odometry,
             '/ego_racecar/odom',
             self.pose_callback,
             10)
+<<<<<<< HEAD
 <<<<<<< HEAD
 
         #PUBLISHER FOR DRIVE
@@ -115,6 +122,8 @@ class PurePursuit(Node):
     def pose_callback(self, pose_msg):
         print("kp ",self.kp)
 =======
+=======
+>>>>>>> ce1a67ebf7edb694f0f93a1943a2aeb630cdb943
         self.drive_pub = self.create_publisher(AckermannDriveStamped, "/drive", 10)
 
         # Array of spline waypoints
@@ -165,6 +174,9 @@ class PurePursuit(Node):
         #             double y
         #             double z
         #     double[36] covariance
+<<<<<<< HEAD
+>>>>>>> ce1a67ebf7edb694f0f93a1943a2aeb630cdb943
+=======
 >>>>>>> ce1a67ebf7edb694f0f93a1943a2aeb630cdb943
 
         #Pose and Yaw
@@ -173,7 +185,10 @@ class PurePursuit(Node):
         quaternion = pose_msg.pose.pose.orientation
         euler = tf_transformations.euler_from_quaternion([quaternion.x, quaternion.y, quaternion.z, quaternion.w])
 <<<<<<< HEAD
+<<<<<<< HEAD
         print("pose: " + str(pose_x) + " " + str(pose_y))
+=======
+>>>>>>> ce1a67ebf7edb694f0f93a1943a2aeb630cdb943
 =======
 >>>>>>> ce1a67ebf7edb694f0f93a1943a2aeb630cdb943
 
@@ -181,6 +196,7 @@ class PurePursuit(Node):
         pitch = euler[1]
         yaw = euler[2]
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 
         #FIND NEXT WAYPOINT TO TRACK
@@ -199,6 +215,8 @@ class PurePursuit(Node):
 
         ##DETERMINE HORIZONTAL DISTANCE
 =======
+=======
+>>>>>>> ce1a67ebf7edb694f0f93a1943a2aeb630cdb943
         # TODO: find the current waypoint to track using methods mentioned in lecture
         next_wp, next_angle = self.get_next_waypoint(pose_x, pose_y, yaw)
 
@@ -222,6 +240,9 @@ class PurePursuit(Node):
         #     print("right")
         #     curvature = 2*(x_dist) / (self.lookahead**2)
 
+<<<<<<< HEAD
+>>>>>>> ce1a67ebf7edb694f0f93a1943a2aeb630cdb943
+=======
 >>>>>>> ce1a67ebf7edb694f0f93a1943a2aeb630cdb943
         dist = 0
         yaw_deg = yaw*180/3.14
@@ -237,14 +258,18 @@ class PurePursuit(Node):
             dist = (next_wp[1] - pose_y)
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 
         ##CALCULATE CURVATURE
+=======
+>>>>>>> ce1a67ebf7edb694f0f93a1943a2aeb630cdb943
 =======
 >>>>>>> ce1a67ebf7edb694f0f93a1943a2aeb630cdb943
         curvature = 2*abs(dist) / (self.lookahead**2)
 
         print("dist: ", dist)
         print("curve: ", curvature)
+<<<<<<< HEAD
 <<<<<<< HEAD
 
 
@@ -313,6 +338,8 @@ class PurePursuit(Node):
 
     ##FUNCTION TO GET NEXT WAYPOINT NEAREST TO LOOKAHEAD DISTANCE
 =======
+=======
+>>>>>>> ce1a67ebf7edb694f0f93a1943a2aeb630cdb943
         # if(next_angle >= 0):
         #     steering_angle = float(self.kp * curvature)
         # else: 
@@ -338,6 +365,9 @@ class PurePursuit(Node):
         print("yaw: ", yaw*180/3.14)
         self.drive_pub.publish(drive_msg)
     
+<<<<<<< HEAD
+>>>>>>> ce1a67ebf7edb694f0f93a1943a2aeb630cdb943
+=======
 >>>>>>> ce1a67ebf7edb694f0f93a1943a2aeb630cdb943
     def get_next_waypoint(self, curr_x, curr_y, curr_yaw):
         wp = None
@@ -348,6 +378,10 @@ class PurePursuit(Node):
 
         # pick closest waypoint in direction of car
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    
+>>>>>>> ce1a67ebf7edb694f0f93a1943a2aeb630cdb943
 =======
     
 >>>>>>> ce1a67ebf7edb694f0f93a1943a2aeb630cdb943
@@ -361,6 +395,10 @@ class PurePursuit(Node):
         for i in range(len(self.new_points[0])):
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+>>>>>>> ce1a67ebf7edb694f0f93a1943a2aeb630cdb943
 =======
 
 >>>>>>> ce1a67ebf7edb694f0f93a1943a2aeb630cdb943
@@ -376,15 +414,21 @@ class PurePursuit(Node):
             if abs(relative_angle) < search_angle:
 
 <<<<<<< HEAD
+<<<<<<< HEAD
                 #Point at lookahead
                 if(dist_from_look == 0):
                     wp = [self.new_points[0][i], self.new_points[1][i], self.new_points[2][i]]
 =======
+=======
+>>>>>>> ce1a67ebf7edb694f0f93a1943a2aeb630cdb943
                 # print(self.new_points[0][i], self.new_points[1][i])
 
                 #Point at lookahead
                 if(dist_from_look == 0):
                     wp = [self.new_points[0][i], self.new_points[1][i]]
+<<<<<<< HEAD
+>>>>>>> ce1a67ebf7edb694f0f93a1943a2aeb630cdb943
+=======
 >>>>>>> ce1a67ebf7edb694f0f93a1943a2aeb630cdb943
                     break
 
@@ -393,7 +437,11 @@ class PurePursuit(Node):
                     if(dist_from_look < closest_dist_in):
                         closest_dist_in = dist_from_look
 <<<<<<< HEAD
+<<<<<<< HEAD
                         wp_in = [self.new_points[0][i], self.new_points[1][i], self.new_points[2][i]]
+=======
+                        wp_in = [self.new_points[0][i], self.new_points[1][i]]
+>>>>>>> ce1a67ebf7edb694f0f93a1943a2aeb630cdb943
 =======
                         wp_in = [self.new_points[0][i], self.new_points[1][i]]
 >>>>>>> ce1a67ebf7edb694f0f93a1943a2aeb630cdb943
@@ -404,7 +452,11 @@ class PurePursuit(Node):
                     if(dist_from_look > closest_dist_out):
                         closest_dist_out = dist_from_look
 <<<<<<< HEAD
+<<<<<<< HEAD
                         wp_out = [self.new_points[0][i], self.new_points[1][i], self.new_points[2][i]]
+=======
+                        wp_out = [self.new_points[0][i], self.new_points[1][i]]
+>>>>>>> ce1a67ebf7edb694f0f93a1943a2aeb630cdb943
 =======
                         wp_out = [self.new_points[0][i], self.new_points[1][i]]
 >>>>>>> ce1a67ebf7edb694f0f93a1943a2aeb630cdb943
@@ -413,6 +465,7 @@ class PurePursuit(Node):
 
         #Get Intersection of Circle and Line Interpolation
         if(wp is None):
+<<<<<<< HEAD
 <<<<<<< HEAD
 
             ##Pick point outside
@@ -440,6 +493,8 @@ class PurePursuit(Node):
 
                 #Find midpoint of inside and ouside point
 =======
+=======
+>>>>>>> ce1a67ebf7edb694f0f93a1943a2aeb630cdb943
             if(wp_in is None):
                 wp = wp_out
                 relative_angle = relative_angle_out
@@ -454,13 +509,19 @@ class PurePursuit(Node):
                 points = [point_a, point_b]
                 print("\npoints: ", points)
 
+<<<<<<< HEAD
+>>>>>>> ce1a67ebf7edb694f0f93a1943a2aeb630cdb943
+=======
 >>>>>>> ce1a67ebf7edb694f0f93a1943a2aeb630cdb943
                 midpoint = [(wp_in[0] + wp_out[0]) / 2, (wp_in[1] + wp_out[1]) / 2]
 
                 print("midpoint: ", midpoint)
 
 <<<<<<< HEAD
+<<<<<<< HEAD
                 ##Get distances from each point
+=======
+>>>>>>> ce1a67ebf7edb694f0f93a1943a2aeb630cdb943
 =======
 >>>>>>> ce1a67ebf7edb694f0f93a1943a2aeb630cdb943
                 dx_a = point_a[0] - midpoint[0]
@@ -476,9 +537,14 @@ class PurePursuit(Node):
                 print("dists: ", dist_a, dist_b)
 
 <<<<<<< HEAD
+<<<<<<< HEAD
                 ##Pick point a
                 if(dist_a <= dist_b):
                     wp = [point_a[0], point_a[1], wp_v]
+=======
+                if(dist_a <= dist_b):
+                    wp = [point_a[0], point_a[1]]
+>>>>>>> ce1a67ebf7edb694f0f93a1943a2aeb630cdb943
 =======
                 if(dist_a <= dist_b):
                     wp = [point_a[0], point_a[1]]
@@ -489,9 +555,14 @@ class PurePursuit(Node):
                     relative_angle = self.get_relative_angle(curr_yaw, angle)
 
 <<<<<<< HEAD
+<<<<<<< HEAD
                 ##Pick point b
                 else:
                     wp = [point_b[0], point_b[1], wp_v]
+=======
+                else:
+                    wp = [point_b[0], point_b[1]]
+>>>>>>> ce1a67ebf7edb694f0f93a1943a2aeb630cdb943
 =======
                 else:
                     wp = [point_b[0], point_b[1]]
@@ -502,8 +573,11 @@ class PurePursuit(Node):
                     relative_angle = self.get_relative_angle(curr_yaw, angle)
 
 <<<<<<< HEAD
+<<<<<<< HEAD
         
 =======
+=======
+>>>>>>> ce1a67ebf7edb694f0f93a1943a2aeb630cdb943
                 
 
 
@@ -523,6 +597,9 @@ class PurePursuit(Node):
                 # print("interp: ", wp)
         
         # print(wp, wp_in, wp_out)
+<<<<<<< HEAD
+>>>>>>> ce1a67ebf7edb694f0f93a1943a2aeb630cdb943
+=======
 >>>>>>> ce1a67ebf7edb694f0f93a1943a2aeb630cdb943
         print("wp_in: ", wp_in)
         print("wp_out: ", wp_out)
@@ -534,7 +611,11 @@ class PurePursuit(Node):
 
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     ##LIMIT ANGLE to -2pi to 2pi
+=======
+
+>>>>>>> ce1a67ebf7edb694f0f93a1943a2aeb630cdb943
 =======
 
 >>>>>>> ce1a67ebf7edb694f0f93a1943a2aeb630cdb943
@@ -546,7 +627,10 @@ class PurePursuit(Node):
         return angle
     
 <<<<<<< HEAD
+<<<<<<< HEAD
     ##GET RELATIVE ANGLE 
+=======
+>>>>>>> ce1a67ebf7edb694f0f93a1943a2aeb630cdb943
 =======
 >>>>>>> ce1a67ebf7edb694f0f93a1943a2aeb630cdb943
     def get_relative_angle(self, car_yaw, angle):

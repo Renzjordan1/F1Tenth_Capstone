@@ -1,15 +1,21 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Install script for directory: /home/rstole01/Documents/CapstoneGit/humble_ws/build/tutorial_interfaces/tutorial_interfaces__py
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
   set(CMAKE_INSTALL_PREFIX "/home/rstole01/Documents/CapstoneGit/humble_ws/install/tutorial_interfaces")
 =======
+=======
+>>>>>>> ce1a67ebf7edb694f0f93a1943a2aeb630cdb943
 # Install script for directory: /home/rstole01/Documents/CSE-596/humble_ws/build/tutorial_interfaces/tutorial_interfaces__py
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
   set(CMAKE_INSTALL_PREFIX "/home/rstole01/Documents/CSE-596/humble_ws/install/tutorial_interfaces")
+<<<<<<< HEAD
+>>>>>>> ce1a67ebf7edb694f0f93a1943a2aeb630cdb943
+=======
 >>>>>>> ce1a67ebf7edb694f0f93a1943a2aeb630cdb943
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")

@@ -1,0 +1,23 @@
+[9.755s] Invoking command in '/home/rstole01/Documents/CSE-596/msu_ws/src/f1tenth_gym_ros': AMENT_PREFIX_PATH=/home/rstole01/Documents/CSE-596/msu_ws/install/ackermann_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rstole01/Documents/CSE-596/msu_ws/install/ackermann_msgs LD_LIBRARY_PATH=/home/rstole01/Documents/CSE-596/msu_ws/install/ackermann_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rstole01/Documents/CSE-596/msu_ws/build/f1tenth_gym_ros/prefix_override:/home/rstole01/Documents/CSE-596/msu_ws/install/f1tenth_gym_ros/lib/python3.10/site-packages:/home/rstole01/Documents/CSE-596/msu_ws/install/ackermann_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/f1tenth_gym_ros build --build-base /home/rstole01/Documents/CSE-596/msu_ws/build/f1tenth_gym_ros/build install --record /home/rstole01/Documents/CSE-596/msu_ws/build/f1tenth_gym_ros/install.log --single-version-externally-managed
+[10.932s] running egg_info
+[10.934s] writing ../../build/f1tenth_gym_ros/f1tenth_gym_ros.egg-info/PKG-INFO
+[10.935s] writing dependency_links to ../../build/f1tenth_gym_ros/f1tenth_gym_ros.egg-info/dependency_links.txt
+[10.936s] writing entry points to ../../build/f1tenth_gym_ros/f1tenth_gym_ros.egg-info/entry_points.txt
+[10.936s] writing requirements to ../../build/f1tenth_gym_ros/f1tenth_gym_ros.egg-info/requires.txt
+[10.937s] writing top-level names to ../../build/f1tenth_gym_ros/f1tenth_gym_ros.egg-info/top_level.txt
+[10.946s] reading manifest file '../../build/f1tenth_gym_ros/f1tenth_gym_ros.egg-info/SOURCES.txt'
+[10.952s] writing manifest file '../../build/f1tenth_gym_ros/f1tenth_gym_ros.egg-info/SOURCES.txt'
+[10.953s] running build
+[10.954s] running build_py
+[10.956s] running install
+[10.957s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[10.958s]   warnings.warn(
+[10.959s] running install_lib
+[10.966s] running install_data
+[10.970s] running install_egg_info
+[10.982s] removing '/home/rstole01/Documents/CSE-596/msu_ws/install/f1tenth_gym_ros/lib/python3.10/site-packages/f1tenth_gym_ros-0.0.0-py3.10.egg-info' (and everything under it)
+[10.984s] Copying ../../build/f1tenth_gym_ros/f1tenth_gym_ros.egg-info to /home/rstole01/Documents/CSE-596/msu_ws/install/f1tenth_gym_ros/lib/python3.10/site-packages/f1tenth_gym_ros-0.0.0-py3.10.egg-info
+[10.991s] running install_scripts
+[11.107s] Installing gym_bridge script to /home/rstole01/Documents/CSE-596/msu_ws/install/f1tenth_gym_ros/lib/f1tenth_gym_ros
+[11.108s] writing list of installed files to '/home/rstole01/Documents/CSE-596/msu_ws/build/f1tenth_gym_ros/install.log'
+[11.842s] Invoked command in '/home/rstole01/Documents/CSE-596/msu_ws/src/f1tenth_gym_ros' returned '0': AMENT_PREFIX_PATH=/home/rstole01/Documents/CSE-596/msu_ws/install/ackermann_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rstole01/Documents/CSE-596/msu_ws/install/ackermann_msgs LD_LIBRARY_PATH=/home/rstole01/Documents/CSE-596/msu_ws/install/ackermann_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rstole01/Documents/CSE-596/msu_ws/build/f1tenth_gym_ros/prefix_override:/home/rstole01/Documents/CSE-596/msu_ws/install/f1tenth_gym_ros/lib/python3.10/site-packages:/home/rstole01/Documents/CSE-596/msu_ws/install/ackermann_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/f1tenth_gym_ros build --build-base /home/rstole01/Documents/CSE-596/msu_ws/build/f1tenth_gym_ros/build install --record /home/rstole01/Documents/CSE-596/msu_ws/build/f1tenth_gym_ros/install.log --single-version-externally-managed

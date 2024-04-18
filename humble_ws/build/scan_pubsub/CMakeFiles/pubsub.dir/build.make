@@ -54,15 +54,21 @@ EQUALS = =
 
 # The top-level source directory on which CMake was run.
 <<<<<<< HEAD
+<<<<<<< HEAD
 CMAKE_SOURCE_DIR = /home/rstole01/Documents/CapstoneGit/humble_ws/src/scan_pubsub
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/rstole01/Documents/CapstoneGit/humble_ws/build/scan_pubsub
 =======
+=======
+>>>>>>> ce1a67ebf7edb694f0f93a1943a2aeb630cdb943
 CMAKE_SOURCE_DIR = /home/rstole01/Documents/CSE-596/humble_ws/src/scan_pubsub
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/rstole01/Documents/CSE-596/humble_ws/build/scan_pubsub
+<<<<<<< HEAD
+>>>>>>> ce1a67ebf7edb694f0f93a1943a2aeb630cdb943
+=======
 >>>>>>> ce1a67ebf7edb694f0f93a1943a2aeb630cdb943
 
 # Include any dependencies generated for this target.
@@ -78,6 +84,7 @@ include CMakeFiles/pubsub.dir/flags.make
 
 CMakeFiles/pubsub.dir/src/scan_pubsub.cpp.o: CMakeFiles/pubsub.dir/flags.make
 <<<<<<< HEAD
+<<<<<<< HEAD
 CMakeFiles/pubsub.dir/src/scan_pubsub.cpp.o: /home/rstole01/Documents/CapstoneGit/humble_ws/src/scan_pubsub/src/scan_pubsub.cpp
 CMakeFiles/pubsub.dir/src/scan_pubsub.cpp.o: CMakeFiles/pubsub.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rstole01/Documents/CapstoneGit/humble_ws/build/scan_pubsub/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/pubsub.dir/src/scan_pubsub.cpp.o"
@@ -91,6 +98,8 @@ CMakeFiles/pubsub.dir/src/scan_pubsub.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pubsub.dir/src/scan_pubsub.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rstole01/Documents/CapstoneGit/humble_ws/src/scan_pubsub/src/scan_pubsub.cpp -o CMakeFiles/pubsub.dir/src/scan_pubsub.cpp.s
 =======
+=======
+>>>>>>> ce1a67ebf7edb694f0f93a1943a2aeb630cdb943
 CMakeFiles/pubsub.dir/src/scan_pubsub.cpp.o: /home/rstole01/Documents/CSE-596/humble_ws/src/scan_pubsub/src/scan_pubsub.cpp
 CMakeFiles/pubsub.dir/src/scan_pubsub.cpp.o: CMakeFiles/pubsub.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rstole01/Documents/CSE-596/humble_ws/build/scan_pubsub/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/pubsub.dir/src/scan_pubsub.cpp.o"
@@ -103,6 +112,9 @@ CMakeFiles/pubsub.dir/src/scan_pubsub.cpp.i: cmake_force
 CMakeFiles/pubsub.dir/src/scan_pubsub.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pubsub.dir/src/scan_pubsub.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rstole01/Documents/CSE-596/humble_ws/src/scan_pubsub/src/scan_pubsub.cpp -o CMakeFiles/pubsub.dir/src/scan_pubsub.cpp.s
+<<<<<<< HEAD
+>>>>>>> ce1a67ebf7edb694f0f93a1943a2aeb630cdb943
+=======
 >>>>>>> ce1a67ebf7edb694f0f93a1943a2aeb630cdb943
 
 # Object files for target pubsub
@@ -121,6 +133,7 @@ pubsub: /opt/ros/humble/lib/libsensor_msgs__rosidl_typesupport_introspection_c.s
 pubsub: /opt/ros/humble/lib/libsensor_msgs__rosidl_typesupport_introspection_cpp.so
 pubsub: /opt/ros/humble/lib/libsensor_msgs__rosidl_generator_py.so
 <<<<<<< HEAD
+<<<<<<< HEAD
 pubsub: /home/rstole01/Documents/CapstoneGit/humble_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_fastrtps_c.so
 pubsub: /home/rstole01/Documents/CapstoneGit/humble_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_fastrtps_cpp.so
 pubsub: /home/rstole01/Documents/CapstoneGit/humble_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_introspection_c.so
@@ -128,12 +141,17 @@ pubsub: /home/rstole01/Documents/CapstoneGit/humble_ws/install/tutorial_interfac
 pubsub: /home/rstole01/Documents/CapstoneGit/humble_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_cpp.so
 pubsub: /home/rstole01/Documents/CapstoneGit/humble_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_generator_py.so
 =======
+=======
+>>>>>>> ce1a67ebf7edb694f0f93a1943a2aeb630cdb943
 pubsub: /home/rstole01/Documents/CSE-596/humble_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_fastrtps_c.so
 pubsub: /home/rstole01/Documents/CSE-596/humble_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_fastrtps_cpp.so
 pubsub: /home/rstole01/Documents/CSE-596/humble_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_introspection_c.so
 pubsub: /home/rstole01/Documents/CSE-596/humble_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_introspection_cpp.so
 pubsub: /home/rstole01/Documents/CSE-596/humble_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_cpp.so
 pubsub: /home/rstole01/Documents/CSE-596/humble_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_generator_py.so
+<<<<<<< HEAD
+>>>>>>> ce1a67ebf7edb694f0f93a1943a2aeb630cdb943
+=======
 >>>>>>> ce1a67ebf7edb694f0f93a1943a2aeb630cdb943
 pubsub: /opt/ros/humble/lib/liblibstatistics_collector.so
 pubsub: /opt/ros/humble/lib/librcl.so
@@ -194,8 +212,13 @@ pubsub: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_cpp.so
 pubsub: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_cpp.so
 pubsub: /opt/ros/humble/lib/librosidl_typesupport_cpp.so
 <<<<<<< HEAD
+<<<<<<< HEAD
 pubsub: /home/rstole01/Documents/CapstoneGit/humble_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_c.so
 pubsub: /home/rstole01/Documents/CapstoneGit/humble_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_generator_c.so
+=======
+pubsub: /home/rstole01/Documents/CSE-596/humble_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_c.so
+pubsub: /home/rstole01/Documents/CSE-596/humble_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_generator_c.so
+>>>>>>> ce1a67ebf7edb694f0f93a1943a2aeb630cdb943
 =======
 pubsub: /home/rstole01/Documents/CSE-596/humble_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_c.so
 pubsub: /home/rstole01/Documents/CSE-596/humble_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_generator_c.so
@@ -216,7 +239,11 @@ pubsub: /opt/ros/humble/lib/librcutils.so
 pubsub: /usr/lib/x86_64-linux-gnu/libpython3.10.so
 pubsub: CMakeFiles/pubsub.dir/link.txt
 <<<<<<< HEAD
+<<<<<<< HEAD
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/rstole01/Documents/CapstoneGit/humble_ws/build/scan_pubsub/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable pubsub"
+=======
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/rstole01/Documents/CSE-596/humble_ws/build/scan_pubsub/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable pubsub"
+>>>>>>> ce1a67ebf7edb694f0f93a1943a2aeb630cdb943
 =======
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/rstole01/Documents/CSE-596/humble_ws/build/scan_pubsub/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable pubsub"
 >>>>>>> ce1a67ebf7edb694f0f93a1943a2aeb630cdb943
@@ -232,7 +259,11 @@ CMakeFiles/pubsub.dir/clean:
 
 CMakeFiles/pubsub.dir/depend:
 <<<<<<< HEAD
+<<<<<<< HEAD
 	cd /home/rstole01/Documents/CapstoneGit/humble_ws/build/scan_pubsub && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/rstole01/Documents/CapstoneGit/humble_ws/src/scan_pubsub /home/rstole01/Documents/CapstoneGit/humble_ws/src/scan_pubsub /home/rstole01/Documents/CapstoneGit/humble_ws/build/scan_pubsub /home/rstole01/Documents/CapstoneGit/humble_ws/build/scan_pubsub /home/rstole01/Documents/CapstoneGit/humble_ws/build/scan_pubsub/CMakeFiles/pubsub.dir/DependInfo.cmake --color=$(COLOR)
+=======
+	cd /home/rstole01/Documents/CSE-596/humble_ws/build/scan_pubsub && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/rstole01/Documents/CSE-596/humble_ws/src/scan_pubsub /home/rstole01/Documents/CSE-596/humble_ws/src/scan_pubsub /home/rstole01/Documents/CSE-596/humble_ws/build/scan_pubsub /home/rstole01/Documents/CSE-596/humble_ws/build/scan_pubsub /home/rstole01/Documents/CSE-596/humble_ws/build/scan_pubsub/CMakeFiles/pubsub.dir/DependInfo.cmake --color=$(COLOR)
+>>>>>>> ce1a67ebf7edb694f0f93a1943a2aeb630cdb943
 =======
 	cd /home/rstole01/Documents/CSE-596/humble_ws/build/scan_pubsub && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/rstole01/Documents/CSE-596/humble_ws/src/scan_pubsub /home/rstole01/Documents/CSE-596/humble_ws/src/scan_pubsub /home/rstole01/Documents/CSE-596/humble_ws/build/scan_pubsub /home/rstole01/Documents/CSE-596/humble_ws/build/scan_pubsub /home/rstole01/Documents/CSE-596/humble_ws/build/scan_pubsub/CMakeFiles/pubsub.dir/DependInfo.cmake --color=$(COLOR)
 >>>>>>> ce1a67ebf7edb694f0f93a1943a2aeb630cdb943

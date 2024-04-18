@@ -55,15 +55,21 @@ EQUALS = =
 
 # The top-level source directory on which CMake was run.
 <<<<<<< HEAD
+<<<<<<< HEAD
 CMAKE_SOURCE_DIR = /home/rstole01/Documents/CapstoneGit/humble_ws/src/cpp_pubsub
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/rstole01/Documents/CapstoneGit/humble_ws/build/cpp_pubsub
 =======
+=======
+>>>>>>> ce1a67ebf7edb694f0f93a1943a2aeb630cdb943
 CMAKE_SOURCE_DIR = /home/rstole01/Documents/CSE-596/humble_ws/src/cpp_pubsub
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/rstole01/Documents/CSE-596/humble_ws/build/cpp_pubsub
+<<<<<<< HEAD
+>>>>>>> ce1a67ebf7edb694f0f93a1943a2aeb630cdb943
+=======
 >>>>>>> ce1a67ebf7edb694f0f93a1943a2aeb630cdb943
 
 #=============================================================================
@@ -93,7 +99,11 @@ CMakeFiles/uninstall.dir/all: CMakeFiles/cpp_pubsub_uninstall.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/uninstall.dir/build.make CMakeFiles/uninstall.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/uninstall.dir/build.make CMakeFiles/uninstall.dir/build
 <<<<<<< HEAD
+<<<<<<< HEAD
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/rstole01/Documents/CapstoneGit/humble_ws/build/cpp_pubsub/CMakeFiles --progress-num= "Built target uninstall"
+=======
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/rstole01/Documents/CSE-596/humble_ws/build/cpp_pubsub/CMakeFiles --progress-num= "Built target uninstall"
+>>>>>>> ce1a67ebf7edb694f0f93a1943a2aeb630cdb943
 =======
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/rstole01/Documents/CSE-596/humble_ws/build/cpp_pubsub/CMakeFiles --progress-num= "Built target uninstall"
 >>>>>>> ce1a67ebf7edb694f0f93a1943a2aeb630cdb943
@@ -102,9 +112,15 @@ CMakeFiles/uninstall.dir/all: CMakeFiles/cpp_pubsub_uninstall.dir/all
 # Build rule for subdir invocation for target.
 CMakeFiles/uninstall.dir/rule: cmake_check_build_system
 <<<<<<< HEAD
+<<<<<<< HEAD
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/rstole01/Documents/CapstoneGit/humble_ws/build/cpp_pubsub/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/uninstall.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/rstole01/Documents/CapstoneGit/humble_ws/build/cpp_pubsub/CMakeFiles 0
+=======
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/rstole01/Documents/CSE-596/humble_ws/build/cpp_pubsub/CMakeFiles 0
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/uninstall.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/rstole01/Documents/CSE-596/humble_ws/build/cpp_pubsub/CMakeFiles 0
+>>>>>>> ce1a67ebf7edb694f0f93a1943a2aeb630cdb943
 =======
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/rstole01/Documents/CSE-596/humble_ws/build/cpp_pubsub/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/uninstall.dir/all
@@ -129,7 +145,11 @@ CMakeFiles/cpp_pubsub_uninstall.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/cpp_pubsub_uninstall.dir/build.make CMakeFiles/cpp_pubsub_uninstall.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/cpp_pubsub_uninstall.dir/build.make CMakeFiles/cpp_pubsub_uninstall.dir/build
 <<<<<<< HEAD
+<<<<<<< HEAD
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/rstole01/Documents/CapstoneGit/humble_ws/build/cpp_pubsub/CMakeFiles --progress-num= "Built target cpp_pubsub_uninstall"
+=======
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/rstole01/Documents/CSE-596/humble_ws/build/cpp_pubsub/CMakeFiles --progress-num= "Built target cpp_pubsub_uninstall"
+>>>>>>> ce1a67ebf7edb694f0f93a1943a2aeb630cdb943
 =======
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/rstole01/Documents/CSE-596/humble_ws/build/cpp_pubsub/CMakeFiles --progress-num= "Built target cpp_pubsub_uninstall"
 >>>>>>> ce1a67ebf7edb694f0f93a1943a2aeb630cdb943
@@ -138,9 +158,15 @@ CMakeFiles/cpp_pubsub_uninstall.dir/all:
 # Build rule for subdir invocation for target.
 CMakeFiles/cpp_pubsub_uninstall.dir/rule: cmake_check_build_system
 <<<<<<< HEAD
+<<<<<<< HEAD
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/rstole01/Documents/CapstoneGit/humble_ws/build/cpp_pubsub/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/cpp_pubsub_uninstall.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/rstole01/Documents/CapstoneGit/humble_ws/build/cpp_pubsub/CMakeFiles 0
+=======
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/rstole01/Documents/CSE-596/humble_ws/build/cpp_pubsub/CMakeFiles 0
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/cpp_pubsub_uninstall.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/rstole01/Documents/CSE-596/humble_ws/build/cpp_pubsub/CMakeFiles 0
+>>>>>>> ce1a67ebf7edb694f0f93a1943a2aeb630cdb943
 =======
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/rstole01/Documents/CSE-596/humble_ws/build/cpp_pubsub/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/cpp_pubsub_uninstall.dir/all
@@ -165,7 +191,11 @@ CMakeFiles/talker.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/talker.dir/build.make CMakeFiles/talker.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/talker.dir/build.make CMakeFiles/talker.dir/build
 <<<<<<< HEAD
+<<<<<<< HEAD
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/rstole01/Documents/CapstoneGit/humble_ws/build/cpp_pubsub/CMakeFiles --progress-num=3,4 "Built target talker"
+=======
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/rstole01/Documents/CSE-596/humble_ws/build/cpp_pubsub/CMakeFiles --progress-num=3,4 "Built target talker"
+>>>>>>> ce1a67ebf7edb694f0f93a1943a2aeb630cdb943
 =======
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/rstole01/Documents/CSE-596/humble_ws/build/cpp_pubsub/CMakeFiles --progress-num=3,4 "Built target talker"
 >>>>>>> ce1a67ebf7edb694f0f93a1943a2aeb630cdb943
@@ -174,9 +204,15 @@ CMakeFiles/talker.dir/all:
 # Build rule for subdir invocation for target.
 CMakeFiles/talker.dir/rule: cmake_check_build_system
 <<<<<<< HEAD
+<<<<<<< HEAD
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/rstole01/Documents/CapstoneGit/humble_ws/build/cpp_pubsub/CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/talker.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/rstole01/Documents/CapstoneGit/humble_ws/build/cpp_pubsub/CMakeFiles 0
+=======
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/rstole01/Documents/CSE-596/humble_ws/build/cpp_pubsub/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/talker.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/rstole01/Documents/CSE-596/humble_ws/build/cpp_pubsub/CMakeFiles 0
+>>>>>>> ce1a67ebf7edb694f0f93a1943a2aeb630cdb943
 =======
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/rstole01/Documents/CSE-596/humble_ws/build/cpp_pubsub/CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/talker.dir/all
@@ -201,7 +237,11 @@ CMakeFiles/listener.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/listener.dir/build.make CMakeFiles/listener.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/listener.dir/build.make CMakeFiles/listener.dir/build
 <<<<<<< HEAD
+<<<<<<< HEAD
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/rstole01/Documents/CapstoneGit/humble_ws/build/cpp_pubsub/CMakeFiles --progress-num=1,2 "Built target listener"
+=======
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/rstole01/Documents/CSE-596/humble_ws/build/cpp_pubsub/CMakeFiles --progress-num=1,2 "Built target listener"
+>>>>>>> ce1a67ebf7edb694f0f93a1943a2aeb630cdb943
 =======
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/rstole01/Documents/CSE-596/humble_ws/build/cpp_pubsub/CMakeFiles --progress-num=1,2 "Built target listener"
 >>>>>>> ce1a67ebf7edb694f0f93a1943a2aeb630cdb943
@@ -210,9 +250,15 @@ CMakeFiles/listener.dir/all:
 # Build rule for subdir invocation for target.
 CMakeFiles/listener.dir/rule: cmake_check_build_system
 <<<<<<< HEAD
+<<<<<<< HEAD
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/rstole01/Documents/CapstoneGit/humble_ws/build/cpp_pubsub/CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/listener.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/rstole01/Documents/CapstoneGit/humble_ws/build/cpp_pubsub/CMakeFiles 0
+=======
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/rstole01/Documents/CSE-596/humble_ws/build/cpp_pubsub/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/listener.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/rstole01/Documents/CSE-596/humble_ws/build/cpp_pubsub/CMakeFiles 0
+>>>>>>> ce1a67ebf7edb694f0f93a1943a2aeb630cdb943
 =======
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/rstole01/Documents/CSE-596/humble_ws/build/cpp_pubsub/CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/listener.dir/all

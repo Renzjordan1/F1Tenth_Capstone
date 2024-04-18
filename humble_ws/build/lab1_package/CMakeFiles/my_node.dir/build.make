@@ -54,15 +54,21 @@ EQUALS = =
 
 # The top-level source directory on which CMake was run.
 <<<<<<< HEAD
+<<<<<<< HEAD
 CMAKE_SOURCE_DIR = /home/rstole01/Documents/CapstoneGit/humble_ws/src/lab1_package
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/rstole01/Documents/CapstoneGit/humble_ws/build/lab1_package
 =======
+=======
+>>>>>>> ce1a67ebf7edb694f0f93a1943a2aeb630cdb943
 CMAKE_SOURCE_DIR = /home/rstole01/Documents/CSE-596/humble_ws/src/lab1_package
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/rstole01/Documents/CSE-596/humble_ws/build/lab1_package
+<<<<<<< HEAD
+>>>>>>> ce1a67ebf7edb694f0f93a1943a2aeb630cdb943
+=======
 >>>>>>> ce1a67ebf7edb694f0f93a1943a2aeb630cdb943
 
 # Include any dependencies generated for this target.
@@ -78,6 +84,7 @@ include CMakeFiles/my_node.dir/flags.make
 
 CMakeFiles/my_node.dir/src/my_node.cpp.o: CMakeFiles/my_node.dir/flags.make
 <<<<<<< HEAD
+<<<<<<< HEAD
 CMakeFiles/my_node.dir/src/my_node.cpp.o: /home/rstole01/Documents/CapstoneGit/humble_ws/src/lab1_package/src/my_node.cpp
 CMakeFiles/my_node.dir/src/my_node.cpp.o: CMakeFiles/my_node.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rstole01/Documents/CapstoneGit/humble_ws/build/lab1_package/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/my_node.dir/src/my_node.cpp.o"
@@ -91,6 +98,8 @@ CMakeFiles/my_node.dir/src/my_node.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/my_node.dir/src/my_node.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rstole01/Documents/CapstoneGit/humble_ws/src/lab1_package/src/my_node.cpp -o CMakeFiles/my_node.dir/src/my_node.cpp.s
 =======
+=======
+>>>>>>> ce1a67ebf7edb694f0f93a1943a2aeb630cdb943
 CMakeFiles/my_node.dir/src/my_node.cpp.o: /home/rstole01/Documents/CSE-596/humble_ws/src/lab1_package/src/my_node.cpp
 CMakeFiles/my_node.dir/src/my_node.cpp.o: CMakeFiles/my_node.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rstole01/Documents/CSE-596/humble_ws/build/lab1_package/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/my_node.dir/src/my_node.cpp.o"
@@ -103,6 +112,9 @@ CMakeFiles/my_node.dir/src/my_node.cpp.i: cmake_force
 CMakeFiles/my_node.dir/src/my_node.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/my_node.dir/src/my_node.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rstole01/Documents/CSE-596/humble_ws/src/lab1_package/src/my_node.cpp -o CMakeFiles/my_node.dir/src/my_node.cpp.s
+<<<<<<< HEAD
+>>>>>>> ce1a67ebf7edb694f0f93a1943a2aeb630cdb943
+=======
 >>>>>>> ce1a67ebf7edb694f0f93a1943a2aeb630cdb943
 
 # Object files for target my_node
@@ -116,7 +128,11 @@ my_node: CMakeFiles/my_node.dir/src/my_node.cpp.o
 my_node: CMakeFiles/my_node.dir/build.make
 my_node: CMakeFiles/my_node.dir/link.txt
 <<<<<<< HEAD
+<<<<<<< HEAD
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/rstole01/Documents/CapstoneGit/humble_ws/build/lab1_package/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable my_node"
+=======
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/rstole01/Documents/CSE-596/humble_ws/build/lab1_package/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable my_node"
+>>>>>>> ce1a67ebf7edb694f0f93a1943a2aeb630cdb943
 =======
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/rstole01/Documents/CSE-596/humble_ws/build/lab1_package/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable my_node"
 >>>>>>> ce1a67ebf7edb694f0f93a1943a2aeb630cdb943
@@ -132,7 +148,11 @@ CMakeFiles/my_node.dir/clean:
 
 CMakeFiles/my_node.dir/depend:
 <<<<<<< HEAD
+<<<<<<< HEAD
 	cd /home/rstole01/Documents/CapstoneGit/humble_ws/build/lab1_package && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/rstole01/Documents/CapstoneGit/humble_ws/src/lab1_package /home/rstole01/Documents/CapstoneGit/humble_ws/src/lab1_package /home/rstole01/Documents/CapstoneGit/humble_ws/build/lab1_package /home/rstole01/Documents/CapstoneGit/humble_ws/build/lab1_package /home/rstole01/Documents/CapstoneGit/humble_ws/build/lab1_package/CMakeFiles/my_node.dir/DependInfo.cmake --color=$(COLOR)
+=======
+	cd /home/rstole01/Documents/CSE-596/humble_ws/build/lab1_package && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/rstole01/Documents/CSE-596/humble_ws/src/lab1_package /home/rstole01/Documents/CSE-596/humble_ws/src/lab1_package /home/rstole01/Documents/CSE-596/humble_ws/build/lab1_package /home/rstole01/Documents/CSE-596/humble_ws/build/lab1_package /home/rstole01/Documents/CSE-596/humble_ws/build/lab1_package/CMakeFiles/my_node.dir/DependInfo.cmake --color=$(COLOR)
+>>>>>>> ce1a67ebf7edb694f0f93a1943a2aeb630cdb943
 =======
 	cd /home/rstole01/Documents/CSE-596/humble_ws/build/lab1_package && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/rstole01/Documents/CSE-596/humble_ws/src/lab1_package /home/rstole01/Documents/CSE-596/humble_ws/src/lab1_package /home/rstole01/Documents/CSE-596/humble_ws/build/lab1_package /home/rstole01/Documents/CSE-596/humble_ws/build/lab1_package /home/rstole01/Documents/CSE-596/humble_ws/build/lab1_package/CMakeFiles/my_node.dir/DependInfo.cmake --color=$(COLOR)
 >>>>>>> ce1a67ebf7edb694f0f93a1943a2aeb630cdb943

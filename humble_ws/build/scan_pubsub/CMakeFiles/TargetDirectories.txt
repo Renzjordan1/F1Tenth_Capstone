@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 /home/rstole01/Documents/CapstoneGit/humble_ws/build/scan_pubsub/CMakeFiles/uninstall.dir
 /home/rstole01/Documents/CapstoneGit/humble_ws/build/scan_pubsub/CMakeFiles/scan_pubsub_uninstall.dir
 /home/rstole01/Documents/CapstoneGit/humble_ws/build/scan_pubsub/CMakeFiles/pubsub.dir
@@ -10,6 +11,8 @@
 /home/rstole01/Documents/CapstoneGit/humble_ws/build/scan_pubsub/CMakeFiles/install/local.dir
 /home/rstole01/Documents/CapstoneGit/humble_ws/build/scan_pubsub/CMakeFiles/install/strip.dir
 =======
+=======
+>>>>>>> ce1a67ebf7edb694f0f93a1943a2aeb630cdb943
 /home/rstole01/Documents/CSE-596/humble_ws/build/scan_pubsub/CMakeFiles/uninstall.dir
 /home/rstole01/Documents/CSE-596/humble_ws/build/scan_pubsub/CMakeFiles/scan_pubsub_uninstall.dir
 /home/rstole01/Documents/CSE-596/humble_ws/build/scan_pubsub/CMakeFiles/pubsub.dir
@@ -20,4 +23,7 @@
 /home/rstole01/Documents/CSE-596/humble_ws/build/scan_pubsub/CMakeFiles/install.dir
 /home/rstole01/Documents/CSE-596/humble_ws/build/scan_pubsub/CMakeFiles/install/local.dir
 /home/rstole01/Documents/CSE-596/humble_ws/build/scan_pubsub/CMakeFiles/install/strip.dir
+<<<<<<< HEAD
+>>>>>>> ce1a67ebf7edb694f0f93a1943a2aeb630cdb943
+=======
 >>>>>>> ce1a67ebf7edb694f0f93a1943a2aeb630cdb943

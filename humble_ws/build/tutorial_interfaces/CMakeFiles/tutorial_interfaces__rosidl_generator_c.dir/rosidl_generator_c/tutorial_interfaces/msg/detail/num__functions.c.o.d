@@ -1,8 +1,14 @@
 CMakeFiles/tutorial_interfaces__rosidl_generator_c.dir/rosidl_generator_c/tutorial_interfaces/msg/detail/num__functions.c.o: \
 <<<<<<< HEAD
+<<<<<<< HEAD
  /home/rstole01/Documents/CapstoneGit/humble_ws/build/tutorial_interfaces/rosidl_generator_c/tutorial_interfaces/msg/detail/num__functions.c \
  /usr/include/stdc-predef.h \
  /home/rstole01/Documents/CapstoneGit/humble_ws/build/tutorial_interfaces/rosidl_generator_c/tutorial_interfaces/msg/detail/num__functions.h \
+=======
+ /home/rstole01/Documents/CSE-596/humble_ws/build/tutorial_interfaces/rosidl_generator_c/tutorial_interfaces/msg/detail/num__functions.c \
+ /usr/include/stdc-predef.h \
+ /home/rstole01/Documents/CSE-596/humble_ws/build/tutorial_interfaces/rosidl_generator_c/tutorial_interfaces/msg/detail/num__functions.h \
+>>>>>>> ce1a67ebf7edb694f0f93a1943a2aeb630cdb943
 =======
  /home/rstole01/Documents/CSE-596/humble_ws/build/tutorial_interfaces/rosidl_generator_c/tutorial_interfaces/msg/detail/num__functions.c \
  /usr/include/stdc-predef.h \
@@ -50,8 +56,13 @@ CMakeFiles/tutorial_interfaces__rosidl_generator_c.dir/rosidl_generator_c/tutori
  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/visibility_control.h \
 <<<<<<< HEAD
+<<<<<<< HEAD
  /home/rstole01/Documents/CapstoneGit/humble_ws/build/tutorial_interfaces/rosidl_generator_c/tutorial_interfaces/msg/rosidl_generator_c__visibility_control.h \
  /home/rstole01/Documents/CapstoneGit/humble_ws/build/tutorial_interfaces/rosidl_generator_c/tutorial_interfaces/msg/detail/num__struct.h \
+=======
+ /home/rstole01/Documents/CSE-596/humble_ws/build/tutorial_interfaces/rosidl_generator_c/tutorial_interfaces/msg/rosidl_generator_c__visibility_control.h \
+ /home/rstole01/Documents/CSE-596/humble_ws/build/tutorial_interfaces/rosidl_generator_c/tutorial_interfaces/msg/detail/num__struct.h \
+>>>>>>> ce1a67ebf7edb694f0f93a1943a2aeb630cdb943
 =======
  /home/rstole01/Documents/CSE-596/humble_ws/build/tutorial_interfaces/rosidl_generator_c/tutorial_interfaces/msg/rosidl_generator_c__visibility_control.h \
  /home/rstole01/Documents/CSE-596/humble_ws/build/tutorial_interfaces/rosidl_generator_c/tutorial_interfaces/msg/detail/num__struct.h \

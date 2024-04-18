@@ -54,15 +54,21 @@ EQUALS = =
 
 # The top-level source directory on which CMake was run.
 <<<<<<< HEAD
+<<<<<<< HEAD
 CMAKE_SOURCE_DIR = /home/rstole01/Documents/CapstoneGit/humble_ws/src/tutorial_interfaces
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/rstole01/Documents/CapstoneGit/humble_ws/build/tutorial_interfaces
 =======
+=======
+>>>>>>> ce1a67ebf7edb694f0f93a1943a2aeb630cdb943
 CMAKE_SOURCE_DIR = /home/rstole01/Documents/CSE-596/humble_ws/src/tutorial_interfaces
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/rstole01/Documents/CSE-596/humble_ws/build/tutorial_interfaces
+<<<<<<< HEAD
+>>>>>>> ce1a67ebf7edb694f0f93a1943a2aeb630cdb943
+=======
 >>>>>>> ce1a67ebf7edb694f0f93a1943a2aeb630cdb943
 
 # Utility rule file for tutorial_interfaces__py.
@@ -164,8 +170,13 @@ rosidl_generator_py/tutorial_interfaces/_tutorial_interfaces_s.ep.rosidl_typesup
 rosidl_generator_py/tutorial_interfaces/_tutorial_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/share/std_msgs/msg/UInt8.idl
 rosidl_generator_py/tutorial_interfaces/_tutorial_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/share/std_msgs/msg/UInt8MultiArray.idl
 <<<<<<< HEAD
+<<<<<<< HEAD
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/rstole01/Documents/CapstoneGit/humble_ws/build/tutorial_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Python code for ROS interfaces"
 	cd /home/rstole01/Documents/CapstoneGit/humble_ws/build/tutorial_interfaces/tutorial_interfaces__py && /usr/bin/python3 /opt/ros/humble/share/rosidl_generator_py/cmake/../../../lib/rosidl_generator_py/rosidl_generator_py --generator-arguments-file /home/rstole01/Documents/CapstoneGit/humble_ws/build/tutorial_interfaces/rosidl_generator_py__arguments.json --typesupport-impls "rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c;rosidl_typesupport_c"
+=======
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/rstole01/Documents/CSE-596/humble_ws/build/tutorial_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Python code for ROS interfaces"
+	cd /home/rstole01/Documents/CSE-596/humble_ws/build/tutorial_interfaces/tutorial_interfaces__py && /usr/bin/python3 /opt/ros/humble/share/rosidl_generator_py/cmake/../../../lib/rosidl_generator_py/rosidl_generator_py --generator-arguments-file /home/rstole01/Documents/CSE-596/humble_ws/build/tutorial_interfaces/rosidl_generator_py__arguments.json --typesupport-impls "rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c;rosidl_typesupport_c"
+>>>>>>> ce1a67ebf7edb694f0f93a1943a2aeb630cdb943
 =======
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/rstole01/Documents/CSE-596/humble_ws/build/tutorial_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Python code for ROS interfaces"
 	cd /home/rstole01/Documents/CSE-596/humble_ws/build/tutorial_interfaces/tutorial_interfaces__py && /usr/bin/python3 /opt/ros/humble/share/rosidl_generator_py/cmake/../../../lib/rosidl_generator_py/rosidl_generator_py --generator-arguments-file /home/rstole01/Documents/CSE-596/humble_ws/build/tutorial_interfaces/rosidl_generator_py__arguments.json --typesupport-impls "rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c;rosidl_typesupport_c"
@@ -230,17 +241,23 @@ tutorial_interfaces__py/CMakeFiles/tutorial_interfaces__py.dir/build: tutorial_i
 
 tutorial_interfaces__py/CMakeFiles/tutorial_interfaces__py.dir/clean:
 <<<<<<< HEAD
+<<<<<<< HEAD
 	cd /home/rstole01/Documents/CapstoneGit/humble_ws/build/tutorial_interfaces/tutorial_interfaces__py && $(CMAKE_COMMAND) -P CMakeFiles/tutorial_interfaces__py.dir/cmake_clean.cmake
 .PHONY : tutorial_interfaces__py/CMakeFiles/tutorial_interfaces__py.dir/clean
 
 tutorial_interfaces__py/CMakeFiles/tutorial_interfaces__py.dir/depend:
 	cd /home/rstole01/Documents/CapstoneGit/humble_ws/build/tutorial_interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/rstole01/Documents/CapstoneGit/humble_ws/src/tutorial_interfaces /home/rstole01/Documents/CapstoneGit/humble_ws/build/tutorial_interfaces/tutorial_interfaces__py /home/rstole01/Documents/CapstoneGit/humble_ws/build/tutorial_interfaces /home/rstole01/Documents/CapstoneGit/humble_ws/build/tutorial_interfaces/tutorial_interfaces__py /home/rstole01/Documents/CapstoneGit/humble_ws/build/tutorial_interfaces/tutorial_interfaces__py/CMakeFiles/tutorial_interfaces__py.dir/DependInfo.cmake --color=$(COLOR)
 =======
+=======
+>>>>>>> ce1a67ebf7edb694f0f93a1943a2aeb630cdb943
 	cd /home/rstole01/Documents/CSE-596/humble_ws/build/tutorial_interfaces/tutorial_interfaces__py && $(CMAKE_COMMAND) -P CMakeFiles/tutorial_interfaces__py.dir/cmake_clean.cmake
 .PHONY : tutorial_interfaces__py/CMakeFiles/tutorial_interfaces__py.dir/clean
 
 tutorial_interfaces__py/CMakeFiles/tutorial_interfaces__py.dir/depend:
 	cd /home/rstole01/Documents/CSE-596/humble_ws/build/tutorial_interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/rstole01/Documents/CSE-596/humble_ws/src/tutorial_interfaces /home/rstole01/Documents/CSE-596/humble_ws/build/tutorial_interfaces/tutorial_interfaces__py /home/rstole01/Documents/CSE-596/humble_ws/build/tutorial_interfaces /home/rstole01/Documents/CSE-596/humble_ws/build/tutorial_interfaces/tutorial_interfaces__py /home/rstole01/Documents/CSE-596/humble_ws/build/tutorial_interfaces/tutorial_interfaces__py/CMakeFiles/tutorial_interfaces__py.dir/DependInfo.cmake --color=$(COLOR)
+<<<<<<< HEAD
+>>>>>>> ce1a67ebf7edb694f0f93a1943a2aeb630cdb943
+=======
 >>>>>>> ce1a67ebf7edb694f0f93a1943a2aeb630cdb943
 .PHONY : tutorial_interfaces__py/CMakeFiles/tutorial_interfaces__py.dir/depend
 

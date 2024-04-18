@@ -1,0 +1,23 @@
+[7.736s] Invoking command in '/home/rstole01/Documents/CSE-596/msu_ws/src/plexer360': CMAKE_PREFIX_PATH=/home/rstole01/Documents/CSE-596/msu_ws/install/ackermann_msgs:/home/rstole01/Documents/CSE-596/msu_ws/install/waypoint_publisher:/home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox:/home/rstole01/Documents/CSE-596/msu_ws/install/qlearn_interfaces:/home/rstole01/Documents/CSE-596/msu_ws/install/pid_msgs:/home/rstole01/Documents/CSE-596/msu_ws/install/my_messages LD_LIBRARY_PATH=/home/rstole01/Documents/CSE-596/msu_ws/install/ackermann_msgs/lib:/home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/lib:/home/rstole01/Documents/CSE-596/msu_ws/install/qlearn_interfaces/lib:/home/rstole01/Documents/CSE-596/msu_ws/install/pid_msgs/lib:/home/rstole01/Documents/CSE-596/msu_ws/install/my_messages/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/rstole01/Documents/CSE-596/msu_ws/build/plexer360/prefix_override:/home/rstole01/Documents/CSE-596/msu_ws/install/plexer360/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/plexer360 build --build-base /home/rstole01/Documents/CSE-596/msu_ws/build/plexer360/build install --record /home/rstole01/Documents/CSE-596/msu_ws/build/plexer360/install.log --single-version-externally-managed
+[8.120s] Traceback (most recent call last):
+[8.121s]   File "/home/rstole01/Documents/CSE-596/msu_ws/src/plexer360/setup.py", line 1, in <module>
+[8.121s]     from setuptools import find_packages, setup
+[8.121s]   File "/usr/lib/python3/dist-packages/setuptools/__init__.py", line 16, in <module>
+[8.123s]     import setuptools.version
+[8.123s]   File "/usr/lib/python3/dist-packages/setuptools/version.py", line 1, in <module>
+[8.124s]     import pkg_resources
+[8.124s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 3267, in <module>
+[8.128s]     def _initialize_master_working_set():
+[8.130s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 3241, in _call_aside
+[8.135s]     f(*args, **kwargs)
+[8.136s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 3292, in _initialize_master_working_set
+[8.138s]     tuple(
+[8.139s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 3293, in <genexpr>
+[8.139s]     dist.activate(replace=False)
+[8.140s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 2793, in activate
+[8.140s]     self.insert_on(path, replace=replace)
+[8.141s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 2906, in insert_on
+[8.141s]     npath = [(p and _normalize_cached(p) or p) for p in path]
+[8.143s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 2906, in <listcomp>
+[8.143s]     npath = [(p and _normalize_cached(p) or p) for p in path]
+[8.144s] KeyboardInterrupt

@@ -53,7 +53,11 @@ _colcon_prepend_unique_value() {
 # either use the provided COLCON_CURRENT_PREFIX
 # or fall back to the build time prefix (if it exists)
 <<<<<<< HEAD
+<<<<<<< HEAD
 _colcon_package_sh_COLCON_CURRENT_PREFIX="/home/rstole01/Documents/CapstoneGit/humble_ws/install/tutorial_interfaces"
+=======
+_colcon_package_sh_COLCON_CURRENT_PREFIX="/home/rstole01/Documents/CSE-596/humble_ws/install/tutorial_interfaces"
+>>>>>>> ce1a67ebf7edb694f0f93a1943a2aeb630cdb943
 =======
 _colcon_package_sh_COLCON_CURRENT_PREFIX="/home/rstole01/Documents/CSE-596/humble_ws/install/tutorial_interfaces"
 >>>>>>> ce1a67ebf7edb694f0f93a1943a2aeb630cdb943

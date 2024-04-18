@@ -1,0 +1,23 @@
+[8.663s] Invoking command in '/home/rstole01/Documents/CSE-596/msu_ws/src/waypoint_writer': PYTHONPATH=/home/rstole01/Documents/CSE-596/msu_ws/build/waypoint_writer/prefix_override:/home/rstole01/Documents/CSE-596/msu_ws/install/waypoint_writer/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/waypoint_writer build --build-base /home/rstole01/Documents/CSE-596/msu_ws/build/waypoint_writer/build install --record /home/rstole01/Documents/CSE-596/msu_ws/build/waypoint_writer/install.log --single-version-externally-managed
+[9.789s] running egg_info
+[9.789s] writing ../../build/waypoint_writer/waypoint_writer.egg-info/PKG-INFO
+[9.790s] writing dependency_links to ../../build/waypoint_writer/waypoint_writer.egg-info/dependency_links.txt
+[9.791s] writing entry points to ../../build/waypoint_writer/waypoint_writer.egg-info/entry_points.txt
+[9.791s] writing requirements to ../../build/waypoint_writer/waypoint_writer.egg-info/requires.txt
+[9.791s] writing top-level names to ../../build/waypoint_writer/waypoint_writer.egg-info/top_level.txt
+[9.797s] reading manifest file '../../build/waypoint_writer/waypoint_writer.egg-info/SOURCES.txt'
+[9.801s] writing manifest file '../../build/waypoint_writer/waypoint_writer.egg-info/SOURCES.txt'
+[9.802s] running build
+[9.802s] running build_py
+[9.803s] running install
+[9.803s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[9.804s]   warnings.warn(
+[9.804s] running install_lib
+[9.809s] running install_data
+[9.812s] running install_egg_info
+[9.821s] removing '/home/rstole01/Documents/CSE-596/msu_ws/install/waypoint_writer/lib/python3.10/site-packages/waypoint_writer-0.0.0-py3.10.egg-info' (and everything under it)
+[9.821s] Copying ../../build/waypoint_writer/waypoint_writer.egg-info to /home/rstole01/Documents/CSE-596/msu_ws/install/waypoint_writer/lib/python3.10/site-packages/waypoint_writer-0.0.0-py3.10.egg-info
+[9.823s] running install_scripts
+[9.894s] Installing waypoint_writer script to /home/rstole01/Documents/CSE-596/msu_ws/install/waypoint_writer/lib/waypoint_writer
+[9.895s] writing list of installed files to '/home/rstole01/Documents/CSE-596/msu_ws/build/waypoint_writer/install.log'
+[9.998s] Invoked command in '/home/rstole01/Documents/CSE-596/msu_ws/src/waypoint_writer' returned '0': PYTHONPATH=/home/rstole01/Documents/CSE-596/msu_ws/build/waypoint_writer/prefix_override:/home/rstole01/Documents/CSE-596/msu_ws/install/waypoint_writer/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/waypoint_writer build --build-base /home/rstole01/Documents/CSE-596/msu_ws/build/waypoint_writer/build install --record /home/rstole01/Documents/CSE-596/msu_ws/build/waypoint_writer/install.log --single-version-externally-managed

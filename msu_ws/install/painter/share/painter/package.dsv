@@ -1,0 +1,6 @@
+source;share/painter/hook/pythonpath.ps1
+source;share/painter/hook/pythonpath.dsv
+source;share/painter/hook/pythonpath.sh
+source;share/painter/hook/ament_prefix_path.ps1
+source;share/painter/hook/ament_prefix_path.dsv
+source;share/painter/hook/ament_prefix_path.sh

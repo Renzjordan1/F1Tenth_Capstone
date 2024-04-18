@@ -1,0 +1,26 @@
+[7.760s] Invoking command in '/home/rstole01/Documents/CSE-596/msu_ws/src/plexer360': CMAKE_PREFIX_PATH=/home/rstole01/Documents/CSE-596/msu_ws/install/ackermann_msgs:/home/rstole01/Documents/CSE-596/msu_ws/install/waypoint_publisher:/home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox:/home/rstole01/Documents/CSE-596/msu_ws/install/qlearn_interfaces:/home/rstole01/Documents/CSE-596/msu_ws/install/pid_msgs:/home/rstole01/Documents/CSE-596/msu_ws/install/my_messages LD_LIBRARY_PATH=/home/rstole01/Documents/CSE-596/msu_ws/install/ackermann_msgs/lib:/home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/lib:/home/rstole01/Documents/CSE-596/msu_ws/install/qlearn_interfaces/lib:/home/rstole01/Documents/CSE-596/msu_ws/install/pid_msgs/lib:/home/rstole01/Documents/CSE-596/msu_ws/install/my_messages/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/rstole01/Documents/CSE-596/msu_ws/build/plexer360/prefix_override:/home/rstole01/Documents/CSE-596/msu_ws/install/plexer360/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/plexer360 build --build-base /home/rstole01/Documents/CSE-596/msu_ws/build/plexer360/build install --record /home/rstole01/Documents/CSE-596/msu_ws/build/plexer360/install.log --single-version-externally-managed
+[8.429s] running egg_info
+[8.430s] writing ../../build/plexer360/plexer360.egg-info/PKG-INFO
+[8.430s] writing dependency_links to ../../build/plexer360/plexer360.egg-info/dependency_links.txt
+[8.431s] writing entry points to ../../build/plexer360/plexer360.egg-info/entry_points.txt
+[8.431s] writing requirements to ../../build/plexer360/plexer360.egg-info/requires.txt
+[8.431s] writing top-level names to ../../build/plexer360/plexer360.egg-info/top_level.txt
+[8.436s] reading manifest file '../../build/plexer360/plexer360.egg-info/SOURCES.txt'
+[8.438s] writing manifest file '../../build/plexer360/plexer360.egg-info/SOURCES.txt'
+[8.438s] running build
+[8.438s] running build_py
+[8.439s] running install
+[8.440s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[8.440s]   warnings.warn(
+[8.440s] running install_lib
+[8.443s] running install_data
+[8.445s] running install_egg_info
+[8.449s] removing '/home/rstole01/Documents/CSE-596/msu_ws/install/plexer360/lib/python3.10/site-packages/plexer360-0.0.0-py3.10.egg-info' (and everything under it)
+[8.450s] Copying ../../build/plexer360/plexer360.egg-info to /home/rstole01/Documents/CSE-596/msu_ws/install/plexer360/lib/python3.10/site-packages/plexer360-0.0.0-py3.10.egg-info
+[8.452s] running install_scripts
+[8.495s] Installing dec script to /home/rstole01/Documents/CSE-596/msu_ws/install/plexer360/lib/plexer360
+[8.495s] Installing learn script to /home/rstole01/Documents/CSE-596/msu_ws/install/plexer360/lib/plexer360
+[8.496s] Installing pub script to /home/rstole01/Documents/CSE-596/msu_ws/install/plexer360/lib/plexer360
+[8.496s] Installing sub script to /home/rstole01/Documents/CSE-596/msu_ws/install/plexer360/lib/plexer360
+[8.497s] writing list of installed files to '/home/rstole01/Documents/CSE-596/msu_ws/build/plexer360/install.log'
+[8.548s] Invoked command in '/home/rstole01/Documents/CSE-596/msu_ws/src/plexer360' returned '0': CMAKE_PREFIX_PATH=/home/rstole01/Documents/CSE-596/msu_ws/install/ackermann_msgs:/home/rstole01/Documents/CSE-596/msu_ws/install/waypoint_publisher:/home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox:/home/rstole01/Documents/CSE-596/msu_ws/install/qlearn_interfaces:/home/rstole01/Documents/CSE-596/msu_ws/install/pid_msgs:/home/rstole01/Documents/CSE-596/msu_ws/install/my_messages LD_LIBRARY_PATH=/home/rstole01/Documents/CSE-596/msu_ws/install/ackermann_msgs/lib:/home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/lib:/home/rstole01/Documents/CSE-596/msu_ws/install/qlearn_interfaces/lib:/home/rstole01/Documents/CSE-596/msu_ws/install/pid_msgs/lib:/home/rstole01/Documents/CSE-596/msu_ws/install/my_messages/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/rstole01/Documents/CSE-596/msu_ws/build/plexer360/prefix_override:/home/rstole01/Documents/CSE-596/msu_ws/install/plexer360/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/plexer360 build --build-base /home/rstole01/Documents/CSE-596/msu_ws/build/plexer360/build install --record /home/rstole01/Documents/CSE-596/msu_ws/build/plexer360/install.log --single-version-externally-managed

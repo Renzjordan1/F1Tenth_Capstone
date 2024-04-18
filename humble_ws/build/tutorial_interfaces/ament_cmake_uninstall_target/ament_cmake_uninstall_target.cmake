@@ -3,7 +3,11 @@
 
 function(ament_cmake_uninstall_target_remove_empty_directories path)
 <<<<<<< HEAD
+<<<<<<< HEAD
   set(install_space "/home/rstole01/Documents/CapstoneGit/humble_ws/install/tutorial_interfaces")
+=======
+  set(install_space "/home/rstole01/Documents/CSE-596/humble_ws/install/tutorial_interfaces")
+>>>>>>> ce1a67ebf7edb694f0f93a1943a2aeb630cdb943
 =======
   set(install_space "/home/rstole01/Documents/CSE-596/humble_ws/install/tutorial_interfaces")
 >>>>>>> ce1a67ebf7edb694f0f93a1943a2aeb630cdb943
@@ -34,7 +38,11 @@ endfunction()
 
 # uninstall files installed using the standard install() function
 <<<<<<< HEAD
+<<<<<<< HEAD
 set(install_manifest "/home/rstole01/Documents/CapstoneGit/humble_ws/build/tutorial_interfaces/install_manifest.txt")
+=======
+set(install_manifest "/home/rstole01/Documents/CSE-596/humble_ws/build/tutorial_interfaces/install_manifest.txt")
+>>>>>>> ce1a67ebf7edb694f0f93a1943a2aeb630cdb943
 =======
 set(install_manifest "/home/rstole01/Documents/CSE-596/humble_ws/build/tutorial_interfaces/install_manifest.txt")
 >>>>>>> ce1a67ebf7edb694f0f93a1943a2aeb630cdb943

@@ -1,0 +1,27 @@
+[2.069s] Invoking command in '/home/rstole01/Documents/CSE-596/msu_ws/src/wall_follower_pid': CMAKE_PREFIX_PATH=/home/rstole01/Documents/CSE-596/msu_ws/install/pid_msgs:/home/rstole01/Documents/CSE-596/msu_ws/install/ackermann_msgs:/home/rstole01/Documents/CSE-596/msu_ws/install/waypoint_publisher:/home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox:/home/rstole01/Documents/CSE-596/msu_ws/install/qlearn_interfaces:/home/rstole01/Documents/CSE-596/msu_ws/install/my_messages LD_LIBRARY_PATH=/home/rstole01/Documents/CSE-596/msu_ws/install/pid_msgs/lib:/home/rstole01/Documents/CSE-596/msu_ws/install/ackermann_msgs/lib:/home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/lib:/home/rstole01/Documents/CSE-596/msu_ws/install/qlearn_interfaces/lib:/home/rstole01/Documents/CSE-596/msu_ws/install/my_messages/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/rstole01/Documents/CSE-596/msu_ws/build/wall_follower_pid/prefix_override:/home/rstole01/Documents/CSE-596/msu_ws/install/wall_follower_pid/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/wall_follower_pid build --build-base /home/rstole01/Documents/CSE-596/msu_ws/build/wall_follower_pid/build install --record /home/rstole01/Documents/CSE-596/msu_ws/build/wall_follower_pid/install.log --single-version-externally-managed
+[2.686s] running egg_info
+[2.687s] writing ../../build/wall_follower_pid/wall_follower_pid.egg-info/PKG-INFO
+[2.687s] writing dependency_links to ../../build/wall_follower_pid/wall_follower_pid.egg-info/dependency_links.txt
+[2.688s] writing entry points to ../../build/wall_follower_pid/wall_follower_pid.egg-info/entry_points.txt
+[2.688s] writing requirements to ../../build/wall_follower_pid/wall_follower_pid.egg-info/requires.txt
+[2.688s] writing top-level names to ../../build/wall_follower_pid/wall_follower_pid.egg-info/top_level.txt
+[2.691s] reading manifest file '../../build/wall_follower_pid/wall_follower_pid.egg-info/SOURCES.txt'
+[2.715s] writing manifest file '../../build/wall_follower_pid/wall_follower_pid.egg-info/SOURCES.txt'
+[2.715s] running build
+[2.715s] running build_py
+[2.715s] copying wall_follower_pid/control.py -> /home/rstole01/Documents/CSE-596/msu_ws/build/wall_follower_pid/build/lib/wall_follower_pid
+[2.716s] running install
+[2.716s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[2.716s]   warnings.warn(
+[2.716s] running install_lib
+[2.718s] copying /home/rstole01/Documents/CSE-596/msu_ws/build/wall_follower_pid/build/lib/wall_follower_pid/control.py -> /home/rstole01/Documents/CSE-596/msu_ws/install/wall_follower_pid/lib/python3.10/site-packages/wall_follower_pid
+[2.719s] byte-compiling /home/rstole01/Documents/CSE-596/msu_ws/install/wall_follower_pid/lib/python3.10/site-packages/wall_follower_pid/control.py to control.cpython-310.pyc
+[2.720s] running install_data
+[2.721s] running install_egg_info
+[2.725s] removing '/home/rstole01/Documents/CSE-596/msu_ws/install/wall_follower_pid/lib/python3.10/site-packages/wall_follower_pid-0.0.0-py3.10.egg-info' (and everything under it)
+[2.725s] Copying ../../build/wall_follower_pid/wall_follower_pid.egg-info to /home/rstole01/Documents/CSE-596/msu_ws/install/wall_follower_pid/lib/python3.10/site-packages/wall_follower_pid-0.0.0-py3.10.egg-info
+[2.727s] running install_scripts
+[2.773s] Installing control script to /home/rstole01/Documents/CSE-596/msu_ws/install/wall_follower_pid/lib/wall_follower_pid
+[2.773s] Installing wall_distance_finder script to /home/rstole01/Documents/CSE-596/msu_ws/install/wall_follower_pid/lib/wall_follower_pid
+[2.774s] writing list of installed files to '/home/rstole01/Documents/CSE-596/msu_ws/build/wall_follower_pid/install.log'
+[2.819s] Invoked command in '/home/rstole01/Documents/CSE-596/msu_ws/src/wall_follower_pid' returned '0': CMAKE_PREFIX_PATH=/home/rstole01/Documents/CSE-596/msu_ws/install/pid_msgs:/home/rstole01/Documents/CSE-596/msu_ws/install/ackermann_msgs:/home/rstole01/Documents/CSE-596/msu_ws/install/waypoint_publisher:/home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox:/home/rstole01/Documents/CSE-596/msu_ws/install/qlearn_interfaces:/home/rstole01/Documents/CSE-596/msu_ws/install/my_messages LD_LIBRARY_PATH=/home/rstole01/Documents/CSE-596/msu_ws/install/pid_msgs/lib:/home/rstole01/Documents/CSE-596/msu_ws/install/ackermann_msgs/lib:/home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/lib:/home/rstole01/Documents/CSE-596/msu_ws/install/qlearn_interfaces/lib:/home/rstole01/Documents/CSE-596/msu_ws/install/my_messages/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/rstole01/Documents/CSE-596/msu_ws/build/wall_follower_pid/prefix_override:/home/rstole01/Documents/CSE-596/msu_ws/install/wall_follower_pid/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/wall_follower_pid build --build-base /home/rstole01/Documents/CSE-596/msu_ws/build/wall_follower_pid/build install --record /home/rstole01/Documents/CSE-596/msu_ws/build/wall_follower_pid/install.log --single-version-externally-managed

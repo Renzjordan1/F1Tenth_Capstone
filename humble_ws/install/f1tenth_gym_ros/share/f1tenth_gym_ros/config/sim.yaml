@@ -43,8 +43,13 @@ bridge:
 
     # map parameters
 <<<<<<< HEAD
+<<<<<<< HEAD
     map_path: '/home/rstole01/Documents/CSE-596/humble_ws/src/f1tenth_gym_ros/maps/fixedVESC'
     map_img_ext: '.pgm'
+=======
+    map_path: '/home/rstole01/Documents/CSE-596/humble_ws/src/f1tenth_gym_ros/maps/levine'
+    map_img_ext: '.png'
+>>>>>>> ce1a67ebf7edb694f0f93a1943a2aeb630cdb943
 =======
     map_path: '/home/rstole01/Documents/CSE-596/humble_ws/src/f1tenth_gym_ros/maps/levine'
     map_img_ext: '.png'

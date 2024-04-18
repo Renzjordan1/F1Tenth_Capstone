@@ -1,15 +1,21 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Install script for directory: /home/rstole01/Documents/CapstoneGit/humble_ws/src/cpp_pubsub
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
   set(CMAKE_INSTALL_PREFIX "/home/rstole01/Documents/CapstoneGit/humble_ws/install/cpp_pubsub")
 =======
+=======
+>>>>>>> ce1a67ebf7edb694f0f93a1943a2aeb630cdb943
 # Install script for directory: /home/rstole01/Documents/CSE-596/humble_ws/src/cpp_pubsub
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
   set(CMAKE_INSTALL_PREFIX "/home/rstole01/Documents/CSE-596/humble_ws/install/cpp_pubsub")
+<<<<<<< HEAD
+>>>>>>> ce1a67ebf7edb694f0f93a1943a2aeb630cdb943
+=======
 >>>>>>> ce1a67ebf7edb694f0f93a1943a2aeb630cdb943
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
@@ -58,7 +64,11 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          RPATH "")
   endif()
 <<<<<<< HEAD
+<<<<<<< HEAD
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cpp_pubsub" TYPE EXECUTABLE FILES "/home/rstole01/Documents/CapstoneGit/humble_ws/build/cpp_pubsub/talker")
+=======
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cpp_pubsub" TYPE EXECUTABLE FILES "/home/rstole01/Documents/CSE-596/humble_ws/build/cpp_pubsub/talker")
+>>>>>>> ce1a67ebf7edb694f0f93a1943a2aeb630cdb943
 =======
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cpp_pubsub" TYPE EXECUTABLE FILES "/home/rstole01/Documents/CSE-596/humble_ws/build/cpp_pubsub/talker")
 >>>>>>> ce1a67ebf7edb694f0f93a1943a2aeb630cdb943
@@ -67,7 +77,11 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cpp_pubsub/talker"
 <<<<<<< HEAD
+<<<<<<< HEAD
          OLD_RPATH "/opt/ros/humble/lib:/home/rstole01/Documents/CapstoneGit/humble_ws/install/tutorial_interfaces/lib:"
+=======
+         OLD_RPATH "/opt/ros/humble/lib:/home/rstole01/Documents/CSE-596/humble_ws/install/tutorial_interfaces/lib:"
+>>>>>>> ce1a67ebf7edb694f0f93a1943a2aeb630cdb943
 =======
          OLD_RPATH "/opt/ros/humble/lib:/home/rstole01/Documents/CSE-596/humble_ws/install/tutorial_interfaces/lib:"
 >>>>>>> ce1a67ebf7edb694f0f93a1943a2aeb630cdb943
@@ -86,7 +100,11 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          RPATH "")
   endif()
 <<<<<<< HEAD
+<<<<<<< HEAD
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cpp_pubsub" TYPE EXECUTABLE FILES "/home/rstole01/Documents/CapstoneGit/humble_ws/build/cpp_pubsub/listener")
+=======
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cpp_pubsub" TYPE EXECUTABLE FILES "/home/rstole01/Documents/CSE-596/humble_ws/build/cpp_pubsub/listener")
+>>>>>>> ce1a67ebf7edb694f0f93a1943a2aeb630cdb943
 =======
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cpp_pubsub" TYPE EXECUTABLE FILES "/home/rstole01/Documents/CSE-596/humble_ws/build/cpp_pubsub/listener")
 >>>>>>> ce1a67ebf7edb694f0f93a1943a2aeb630cdb943
@@ -95,7 +113,11 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cpp_pubsub/listener"
 <<<<<<< HEAD
+<<<<<<< HEAD
          OLD_RPATH "/opt/ros/humble/lib:/home/rstole01/Documents/CapstoneGit/humble_ws/install/tutorial_interfaces/lib:"
+=======
+         OLD_RPATH "/opt/ros/humble/lib:/home/rstole01/Documents/CSE-596/humble_ws/install/tutorial_interfaces/lib:"
+>>>>>>> ce1a67ebf7edb694f0f93a1943a2aeb630cdb943
 =======
          OLD_RPATH "/opt/ros/humble/lib:/home/rstole01/Documents/CSE-596/humble_ws/install/tutorial_interfaces/lib:"
 >>>>>>> ce1a67ebf7edb694f0f93a1943a2aeb630cdb943
@@ -108,17 +130,23 @@ endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
 <<<<<<< HEAD
+<<<<<<< HEAD
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/home/rstole01/Documents/CapstoneGit/humble_ws/build/cpp_pubsub/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/cpp_pubsub")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/parent_prefix_path" TYPE FILE FILES "/home/rstole01/Documents/CapstoneGit/humble_ws/build/cpp_pubsub/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/cpp_pubsub")
 =======
+=======
+>>>>>>> ce1a67ebf7edb694f0f93a1943a2aeb630cdb943
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/home/rstole01/Documents/CSE-596/humble_ws/build/cpp_pubsub/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/cpp_pubsub")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/parent_prefix_path" TYPE FILE FILES "/home/rstole01/Documents/CSE-596/humble_ws/build/cpp_pubsub/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/cpp_pubsub")
+<<<<<<< HEAD
+>>>>>>> ce1a67ebf7edb694f0f93a1943a2aeb630cdb943
+=======
 >>>>>>> ce1a67ebf7edb694f0f93a1943a2aeb630cdb943
 endif()
 
@@ -128,7 +156,11 @@ endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
 <<<<<<< HEAD
+<<<<<<< HEAD
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/cpp_pubsub/environment" TYPE FILE FILES "/home/rstole01/Documents/CapstoneGit/humble_ws/build/cpp_pubsub/ament_cmake_environment_hooks/ament_prefix_path.dsv")
+=======
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/cpp_pubsub/environment" TYPE FILE FILES "/home/rstole01/Documents/CSE-596/humble_ws/build/cpp_pubsub/ament_cmake_environment_hooks/ament_prefix_path.dsv")
+>>>>>>> ce1a67ebf7edb694f0f93a1943a2aeb630cdb943
 =======
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/cpp_pubsub/environment" TYPE FILE FILES "/home/rstole01/Documents/CSE-596/humble_ws/build/cpp_pubsub/ament_cmake_environment_hooks/ament_prefix_path.dsv")
 >>>>>>> ce1a67ebf7edb694f0f93a1943a2aeb630cdb943
@@ -139,6 +171,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+<<<<<<< HEAD
 <<<<<<< HEAD
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/cpp_pubsub/environment" TYPE FILE FILES "/home/rstole01/Documents/CapstoneGit/humble_ws/build/cpp_pubsub/ament_cmake_environment_hooks/path.dsv")
 endif()
@@ -166,6 +199,8 @@ endif()
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/packages" TYPE FILE FILES "/home/rstole01/Documents/CapstoneGit/humble_ws/build/cpp_pubsub/ament_cmake_index/share/ament_index/resource_index/packages/cpp_pubsub")
 =======
+=======
+>>>>>>> ce1a67ebf7edb694f0f93a1943a2aeb630cdb943
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/cpp_pubsub/environment" TYPE FILE FILES "/home/rstole01/Documents/CSE-596/humble_ws/build/cpp_pubsub/ament_cmake_environment_hooks/path.dsv")
 endif()
 
@@ -191,14 +226,22 @@ endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/packages" TYPE FILE FILES "/home/rstole01/Documents/CSE-596/humble_ws/build/cpp_pubsub/ament_cmake_index/share/ament_index/resource_index/packages/cpp_pubsub")
+<<<<<<< HEAD
+>>>>>>> ce1a67ebf7edb694f0f93a1943a2aeb630cdb943
+=======
 >>>>>>> ce1a67ebf7edb694f0f93a1943a2aeb630cdb943
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/cpp_pubsub/cmake" TYPE FILE FILES
 <<<<<<< HEAD
+<<<<<<< HEAD
     "/home/rstole01/Documents/CapstoneGit/humble_ws/build/cpp_pubsub/ament_cmake_core/cpp_pubsubConfig.cmake"
     "/home/rstole01/Documents/CapstoneGit/humble_ws/build/cpp_pubsub/ament_cmake_core/cpp_pubsubConfig-version.cmake"
+=======
+    "/home/rstole01/Documents/CSE-596/humble_ws/build/cpp_pubsub/ament_cmake_core/cpp_pubsubConfig.cmake"
+    "/home/rstole01/Documents/CSE-596/humble_ws/build/cpp_pubsub/ament_cmake_core/cpp_pubsubConfig-version.cmake"
+>>>>>>> ce1a67ebf7edb694f0f93a1943a2aeb630cdb943
 =======
     "/home/rstole01/Documents/CSE-596/humble_ws/build/cpp_pubsub/ament_cmake_core/cpp_pubsubConfig.cmake"
     "/home/rstole01/Documents/CSE-596/humble_ws/build/cpp_pubsub/ament_cmake_core/cpp_pubsubConfig-version.cmake"
@@ -208,7 +251,11 @@ endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
 <<<<<<< HEAD
+<<<<<<< HEAD
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/cpp_pubsub" TYPE FILE FILES "/home/rstole01/Documents/CapstoneGit/humble_ws/src/cpp_pubsub/package.xml")
+=======
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/cpp_pubsub" TYPE FILE FILES "/home/rstole01/Documents/CSE-596/humble_ws/src/cpp_pubsub/package.xml")
+>>>>>>> ce1a67ebf7edb694f0f93a1943a2aeb630cdb943
 =======
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/cpp_pubsub" TYPE FILE FILES "/home/rstole01/Documents/CSE-596/humble_ws/src/cpp_pubsub/package.xml")
 >>>>>>> ce1a67ebf7edb694f0f93a1943a2aeb630cdb943
@@ -223,7 +270,11 @@ endif()
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
 <<<<<<< HEAD
+<<<<<<< HEAD
 file(WRITE "/home/rstole01/Documents/CapstoneGit/humble_ws/build/cpp_pubsub/${CMAKE_INSTALL_MANIFEST}"
+=======
+file(WRITE "/home/rstole01/Documents/CSE-596/humble_ws/build/cpp_pubsub/${CMAKE_INSTALL_MANIFEST}"
+>>>>>>> ce1a67ebf7edb694f0f93a1943a2aeb630cdb943
 =======
 file(WRITE "/home/rstole01/Documents/CSE-596/humble_ws/build/cpp_pubsub/${CMAKE_INSTALL_MANIFEST}"
 >>>>>>> ce1a67ebf7edb694f0f93a1943a2aeb630cdb943
