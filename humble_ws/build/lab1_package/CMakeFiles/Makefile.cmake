@@ -12,18 +12,8 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/3.22.1/CMakeSystem.cmake"
   "ament_cmake_core/package.cmake"
   "ament_cmake_package_templates/templates.cmake"
-<<<<<<< HEAD
-<<<<<<< HEAD
   "/home/rstole01/Documents/CapstoneGit/humble_ws/src/lab1_package/CMakeLists.txt"
   "/home/rstole01/Documents/CapstoneGit/humble_ws/src/lab1_package/package.xml"
-=======
-  "/home/rstole01/Documents/CSE-596/humble_ws/src/lab1_package/CMakeLists.txt"
-  "/home/rstole01/Documents/CSE-596/humble_ws/src/lab1_package/package.xml"
->>>>>>> ce1a67ebf7edb694f0f93a1943a2aeb630cdb943
-=======
-  "/home/rstole01/Documents/CSE-596/humble_ws/src/lab1_package/CMakeLists.txt"
-  "/home/rstole01/Documents/CSE-596/humble_ws/src/lab1_package/package.xml"
->>>>>>> ce1a67ebf7edb694f0f93a1943a2aeb630cdb943
   "/opt/ros/humble/lib/python3.10/site-packages/ament_package/template/package_level/local_setup.bash.in"
   "/opt/ros/humble/lib/python3.10/site-packages/ament_package/template/package_level/local_setup.sh.in"
   "/opt/ros/humble/lib/python3.10/site-packages/ament_package/template/package_level/local_setup.zsh.in"
@@ -173,8 +163,6 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/opt/ros/humble/share/ament_lint_common/cmake/ament_cmake_export_dependencies-extras.cmake"
   "/opt/ros/humble/share/ament_lint_common/cmake/ament_lint_commonConfig-version.cmake"
   "/opt/ros/humble/share/ament_lint_common/cmake/ament_lint_commonConfig.cmake"
-<<<<<<< HEAD
-<<<<<<< HEAD
   "/usr/share/cmake-3.22/Modules/CMakeCCompiler.cmake.in"
   "/usr/share/cmake-3.22/Modules/CMakeCCompilerABI.c"
   "/usr/share/cmake-3.22/Modules/CMakeCInformation.cmake"
@@ -255,38 +243,13 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/usr/share/cmake-3.22/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake"
   "/usr/share/cmake-3.22/Modules/Compiler/zOS-C-DetermineCompiler.cmake"
   "/usr/share/cmake-3.22/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake"
-=======
-=======
->>>>>>> ce1a67ebf7edb694f0f93a1943a2aeb630cdb943
-  "/usr/share/cmake-3.22/Modules/CMakeCInformation.cmake"
-  "/usr/share/cmake-3.22/Modules/CMakeCXXInformation.cmake"
-  "/usr/share/cmake-3.22/Modules/CMakeCommonLanguageInclude.cmake"
-  "/usr/share/cmake-3.22/Modules/CMakeGenericSystem.cmake"
-  "/usr/share/cmake-3.22/Modules/CMakeInitializeConfigs.cmake"
-  "/usr/share/cmake-3.22/Modules/CMakeLanguageInformation.cmake"
-  "/usr/share/cmake-3.22/Modules/CMakeSystemSpecificInformation.cmake"
-  "/usr/share/cmake-3.22/Modules/CMakeSystemSpecificInitialize.cmake"
-  "/usr/share/cmake-3.22/Modules/Compiler/CMakeCommonCompilerMacros.cmake"
-  "/usr/share/cmake-3.22/Modules/Compiler/GNU-C.cmake"
-  "/usr/share/cmake-3.22/Modules/Compiler/GNU-CXX.cmake"
-  "/usr/share/cmake-3.22/Modules/Compiler/GNU.cmake"
-<<<<<<< HEAD
->>>>>>> ce1a67ebf7edb694f0f93a1943a2aeb630cdb943
-=======
->>>>>>> ce1a67ebf7edb694f0f93a1943a2aeb630cdb943
   "/usr/share/cmake-3.22/Modules/DartConfiguration.tcl.in"
   "/usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake"
   "/usr/share/cmake-3.22/Modules/FindPackageMessage.cmake"
   "/usr/share/cmake-3.22/Modules/FindPython/Support.cmake"
   "/usr/share/cmake-3.22/Modules/FindPython3.cmake"
-<<<<<<< HEAD
-<<<<<<< HEAD
   "/usr/share/cmake-3.22/Modules/Internal/FeatureTesting.cmake"
   "/usr/share/cmake-3.22/Modules/Platform/Linux-Determine-CXX.cmake"
-=======
->>>>>>> ce1a67ebf7edb694f0f93a1943a2aeb630cdb943
-=======
->>>>>>> ce1a67ebf7edb694f0f93a1943a2aeb630cdb943
   "/usr/share/cmake-3.22/Modules/Platform/Linux-GNU-C.cmake"
   "/usr/share/cmake-3.22/Modules/Platform/Linux-GNU-CXX.cmake"
   "/usr/share/cmake-3.22/Modules/Platform/Linux-GNU.cmake"
@@ -302,17 +265,11 @@ set(CMAKE_MAKEFILE_OUTPUTS
 
 # Byproducts of CMake generate step:
 set(CMAKE_MAKEFILE_PRODUCTS
-<<<<<<< HEAD
-<<<<<<< HEAD
   "CMakeFiles/3.22.1/CMakeSystem.cmake"
   "CMakeFiles/3.22.1/CMakeCCompiler.cmake"
   "CMakeFiles/3.22.1/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.22.1/CMakeCCompiler.cmake"
   "CMakeFiles/3.22.1/CMakeCXXCompiler.cmake"
-=======
->>>>>>> ce1a67ebf7edb694f0f93a1943a2aeb630cdb943
-=======
->>>>>>> ce1a67ebf7edb694f0f93a1943a2aeb630cdb943
   "ament_cmake_core/stamps/templates_2_cmake.py.stamp"
   "ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake"
   "CTestConfiguration.ini"

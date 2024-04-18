@@ -1,6 +1,0 @@
-Invoking command in '/home/rstole01/Documents/CSE-596/msu_ws/build/pid_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/rstole01/Documents/CSE-596/msu_ws/src/pid_msgs -DCMAKE_INSTALL_PREFIX=/home/rstole01/Documents/CSE-596/msu_ws/install/pid_msgs
-Invoked command in '/home/rstole01/Documents/CSE-596/msu_ws/build/pid_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/rstole01/Documents/CSE-596/msu_ws/src/pid_msgs -DCMAKE_INSTALL_PREFIX=/home/rstole01/Documents/CSE-596/msu_ws/install/pid_msgs
-Invoking command in '/home/rstole01/Documents/CSE-596/msu_ws/build/pid_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/rstole01/Documents/CSE-596/msu_ws/build/pid_msgs -- -j8 -l8
-Invoked command in '/home/rstole01/Documents/CSE-596/msu_ws/build/pid_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/rstole01/Documents/CSE-596/msu_ws/build/pid_msgs -- -j8 -l8
-Invoking command in '/home/rstole01/Documents/CSE-596/msu_ws/build/pid_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/rstole01/Documents/CSE-596/msu_ws/build/pid_msgs
-Invoked command in '/home/rstole01/Documents/CSE-596/msu_ws/build/pid_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/rstole01/Documents/CSE-596/msu_ws/build/pid_msgs

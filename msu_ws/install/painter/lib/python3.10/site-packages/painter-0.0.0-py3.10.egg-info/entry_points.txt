@@ -1,3 +1,0 @@
-[console_scripts]
-painter = painter.painter:main
-

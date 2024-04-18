@@ -2,15 +2,7 @@
 
 # since this file is sourced use either the provided AMENT_CURRENT_PREFIX
 # or fall back to the destination set at configure time
-<<<<<<< HEAD
-<<<<<<< HEAD
 : ${AMENT_CURRENT_PREFIX:="/home/rstole01/Documents/CapstoneGit/humble_ws/install/aeb_lab"}
-=======
-: ${AMENT_CURRENT_PREFIX:="/home/rstole01/Documents/CSE-596/humble_ws/install/aeb_lab"}
->>>>>>> ce1a67ebf7edb694f0f93a1943a2aeb630cdb943
-=======
-: ${AMENT_CURRENT_PREFIX:="/home/rstole01/Documents/CSE-596/humble_ws/install/aeb_lab"}
->>>>>>> ce1a67ebf7edb694f0f93a1943a2aeb630cdb943
 if [ ! -d "$AMENT_CURRENT_PREFIX" ]; then
   if [ -z "$COLCON_CURRENT_PREFIX" ]; then
     echo "The compile time prefix path '$AMENT_CURRENT_PREFIX' doesn't " \

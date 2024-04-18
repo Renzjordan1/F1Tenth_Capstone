@@ -1,22 +1,8 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
 # Install script for directory: /home/rstole01/Documents/CapstoneGit/humble_ws/src/lab1_package
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
   set(CMAKE_INSTALL_PREFIX "/home/rstole01/Documents/CapstoneGit/humble_ws/install/lab1_package")
-=======
-=======
->>>>>>> ce1a67ebf7edb694f0f93a1943a2aeb630cdb943
-# Install script for directory: /home/rstole01/Documents/CSE-596/humble_ws/src/lab1_package
-
-# Set the install prefix
-if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/rstole01/Documents/CSE-596/humble_ws/install/lab1_package")
-<<<<<<< HEAD
->>>>>>> ce1a67ebf7edb694f0f93a1943a2aeb630cdb943
-=======
->>>>>>> ce1a67ebf7edb694f0f93a1943a2aeb630cdb943
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -63,15 +49,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/lab1_package/my_node"
          RPATH "")
   endif()
-<<<<<<< HEAD
-<<<<<<< HEAD
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/lab1_package" TYPE EXECUTABLE FILES "/home/rstole01/Documents/CapstoneGit/humble_ws/build/lab1_package/my_node")
-=======
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/lab1_package" TYPE EXECUTABLE FILES "/home/rstole01/Documents/CSE-596/humble_ws/build/lab1_package/my_node")
->>>>>>> ce1a67ebf7edb694f0f93a1943a2aeb630cdb943
-=======
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/lab1_package" TYPE EXECUTABLE FILES "/home/rstole01/Documents/CSE-596/humble_ws/build/lab1_package/my_node")
->>>>>>> ce1a67ebf7edb694f0f93a1943a2aeb630cdb943
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/lab1_package/my_node" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/lab1_package/my_node")
     if(CMAKE_INSTALL_DO_STRIP)
@@ -81,25 +59,11 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-<<<<<<< HEAD
-<<<<<<< HEAD
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/home/rstole01/Documents/CapstoneGit/humble_ws/build/lab1_package/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/lab1_package")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/parent_prefix_path" TYPE FILE FILES "/home/rstole01/Documents/CapstoneGit/humble_ws/build/lab1_package/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/lab1_package")
-=======
-=======
->>>>>>> ce1a67ebf7edb694f0f93a1943a2aeb630cdb943
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/home/rstole01/Documents/CSE-596/humble_ws/build/lab1_package/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/lab1_package")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/parent_prefix_path" TYPE FILE FILES "/home/rstole01/Documents/CSE-596/humble_ws/build/lab1_package/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/lab1_package")
-<<<<<<< HEAD
->>>>>>> ce1a67ebf7edb694f0f93a1943a2aeb630cdb943
-=======
->>>>>>> ce1a67ebf7edb694f0f93a1943a2aeb630cdb943
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -107,15 +71,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-<<<<<<< HEAD
-<<<<<<< HEAD
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/lab1_package/environment" TYPE FILE FILES "/home/rstole01/Documents/CapstoneGit/humble_ws/build/lab1_package/ament_cmake_environment_hooks/ament_prefix_path.dsv")
-=======
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/lab1_package/environment" TYPE FILE FILES "/home/rstole01/Documents/CSE-596/humble_ws/build/lab1_package/ament_cmake_environment_hooks/ament_prefix_path.dsv")
->>>>>>> ce1a67ebf7edb694f0f93a1943a2aeb630cdb943
-=======
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/lab1_package/environment" TYPE FILE FILES "/home/rstole01/Documents/CSE-596/humble_ws/build/lab1_package/ament_cmake_environment_hooks/ament_prefix_path.dsv")
->>>>>>> ce1a67ebf7edb694f0f93a1943a2aeb630cdb943
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -123,8 +79,6 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-<<<<<<< HEAD
-<<<<<<< HEAD
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/lab1_package/environment" TYPE FILE FILES "/home/rstole01/Documents/CapstoneGit/humble_ws/build/lab1_package/ament_cmake_environment_hooks/path.dsv")
 endif()
 
@@ -150,67 +104,17 @@ endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/packages" TYPE FILE FILES "/home/rstole01/Documents/CapstoneGit/humble_ws/build/lab1_package/ament_cmake_index/share/ament_index/resource_index/packages/lab1_package")
-=======
-=======
->>>>>>> ce1a67ebf7edb694f0f93a1943a2aeb630cdb943
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/lab1_package/environment" TYPE FILE FILES "/home/rstole01/Documents/CSE-596/humble_ws/build/lab1_package/ament_cmake_environment_hooks/path.dsv")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/lab1_package" TYPE FILE FILES "/home/rstole01/Documents/CSE-596/humble_ws/build/lab1_package/ament_cmake_environment_hooks/local_setup.bash")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/lab1_package" TYPE FILE FILES "/home/rstole01/Documents/CSE-596/humble_ws/build/lab1_package/ament_cmake_environment_hooks/local_setup.sh")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/lab1_package" TYPE FILE FILES "/home/rstole01/Documents/CSE-596/humble_ws/build/lab1_package/ament_cmake_environment_hooks/local_setup.zsh")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/lab1_package" TYPE FILE FILES "/home/rstole01/Documents/CSE-596/humble_ws/build/lab1_package/ament_cmake_environment_hooks/local_setup.dsv")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/lab1_package" TYPE FILE FILES "/home/rstole01/Documents/CSE-596/humble_ws/build/lab1_package/ament_cmake_environment_hooks/package.dsv")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/packages" TYPE FILE FILES "/home/rstole01/Documents/CSE-596/humble_ws/build/lab1_package/ament_cmake_index/share/ament_index/resource_index/packages/lab1_package")
-<<<<<<< HEAD
->>>>>>> ce1a67ebf7edb694f0f93a1943a2aeb630cdb943
-=======
->>>>>>> ce1a67ebf7edb694f0f93a1943a2aeb630cdb943
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/lab1_package/cmake" TYPE FILE FILES
-<<<<<<< HEAD
-<<<<<<< HEAD
     "/home/rstole01/Documents/CapstoneGit/humble_ws/build/lab1_package/ament_cmake_core/lab1_packageConfig.cmake"
     "/home/rstole01/Documents/CapstoneGit/humble_ws/build/lab1_package/ament_cmake_core/lab1_packageConfig-version.cmake"
-=======
-    "/home/rstole01/Documents/CSE-596/humble_ws/build/lab1_package/ament_cmake_core/lab1_packageConfig.cmake"
-    "/home/rstole01/Documents/CSE-596/humble_ws/build/lab1_package/ament_cmake_core/lab1_packageConfig-version.cmake"
->>>>>>> ce1a67ebf7edb694f0f93a1943a2aeb630cdb943
-=======
-    "/home/rstole01/Documents/CSE-596/humble_ws/build/lab1_package/ament_cmake_core/lab1_packageConfig.cmake"
-    "/home/rstole01/Documents/CSE-596/humble_ws/build/lab1_package/ament_cmake_core/lab1_packageConfig-version.cmake"
->>>>>>> ce1a67ebf7edb694f0f93a1943a2aeb630cdb943
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-<<<<<<< HEAD
-<<<<<<< HEAD
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/lab1_package" TYPE FILE FILES "/home/rstole01/Documents/CapstoneGit/humble_ws/src/lab1_package/package.xml")
-=======
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/lab1_package" TYPE FILE FILES "/home/rstole01/Documents/CSE-596/humble_ws/src/lab1_package/package.xml")
->>>>>>> ce1a67ebf7edb694f0f93a1943a2aeb630cdb943
-=======
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/lab1_package" TYPE FILE FILES "/home/rstole01/Documents/CSE-596/humble_ws/src/lab1_package/package.xml")
->>>>>>> ce1a67ebf7edb694f0f93a1943a2aeb630cdb943
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -221,13 +125,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-<<<<<<< HEAD
-<<<<<<< HEAD
 file(WRITE "/home/rstole01/Documents/CapstoneGit/humble_ws/build/lab1_package/${CMAKE_INSTALL_MANIFEST}"
-=======
-file(WRITE "/home/rstole01/Documents/CSE-596/humble_ws/build/lab1_package/${CMAKE_INSTALL_MANIFEST}"
->>>>>>> ce1a67ebf7edb694f0f93a1943a2aeb630cdb943
-=======
-file(WRITE "/home/rstole01/Documents/CSE-596/humble_ws/build/lab1_package/${CMAKE_INSTALL_MANIFEST}"
->>>>>>> ce1a67ebf7edb694f0f93a1943a2aeb630cdb943
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

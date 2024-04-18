@@ -53,23 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-<<<<<<< HEAD
-<<<<<<< HEAD
 CMAKE_SOURCE_DIR = /home/rstole01/Documents/CapstoneGit/humble_ws/src/cpp_pubsub
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/rstole01/Documents/CapstoneGit/humble_ws/build/cpp_pubsub
-=======
-=======
->>>>>>> ce1a67ebf7edb694f0f93a1943a2aeb630cdb943
-CMAKE_SOURCE_DIR = /home/rstole01/Documents/CSE-596/humble_ws/src/cpp_pubsub
-
-# The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/rstole01/Documents/CSE-596/humble_ws/build/cpp_pubsub
-<<<<<<< HEAD
->>>>>>> ce1a67ebf7edb694f0f93a1943a2aeb630cdb943
-=======
->>>>>>> ce1a67ebf7edb694f0f93a1943a2aeb630cdb943
 
 # Include any dependencies generated for this target.
 include CMakeFiles/listener.dir/depend.make
@@ -83,8 +70,6 @@ include CMakeFiles/listener.dir/progress.make
 include CMakeFiles/listener.dir/flags.make
 
 CMakeFiles/listener.dir/src/subscriber_MSG.cpp.o: CMakeFiles/listener.dir/flags.make
-<<<<<<< HEAD
-<<<<<<< HEAD
 CMakeFiles/listener.dir/src/subscriber_MSG.cpp.o: /home/rstole01/Documents/CapstoneGit/humble_ws/src/cpp_pubsub/src/subscriber_MSG.cpp
 CMakeFiles/listener.dir/src/subscriber_MSG.cpp.o: CMakeFiles/listener.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rstole01/Documents/CapstoneGit/humble_ws/build/cpp_pubsub/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/listener.dir/src/subscriber_MSG.cpp.o"
@@ -97,25 +82,6 @@ CMakeFiles/listener.dir/src/subscriber_MSG.cpp.i: cmake_force
 CMakeFiles/listener.dir/src/subscriber_MSG.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/listener.dir/src/subscriber_MSG.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rstole01/Documents/CapstoneGit/humble_ws/src/cpp_pubsub/src/subscriber_MSG.cpp -o CMakeFiles/listener.dir/src/subscriber_MSG.cpp.s
-=======
-=======
->>>>>>> ce1a67ebf7edb694f0f93a1943a2aeb630cdb943
-CMakeFiles/listener.dir/src/subscriber_MSG.cpp.o: /home/rstole01/Documents/CSE-596/humble_ws/src/cpp_pubsub/src/subscriber_MSG.cpp
-CMakeFiles/listener.dir/src/subscriber_MSG.cpp.o: CMakeFiles/listener.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rstole01/Documents/CSE-596/humble_ws/build/cpp_pubsub/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/listener.dir/src/subscriber_MSG.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/listener.dir/src/subscriber_MSG.cpp.o -MF CMakeFiles/listener.dir/src/subscriber_MSG.cpp.o.d -o CMakeFiles/listener.dir/src/subscriber_MSG.cpp.o -c /home/rstole01/Documents/CSE-596/humble_ws/src/cpp_pubsub/src/subscriber_MSG.cpp
-
-CMakeFiles/listener.dir/src/subscriber_MSG.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/listener.dir/src/subscriber_MSG.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rstole01/Documents/CSE-596/humble_ws/src/cpp_pubsub/src/subscriber_MSG.cpp > CMakeFiles/listener.dir/src/subscriber_MSG.cpp.i
-
-CMakeFiles/listener.dir/src/subscriber_MSG.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/listener.dir/src/subscriber_MSG.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rstole01/Documents/CSE-596/humble_ws/src/cpp_pubsub/src/subscriber_MSG.cpp -o CMakeFiles/listener.dir/src/subscriber_MSG.cpp.s
-<<<<<<< HEAD
->>>>>>> ce1a67ebf7edb694f0f93a1943a2aeb630cdb943
-=======
->>>>>>> ce1a67ebf7edb694f0f93a1943a2aeb630cdb943
 
 # Object files for target listener
 listener_OBJECTS = \
@@ -127,27 +93,12 @@ listener_EXTERNAL_OBJECTS =
 listener: CMakeFiles/listener.dir/src/subscriber_MSG.cpp.o
 listener: CMakeFiles/listener.dir/build.make
 listener: /opt/ros/humble/lib/librclcpp.so
-<<<<<<< HEAD
-<<<<<<< HEAD
 listener: /home/rstole01/Documents/CapstoneGit/humble_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_fastrtps_c.so
 listener: /home/rstole01/Documents/CapstoneGit/humble_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_fastrtps_cpp.so
 listener: /home/rstole01/Documents/CapstoneGit/humble_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_introspection_c.so
 listener: /home/rstole01/Documents/CapstoneGit/humble_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_introspection_cpp.so
 listener: /home/rstole01/Documents/CapstoneGit/humble_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_cpp.so
 listener: /home/rstole01/Documents/CapstoneGit/humble_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_generator_py.so
-=======
-=======
->>>>>>> ce1a67ebf7edb694f0f93a1943a2aeb630cdb943
-listener: /home/rstole01/Documents/CSE-596/humble_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_fastrtps_c.so
-listener: /home/rstole01/Documents/CSE-596/humble_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_fastrtps_cpp.so
-listener: /home/rstole01/Documents/CSE-596/humble_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_introspection_c.so
-listener: /home/rstole01/Documents/CSE-596/humble_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_introspection_cpp.so
-listener: /home/rstole01/Documents/CSE-596/humble_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_cpp.so
-listener: /home/rstole01/Documents/CSE-596/humble_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_generator_py.so
-<<<<<<< HEAD
->>>>>>> ce1a67ebf7edb694f0f93a1943a2aeb630cdb943
-=======
->>>>>>> ce1a67ebf7edb694f0f93a1943a2aeb630cdb943
 listener: /opt/ros/humble/lib/liblibstatistics_collector.so
 listener: /opt/ros/humble/lib/librcl.so
 listener: /opt/ros/humble/lib/librmw_implementation.so
@@ -203,18 +154,8 @@ listener: /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_cpp.so
 listener: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_cpp.so
 listener: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_cpp.so
 listener: /opt/ros/humble/lib/librosidl_typesupport_cpp.so
-<<<<<<< HEAD
-<<<<<<< HEAD
 listener: /home/rstole01/Documents/CapstoneGit/humble_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_c.so
 listener: /home/rstole01/Documents/CapstoneGit/humble_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_generator_c.so
-=======
-listener: /home/rstole01/Documents/CSE-596/humble_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_c.so
-listener: /home/rstole01/Documents/CSE-596/humble_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_generator_c.so
->>>>>>> ce1a67ebf7edb694f0f93a1943a2aeb630cdb943
-=======
-listener: /home/rstole01/Documents/CSE-596/humble_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_c.so
-listener: /home/rstole01/Documents/CSE-596/humble_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_generator_c.so
->>>>>>> ce1a67ebf7edb694f0f93a1943a2aeb630cdb943
 listener: /opt/ros/humble/lib/libgeometry_msgs__rosidl_generator_py.so
 listener: /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_c.so
 listener: /opt/ros/humble/lib/libgeometry_msgs__rosidl_generator_c.so
@@ -230,15 +171,7 @@ listener: /opt/ros/humble/lib/librosidl_runtime_c.so
 listener: /opt/ros/humble/lib/librcutils.so
 listener: /usr/lib/x86_64-linux-gnu/libpython3.10.so
 listener: CMakeFiles/listener.dir/link.txt
-<<<<<<< HEAD
-<<<<<<< HEAD
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/rstole01/Documents/CapstoneGit/humble_ws/build/cpp_pubsub/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable listener"
-=======
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/rstole01/Documents/CSE-596/humble_ws/build/cpp_pubsub/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable listener"
->>>>>>> ce1a67ebf7edb694f0f93a1943a2aeb630cdb943
-=======
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/rstole01/Documents/CSE-596/humble_ws/build/cpp_pubsub/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable listener"
->>>>>>> ce1a67ebf7edb694f0f93a1943a2aeb630cdb943
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/listener.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -250,14 +183,6 @@ CMakeFiles/listener.dir/clean:
 .PHONY : CMakeFiles/listener.dir/clean
 
 CMakeFiles/listener.dir/depend:
-<<<<<<< HEAD
-<<<<<<< HEAD
 	cd /home/rstole01/Documents/CapstoneGit/humble_ws/build/cpp_pubsub && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/rstole01/Documents/CapstoneGit/humble_ws/src/cpp_pubsub /home/rstole01/Documents/CapstoneGit/humble_ws/src/cpp_pubsub /home/rstole01/Documents/CapstoneGit/humble_ws/build/cpp_pubsub /home/rstole01/Documents/CapstoneGit/humble_ws/build/cpp_pubsub /home/rstole01/Documents/CapstoneGit/humble_ws/build/cpp_pubsub/CMakeFiles/listener.dir/DependInfo.cmake --color=$(COLOR)
-=======
-	cd /home/rstole01/Documents/CSE-596/humble_ws/build/cpp_pubsub && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/rstole01/Documents/CSE-596/humble_ws/src/cpp_pubsub /home/rstole01/Documents/CSE-596/humble_ws/src/cpp_pubsub /home/rstole01/Documents/CSE-596/humble_ws/build/cpp_pubsub /home/rstole01/Documents/CSE-596/humble_ws/build/cpp_pubsub /home/rstole01/Documents/CSE-596/humble_ws/build/cpp_pubsub/CMakeFiles/listener.dir/DependInfo.cmake --color=$(COLOR)
->>>>>>> ce1a67ebf7edb694f0f93a1943a2aeb630cdb943
-=======
-	cd /home/rstole01/Documents/CSE-596/humble_ws/build/cpp_pubsub && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/rstole01/Documents/CSE-596/humble_ws/src/cpp_pubsub /home/rstole01/Documents/CSE-596/humble_ws/src/cpp_pubsub /home/rstole01/Documents/CSE-596/humble_ws/build/cpp_pubsub /home/rstole01/Documents/CSE-596/humble_ws/build/cpp_pubsub /home/rstole01/Documents/CSE-596/humble_ws/build/cpp_pubsub/CMakeFiles/listener.dir/DependInfo.cmake --color=$(COLOR)
->>>>>>> ce1a67ebf7edb694f0f93a1943a2aeb630cdb943
 .PHONY : CMakeFiles/listener.dir/depend
 

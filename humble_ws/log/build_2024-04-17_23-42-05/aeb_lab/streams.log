@@ -1,0 +1,42 @@
+[0.081s] Invoking command in '/home/rstole01/Documents/CapstoneGit/humble_ws/build/aeb_lab': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rstole01/Documents/CapstoneGit/humble_ws/install/waypoint_logger:/home/rstole01/Documents/CapstoneGit/humble_ws/install/f1tenth_gym_ros:/opt/ros/humble /usr/bin/cmake /home/rstole01/Documents/CapstoneGit/humble_ws/src/aeb_lab -DCMAKE_INSTALL_PREFIX=/home/rstole01/Documents/CapstoneGit/humble_ws/install/aeb_lab
+[0.698s] -- The C compiler identification is GNU 11.4.0
+[0.699s] -- The CXX compiler identification is GNU 11.4.0
+[0.699s] -- Detecting C compiler ABI info
+[0.700s] -- Detecting C compiler ABI info - done
+[0.701s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.701s] -- Detecting C compile features
+[0.701s] -- Detecting C compile features - done
+[0.701s] -- Detecting CXX compiler ABI info
+[0.702s] -- Detecting CXX compiler ABI info - done
+[0.702s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.703s] -- Detecting CXX compile features
+[0.707s] -- Detecting CXX compile features - done
+[0.707s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.050s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.383s] -- Found ackermann_msgs: 2.0.2 (/opt/ros/humble/share/ackermann_msgs/cmake)
+[1.560s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.586s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.625s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.684s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.780s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.334s] -- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)
+[2.541s] -- Found nav_msgs: 4.2.3 (/opt/ros/humble/share/nav_msgs/cmake)
+[2.900s] -- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+[3.178s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[3.192s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[3.335s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[3.379s] -- Looking for pthread.h
+[3.594s] -- Looking for pthread.h - found
+[3.595s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[3.790s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[3.794s] -- Found Threads: TRUE  
+[4.196s] -- Found rclpy: 3.3.12 (/opt/ros/humble/share/rclpy/cmake)
+[4.204s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+[4.697s] -- Configuring done
+[4.729s] -- Generating done
+[4.733s] -- Build files have been written to: /home/rstole01/Documents/CapstoneGit/humble_ws/build/aeb_lab
+[4.754s] Invoked command in '/home/rstole01/Documents/CapstoneGit/humble_ws/build/aeb_lab' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rstole01/Documents/CapstoneGit/humble_ws/install/waypoint_logger:/home/rstole01/Documents/CapstoneGit/humble_ws/install/f1tenth_gym_ros:/opt/ros/humble /usr/bin/cmake /home/rstole01/Documents/CapstoneGit/humble_ws/src/aeb_lab -DCMAKE_INSTALL_PREFIX=/home/rstole01/Documents/CapstoneGit/humble_ws/install/aeb_lab
+[4.758s] Invoking command in '/home/rstole01/Documents/CapstoneGit/humble_ws/build/aeb_lab': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rstole01/Documents/CapstoneGit/humble_ws/install/waypoint_logger:/home/rstole01/Documents/CapstoneGit/humble_ws/install/f1tenth_gym_ros:/opt/ros/humble /usr/bin/cmake --build /home/rstole01/Documents/CapstoneGit/humble_ws/build/aeb_lab -- -j8 -l8
+[4.869s] [ 50%] [32mBuilding CXX object CMakeFiles/aeb.dir/src/aeb.cpp.o[0m
+[36.285s] [100%] [32m[1mLinking CXX executable aeb[0m
+[36.723s] [100%] Built target aeb

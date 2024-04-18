@@ -3,21 +3,10 @@ tutorial_interfaces/__init__.py
 tutorial_interfaces.egg-info/PKG-INFO
 tutorial_interfaces.egg-info/SOURCES.txt
 tutorial_interfaces.egg-info/dependency_links.txt
-<<<<<<< HEAD
-<<<<<<< HEAD
-tutorial_interfaces.egg-info/top_level.txt
-=======
-=======
->>>>>>> ce1a67ebf7edb694f0f93a1943a2aeb630cdb943
 tutorial_interfaces.egg-info/top_level.txt
 tutorial_interfaces/msg/__init__.py
 tutorial_interfaces/msg/_num.py
 tutorial_interfaces/msg/_scan_range.py
 tutorial_interfaces/msg/_sphere.py
 tutorial_interfaces/srv/__init__.py
-<<<<<<< HEAD
 tutorial_interfaces/srv/_add_three_ints.py
->>>>>>> ce1a67ebf7edb694f0f93a1943a2aeb630cdb943
-=======
-tutorial_interfaces/srv/_add_three_ints.py
->>>>>>> ce1a67ebf7edb694f0f93a1943a2aeb630cdb943

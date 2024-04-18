@@ -1,19 +1,7 @@
 CMakeFiles/tutorial_interfaces__rosidl_generator_c.dir/rosidl_generator_c/tutorial_interfaces/msg/detail/scan_range__functions.c.o: \
-<<<<<<< HEAD
-<<<<<<< HEAD
  /home/rstole01/Documents/CapstoneGit/humble_ws/build/tutorial_interfaces/rosidl_generator_c/tutorial_interfaces/msg/detail/scan_range__functions.c \
  /usr/include/stdc-predef.h \
  /home/rstole01/Documents/CapstoneGit/humble_ws/build/tutorial_interfaces/rosidl_generator_c/tutorial_interfaces/msg/detail/scan_range__functions.h \
-=======
- /home/rstole01/Documents/CSE-596/humble_ws/build/tutorial_interfaces/rosidl_generator_c/tutorial_interfaces/msg/detail/scan_range__functions.c \
- /usr/include/stdc-predef.h \
- /home/rstole01/Documents/CSE-596/humble_ws/build/tutorial_interfaces/rosidl_generator_c/tutorial_interfaces/msg/detail/scan_range__functions.h \
->>>>>>> ce1a67ebf7edb694f0f93a1943a2aeb630cdb943
-=======
- /home/rstole01/Documents/CSE-596/humble_ws/build/tutorial_interfaces/rosidl_generator_c/tutorial_interfaces/msg/detail/scan_range__functions.c \
- /usr/include/stdc-predef.h \
- /home/rstole01/Documents/CSE-596/humble_ws/build/tutorial_interfaces/rosidl_generator_c/tutorial_interfaces/msg/detail/scan_range__functions.h \
->>>>>>> ce1a67ebf7edb694f0f93a1943a2aeb630cdb943
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdbool.h /usr/include/stdlib.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -55,18 +43,8 @@ CMakeFiles/tutorial_interfaces__rosidl_generator_c.dir/rosidl_generator_c/tutori
  /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h /usr/include/alloca.h \
  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/visibility_control.h \
-<<<<<<< HEAD
-<<<<<<< HEAD
  /home/rstole01/Documents/CapstoneGit/humble_ws/build/tutorial_interfaces/rosidl_generator_c/tutorial_interfaces/msg/rosidl_generator_c__visibility_control.h \
  /home/rstole01/Documents/CapstoneGit/humble_ws/build/tutorial_interfaces/rosidl_generator_c/tutorial_interfaces/msg/detail/scan_range__struct.h \
-=======
- /home/rstole01/Documents/CSE-596/humble_ws/build/tutorial_interfaces/rosidl_generator_c/tutorial_interfaces/msg/rosidl_generator_c__visibility_control.h \
- /home/rstole01/Documents/CSE-596/humble_ws/build/tutorial_interfaces/rosidl_generator_c/tutorial_interfaces/msg/detail/scan_range__struct.h \
->>>>>>> ce1a67ebf7edb694f0f93a1943a2aeb630cdb943
-=======
- /home/rstole01/Documents/CSE-596/humble_ws/build/tutorial_interfaces/rosidl_generator_c/tutorial_interfaces/msg/rosidl_generator_c__visibility_control.h \
- /home/rstole01/Documents/CSE-596/humble_ws/build/tutorial_interfaces/rosidl_generator_c/tutorial_interfaces/msg/detail/scan_range__struct.h \
->>>>>>> ce1a67ebf7edb694f0f93a1943a2aeb630cdb943
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/wchar.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h /usr/include/assert.h \

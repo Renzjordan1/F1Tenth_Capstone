@@ -1,0 +1,9 @@
+Built target ament_cmake_python_copy_pursuit_lab_setup
+Built target ament_cmake_python_copy_pursuit_lab
+running egg_info
+writing pursuit_lab.egg-info/PKG-INFO
+writing dependency_links to pursuit_lab.egg-info/dependency_links.txt
+writing top-level names to pursuit_lab.egg-info/top_level.txt
+reading manifest file 'pursuit_lab.egg-info/SOURCES.txt'
+writing manifest file 'pursuit_lab.egg-info/SOURCES.txt'
+Built target ament_cmake_python_build_pursuit_lab_egg

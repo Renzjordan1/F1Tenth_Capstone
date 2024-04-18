@@ -1,32 +1,12 @@
 CMakeFiles/tutorial_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tutorial_interfaces/msg/detail/sphere__type_support_c.cpp.o: \
-<<<<<<< HEAD
-<<<<<<< HEAD
  /home/rstole01/Documents/CapstoneGit/humble_ws/build/tutorial_interfaces/rosidl_typesupport_fastrtps_c/tutorial_interfaces/msg/detail/sphere__type_support_c.cpp \
  /usr/include/stdc-predef.h \
  /home/rstole01/Documents/CapstoneGit/humble_ws/build/tutorial_interfaces/rosidl_typesupport_fastrtps_c/tutorial_interfaces/msg/detail/sphere__rosidl_typesupport_fastrtps_c.h \
-=======
- /home/rstole01/Documents/CSE-596/humble_ws/build/tutorial_interfaces/rosidl_typesupport_fastrtps_c/tutorial_interfaces/msg/detail/sphere__type_support_c.cpp \
- /usr/include/stdc-predef.h \
- /home/rstole01/Documents/CSE-596/humble_ws/build/tutorial_interfaces/rosidl_typesupport_fastrtps_c/tutorial_interfaces/msg/detail/sphere__rosidl_typesupport_fastrtps_c.h \
->>>>>>> ce1a67ebf7edb694f0f93a1943a2aeb630cdb943
-=======
- /home/rstole01/Documents/CSE-596/humble_ws/build/tutorial_interfaces/rosidl_typesupport_fastrtps_c/tutorial_interfaces/msg/detail/sphere__type_support_c.cpp \
- /usr/include/stdc-predef.h \
- /home/rstole01/Documents/CSE-596/humble_ws/build/tutorial_interfaces/rosidl_typesupport_fastrtps_c/tutorial_interfaces/msg/detail/sphere__rosidl_typesupport_fastrtps_c.h \
->>>>>>> ce1a67ebf7edb694f0f93a1943a2aeb630cdb943
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stddef.h \
  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/message_type_support_struct.h \
  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/visibility_control.h \
  /opt/ros/humble/include/rosidl_typesupport_interface/rosidl_typesupport_interface/macros.h \
-<<<<<<< HEAD
-<<<<<<< HEAD
  /home/rstole01/Documents/CapstoneGit/humble_ws/build/tutorial_interfaces/rosidl_typesupport_fastrtps_c/tutorial_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h \
-=======
- /home/rstole01/Documents/CSE-596/humble_ws/build/tutorial_interfaces/rosidl_typesupport_fastrtps_c/tutorial_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h \
->>>>>>> ce1a67ebf7edb694f0f93a1943a2aeb630cdb943
-=======
- /home/rstole01/Documents/CSE-596/humble_ws/build/tutorial_interfaces/rosidl_typesupport_fastrtps_c/tutorial_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h \
->>>>>>> ce1a67ebf7edb694f0f93a1943a2aeb630cdb943
  /usr/include/c++/11/cassert \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
@@ -202,24 +182,10 @@ CMakeFiles/tutorial_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesup
  /usr/include/c++/11/bits/basic_ios.tcc \
  /usr/include/c++/11/bits/ostream.tcc /usr/include/c++/11/istream \
  /usr/include/c++/11/bits/istream.tcc /usr/include/malloc.h \
-<<<<<<< HEAD
-<<<<<<< HEAD
  /home/rstole01/Documents/CapstoneGit/humble_ws/build/tutorial_interfaces/rosidl_generator_c/tutorial_interfaces/msg/detail/sphere__struct.h \
  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point__struct.h \
  /home/rstole01/Documents/CapstoneGit/humble_ws/build/tutorial_interfaces/rosidl_generator_c/tutorial_interfaces/msg/detail/sphere__functions.h \
  /usr/include/c++/11/stdlib.h \
  /home/rstole01/Documents/CapstoneGit/humble_ws/build/tutorial_interfaces/rosidl_generator_c/tutorial_interfaces/msg/rosidl_generator_c__visibility_control.h \
-=======
-=======
->>>>>>> ce1a67ebf7edb694f0f93a1943a2aeb630cdb943
- /home/rstole01/Documents/CSE-596/humble_ws/build/tutorial_interfaces/rosidl_generator_c/tutorial_interfaces/msg/detail/sphere__struct.h \
- /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point__struct.h \
- /home/rstole01/Documents/CSE-596/humble_ws/build/tutorial_interfaces/rosidl_generator_c/tutorial_interfaces/msg/detail/sphere__functions.h \
- /usr/include/c++/11/stdlib.h \
- /home/rstole01/Documents/CSE-596/humble_ws/build/tutorial_interfaces/rosidl_generator_c/tutorial_interfaces/msg/rosidl_generator_c__visibility_control.h \
-<<<<<<< HEAD
->>>>>>> ce1a67ebf7edb694f0f93a1943a2aeb630cdb943
-=======
->>>>>>> ce1a67ebf7edb694f0f93a1943a2aeb630cdb943
  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point__functions.h \
  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/rosidl_generator_c__visibility_control.h

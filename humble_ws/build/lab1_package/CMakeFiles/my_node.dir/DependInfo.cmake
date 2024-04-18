@@ -8,15 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-<<<<<<< HEAD
-<<<<<<< HEAD
   "/home/rstole01/Documents/CapstoneGit/humble_ws/src/lab1_package/src/my_node.cpp" "CMakeFiles/my_node.dir/src/my_node.cpp.o" "gcc" "CMakeFiles/my_node.dir/src/my_node.cpp.o.d"
-=======
-  "/home/rstole01/Documents/CSE-596/humble_ws/src/lab1_package/src/my_node.cpp" "CMakeFiles/my_node.dir/src/my_node.cpp.o" "gcc" "CMakeFiles/my_node.dir/src/my_node.cpp.o.d"
->>>>>>> ce1a67ebf7edb694f0f93a1943a2aeb630cdb943
-=======
-  "/home/rstole01/Documents/CSE-596/humble_ws/src/lab1_package/src/my_node.cpp" "CMakeFiles/my_node.dir/src/my_node.cpp.o" "gcc" "CMakeFiles/my_node.dir/src/my_node.cpp.o.d"
->>>>>>> ce1a67ebf7edb694f0f93a1943a2aeb630cdb943
   )
 
 # Targets to which this target links.

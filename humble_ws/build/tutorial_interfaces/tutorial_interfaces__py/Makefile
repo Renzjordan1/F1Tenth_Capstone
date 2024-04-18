@@ -57,23 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-<<<<<<< HEAD
-<<<<<<< HEAD
 CMAKE_SOURCE_DIR = /home/rstole01/Documents/CapstoneGit/humble_ws/src/tutorial_interfaces
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/rstole01/Documents/CapstoneGit/humble_ws/build/tutorial_interfaces
-=======
-=======
->>>>>>> ce1a67ebf7edb694f0f93a1943a2aeb630cdb943
-CMAKE_SOURCE_DIR = /home/rstole01/Documents/CSE-596/humble_ws/src/tutorial_interfaces
-
-# The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/rstole01/Documents/CSE-596/humble_ws/build/tutorial_interfaces
-<<<<<<< HEAD
->>>>>>> ce1a67ebf7edb694f0f93a1943a2aeb630cdb943
-=======
->>>>>>> ce1a67ebf7edb694f0f93a1943a2aeb630cdb943
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -155,34 +142,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-<<<<<<< HEAD
-<<<<<<< HEAD
 	cd /home/rstole01/Documents/CapstoneGit/humble_ws/build/tutorial_interfaces && $(CMAKE_COMMAND) -E cmake_progress_start /home/rstole01/Documents/CapstoneGit/humble_ws/build/tutorial_interfaces/CMakeFiles /home/rstole01/Documents/CapstoneGit/humble_ws/build/tutorial_interfaces/tutorial_interfaces__py//CMakeFiles/progress.marks
 	cd /home/rstole01/Documents/CapstoneGit/humble_ws/build/tutorial_interfaces && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tutorial_interfaces__py/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/rstole01/Documents/CapstoneGit/humble_ws/build/tutorial_interfaces/CMakeFiles 0
-=======
-	cd /home/rstole01/Documents/CSE-596/humble_ws/build/tutorial_interfaces && $(CMAKE_COMMAND) -E cmake_progress_start /home/rstole01/Documents/CSE-596/humble_ws/build/tutorial_interfaces/CMakeFiles /home/rstole01/Documents/CSE-596/humble_ws/build/tutorial_interfaces/tutorial_interfaces__py//CMakeFiles/progress.marks
-	cd /home/rstole01/Documents/CSE-596/humble_ws/build/tutorial_interfaces && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tutorial_interfaces__py/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rstole01/Documents/CSE-596/humble_ws/build/tutorial_interfaces/CMakeFiles 0
->>>>>>> ce1a67ebf7edb694f0f93a1943a2aeb630cdb943
-=======
-	cd /home/rstole01/Documents/CSE-596/humble_ws/build/tutorial_interfaces && $(CMAKE_COMMAND) -E cmake_progress_start /home/rstole01/Documents/CSE-596/humble_ws/build/tutorial_interfaces/CMakeFiles /home/rstole01/Documents/CSE-596/humble_ws/build/tutorial_interfaces/tutorial_interfaces__py//CMakeFiles/progress.marks
-	cd /home/rstole01/Documents/CSE-596/humble_ws/build/tutorial_interfaces && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tutorial_interfaces__py/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rstole01/Documents/CSE-596/humble_ws/build/tutorial_interfaces/CMakeFiles 0
->>>>>>> ce1a67ebf7edb694f0f93a1943a2aeb630cdb943
 .PHONY : all
 
 # The main clean target
 clean:
-<<<<<<< HEAD
-<<<<<<< HEAD
 	cd /home/rstole01/Documents/CapstoneGit/humble_ws/build/tutorial_interfaces && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tutorial_interfaces__py/clean
-=======
-	cd /home/rstole01/Documents/CSE-596/humble_ws/build/tutorial_interfaces && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tutorial_interfaces__py/clean
->>>>>>> ce1a67ebf7edb694f0f93a1943a2aeb630cdb943
-=======
-	cd /home/rstole01/Documents/CSE-596/humble_ws/build/tutorial_interfaces && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tutorial_interfaces__py/clean
->>>>>>> ce1a67ebf7edb694f0f93a1943a2aeb630cdb943
 .PHONY : clean
 
 # The main clean target
@@ -191,54 +158,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-<<<<<<< HEAD
-<<<<<<< HEAD
 	cd /home/rstole01/Documents/CapstoneGit/humble_ws/build/tutorial_interfaces && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tutorial_interfaces__py/preinstall
-=======
-	cd /home/rstole01/Documents/CSE-596/humble_ws/build/tutorial_interfaces && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tutorial_interfaces__py/preinstall
->>>>>>> ce1a67ebf7edb694f0f93a1943a2aeb630cdb943
-=======
-	cd /home/rstole01/Documents/CSE-596/humble_ws/build/tutorial_interfaces && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tutorial_interfaces__py/preinstall
->>>>>>> ce1a67ebf7edb694f0f93a1943a2aeb630cdb943
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-<<<<<<< HEAD
-<<<<<<< HEAD
 	cd /home/rstole01/Documents/CapstoneGit/humble_ws/build/tutorial_interfaces && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tutorial_interfaces__py/preinstall
-=======
-	cd /home/rstole01/Documents/CSE-596/humble_ws/build/tutorial_interfaces && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tutorial_interfaces__py/preinstall
->>>>>>> ce1a67ebf7edb694f0f93a1943a2aeb630cdb943
-=======
-	cd /home/rstole01/Documents/CSE-596/humble_ws/build/tutorial_interfaces && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tutorial_interfaces__py/preinstall
->>>>>>> ce1a67ebf7edb694f0f93a1943a2aeb630cdb943
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-<<<<<<< HEAD
-<<<<<<< HEAD
 	cd /home/rstole01/Documents/CapstoneGit/humble_ws/build/tutorial_interfaces && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
-=======
-	cd /home/rstole01/Documents/CSE-596/humble_ws/build/tutorial_interfaces && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
->>>>>>> ce1a67ebf7edb694f0f93a1943a2aeb630cdb943
-=======
-	cd /home/rstole01/Documents/CSE-596/humble_ws/build/tutorial_interfaces && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
->>>>>>> ce1a67ebf7edb694f0f93a1943a2aeb630cdb943
 .PHONY : depend
 
 # Convenience name for target.
 tutorial_interfaces__py/CMakeFiles/tutorial_interfaces__py.dir/rule:
-<<<<<<< HEAD
-<<<<<<< HEAD
 	cd /home/rstole01/Documents/CapstoneGit/humble_ws/build/tutorial_interfaces && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tutorial_interfaces__py/CMakeFiles/tutorial_interfaces__py.dir/rule
-=======
-	cd /home/rstole01/Documents/CSE-596/humble_ws/build/tutorial_interfaces && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tutorial_interfaces__py/CMakeFiles/tutorial_interfaces__py.dir/rule
->>>>>>> ce1a67ebf7edb694f0f93a1943a2aeb630cdb943
-=======
-	cd /home/rstole01/Documents/CSE-596/humble_ws/build/tutorial_interfaces && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tutorial_interfaces__py/CMakeFiles/tutorial_interfaces__py.dir/rule
->>>>>>> ce1a67ebf7edb694f0f93a1943a2aeb630cdb943
 .PHONY : tutorial_interfaces__py/CMakeFiles/tutorial_interfaces__py.dir/rule
 
 # Convenience name for target.
@@ -247,15 +182,7 @@ tutorial_interfaces__py: tutorial_interfaces__py/CMakeFiles/tutorial_interfaces_
 
 # fast build rule for target.
 tutorial_interfaces__py/fast:
-<<<<<<< HEAD
-<<<<<<< HEAD
 	cd /home/rstole01/Documents/CapstoneGit/humble_ws/build/tutorial_interfaces && $(MAKE) $(MAKESILENT) -f tutorial_interfaces__py/CMakeFiles/tutorial_interfaces__py.dir/build.make tutorial_interfaces__py/CMakeFiles/tutorial_interfaces__py.dir/build
-=======
-	cd /home/rstole01/Documents/CSE-596/humble_ws/build/tutorial_interfaces && $(MAKE) $(MAKESILENT) -f tutorial_interfaces__py/CMakeFiles/tutorial_interfaces__py.dir/build.make tutorial_interfaces__py/CMakeFiles/tutorial_interfaces__py.dir/build
->>>>>>> ce1a67ebf7edb694f0f93a1943a2aeb630cdb943
-=======
-	cd /home/rstole01/Documents/CSE-596/humble_ws/build/tutorial_interfaces && $(MAKE) $(MAKESILENT) -f tutorial_interfaces__py/CMakeFiles/tutorial_interfaces__py.dir/build.make tutorial_interfaces__py/CMakeFiles/tutorial_interfaces__py.dir/build
->>>>>>> ce1a67ebf7edb694f0f93a1943a2aeb630cdb943
 .PHONY : tutorial_interfaces__py/fast
 
 # Help Target
@@ -283,14 +210,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-<<<<<<< HEAD
-<<<<<<< HEAD
 	cd /home/rstole01/Documents/CapstoneGit/humble_ws/build/tutorial_interfaces && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
-=======
-	cd /home/rstole01/Documents/CSE-596/humble_ws/build/tutorial_interfaces && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
->>>>>>> ce1a67ebf7edb694f0f93a1943a2aeb630cdb943
-=======
-	cd /home/rstole01/Documents/CSE-596/humble_ws/build/tutorial_interfaces && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
->>>>>>> ce1a67ebf7edb694f0f93a1943a2aeb630cdb943
 .PHONY : cmake_check_build_system
 
