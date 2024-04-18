@@ -20,7 +20,7 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'pure_pursuit_node = pursuit_lab.pure_pursuit_node:main',
+            'pursuit_node = pursuit_lab.pure_pursuit_node:main',
         ],
     },
 )

@@ -1,0 +1,24 @@
+[3.596s] Invoking command in '/home/rstole01/Documents/CapstoneGit/humble_ws/src/f1tenth_gym_ros': PYTHONPATH=/home/rstole01/Documents/CapstoneGit/humble_ws/build/f1tenth_gym_ros/prefix_override:/home/rstole01/Documents/CapstoneGit/humble_ws/install/f1tenth_gym_ros/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/f1tenth_gym_ros build --build-base /home/rstole01/Documents/CapstoneGit/humble_ws/build/f1tenth_gym_ros/build install --record /home/rstole01/Documents/CapstoneGit/humble_ws/build/f1tenth_gym_ros/install.log --install-scripts $base/lib/f1tenth_gym_ros --single-version-externally-managed install_data
+[4.297s] /usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[4.298s]   warnings.warn(
+[4.325s] running egg_info
+[4.328s] writing ../../build/f1tenth_gym_ros/f1tenth_gym_ros.egg-info/PKG-INFO
+[4.328s] writing dependency_links to ../../build/f1tenth_gym_ros/f1tenth_gym_ros.egg-info/dependency_links.txt
+[4.329s] writing entry points to ../../build/f1tenth_gym_ros/f1tenth_gym_ros.egg-info/entry_points.txt
+[4.329s] writing requirements to ../../build/f1tenth_gym_ros/f1tenth_gym_ros.egg-info/requires.txt
+[4.329s] writing top-level names to ../../build/f1tenth_gym_ros/f1tenth_gym_ros.egg-info/top_level.txt
+[4.335s] reading manifest file '../../build/f1tenth_gym_ros/f1tenth_gym_ros.egg-info/SOURCES.txt'
+[4.336s] adding license file 'LICENSE'
+[4.337s] writing manifest file '../../build/f1tenth_gym_ros/f1tenth_gym_ros.egg-info/SOURCES.txt'
+[4.338s] running build
+[4.338s] running build_py
+[4.339s] running install
+[4.339s] running install_lib
+[4.342s] running install_data
+[4.342s] running install_egg_info
+[4.347s] removing '/home/rstole01/Documents/CapstoneGit/humble_ws/install/f1tenth_gym_ros/lib/python3.10/site-packages/f1tenth_gym_ros-0.0.0-py3.10.egg-info' (and everything under it)
+[4.347s] Copying ../../build/f1tenth_gym_ros/f1tenth_gym_ros.egg-info to /home/rstole01/Documents/CapstoneGit/humble_ws/install/f1tenth_gym_ros/lib/python3.10/site-packages/f1tenth_gym_ros-0.0.0-py3.10.egg-info
+[4.349s] running install_scripts
+[4.396s] Installing gym_bridge script to /home/rstole01/Documents/CapstoneGit/humble_ws/install/f1tenth_gym_ros/lib/f1tenth_gym_ros
+[4.397s] writing list of installed files to '/home/rstole01/Documents/CapstoneGit/humble_ws/build/f1tenth_gym_ros/install.log'
+[4.454s] Invoked command in '/home/rstole01/Documents/CapstoneGit/humble_ws/src/f1tenth_gym_ros' returned '0': PYTHONPATH=/home/rstole01/Documents/CapstoneGit/humble_ws/build/f1tenth_gym_ros/prefix_override:/home/rstole01/Documents/CapstoneGit/humble_ws/install/f1tenth_gym_ros/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/f1tenth_gym_ros build --build-base /home/rstole01/Documents/CapstoneGit/humble_ws/build/f1tenth_gym_ros/build install --record /home/rstole01/Documents/CapstoneGit/humble_ws/build/f1tenth_gym_ros/install.log --install-scripts $base/lib/f1tenth_gym_ros --single-version-externally-managed install_data

@@ -1,0 +1,19 @@
+[0mCMake Error: The current CMakeCache.txt directory /home/rstole01/Documents/CapstoneGit/humble_ws/build/lab1_package/CMakeCache.txt is different than the directory /home/rstole01/Documents/CSE-596/humble_ws/build/lab1_package where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt[0m
+[100%] Built target my_node
+-- Install configuration: ""
+-- Up-to-date: /home/rstole01/Documents/CSE-596/humble_ws/install/lab1_package/lib/lab1_package/my_node
+-- Up-to-date: /home/rstole01/Documents/CSE-596/humble_ws/install/lab1_package/share/ament_index/resource_index/package_run_dependencies/lab1_package
+-- Up-to-date: /home/rstole01/Documents/CSE-596/humble_ws/install/lab1_package/share/ament_index/resource_index/parent_prefix_path/lab1_package
+-- Up-to-date: /home/rstole01/Documents/CSE-596/humble_ws/install/lab1_package/share/lab1_package/environment/ament_prefix_path.sh
+-- Up-to-date: /home/rstole01/Documents/CSE-596/humble_ws/install/lab1_package/share/lab1_package/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/rstole01/Documents/CSE-596/humble_ws/install/lab1_package/share/lab1_package/environment/path.sh
+-- Up-to-date: /home/rstole01/Documents/CSE-596/humble_ws/install/lab1_package/share/lab1_package/environment/path.dsv
+-- Up-to-date: /home/rstole01/Documents/CSE-596/humble_ws/install/lab1_package/share/lab1_package/local_setup.bash
+-- Up-to-date: /home/rstole01/Documents/CSE-596/humble_ws/install/lab1_package/share/lab1_package/local_setup.sh
+-- Up-to-date: /home/rstole01/Documents/CSE-596/humble_ws/install/lab1_package/share/lab1_package/local_setup.zsh
+-- Up-to-date: /home/rstole01/Documents/CSE-596/humble_ws/install/lab1_package/share/lab1_package/local_setup.dsv
+-- Installing: /home/rstole01/Documents/CSE-596/humble_ws/install/lab1_package/share/lab1_package/package.dsv
+-- Up-to-date: /home/rstole01/Documents/CSE-596/humble_ws/install/lab1_package/share/ament_index/resource_index/packages/lab1_package
+-- Up-to-date: /home/rstole01/Documents/CSE-596/humble_ws/install/lab1_package/share/lab1_package/cmake/lab1_packageConfig.cmake
+-- Up-to-date: /home/rstole01/Documents/CSE-596/humble_ws/install/lab1_package/share/lab1_package/cmake/lab1_packageConfig-version.cmake
+-- Up-to-date: /home/rstole01/Documents/CSE-596/humble_ws/install/lab1_package/share/lab1_package/package.xml

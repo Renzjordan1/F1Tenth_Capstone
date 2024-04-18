@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/rstole01/Documents/CSE-596/humble_ws/src/lab1_package
+CMAKE_SOURCE_DIR = /home/rstole01/Documents/CapstoneGit/humble_ws/src/lab1_package
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/rstole01/Documents/CSE-596/humble_ws/build/lab1_package
+CMAKE_BINARY_DIR = /home/rstole01/Documents/CapstoneGit/humble_ws/build/lab1_package
 
 # Utility rule file for uninstall.
 
@@ -78,6 +78,6 @@ CMakeFiles/uninstall.dir/clean:
 .PHONY : CMakeFiles/uninstall.dir/clean
 
 CMakeFiles/uninstall.dir/depend:
-	cd /home/rstole01/Documents/CSE-596/humble_ws/build/lab1_package && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/rstole01/Documents/CSE-596/humble_ws/src/lab1_package /home/rstole01/Documents/CSE-596/humble_ws/src/lab1_package /home/rstole01/Documents/CSE-596/humble_ws/build/lab1_package /home/rstole01/Documents/CSE-596/humble_ws/build/lab1_package /home/rstole01/Documents/CSE-596/humble_ws/build/lab1_package/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/rstole01/Documents/CapstoneGit/humble_ws/build/lab1_package && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/rstole01/Documents/CapstoneGit/humble_ws/src/lab1_package /home/rstole01/Documents/CapstoneGit/humble_ws/src/lab1_package /home/rstole01/Documents/CapstoneGit/humble_ws/build/lab1_package /home/rstole01/Documents/CapstoneGit/humble_ws/build/lab1_package /home/rstole01/Documents/CapstoneGit/humble_ws/build/lab1_package/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/uninstall.dir/depend
 

@@ -1,0 +1,1 @@
+[0mCMake Error: The current CMakeCache.txt directory /home/rstole01/Documents/CapstoneGit/humble_ws/build/cpp_pubsub/CMakeCache.txt is different than the directory /home/rstole01/Documents/CSE-596/humble_ws/build/cpp_pubsub where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt[0m

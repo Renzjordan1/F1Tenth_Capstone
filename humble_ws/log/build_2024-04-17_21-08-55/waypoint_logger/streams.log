@@ -1,0 +1,22 @@
+[3.577s] Invoking command in '/home/rstole01/Documents/CapstoneGit/humble_ws/src/waypoint_logger': PYTHONPATH=/home/rstole01/Documents/CapstoneGit/humble_ws/build/waypoint_logger/prefix_override:/home/rstole01/Documents/CapstoneGit/humble_ws/install/waypoint_logger/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/waypoint_logger build --build-base /home/rstole01/Documents/CapstoneGit/humble_ws/build/waypoint_logger/build install --record /home/rstole01/Documents/CapstoneGit/humble_ws/build/waypoint_logger/install.log --single-version-externally-managed install_data
+[4.231s] running egg_info
+[4.233s] writing ../../build/waypoint_logger/waypoint_logger.egg-info/PKG-INFO
+[4.234s] writing dependency_links to ../../build/waypoint_logger/waypoint_logger.egg-info/dependency_links.txt
+[4.234s] writing entry points to ../../build/waypoint_logger/waypoint_logger.egg-info/entry_points.txt
+[4.235s] writing requirements to ../../build/waypoint_logger/waypoint_logger.egg-info/requires.txt
+[4.235s] writing top-level names to ../../build/waypoint_logger/waypoint_logger.egg-info/top_level.txt
+[4.240s] reading manifest file '../../build/waypoint_logger/waypoint_logger.egg-info/SOURCES.txt'
+[4.241s] adding license file 'LICENSE'
+[4.244s] writing manifest file '../../build/waypoint_logger/waypoint_logger.egg-info/SOURCES.txt'
+[4.244s] running build
+[4.244s] running build_py
+[4.245s] running install
+[4.246s] running install_lib
+[4.250s] running install_data
+[4.250s] running install_egg_info
+[4.255s] removing '/home/rstole01/Documents/CapstoneGit/humble_ws/install/waypoint_logger/lib/python3.10/site-packages/waypoint_logger-0.0.0-py3.10.egg-info' (and everything under it)
+[4.256s] Copying ../../build/waypoint_logger/waypoint_logger.egg-info to /home/rstole01/Documents/CapstoneGit/humble_ws/install/waypoint_logger/lib/python3.10/site-packages/waypoint_logger-0.0.0-py3.10.egg-info
+[4.257s] running install_scripts
+[4.315s] Installing waypoint_logger script to /home/rstole01/Documents/CapstoneGit/humble_ws/install/waypoint_logger/lib/waypoint_logger
+[4.316s] writing list of installed files to '/home/rstole01/Documents/CapstoneGit/humble_ws/build/waypoint_logger/install.log'
+[4.380s] Invoked command in '/home/rstole01/Documents/CapstoneGit/humble_ws/src/waypoint_logger' returned '0': PYTHONPATH=/home/rstole01/Documents/CapstoneGit/humble_ws/build/waypoint_logger/prefix_override:/home/rstole01/Documents/CapstoneGit/humble_ws/install/waypoint_logger/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/waypoint_logger build --build-base /home/rstole01/Documents/CapstoneGit/humble_ws/build/waypoint_logger/build install --record /home/rstole01/Documents/CapstoneGit/humble_ws/build/waypoint_logger/install.log --single-version-externally-managed install_data

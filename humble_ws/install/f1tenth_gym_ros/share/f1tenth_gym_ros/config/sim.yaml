@@ -42,8 +42,8 @@ bridge:
     scan_beams: 1080
 
     # map parameters
-    map_path: '/home/rstole01/Documents/CSE-596/humble_ws/src/f1tenth_gym_ros/maps/levine'
-    map_img_ext: '.png'
+    map_path: '/home/rstole01/Documents/CSE-596/humble_ws/src/f1tenth_gym_ros/maps/fixedVESC'
+    map_img_ext: '.pgm'
 
     # opponent parameters
     num_agent: 1

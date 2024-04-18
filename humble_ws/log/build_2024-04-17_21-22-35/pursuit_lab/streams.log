@@ -1,0 +1,90 @@
+[1.013s] Invoking command in '/home/rstole01/Documents/CapstoneGit/humble_ws/build/pursuit_lab': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rstole01/Documents/CapstoneGit/humble_ws/install/waypoint_logger:/home/rstole01/Documents/CapstoneGit/humble_ws/install/f1tenth_gym_ros:/opt/ros/humble /usr/bin/cmake /home/rstole01/Documents/CapstoneGit/humble_ws/src/pursuit_lab -DCMAKE_INSTALL_PREFIX=/home/rstole01/Documents/CapstoneGit/humble_ws/install/pursuit_lab
+[2.156s] -- The C compiler identification is GNU 11.4.0
+[2.156s] -- The CXX compiler identification is GNU 11.4.0
+[2.156s] -- Detecting C compiler ABI info
+[2.157s] -- Detecting C compiler ABI info - done
+[2.157s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.157s] -- Detecting C compile features
+[2.157s] -- Detecting C compile features - done
+[2.158s] -- Detecting CXX compiler ABI info
+[2.158s] -- Detecting CXX compiler ABI info - done
+[2.158s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.158s] -- Detecting CXX compile features
+[2.158s] -- Detecting CXX compile features - done
+[2.159s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.520s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.889s] -- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+[3.097s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[3.123s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[3.161s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[3.239s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.324s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.746s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[3.761s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[3.965s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[4.011s] -- Looking for pthread.h
+[4.374s] -- Looking for pthread.h - found
+[4.378s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[4.639s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[4.643s] -- Found Threads: TRUE  
+[5.387s] -- Found rclpy: 3.3.12 (/opt/ros/humble/share/rclpy/cmake)
+[5.394s] -- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)
+[5.547s] -- Found nav_msgs: 4.2.3 (/opt/ros/humble/share/nav_msgs/cmake)
+[5.857s] -- Found ackermann_msgs: 2.0.2 (/opt/ros/humble/share/ackermann_msgs/cmake)
+[6.001s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+[6.333s] -- Found visualization_msgs: 4.2.3 (/opt/ros/humble/share/visualization_msgs/cmake)
+[6.861s] -- Found tf2_ros: 0.25.6 (/opt/ros/humble/share/tf2_ros/cmake)
+[8.789s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[9.283s] -- Added test 'copyright' to check source files copyright and LICENSE
+[9.293s] -- Added test 'flake8' to check Python code syntax and style conventions
+[9.309s] -- Added test 'lint_cmake' to check CMake code style
+[9.312s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[9.318s] -- Added test 'xmllint' to check XML markup files
+[9.339s] -- Configuring done
+[9.375s] -- Generating done
+[9.382s] -- Build files have been written to: /home/rstole01/Documents/CapstoneGit/humble_ws/build/pursuit_lab
+[9.462s] Invoked command in '/home/rstole01/Documents/CapstoneGit/humble_ws/build/pursuit_lab' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rstole01/Documents/CapstoneGit/humble_ws/install/waypoint_logger:/home/rstole01/Documents/CapstoneGit/humble_ws/install/f1tenth_gym_ros:/opt/ros/humble /usr/bin/cmake /home/rstole01/Documents/CapstoneGit/humble_ws/src/pursuit_lab -DCMAKE_INSTALL_PREFIX=/home/rstole01/Documents/CapstoneGit/humble_ws/install/pursuit_lab
+[9.463s] Invoking command in '/home/rstole01/Documents/CapstoneGit/humble_ws/build/pursuit_lab': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rstole01/Documents/CapstoneGit/humble_ws/install/waypoint_logger:/home/rstole01/Documents/CapstoneGit/humble_ws/install/f1tenth_gym_ros:/opt/ros/humble /usr/bin/cmake --build /home/rstole01/Documents/CapstoneGit/humble_ws/build/pursuit_lab -- -j8 -l8
+[9.955s] Built target ament_cmake_python_copy_pursuit_lab_setup
+[9.969s] Built target ament_cmake_python_copy_pursuit_lab
+[11.762s] running egg_info
+[11.765s] creating pursuit_lab.egg-info
+[11.767s] writing pursuit_lab.egg-info/PKG-INFO
+[11.768s] writing dependency_links to pursuit_lab.egg-info/dependency_links.txt
+[11.769s] writing top-level names to pursuit_lab.egg-info/top_level.txt
+[11.770s] writing manifest file 'pursuit_lab.egg-info/SOURCES.txt'
+[11.783s] reading manifest file 'pursuit_lab.egg-info/SOURCES.txt'
+[11.785s] writing manifest file 'pursuit_lab.egg-info/SOURCES.txt'
+[11.877s] Built target ament_cmake_python_build_pursuit_lab_egg
+[11.913s] Invoked command in '/home/rstole01/Documents/CapstoneGit/humble_ws/build/pursuit_lab' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rstole01/Documents/CapstoneGit/humble_ws/install/waypoint_logger:/home/rstole01/Documents/CapstoneGit/humble_ws/install/f1tenth_gym_ros:/opt/ros/humble /usr/bin/cmake --build /home/rstole01/Documents/CapstoneGit/humble_ws/build/pursuit_lab -- -j8 -l8
+[12.297s] Invoking command in '/home/rstole01/Documents/CapstoneGit/humble_ws/build/pursuit_lab': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rstole01/Documents/CapstoneGit/humble_ws/install/waypoint_logger:/home/rstole01/Documents/CapstoneGit/humble_ws/install/f1tenth_gym_ros:/opt/ros/humble /usr/bin/cmake --install /home/rstole01/Documents/CapstoneGit/humble_ws/build/pursuit_lab
+[12.349s] -- Install configuration: ""
+[12.350s] -- Installing: /home/rstole01/Documents/CapstoneGit/humble_ws/install/pursuit_lab/share/pursuit_lab/environment/pythonpath.sh
+[12.352s] -- Installing: /home/rstole01/Documents/CapstoneGit/humble_ws/install/pursuit_lab/share/pursuit_lab/environment/pythonpath.dsv
+[12.353s] -- Up-to-date: /home/rstole01/Documents/CapstoneGit/humble_ws/install/pursuit_lab/local/lib/python3.10/dist-packages/pursuit_lab-0.0.0-py3.10.egg-info
+[12.353s] -- Installing: /home/rstole01/Documents/CapstoneGit/humble_ws/install/pursuit_lab/local/lib/python3.10/dist-packages/pursuit_lab-0.0.0-py3.10.egg-info/top_level.txt
+[12.355s] -- Installing: /home/rstole01/Documents/CapstoneGit/humble_ws/install/pursuit_lab/local/lib/python3.10/dist-packages/pursuit_lab-0.0.0-py3.10.egg-info/SOURCES.txt
+[12.359s] -- Installing: /home/rstole01/Documents/CapstoneGit/humble_ws/install/pursuit_lab/local/lib/python3.10/dist-packages/pursuit_lab-0.0.0-py3.10.egg-info/PKG-INFO
+[12.369s] -- Installing: /home/rstole01/Documents/CapstoneGit/humble_ws/install/pursuit_lab/local/lib/python3.10/dist-packages/pursuit_lab-0.0.0-py3.10.egg-info/dependency_links.txt
+[12.371s] -- Up-to-date: /home/rstole01/Documents/CapstoneGit/humble_ws/install/pursuit_lab/local/lib/python3.10/dist-packages/pursuit_lab
+[12.372s] -- Up-to-date: /home/rstole01/Documents/CapstoneGit/humble_ws/install/pursuit_lab/local/lib/python3.10/dist-packages/pursuit_lab/__init__.py
+[12.372s] -- Installing: /home/rstole01/Documents/CapstoneGit/humble_ws/install/pursuit_lab/local/lib/python3.10/dist-packages/pursuit_lab/pure_pursuit_node.py
+[12.553s] Listing '/home/rstole01/Documents/CapstoneGit/humble_ws/install/pursuit_lab/local/lib/python3.10/dist-packages/pursuit_lab'...
+[12.554s] Compiling '/home/rstole01/Documents/CapstoneGit/humble_ws/install/pursuit_lab/local/lib/python3.10/dist-packages/pursuit_lab/pure_pursuit_node.py'...
+[12.591s] -- Installing: /home/rstole01/Documents/CapstoneGit/humble_ws/install/pursuit_lab/lib/pursuit_lab/pure_pursuit_node.py
+[12.592s] -- Installing: /home/rstole01/Documents/CapstoneGit/humble_ws/install/pursuit_lab/share/ament_index/resource_index/package_run_dependencies/pursuit_lab
+[12.593s] -- Installing: /home/rstole01/Documents/CapstoneGit/humble_ws/install/pursuit_lab/share/ament_index/resource_index/parent_prefix_path/pursuit_lab
+[12.594s] -- Up-to-date: /home/rstole01/Documents/CapstoneGit/humble_ws/install/pursuit_lab/share/pursuit_lab/environment/ament_prefix_path.sh
+[12.595s] -- Installing: /home/rstole01/Documents/CapstoneGit/humble_ws/install/pursuit_lab/share/pursuit_lab/environment/ament_prefix_path.dsv
+[12.596s] -- Up-to-date: /home/rstole01/Documents/CapstoneGit/humble_ws/install/pursuit_lab/share/pursuit_lab/environment/path.sh
+[12.597s] -- Installing: /home/rstole01/Documents/CapstoneGit/humble_ws/install/pursuit_lab/share/pursuit_lab/environment/path.dsv
+[12.598s] -- Installing: /home/rstole01/Documents/CapstoneGit/humble_ws/install/pursuit_lab/share/pursuit_lab/local_setup.bash
+[12.599s] -- Installing: /home/rstole01/Documents/CapstoneGit/humble_ws/install/pursuit_lab/share/pursuit_lab/local_setup.sh
+[12.600s] -- Installing: /home/rstole01/Documents/CapstoneGit/humble_ws/install/pursuit_lab/share/pursuit_lab/local_setup.zsh
+[12.601s] -- Installing: /home/rstole01/Documents/CapstoneGit/humble_ws/install/pursuit_lab/share/pursuit_lab/local_setup.dsv
+[12.602s] -- Installing: /home/rstole01/Documents/CapstoneGit/humble_ws/install/pursuit_lab/share/pursuit_lab/package.dsv
+[12.603s] -- Installing: /home/rstole01/Documents/CapstoneGit/humble_ws/install/pursuit_lab/share/ament_index/resource_index/packages/pursuit_lab
+[12.604s] -- Installing: /home/rstole01/Documents/CapstoneGit/humble_ws/install/pursuit_lab/share/pursuit_lab/cmake/pursuit_labConfig.cmake
+[12.605s] -- Installing: /home/rstole01/Documents/CapstoneGit/humble_ws/install/pursuit_lab/share/pursuit_lab/cmake/pursuit_labConfig-version.cmake
+[12.606s] -- Up-to-date: /home/rstole01/Documents/CapstoneGit/humble_ws/install/pursuit_lab/share/pursuit_lab/package.xml
+[12.618s] Invoked command in '/home/rstole01/Documents/CapstoneGit/humble_ws/build/pursuit_lab' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rstole01/Documents/CapstoneGit/humble_ws/install/waypoint_logger:/home/rstole01/Documents/CapstoneGit/humble_ws/install/f1tenth_gym_ros:/opt/ros/humble /usr/bin/cmake --install /home/rstole01/Documents/CapstoneGit/humble_ws/build/pursuit_lab

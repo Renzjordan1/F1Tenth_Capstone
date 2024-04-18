@@ -1,0 +1,59 @@
+[0.000000] (-) TimerEvent: {}
+[0.000325] (-) JobUnselected: {'identifier': 'aeb_lab'}
+[0.000388] (-) JobUnselected: {'identifier': 'cpp_pubsub'}
+[0.000551] (-) JobUnselected: {'identifier': 'lab1_package'}
+[0.000611] (-) JobUnselected: {'identifier': 'pid_lab'}
+[0.000652] (-) JobUnselected: {'identifier': 'pure-pursuit_lab'}
+[0.000748] (-) JobUnselected: {'identifier': 'pursuit_lab'}
+[0.000822] (-) JobUnselected: {'identifier': 'scan_pubsub'}
+[0.000918] (-) JobUnselected: {'identifier': 'tutorial_interfaces'}
+[0.001126] (-) JobUnselected: {'identifier': 'waypoint_logger'}
+[0.001205] (f1tenth_gym_ros) JobQueued: {'identifier': 'f1tenth_gym_ros', 'dependencies': OrderedDict()}
+[0.001250] (f1tenth_gym_ros) JobStarted: {'identifier': 'f1tenth_gym_ros'}
+[0.098596] (-) TimerEvent: {}
+[0.198962] (-) TimerEvent: {}
+[0.299343] (-) TimerEvent: {}
+[0.399699] (-) TimerEvent: {}
+[0.500067] (-) TimerEvent: {}
+[0.600414] (-) TimerEvent: {}
+[0.700762] (-) TimerEvent: {}
+[0.801133] (-) TimerEvent: {}
+[0.901484] (-) TimerEvent: {}
+[1.001837] (-) TimerEvent: {}
+[1.102196] (-) TimerEvent: {}
+[1.202541] (-) TimerEvent: {}
+[1.302904] (-) TimerEvent: {}
+[1.403268] (-) TimerEvent: {}
+[1.499021] (f1tenth_gym_ros) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/f1tenth_gym_ros', 'build', '--build-base', '/home/rstole01/Documents/CSE-596/humble_ws/build/f1tenth_gym_ros/build', 'install', '--record', '/home/rstole01/Documents/CSE-596/humble_ws/build/f1tenth_gym_ros/install.log', '--install-scripts', '$base/lib/f1tenth_gym_ros', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/rstole01/Documents/CSE-596/humble_ws/src/f1tenth_gym_ros', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'rstole01', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/rstole01/Documents/CSE-596/humble_ws/install/tutorial_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/rstole01', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'DBUS_STARTER_BUS_TYPE': 'session', 'SYSTEMD_EXEC_PID': '1837', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=98daba3b43c0d70a23d61944660a0358', 'COLORTERM': 'truecolor', 'LIBVIRT_DEFAULT_URI': 'qemu:///system', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/rstole01/Documents/CSE-596/humble_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'rstole01', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'rstole01', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/rstole01/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/rstole01-Lenovo-ideapad-FLEX-5-1570:@/tmp/.ICE-unix/1837,unix/rstole01-Lenovo-ideapad-FLEX-5-1570:/tmp/.ICE-unix/1837', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/8df625b0_83f5_4140_bf37_fad6d840db51', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'RMW_IMPLEMENTATION': 'rmw_cyclonedds_cpp', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.3TPML2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.392', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/rstole01/Documents/CSE-596/humble_ws/install/waypoint_logger:/home/rstole01/Documents/CSE-596/humble_ws/install/scan_pubsub:/home/rstole01/Documents/CSE-596/humble_ws/install/cpp_pubsub:/home/rstole01/Documents/CSE-596/humble_ws/install/tutorial_interfaces:/home/rstole01/Documents/CSE-596/humble_ws/install/pursuit_lab:/home/rstole01/Documents/CSE-596/humble_ws/install/pure-pursuit_lab:/home/rstole01/Documents/CSE-596/humble_ws/install/pid_lab:/home/rstole01/Documents/CSE-596/humble_ws/install/lab1_package:/home/rstole01/Documents/CSE-596/humble_ws/install/f1tenth_gym_ros:/home/rstole01/Documents/CSE-596/humble_ws/install/aeb_lab:/opt/ros/humble', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/rstole01/Documents/CSE-596/humble_ws/build/f1tenth_gym_ros', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=98daba3b43c0d70a23d61944660a0358', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/rstole01/Documents/CSE-596/humble_ws/build/f1tenth_gym_ros/prefix_override:/home/rstole01/Documents/CSE-596/humble_ws/install/f1tenth_gym_ros/lib/python3.10/site-packages:/home/rstole01/Documents/CSE-596/humble_ws/install/waypoint_logger/lib/python3.10/site-packages:/home/rstole01/Documents/CSE-596/humble_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages:/home/rstole01/Documents/CSE-596/humble_ws/install/pursuit_lab/local/lib/python3.10/dist-packages:/home/rstole01/Documents/CSE-596/humble_ws/install/f1tenth_gym_ros/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/rstole01/Documents/CSE-596/humble_ws/install/scan_pubsub:/home/rstole01/Documents/CSE-596/humble_ws/install/cpp_pubsub:/home/rstole01/Documents/CSE-596/humble_ws/install/tutorial_interfaces:/home/rstole01/Documents/CSE-596/humble_ws/install/pursuit_lab:/home/rstole01/Documents/CSE-596/humble_ws/install/pure-pursuit_lab:/home/rstole01/Documents/CSE-596/humble_ws/install/pid_lab:/home/rstole01/Documents/CSE-596/humble_ws/install/lab1_package:/home/rstole01/Documents/CSE-596/humble_ws/install/aeb_lab'}, 'shell': False}
+[1.503457] (-) TimerEvent: {}
+[1.604103] (-) TimerEvent: {}
+[1.704466] (-) TimerEvent: {}
+[1.804827] (-) TimerEvent: {}
+[1.905183] (-) TimerEvent: {}
+[1.997358] (f1tenth_gym_ros) StderrLine: {'line': b"/usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead\n"}
+[1.997657] (f1tenth_gym_ros) StderrLine: {'line': b'  warnings.warn(\n'}
+[2.005302] (-) TimerEvent: {}
+[2.014527] (f1tenth_gym_ros) StdoutLine: {'line': b'running egg_info\n'}
+[2.015785] (f1tenth_gym_ros) StdoutLine: {'line': b'writing ../../build/f1tenth_gym_ros/f1tenth_gym_ros.egg-info/PKG-INFO\n'}
+[2.016108] (f1tenth_gym_ros) StdoutLine: {'line': b'writing dependency_links to ../../build/f1tenth_gym_ros/f1tenth_gym_ros.egg-info/dependency_links.txt\n'}
+[2.016415] (f1tenth_gym_ros) StdoutLine: {'line': b'writing entry points to ../../build/f1tenth_gym_ros/f1tenth_gym_ros.egg-info/entry_points.txt\n'}
+[2.016752] (f1tenth_gym_ros) StdoutLine: {'line': b'writing requirements to ../../build/f1tenth_gym_ros/f1tenth_gym_ros.egg-info/requires.txt\n'}
+[2.017057] (f1tenth_gym_ros) StdoutLine: {'line': b'writing top-level names to ../../build/f1tenth_gym_ros/f1tenth_gym_ros.egg-info/top_level.txt\n'}
+[2.019665] (f1tenth_gym_ros) StdoutLine: {'line': b"reading manifest file '../../build/f1tenth_gym_ros/f1tenth_gym_ros.egg-info/SOURCES.txt'\n"}
+[2.041865] (f1tenth_gym_ros) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[2.043353] (f1tenth_gym_ros) StdoutLine: {'line': b"writing manifest file '../../build/f1tenth_gym_ros/f1tenth_gym_ros.egg-info/SOURCES.txt'\n"}
+[2.043715] (f1tenth_gym_ros) StdoutLine: {'line': b'running build\n'}
+[2.043914] (f1tenth_gym_ros) StdoutLine: {'line': b'running build_py\n'}
+[2.044206] (f1tenth_gym_ros) StdoutLine: {'line': b'running install\n'}
+[2.044752] (f1tenth_gym_ros) StdoutLine: {'line': b'running install_lib\n'}
+[2.046931] (f1tenth_gym_ros) StdoutLine: {'line': b'running install_data\n'}
+[2.047492] (f1tenth_gym_ros) StdoutLine: {'line': b'running install_egg_info\n'}
+[2.050722] (f1tenth_gym_ros) StdoutLine: {'line': b"removing '/home/rstole01/Documents/CSE-596/humble_ws/install/f1tenth_gym_ros/lib/python3.10/site-packages/f1tenth_gym_ros-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[2.051288] (f1tenth_gym_ros) StdoutLine: {'line': b'Copying ../../build/f1tenth_gym_ros/f1tenth_gym_ros.egg-info to /home/rstole01/Documents/CSE-596/humble_ws/install/f1tenth_gym_ros/lib/python3.10/site-packages/f1tenth_gym_ros-0.0.0-py3.10.egg-info\n'}
+[2.052960] (f1tenth_gym_ros) StdoutLine: {'line': b'running install_scripts\n'}
+[2.090741] (f1tenth_gym_ros) StdoutLine: {'line': b'Installing gym_bridge script to /home/rstole01/Documents/CSE-596/humble_ws/install/f1tenth_gym_ros/lib/f1tenth_gym_ros\n'}
+[2.091330] (f1tenth_gym_ros) StdoutLine: {'line': b"writing list of installed files to '/home/rstole01/Documents/CSE-596/humble_ws/build/f1tenth_gym_ros/install.log'\n"}
+[2.105462] (-) TimerEvent: {}
+[2.129149] (f1tenth_gym_ros) CommandEnded: {'returncode': 0}
+[2.148966] (f1tenth_gym_ros) JobEnded: {'identifier': 'f1tenth_gym_ros', 'rc': 0}
+[2.150456] (-) EventReactorShutdown: {}

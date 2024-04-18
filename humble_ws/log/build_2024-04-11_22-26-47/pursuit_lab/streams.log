@@ -1,0 +1,7 @@
+[0.041s] Invoking command in '/home/rstole01/Documents/CSE-596/humble_ws/build/pursuit_lab': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rstole01/Documents/CSE-596/humble_ws/install/waypoint_logger:/home/rstole01/Documents/CSE-596/humble_ws/install/f1tenth_gym_ros:/opt/ros/humble /usr/bin/cmake --build /home/rstole01/Documents/CSE-596/humble_ws/build/pursuit_lab -- -j8 -l8
+[0.177s] Built target ament_cmake_python_copy_pursuit_lab_setup
+[0.179s] Built target ament_cmake_python_copy_pursuit_lab
+[0.224s] gmake[2]: *** [CMakeFiles/ament_cmake_python_build_pursuit_lab_egg.dir/build.make:70: CMakeFiles/ament_cmake_python_build_pursuit_lab_egg] Interrupt
+[0.224s] gmake[1]: *** [CMakeFiles/Makefile2:192: CMakeFiles/ament_cmake_python_build_pursuit_lab_egg.dir/all] Interrupt
+[0.225s] gmake: *** [Makefile:146: all] Interrupt
+[0.229s] Invoked command in '/home/rstole01/Documents/CSE-596/humble_ws/build/pursuit_lab' returned '-2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rstole01/Documents/CSE-596/humble_ws/install/waypoint_logger:/home/rstole01/Documents/CSE-596/humble_ws/install/f1tenth_gym_ros:/opt/ros/humble /usr/bin/cmake --build /home/rstole01/Documents/CSE-596/humble_ws/build/pursuit_lab -- -j8 -l8

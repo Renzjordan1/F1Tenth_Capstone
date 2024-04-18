@@ -1,0 +1,16 @@
+[0.000000] (-) TimerEvent: {}
+[0.000213] (-) JobUnselected: {'identifier': 'aeb_lab'}
+[0.000409] (-) JobUnselected: {'identifier': 'cpp_pubsub'}
+[0.000604] (-) JobUnselected: {'identifier': 'lab1_package'}
+[0.000698] (-) JobUnselected: {'identifier': 'pid_lab'}
+[0.000790] (-) JobUnselected: {'identifier': 'pure-pursuit_lab'}
+[0.000951] (-) JobUnselected: {'identifier': 'pursuit_lab'}
+[0.000992] (-) JobUnselected: {'identifier': 'scan_pubsub'}
+[0.001045] (-) JobUnselected: {'identifier': 'tutorial_interfaces'}
+[0.001102] (-) JobUnselected: {'identifier': 'waypoint_logger'}
+[0.001146] (f1tenth_gym_ros) JobQueued: {'identifier': 'f1tenth_gym_ros', 'dependencies': OrderedDict()}
+[0.001281] (f1tenth_gym_ros) JobStarted: {'identifier': 'f1tenth_gym_ros'}
+[0.098626] (-) TimerEvent: {}
+[0.198996] (-) TimerEvent: {}
+[0.227860] (f1tenth_gym_ros) JobEnded: {'identifier': 'f1tenth_gym_ros', 'rc': 0}
+[0.238750] (-) EventReactorShutdown: {}

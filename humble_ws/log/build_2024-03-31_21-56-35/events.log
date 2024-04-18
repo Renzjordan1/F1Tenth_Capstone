@@ -1,0 +1,812 @@
+[0.000000] (-) TimerEvent: {}
+[0.000885] (aeb_lab) JobQueued: {'identifier': 'aeb_lab', 'dependencies': OrderedDict()}
+[0.001355] (f1tenth_gym_ros) JobQueued: {'identifier': 'f1tenth_gym_ros', 'dependencies': OrderedDict()}
+[0.001841] (lab1_package) JobQueued: {'identifier': 'lab1_package', 'dependencies': OrderedDict()}
+[0.001998] (pid_lab) JobQueued: {'identifier': 'pid_lab', 'dependencies': OrderedDict()}
+[0.002149] (pure-pursuit_lab) JobQueued: {'identifier': 'pure-pursuit_lab', 'dependencies': OrderedDict()}
+[0.002282] (pursuit_lab) JobQueued: {'identifier': 'pursuit_lab', 'dependencies': OrderedDict()}
+[0.002409] (tutorial_interfaces) JobQueued: {'identifier': 'tutorial_interfaces', 'dependencies': OrderedDict()}
+[0.002536] (waypoint_logger) JobQueued: {'identifier': 'waypoint_logger', 'dependencies': OrderedDict()}
+[0.002668] (cpp_pubsub) JobQueued: {'identifier': 'cpp_pubsub', 'dependencies': OrderedDict([('tutorial_interfaces', '/home/rstole01/Documents/CSE-596/humble_ws/install/tutorial_interfaces')])}
+[0.002890] (scan_pubsub) JobQueued: {'identifier': 'scan_pubsub', 'dependencies': OrderedDict([('tutorial_interfaces', '/home/rstole01/Documents/CSE-596/humble_ws/install/tutorial_interfaces')])}
+[0.003066] (tutorial_interfaces) JobStarted: {'identifier': 'tutorial_interfaces'}
+[0.017671] (aeb_lab) JobStarted: {'identifier': 'aeb_lab'}
+[0.027274] (f1tenth_gym_ros) JobStarted: {'identifier': 'f1tenth_gym_ros'}
+[0.043684] (lab1_package) JobStarted: {'identifier': 'lab1_package'}
+[0.054812] (pid_lab) JobStarted: {'identifier': 'pid_lab'}
+[0.065981] (pure-pursuit_lab) JobStarted: {'identifier': 'pure-pursuit_lab'}
+[0.079358] (pursuit_lab) JobStarted: {'identifier': 'pursuit_lab'}
+[0.088585] (waypoint_logger) JobStarted: {'identifier': 'waypoint_logger'}
+[0.099188] (-) TimerEvent: {}
+[0.109724] (tutorial_interfaces) JobProgress: {'identifier': 'tutorial_interfaces', 'progress': 'cmake'}
+[0.110976] (tutorial_interfaces) JobProgress: {'identifier': 'tutorial_interfaces', 'progress': 'build'}
+[0.112290] (tutorial_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/rstole01/Documents/CSE-596/humble_ws/build/tutorial_interfaces', '--', '-j8', '-l8'], 'cwd': '/home/rstole01/Documents/CSE-596/humble_ws/build/tutorial_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'rstole01'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/rstole01/Documents/CSE-596/humble_ws/install/tutorial_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/rstole01'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '12626'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('LIBVIRT_DEFAULT_URI', 'qemu:///system'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/rstole01/Documents/CSE-596/humble_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'rstole01'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'rstole01'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/rstole01/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/rstole01-Lenovo-ideapad-FLEX-5-1570:@/tmp/.ICE-unix/1837,unix/rstole01-Lenovo-ideapad-FLEX-5-1570:/tmp/.ICE-unix/1837'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/50e5d399_9cb3_43de_af97_88540a27a729'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.3TPML2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.392'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/rstole01/Documents/CSE-596/humble_ws/install/waypoint_logger:/home/rstole01/Documents/CSE-596/humble_ws/install/scan_pubsub:/home/rstole01/Documents/CSE-596/humble_ws/install/cpp_pubsub:/home/rstole01/Documents/CSE-596/humble_ws/install/tutorial_interfaces:/home/rstole01/Documents/CSE-596/humble_ws/install/pursuit_lab:/home/rstole01/Documents/CSE-596/humble_ws/install/pure-pursuit_lab:/home/rstole01/Documents/CSE-596/humble_ws/install/pid_lab:/home/rstole01/Documents/CSE-596/humble_ws/install/lab1_package:/home/rstole01/Documents/CSE-596/humble_ws/install/f1tenth_gym_ros:/home/rstole01/Documents/CSE-596/humble_ws/install/aeb_lab:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/rstole01/Documents/CSE-596/humble_ws/build/tutorial_interfaces'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/rstole01/Documents/CSE-596/humble_ws/install/waypoint_logger/lib/python3.10/site-packages:/home/rstole01/Documents/CSE-596/humble_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages:/home/rstole01/Documents/CSE-596/humble_ws/install/pursuit_lab/local/lib/python3.10/dist-packages:/home/rstole01/Documents/CSE-596/humble_ws/install/f1tenth_gym_ros/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/rstole01/Documents/CSE-596/humble_ws/install/scan_pubsub:/home/rstole01/Documents/CSE-596/humble_ws/install/cpp_pubsub:/home/rstole01/Documents/CSE-596/humble_ws/install/tutorial_interfaces:/home/rstole01/Documents/CSE-596/humble_ws/install/pursuit_lab:/home/rstole01/Documents/CSE-596/humble_ws/install/pure-pursuit_lab:/home/rstole01/Documents/CSE-596/humble_ws/install/pid_lab:/home/rstole01/Documents/CSE-596/humble_ws/install/lab1_package:/home/rstole01/Documents/CSE-596/humble_ws/install/aeb_lab:/home/rstole01/Documents/CSE-596/humble_ws/install/waypoint_logger:/home/rstole01/Documents/CSE-596/humble_ws/install/f1tenth_gym_ros:/opt/ros/humble')]), 'shell': False}
+[0.118585] (aeb_lab) JobProgress: {'identifier': 'aeb_lab', 'progress': 'cmake'}
+[0.120607] (aeb_lab) JobProgress: {'identifier': 'aeb_lab', 'progress': 'build'}
+[0.121469] (aeb_lab) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/rstole01/Documents/CSE-596/humble_ws/build/aeb_lab', '--', '-j8', '-l8'], 'cwd': '/home/rstole01/Documents/CSE-596/humble_ws/build/aeb_lab', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'rstole01'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/rstole01/Documents/CSE-596/humble_ws/install/tutorial_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/rstole01'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '12626'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('LIBVIRT_DEFAULT_URI', 'qemu:///system'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/rstole01/Documents/CSE-596/humble_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'rstole01'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'rstole01'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/rstole01/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/rstole01-Lenovo-ideapad-FLEX-5-1570:@/tmp/.ICE-unix/1837,unix/rstole01-Lenovo-ideapad-FLEX-5-1570:/tmp/.ICE-unix/1837'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/50e5d399_9cb3_43de_af97_88540a27a729'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.3TPML2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.392'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/rstole01/Documents/CSE-596/humble_ws/install/waypoint_logger:/home/rstole01/Documents/CSE-596/humble_ws/install/scan_pubsub:/home/rstole01/Documents/CSE-596/humble_ws/install/cpp_pubsub:/home/rstole01/Documents/CSE-596/humble_ws/install/tutorial_interfaces:/home/rstole01/Documents/CSE-596/humble_ws/install/pursuit_lab:/home/rstole01/Documents/CSE-596/humble_ws/install/pure-pursuit_lab:/home/rstole01/Documents/CSE-596/humble_ws/install/pid_lab:/home/rstole01/Documents/CSE-596/humble_ws/install/lab1_package:/home/rstole01/Documents/CSE-596/humble_ws/install/f1tenth_gym_ros:/home/rstole01/Documents/CSE-596/humble_ws/install/aeb_lab:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/rstole01/Documents/CSE-596/humble_ws/build/aeb_lab'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/rstole01/Documents/CSE-596/humble_ws/install/waypoint_logger/lib/python3.10/site-packages:/home/rstole01/Documents/CSE-596/humble_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages:/home/rstole01/Documents/CSE-596/humble_ws/install/pursuit_lab/local/lib/python3.10/dist-packages:/home/rstole01/Documents/CSE-596/humble_ws/install/f1tenth_gym_ros/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/rstole01/Documents/CSE-596/humble_ws/install/scan_pubsub:/home/rstole01/Documents/CSE-596/humble_ws/install/cpp_pubsub:/home/rstole01/Documents/CSE-596/humble_ws/install/tutorial_interfaces:/home/rstole01/Documents/CSE-596/humble_ws/install/pursuit_lab:/home/rstole01/Documents/CSE-596/humble_ws/install/pure-pursuit_lab:/home/rstole01/Documents/CSE-596/humble_ws/install/pid_lab:/home/rstole01/Documents/CSE-596/humble_ws/install/lab1_package:/home/rstole01/Documents/CSE-596/humble_ws/install/aeb_lab:/home/rstole01/Documents/CSE-596/humble_ws/install/waypoint_logger:/home/rstole01/Documents/CSE-596/humble_ws/install/f1tenth_gym_ros:/opt/ros/humble')]), 'shell': False}
+[0.199319] (-) TimerEvent: {}
+[0.299865] (-) TimerEvent: {}
+[0.400445] (-) TimerEvent: {}
+[0.500901] (-) TimerEvent: {}
+[0.601385] (-) TimerEvent: {}
+[0.701913] (-) TimerEvent: {}
+[0.802469] (-) TimerEvent: {}
+[0.903008] (-) TimerEvent: {}
+[0.963524] (lab1_package) JobProgress: {'identifier': 'lab1_package', 'progress': 'cmake'}
+[0.965142] (lab1_package) JobProgress: {'identifier': 'lab1_package', 'progress': 'build'}
+[0.967059] (lab1_package) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/rstole01/Documents/CSE-596/humble_ws/build/lab1_package', '--', '-j8', '-l8'], 'cwd': '/home/rstole01/Documents/CSE-596/humble_ws/build/lab1_package', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'rstole01'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/rstole01/Documents/CSE-596/humble_ws/install/tutorial_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/rstole01'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '12626'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('LIBVIRT_DEFAULT_URI', 'qemu:///system'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/rstole01/Documents/CSE-596/humble_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'rstole01'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'rstole01'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/rstole01/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/rstole01-Lenovo-ideapad-FLEX-5-1570:@/tmp/.ICE-unix/1837,unix/rstole01-Lenovo-ideapad-FLEX-5-1570:/tmp/.ICE-unix/1837'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/50e5d399_9cb3_43de_af97_88540a27a729'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.3TPML2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.392'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/rstole01/Documents/CSE-596/humble_ws/install/waypoint_logger:/home/rstole01/Documents/CSE-596/humble_ws/install/scan_pubsub:/home/rstole01/Documents/CSE-596/humble_ws/install/cpp_pubsub:/home/rstole01/Documents/CSE-596/humble_ws/install/tutorial_interfaces:/home/rstole01/Documents/CSE-596/humble_ws/install/pursuit_lab:/home/rstole01/Documents/CSE-596/humble_ws/install/pure-pursuit_lab:/home/rstole01/Documents/CSE-596/humble_ws/install/pid_lab:/home/rstole01/Documents/CSE-596/humble_ws/install/lab1_package:/home/rstole01/Documents/CSE-596/humble_ws/install/f1tenth_gym_ros:/home/rstole01/Documents/CSE-596/humble_ws/install/aeb_lab:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/rstole01/Documents/CSE-596/humble_ws/build/lab1_package'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/rstole01/Documents/CSE-596/humble_ws/install/waypoint_logger/lib/python3.10/site-packages:/home/rstole01/Documents/CSE-596/humble_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages:/home/rstole01/Documents/CSE-596/humble_ws/install/pursuit_lab/local/lib/python3.10/dist-packages:/home/rstole01/Documents/CSE-596/humble_ws/install/f1tenth_gym_ros/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/rstole01/Documents/CSE-596/humble_ws/install/scan_pubsub:/home/rstole01/Documents/CSE-596/humble_ws/install/cpp_pubsub:/home/rstole01/Documents/CSE-596/humble_ws/install/tutorial_interfaces:/home/rstole01/Documents/CSE-596/humble_ws/install/pursuit_lab:/home/rstole01/Documents/CSE-596/humble_ws/install/pure-pursuit_lab:/home/rstole01/Documents/CSE-596/humble_ws/install/pid_lab:/home/rstole01/Documents/CSE-596/humble_ws/install/lab1_package:/home/rstole01/Documents/CSE-596/humble_ws/install/aeb_lab:/home/rstole01/Documents/CSE-596/humble_ws/install/waypoint_logger:/home/rstole01/Documents/CSE-596/humble_ws/install/f1tenth_gym_ros:/opt/ros/humble')]), 'shell': False}
+[0.971394] (pid_lab) JobProgress: {'identifier': 'pid_lab', 'progress': 'cmake'}
+[0.972422] (pid_lab) JobProgress: {'identifier': 'pid_lab', 'progress': 'build'}
+[0.974310] (pid_lab) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/rstole01/Documents/CSE-596/humble_ws/build/pid_lab', '--', '-j8', '-l8'], 'cwd': '/home/rstole01/Documents/CSE-596/humble_ws/build/pid_lab', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'rstole01'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/rstole01/Documents/CSE-596/humble_ws/install/tutorial_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/rstole01'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '12626'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('LIBVIRT_DEFAULT_URI', 'qemu:///system'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/rstole01/Documents/CSE-596/humble_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'rstole01'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'rstole01'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/rstole01/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/rstole01-Lenovo-ideapad-FLEX-5-1570:@/tmp/.ICE-unix/1837,unix/rstole01-Lenovo-ideapad-FLEX-5-1570:/tmp/.ICE-unix/1837'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/50e5d399_9cb3_43de_af97_88540a27a729'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.3TPML2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.392'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/rstole01/Documents/CSE-596/humble_ws/install/waypoint_logger:/home/rstole01/Documents/CSE-596/humble_ws/install/scan_pubsub:/home/rstole01/Documents/CSE-596/humble_ws/install/cpp_pubsub:/home/rstole01/Documents/CSE-596/humble_ws/install/tutorial_interfaces:/home/rstole01/Documents/CSE-596/humble_ws/install/pursuit_lab:/home/rstole01/Documents/CSE-596/humble_ws/install/pure-pursuit_lab:/home/rstole01/Documents/CSE-596/humble_ws/install/pid_lab:/home/rstole01/Documents/CSE-596/humble_ws/install/lab1_package:/home/rstole01/Documents/CSE-596/humble_ws/install/f1tenth_gym_ros:/home/rstole01/Documents/CSE-596/humble_ws/install/aeb_lab:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/rstole01/Documents/CSE-596/humble_ws/build/pid_lab'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/rstole01/Documents/CSE-596/humble_ws/install/waypoint_logger/lib/python3.10/site-packages:/home/rstole01/Documents/CSE-596/humble_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages:/home/rstole01/Documents/CSE-596/humble_ws/install/pursuit_lab/local/lib/python3.10/dist-packages:/home/rstole01/Documents/CSE-596/humble_ws/install/f1tenth_gym_ros/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/rstole01/Documents/CSE-596/humble_ws/install/scan_pubsub:/home/rstole01/Documents/CSE-596/humble_ws/install/cpp_pubsub:/home/rstole01/Documents/CSE-596/humble_ws/install/tutorial_interfaces:/home/rstole01/Documents/CSE-596/humble_ws/install/pursuit_lab:/home/rstole01/Documents/CSE-596/humble_ws/install/pure-pursuit_lab:/home/rstole01/Documents/CSE-596/humble_ws/install/pid_lab:/home/rstole01/Documents/CSE-596/humble_ws/install/lab1_package:/home/rstole01/Documents/CSE-596/humble_ws/install/aeb_lab:/home/rstole01/Documents/CSE-596/humble_ws/install/waypoint_logger:/home/rstole01/Documents/CSE-596/humble_ws/install/f1tenth_gym_ros:/opt/ros/humble')]), 'shell': False}
+[0.979616] (pure-pursuit_lab) JobProgress: {'identifier': 'pure-pursuit_lab', 'progress': 'cmake'}
+[0.983041] (pure-pursuit_lab) JobProgress: {'identifier': 'pure-pursuit_lab', 'progress': 'build'}
+[0.983409] (pure-pursuit_lab) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/rstole01/Documents/CSE-596/humble_ws/build/pure-pursuit_lab', '--', '-j8', '-l8'], 'cwd': '/home/rstole01/Documents/CSE-596/humble_ws/build/pure-pursuit_lab', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'rstole01'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/rstole01/Documents/CSE-596/humble_ws/install/tutorial_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/rstole01'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '12626'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('LIBVIRT_DEFAULT_URI', 'qemu:///system'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/rstole01/Documents/CSE-596/humble_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'rstole01'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'rstole01'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/rstole01/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/rstole01-Lenovo-ideapad-FLEX-5-1570:@/tmp/.ICE-unix/1837,unix/rstole01-Lenovo-ideapad-FLEX-5-1570:/tmp/.ICE-unix/1837'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/50e5d399_9cb3_43de_af97_88540a27a729'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.3TPML2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.392'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/rstole01/Documents/CSE-596/humble_ws/install/waypoint_logger:/home/rstole01/Documents/CSE-596/humble_ws/install/scan_pubsub:/home/rstole01/Documents/CSE-596/humble_ws/install/cpp_pubsub:/home/rstole01/Documents/CSE-596/humble_ws/install/tutorial_interfaces:/home/rstole01/Documents/CSE-596/humble_ws/install/pursuit_lab:/home/rstole01/Documents/CSE-596/humble_ws/install/pure-pursuit_lab:/home/rstole01/Documents/CSE-596/humble_ws/install/pid_lab:/home/rstole01/Documents/CSE-596/humble_ws/install/lab1_package:/home/rstole01/Documents/CSE-596/humble_ws/install/f1tenth_gym_ros:/home/rstole01/Documents/CSE-596/humble_ws/install/aeb_lab:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/rstole01/Documents/CSE-596/humble_ws/build/pure-pursuit_lab'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/rstole01/Documents/CSE-596/humble_ws/install/waypoint_logger/lib/python3.10/site-packages:/home/rstole01/Documents/CSE-596/humble_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages:/home/rstole01/Documents/CSE-596/humble_ws/install/pursuit_lab/local/lib/python3.10/dist-packages:/home/rstole01/Documents/CSE-596/humble_ws/install/f1tenth_gym_ros/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/rstole01/Documents/CSE-596/humble_ws/install/scan_pubsub:/home/rstole01/Documents/CSE-596/humble_ws/install/cpp_pubsub:/home/rstole01/Documents/CSE-596/humble_ws/install/tutorial_interfaces:/home/rstole01/Documents/CSE-596/humble_ws/install/pursuit_lab:/home/rstole01/Documents/CSE-596/humble_ws/install/pure-pursuit_lab:/home/rstole01/Documents/CSE-596/humble_ws/install/pid_lab:/home/rstole01/Documents/CSE-596/humble_ws/install/lab1_package:/home/rstole01/Documents/CSE-596/humble_ws/install/aeb_lab:/home/rstole01/Documents/CSE-596/humble_ws/install/waypoint_logger:/home/rstole01/Documents/CSE-596/humble_ws/install/f1tenth_gym_ros:/opt/ros/humble')]), 'shell': False}
+[0.987475] (pursuit_lab) JobProgress: {'identifier': 'pursuit_lab', 'progress': 'cmake'}
+[0.989243] (pursuit_lab) JobProgress: {'identifier': 'pursuit_lab', 'progress': 'build'}
+[0.990161] (pursuit_lab) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/rstole01/Documents/CSE-596/humble_ws/build/pursuit_lab', '--', '-j8', '-l8'], 'cwd': '/home/rstole01/Documents/CSE-596/humble_ws/build/pursuit_lab', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'rstole01'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/rstole01/Documents/CSE-596/humble_ws/install/tutorial_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/rstole01'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '12626'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('LIBVIRT_DEFAULT_URI', 'qemu:///system'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/rstole01/Documents/CSE-596/humble_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'rstole01'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'rstole01'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/rstole01/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/rstole01-Lenovo-ideapad-FLEX-5-1570:@/tmp/.ICE-unix/1837,unix/rstole01-Lenovo-ideapad-FLEX-5-1570:/tmp/.ICE-unix/1837'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/50e5d399_9cb3_43de_af97_88540a27a729'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.3TPML2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.392'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/rstole01/Documents/CSE-596/humble_ws/install/waypoint_logger:/home/rstole01/Documents/CSE-596/humble_ws/install/scan_pubsub:/home/rstole01/Documents/CSE-596/humble_ws/install/cpp_pubsub:/home/rstole01/Documents/CSE-596/humble_ws/install/tutorial_interfaces:/home/rstole01/Documents/CSE-596/humble_ws/install/pursuit_lab:/home/rstole01/Documents/CSE-596/humble_ws/install/pure-pursuit_lab:/home/rstole01/Documents/CSE-596/humble_ws/install/pid_lab:/home/rstole01/Documents/CSE-596/humble_ws/install/lab1_package:/home/rstole01/Documents/CSE-596/humble_ws/install/f1tenth_gym_ros:/home/rstole01/Documents/CSE-596/humble_ws/install/aeb_lab:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/rstole01/Documents/CSE-596/humble_ws/build/pursuit_lab'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/rstole01/Documents/CSE-596/humble_ws/install/waypoint_logger/lib/python3.10/site-packages:/home/rstole01/Documents/CSE-596/humble_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages:/home/rstole01/Documents/CSE-596/humble_ws/install/pursuit_lab/local/lib/python3.10/dist-packages:/home/rstole01/Documents/CSE-596/humble_ws/install/f1tenth_gym_ros/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/rstole01/Documents/CSE-596/humble_ws/install/scan_pubsub:/home/rstole01/Documents/CSE-596/humble_ws/install/cpp_pubsub:/home/rstole01/Documents/CSE-596/humble_ws/install/tutorial_interfaces:/home/rstole01/Documents/CSE-596/humble_ws/install/pursuit_lab:/home/rstole01/Documents/CSE-596/humble_ws/install/pure-pursuit_lab:/home/rstole01/Documents/CSE-596/humble_ws/install/pid_lab:/home/rstole01/Documents/CSE-596/humble_ws/install/lab1_package:/home/rstole01/Documents/CSE-596/humble_ws/install/aeb_lab:/home/rstole01/Documents/CSE-596/humble_ws/install/waypoint_logger:/home/rstole01/Documents/CSE-596/humble_ws/install/f1tenth_gym_ros:/opt/ros/humble')]), 'shell': False}
+[1.004073] (tutorial_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.005058] (-) TimerEvent: {}
+[1.005457] (tutorial_interfaces) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[1.005727] (tutorial_interfaces) StdoutLine: {'line': b'-- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[1.005985] (tutorial_interfaces) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[1.006216] (tutorial_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.006433] (tutorial_interfaces) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.006642] (tutorial_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.006852] (tutorial_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.009560] (aeb_lab) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.009992] (aeb_lab) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[1.010270] (aeb_lab) StdoutLine: {'line': b'-- Found ackermann_msgs: 2.0.2 (/opt/ros/humble/share/ackermann_msgs/cmake)\n'}
+[1.010507] (aeb_lab) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[1.010733] (aeb_lab) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.010954] (aeb_lab) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.011175] (aeb_lab) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.011396] (aeb_lab) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.031057] (lab1_package) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.053457] (pid_lab) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.105198] (-) TimerEvent: {}
+[1.167419] (pure-pursuit_lab) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target pure_pursuit_node\x1b[0m\n'}
+[1.205318] (-) TimerEvent: {}
+[1.205920] (pursuit_lab) StdoutLine: {'line': b'Built target ament_cmake_python_copy_pursuit_lab\n'}
+[1.250676] (pursuit_lab) StdoutLine: {'line': b'Built target ament_cmake_python_copy_pursuit_lab_setup\n'}
+[1.305453] (-) TimerEvent: {}
+[1.345891] (pure-pursuit_lab) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/pure_pursuit_node.dir/src/pure_pursuit_node.cpp.o\x1b[0m\n'}
+[1.405572] (-) TimerEvent: {}
+[1.425879] (tutorial_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[1.486664] (aeb_lab) StdoutLine: {'line': b'-- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[1.515552] (-) TimerEvent: {}
+[1.531636] (lab1_package) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[1.540340] (pid_lab) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[1.615666] (-) TimerEvent: {}
+[1.661664] (aeb_lab) StdoutLine: {'line': b'-- Found nav_msgs: 4.2.3 (/opt/ros/humble/share/nav_msgs/cmake)\n'}
+[1.715777] (-) TimerEvent: {}
+[1.775372] (lab1_package) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[1.815900] (-) TimerEvent: {}
+[1.851457] (pid_lab) StdoutLine: {'line': b'-- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[1.916063] (-) TimerEvent: {}
+[1.990476] (pid_lab) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[2.003534] (pid_lab) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[2.016191] (-) TimerEvent: {}
+[2.026021] (aeb_lab) StdoutLine: {'line': b'-- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[2.032523] (pid_lab) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[2.093107] (pid_lab) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.116318] (-) TimerEvent: {}
+[2.127149] (lab1_package) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[2.128185] (lab1_package) StdoutLine: {'line': b'-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/rstole01/Documents/CSE-596/humble_ws/src/lab1_package/include>\n'}
+[2.128656] (lab1_package) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[2.131491] (lab1_package) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[2.138694] (lab1_package) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[2.139071] (lab1_package) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[2.139338] (lab1_package) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[2.156290] (lab1_package) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.157132] (lab1_package) StdoutLine: {'line': b'-- Generating done\n'}
+[2.161264] (lab1_package) StdoutLine: {'line': b'-- Build files have been written to: /home/rstole01/Documents/CSE-596/humble_ws/build/lab1_package\n'}
+[2.168661] (pid_lab) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.216486] (-) TimerEvent: {}
+[2.232955] (aeb_lab) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[2.234588] (lab1_package) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target my_node\x1b[0m\n'}
+[2.239366] (aeb_lab) StdoutLine: {'line': b'-- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)\n'}
+[2.267773] (lab1_package) StdoutLine: {'line': b'[100%] Built target my_node\n'}
+[2.318481] (lab1_package) CommandEnded: {'returncode': 0}
+[2.319692] (-) TimerEvent: {}
+[2.320073] (pursuit_lab) StdoutLine: {'line': b'running egg_info\n'}
+[2.320383] (pursuit_lab) StdoutLine: {'line': b'writing pursuit_lab.egg-info/PKG-INFO\n'}
+[2.320625] (pursuit_lab) StdoutLine: {'line': b'writing dependency_links to pursuit_lab.egg-info/dependency_links.txt\n'}
+[2.320867] (pursuit_lab) StdoutLine: {'line': b'writing top-level names to pursuit_lab.egg-info/top_level.txt\n'}
+[2.328876] (pursuit_lab) StdoutLine: {'line': b"reading manifest file 'pursuit_lab.egg-info/SOURCES.txt'\n"}
+[2.333929] (pursuit_lab) StdoutLine: {'line': b"writing manifest file 'pursuit_lab.egg-info/SOURCES.txt'\n"}
+[2.406390] (aeb_lab) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_cyclonedds_cpp' as default\n"}
+[2.414402] (pid_lab) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[2.419820] (-) TimerEvent: {}
+[2.420543] (pid_lab) StdoutLine: {'line': b'-- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)\n'}
+[2.444605] (pursuit_lab) StdoutLine: {'line': b'Built target ament_cmake_python_build_pursuit_lab_egg\n'}
+[2.478817] (pursuit_lab) CommandEnded: {'returncode': 0}
+[2.501174] (lab1_package) JobProgress: {'identifier': 'lab1_package', 'progress': 'install'}
+[2.520666] (-) TimerEvent: {}
+[2.572381] (lab1_package) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/rstole01/Documents/CSE-596/humble_ws/build/lab1_package'], 'cwd': '/home/rstole01/Documents/CSE-596/humble_ws/build/lab1_package', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'rstole01'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/rstole01/Documents/CSE-596/humble_ws/install/tutorial_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/rstole01'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '12626'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('LIBVIRT_DEFAULT_URI', 'qemu:///system'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/rstole01/Documents/CSE-596/humble_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'rstole01'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'rstole01'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/rstole01/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/rstole01-Lenovo-ideapad-FLEX-5-1570:@/tmp/.ICE-unix/1837,unix/rstole01-Lenovo-ideapad-FLEX-5-1570:/tmp/.ICE-unix/1837'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/50e5d399_9cb3_43de_af97_88540a27a729'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.3TPML2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.392'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/rstole01/Documents/CSE-596/humble_ws/install/waypoint_logger:/home/rstole01/Documents/CSE-596/humble_ws/install/scan_pubsub:/home/rstole01/Documents/CSE-596/humble_ws/install/cpp_pubsub:/home/rstole01/Documents/CSE-596/humble_ws/install/tutorial_interfaces:/home/rstole01/Documents/CSE-596/humble_ws/install/pursuit_lab:/home/rstole01/Documents/CSE-596/humble_ws/install/pure-pursuit_lab:/home/rstole01/Documents/CSE-596/humble_ws/install/pid_lab:/home/rstole01/Documents/CSE-596/humble_ws/install/lab1_package:/home/rstole01/Documents/CSE-596/humble_ws/install/f1tenth_gym_ros:/home/rstole01/Documents/CSE-596/humble_ws/install/aeb_lab:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/rstole01/Documents/CSE-596/humble_ws/build/lab1_package'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/rstole01/Documents/CSE-596/humble_ws/install/waypoint_logger/lib/python3.10/site-packages:/home/rstole01/Documents/CSE-596/humble_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages:/home/rstole01/Documents/CSE-596/humble_ws/install/pursuit_lab/local/lib/python3.10/dist-packages:/home/rstole01/Documents/CSE-596/humble_ws/install/f1tenth_gym_ros/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/rstole01/Documents/CSE-596/humble_ws/install/scan_pubsub:/home/rstole01/Documents/CSE-596/humble_ws/install/cpp_pubsub:/home/rstole01/Documents/CSE-596/humble_ws/install/tutorial_interfaces:/home/rstole01/Documents/CSE-596/humble_ws/install/pursuit_lab:/home/rstole01/Documents/CSE-596/humble_ws/install/pure-pursuit_lab:/home/rstole01/Documents/CSE-596/humble_ws/install/pid_lab:/home/rstole01/Documents/CSE-596/humble_ws/install/lab1_package:/home/rstole01/Documents/CSE-596/humble_ws/install/aeb_lab:/home/rstole01/Documents/CSE-596/humble_ws/install/waypoint_logger:/home/rstole01/Documents/CSE-596/humble_ws/install/f1tenth_gym_ros:/opt/ros/humble')]), 'shell': False}
+[2.573635] (pid_lab) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_cyclonedds_cpp' as default\n"}
+[2.610481] (lab1_package) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[2.617679] (pursuit_lab) JobProgress: {'identifier': 'pursuit_lab', 'progress': 'install'}
+[2.617823] (lab1_package) StdoutLine: {'line': b'-- Up-to-date: /home/rstole01/Documents/CSE-596/humble_ws/install/lab1_package/lib/lab1_package/my_node\n'}
+[2.618155] (pursuit_lab) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/rstole01/Documents/CSE-596/humble_ws/build/pursuit_lab'], 'cwd': '/home/rstole01/Documents/CSE-596/humble_ws/build/pursuit_lab', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'rstole01'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/rstole01/Documents/CSE-596/humble_ws/install/tutorial_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/rstole01'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '12626'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('LIBVIRT_DEFAULT_URI', 'qemu:///system'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/rstole01/Documents/CSE-596/humble_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'rstole01'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'rstole01'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/rstole01/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/rstole01-Lenovo-ideapad-FLEX-5-1570:@/tmp/.ICE-unix/1837,unix/rstole01-Lenovo-ideapad-FLEX-5-1570:/tmp/.ICE-unix/1837'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/50e5d399_9cb3_43de_af97_88540a27a729'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.3TPML2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.392'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/rstole01/Documents/CSE-596/humble_ws/install/waypoint_logger:/home/rstole01/Documents/CSE-596/humble_ws/install/scan_pubsub:/home/rstole01/Documents/CSE-596/humble_ws/install/cpp_pubsub:/home/rstole01/Documents/CSE-596/humble_ws/install/tutorial_interfaces:/home/rstole01/Documents/CSE-596/humble_ws/install/pursuit_lab:/home/rstole01/Documents/CSE-596/humble_ws/install/pure-pursuit_lab:/home/rstole01/Documents/CSE-596/humble_ws/install/pid_lab:/home/rstole01/Documents/CSE-596/humble_ws/install/lab1_package:/home/rstole01/Documents/CSE-596/humble_ws/install/f1tenth_gym_ros:/home/rstole01/Documents/CSE-596/humble_ws/install/aeb_lab:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/rstole01/Documents/CSE-596/humble_ws/build/pursuit_lab'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/rstole01/Documents/CSE-596/humble_ws/install/waypoint_logger/lib/python3.10/site-packages:/home/rstole01/Documents/CSE-596/humble_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages:/home/rstole01/Documents/CSE-596/humble_ws/install/pursuit_lab/local/lib/python3.10/dist-packages:/home/rstole01/Documents/CSE-596/humble_ws/install/f1tenth_gym_ros/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/rstole01/Documents/CSE-596/humble_ws/install/scan_pubsub:/home/rstole01/Documents/CSE-596/humble_ws/install/cpp_pubsub:/home/rstole01/Documents/CSE-596/humble_ws/install/tutorial_interfaces:/home/rstole01/Documents/CSE-596/humble_ws/install/pursuit_lab:/home/rstole01/Documents/CSE-596/humble_ws/install/pure-pursuit_lab:/home/rstole01/Documents/CSE-596/humble_ws/install/pid_lab:/home/rstole01/Documents/CSE-596/humble_ws/install/lab1_package:/home/rstole01/Documents/CSE-596/humble_ws/install/aeb_lab:/home/rstole01/Documents/CSE-596/humble_ws/install/waypoint_logger:/home/rstole01/Documents/CSE-596/humble_ws/install/f1tenth_gym_ros:/opt/ros/humble')]), 'shell': False}
+[2.619198] (lab1_package) StdoutLine: {'line': b'-- Up-to-date: /home/rstole01/Documents/CSE-596/humble_ws/install/lab1_package/share/ament_index/resource_index/package_run_dependencies/lab1_package\n'}
+[2.619586] (lab1_package) StdoutLine: {'line': b'-- Installing: /home/rstole01/Documents/CSE-596/humble_ws/install/lab1_package/share/ament_index/resource_index/parent_prefix_path/lab1_package\n'}
+[2.620763] (-) TimerEvent: {}
+[2.621282] (lab1_package) StdoutLine: {'line': b'-- Installing: /home/rstole01/Documents/CSE-596/humble_ws/install/lab1_package/share/lab1_package/environment/ament_prefix_path.sh\n'}
+[2.622026] (lab1_package) StdoutLine: {'line': b'-- Installing: /home/rstole01/Documents/CSE-596/humble_ws/install/lab1_package/share/lab1_package/environment/ament_prefix_path.dsv\n'}
+[2.622677] (lab1_package) StdoutLine: {'line': b'-- Installing: /home/rstole01/Documents/CSE-596/humble_ws/install/lab1_package/share/lab1_package/environment/path.sh\n'}
+[2.623323] (lab1_package) StdoutLine: {'line': b'-- Installing: /home/rstole01/Documents/CSE-596/humble_ws/install/lab1_package/share/lab1_package/environment/path.dsv\n'}
+[2.624005] (lab1_package) StdoutLine: {'line': b'-- Up-to-date: /home/rstole01/Documents/CSE-596/humble_ws/install/lab1_package/share/lab1_package/local_setup.bash\n'}
+[2.624420] (lab1_package) StdoutLine: {'line': b'-- Up-to-date: /home/rstole01/Documents/CSE-596/humble_ws/install/lab1_package/share/lab1_package/local_setup.sh\n'}
+[2.624829] (lab1_package) StdoutLine: {'line': b'-- Up-to-date: /home/rstole01/Documents/CSE-596/humble_ws/install/lab1_package/share/lab1_package/local_setup.zsh\n'}
+[2.625234] (lab1_package) StdoutLine: {'line': b'-- Installing: /home/rstole01/Documents/CSE-596/humble_ws/install/lab1_package/share/lab1_package/local_setup.dsv\n'}
+[2.625795] (lab1_package) StdoutLine: {'line': b'-- Installing: /home/rstole01/Documents/CSE-596/humble_ws/install/lab1_package/share/lab1_package/package.dsv\n'}
+[2.626527] (lab1_package) StdoutLine: {'line': b'-- Up-to-date: /home/rstole01/Documents/CSE-596/humble_ws/install/lab1_package/share/ament_index/resource_index/packages/lab1_package\n'}
+[2.627994] (lab1_package) StdoutLine: {'line': b'-- Up-to-date: /home/rstole01/Documents/CSE-596/humble_ws/install/lab1_package/share/lab1_package/cmake/lab1_packageConfig.cmake\n'}
+[2.628471] (lab1_package) StdoutLine: {'line': b'-- Up-to-date: /home/rstole01/Documents/CSE-596/humble_ws/install/lab1_package/share/lab1_package/cmake/lab1_packageConfig-version.cmake\n'}
+[2.628751] (lab1_package) StdoutLine: {'line': b'-- Up-to-date: /home/rstole01/Documents/CSE-596/humble_ws/install/lab1_package/share/lab1_package/package.xml\n'}
+[2.649347] (pursuit_lab) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[2.649905] (pursuit_lab) StdoutLine: {'line': b'-- Up-to-date: /home/rstole01/Documents/CSE-596/humble_ws/install/pursuit_lab/share/pursuit_lab/environment/pythonpath.sh\n'}
+[2.650327] (pursuit_lab) StdoutLine: {'line': b'-- Up-to-date: /home/rstole01/Documents/CSE-596/humble_ws/install/pursuit_lab/share/pursuit_lab/environment/pythonpath.dsv\n'}
+[2.650590] (pursuit_lab) StdoutLine: {'line': b'-- Up-to-date: /home/rstole01/Documents/CSE-596/humble_ws/install/pursuit_lab/local/lib/python3.10/dist-packages/pursuit_lab-0.0.0-py3.10.egg-info\n'}
+[2.650824] (pursuit_lab) StdoutLine: {'line': b'-- Installing: /home/rstole01/Documents/CSE-596/humble_ws/install/pursuit_lab/local/lib/python3.10/dist-packages/pursuit_lab-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[2.651307] (pursuit_lab) StdoutLine: {'line': b'-- Installing: /home/rstole01/Documents/CSE-596/humble_ws/install/pursuit_lab/local/lib/python3.10/dist-packages/pursuit_lab-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[2.659619] (lab1_package) CommandEnded: {'returncode': 0}
+[2.660574] (pursuit_lab) StdoutLine: {'line': b'-- Installing: /home/rstole01/Documents/CSE-596/humble_ws/install/pursuit_lab/local/lib/python3.10/dist-packages/pursuit_lab-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[2.660927] (pursuit_lab) StdoutLine: {'line': b'-- Installing: /home/rstole01/Documents/CSE-596/humble_ws/install/pursuit_lab/local/lib/python3.10/dist-packages/pursuit_lab-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[2.661185] (pursuit_lab) StdoutLine: {'line': b'-- Up-to-date: /home/rstole01/Documents/CSE-596/humble_ws/install/pursuit_lab/local/lib/python3.10/dist-packages/pursuit_lab\n'}
+[2.661454] (pursuit_lab) StdoutLine: {'line': b'-- Up-to-date: /home/rstole01/Documents/CSE-596/humble_ws/install/pursuit_lab/local/lib/python3.10/dist-packages/pursuit_lab/__init__.py\n'}
+[2.661710] (pursuit_lab) StdoutLine: {'line': b'-- Up-to-date: /home/rstole01/Documents/CSE-596/humble_ws/install/pursuit_lab/local/lib/python3.10/dist-packages/pursuit_lab/pure_pursuit_node.py\n'}
+[2.715739] (tutorial_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[2.720932] (-) TimerEvent: {}
+[2.761789] (pursuit_lab) StdoutLine: {'line': b"Listing '/home/rstole01/Documents/CSE-596/humble_ws/install/pursuit_lab/local/lib/python3.10/dist-packages/pursuit_lab'...\n"}
+[2.780118] (pursuit_lab) StdoutLine: {'line': b'-- Up-to-date: /home/rstole01/Documents/CSE-596/humble_ws/install/pursuit_lab/lib/pursuit_lab/pure_pursuit_node.py\n'}
+[2.780743] (pursuit_lab) StdoutLine: {'line': b'-- Up-to-date: /home/rstole01/Documents/CSE-596/humble_ws/install/pursuit_lab/share/ament_index/resource_index/package_run_dependencies/pursuit_lab\n'}
+[2.781077] (pursuit_lab) StdoutLine: {'line': b'-- Up-to-date: /home/rstole01/Documents/CSE-596/humble_ws/install/pursuit_lab/share/ament_index/resource_index/parent_prefix_path/pursuit_lab\n'}
+[2.781969] (pursuit_lab) StdoutLine: {'line': b'-- Up-to-date: /home/rstole01/Documents/CSE-596/humble_ws/install/pursuit_lab/share/pursuit_lab/environment/ament_prefix_path.sh\n'}
+[2.782267] (pursuit_lab) StdoutLine: {'line': b'-- Up-to-date: /home/rstole01/Documents/CSE-596/humble_ws/install/pursuit_lab/share/pursuit_lab/environment/ament_prefix_path.dsv\n'}
+[2.783421] (pursuit_lab) StdoutLine: {'line': b'-- Up-to-date: /home/rstole01/Documents/CSE-596/humble_ws/install/pursuit_lab/share/pursuit_lab/environment/path.sh\n'}
+[2.783803] (pursuit_lab) StdoutLine: {'line': b'-- Up-to-date: /home/rstole01/Documents/CSE-596/humble_ws/install/pursuit_lab/share/pursuit_lab/environment/path.dsv\n'}
+[2.784076] (pursuit_lab) StdoutLine: {'line': b'-- Up-to-date: /home/rstole01/Documents/CSE-596/humble_ws/install/pursuit_lab/share/pursuit_lab/local_setup.bash\n'}
+[2.786093] (pursuit_lab) StdoutLine: {'line': b'-- Up-to-date: /home/rstole01/Documents/CSE-596/humble_ws/install/pursuit_lab/share/pursuit_lab/local_setup.sh\n'}
+[2.786539] (pursuit_lab) StdoutLine: {'line': b'-- Up-to-date: /home/rstole01/Documents/CSE-596/humble_ws/install/pursuit_lab/share/pursuit_lab/local_setup.zsh\n'}
+[2.786837] (pursuit_lab) StdoutLine: {'line': b'-- Up-to-date: /home/rstole01/Documents/CSE-596/humble_ws/install/pursuit_lab/share/pursuit_lab/local_setup.dsv\n'}
+[2.787088] (pursuit_lab) StdoutLine: {'line': b'-- Installing: /home/rstole01/Documents/CSE-596/humble_ws/install/pursuit_lab/share/pursuit_lab/package.dsv\n'}
+[2.800921] (pursuit_lab) StdoutLine: {'line': b'-- Up-to-date: /home/rstole01/Documents/CSE-596/humble_ws/install/pursuit_lab/share/ament_index/resource_index/packages/pursuit_lab\n'}
+[2.801285] (pursuit_lab) StdoutLine: {'line': b'-- Up-to-date: /home/rstole01/Documents/CSE-596/humble_ws/install/pursuit_lab/share/pursuit_lab/cmake/pursuit_labConfig.cmake\n'}
+[2.801547] (pursuit_lab) StdoutLine: {'line': b'-- Up-to-date: /home/rstole01/Documents/CSE-596/humble_ws/install/pursuit_lab/share/pursuit_lab/cmake/pursuit_labConfig-version.cmake\n'}
+[2.801797] (pursuit_lab) StdoutLine: {'line': b'-- Up-to-date: /home/rstole01/Documents/CSE-596/humble_ws/install/pursuit_lab/share/pursuit_lab/package.xml\n'}
+[2.802046] (pursuit_lab) CommandEnded: {'returncode': 0}
+[2.821049] (-) TimerEvent: {}
+[2.921652] (-) TimerEvent: {}
+[3.022333] (-) TimerEvent: {}
+[3.027100] (aeb_lab) StdoutLine: {'line': b'-- Found rclpy: 3.3.12 (/opt/ros/humble/share/rclpy/cmake)\n'}
+[3.028068] (aeb_lab) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[3.067194] (lab1_package) JobEnded: {'identifier': 'lab1_package', 'rc': 0}
+[3.127815] (-) TimerEvent: {}
+[3.156419] (pursuit_lab) JobEnded: {'identifier': 'pursuit_lab', 'rc': 0}
+[3.227943] (-) TimerEvent: {}
+[3.328463] (-) TimerEvent: {}
+[3.344622] (pid_lab) StdoutLine: {'line': b'-- Found rclpy: 3.3.12 (/opt/ros/humble/share/rclpy/cmake)\n'}
+[3.345764] (pid_lab) StdoutLine: {'line': b'-- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[3.428585] (-) TimerEvent: {}
+[3.520845] (pid_lab) StdoutLine: {'line': b'-- Found nav_msgs: 4.2.3 (/opt/ros/humble/share/nav_msgs/cmake)\n'}
+[3.528716] (-) TimerEvent: {}
+[3.629281] (-) TimerEvent: {}
+[3.703952] (aeb_lab) StdoutLine: {'line': b'-- Configuring done\n'}
+[3.729400] (-) TimerEvent: {}
+[3.742645] (aeb_lab) StdoutLine: {'line': b'-- Generating done\n'}
+[3.748473] (aeb_lab) StdoutLine: {'line': b'-- Build files have been written to: /home/rstole01/Documents/CSE-596/humble_ws/build/aeb_lab\n'}
+[3.829530] (-) TimerEvent: {}
+[3.835008] (aeb_lab) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target aeb\x1b[0m\n'}
+[3.873657] (pid_lab) StdoutLine: {'line': b'-- Found ackermann_msgs: 2.0.2 (/opt/ros/humble/share/ackermann_msgs/cmake)\n'}
+[3.921560] (aeb_lab) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/aeb.dir/src/aeb.cpp.o\x1b[0m\n'}
+[3.929649] (-) TimerEvent: {}
+[3.971432] (f1tenth_gym_ros) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/f1tenth_gym_ros', 'build', '--build-base', '/home/rstole01/Documents/CSE-596/humble_ws/build/f1tenth_gym_ros/build', 'install', '--record', '/home/rstole01/Documents/CSE-596/humble_ws/build/f1tenth_gym_ros/install.log', '--install-scripts', '$base/lib/f1tenth_gym_ros', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/rstole01/Documents/CSE-596/humble_ws/src/f1tenth_gym_ros', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'rstole01', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/rstole01/Documents/CSE-596/humble_ws/install/tutorial_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/rstole01', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '12626', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'LIBVIRT_DEFAULT_URI': 'qemu:///system', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/rstole01/Documents/CSE-596/humble_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'rstole01', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'rstole01', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/rstole01/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/rstole01-Lenovo-ideapad-FLEX-5-1570:@/tmp/.ICE-unix/1837,unix/rstole01-Lenovo-ideapad-FLEX-5-1570:/tmp/.ICE-unix/1837', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/50e5d399_9cb3_43de_af97_88540a27a729', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'RMW_IMPLEMENTATION': 'rmw_cyclonedds_cpp', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.3TPML2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.392', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/rstole01/Documents/CSE-596/humble_ws/install/waypoint_logger:/home/rstole01/Documents/CSE-596/humble_ws/install/scan_pubsub:/home/rstole01/Documents/CSE-596/humble_ws/install/cpp_pubsub:/home/rstole01/Documents/CSE-596/humble_ws/install/tutorial_interfaces:/home/rstole01/Documents/CSE-596/humble_ws/install/pursuit_lab:/home/rstole01/Documents/CSE-596/humble_ws/install/pure-pursuit_lab:/home/rstole01/Documents/CSE-596/humble_ws/install/pid_lab:/home/rstole01/Documents/CSE-596/humble_ws/install/lab1_package:/home/rstole01/Documents/CSE-596/humble_ws/install/f1tenth_gym_ros:/home/rstole01/Documents/CSE-596/humble_ws/install/aeb_lab:/opt/ros/humble', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/rstole01/Documents/CSE-596/humble_ws/build/f1tenth_gym_ros', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/rstole01/Documents/CSE-596/humble_ws/build/f1tenth_gym_ros/prefix_override:/home/rstole01/Documents/CSE-596/humble_ws/install/f1tenth_gym_ros/lib/python3.10/site-packages:/home/rstole01/Documents/CSE-596/humble_ws/install/waypoint_logger/lib/python3.10/site-packages:/home/rstole01/Documents/CSE-596/humble_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages:/home/rstole01/Documents/CSE-596/humble_ws/install/pursuit_lab/local/lib/python3.10/dist-packages:/home/rstole01/Documents/CSE-596/humble_ws/install/f1tenth_gym_ros/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/rstole01/Documents/CSE-596/humble_ws/install/scan_pubsub:/home/rstole01/Documents/CSE-596/humble_ws/install/cpp_pubsub:/home/rstole01/Documents/CSE-596/humble_ws/install/tutorial_interfaces:/home/rstole01/Documents/CSE-596/humble_ws/install/pursuit_lab:/home/rstole01/Documents/CSE-596/humble_ws/install/pure-pursuit_lab:/home/rstole01/Documents/CSE-596/humble_ws/install/pid_lab:/home/rstole01/Documents/CSE-596/humble_ws/install/lab1_package:/home/rstole01/Documents/CSE-596/humble_ws/install/aeb_lab'}, 'shell': False}
+[4.029780] (-) TimerEvent: {}
+[4.062593] (pid_lab) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[4.129957] (-) TimerEvent: {}
+[4.224016] (waypoint_logger) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/waypoint_logger', 'build', '--build-base', '/home/rstole01/Documents/CSE-596/humble_ws/build/waypoint_logger/build', 'install', '--record', '/home/rstole01/Documents/CSE-596/humble_ws/build/waypoint_logger/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/rstole01/Documents/CSE-596/humble_ws/src/waypoint_logger', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'rstole01', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/rstole01/Documents/CSE-596/humble_ws/install/tutorial_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/rstole01', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '12626', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'LIBVIRT_DEFAULT_URI': 'qemu:///system', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/rstole01/Documents/CSE-596/humble_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'rstole01', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'rstole01', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/rstole01/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/rstole01-Lenovo-ideapad-FLEX-5-1570:@/tmp/.ICE-unix/1837,unix/rstole01-Lenovo-ideapad-FLEX-5-1570:/tmp/.ICE-unix/1837', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/50e5d399_9cb3_43de_af97_88540a27a729', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'RMW_IMPLEMENTATION': 'rmw_cyclonedds_cpp', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.3TPML2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.392', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/rstole01/Documents/CSE-596/humble_ws/install/waypoint_logger:/home/rstole01/Documents/CSE-596/humble_ws/install/scan_pubsub:/home/rstole01/Documents/CSE-596/humble_ws/install/cpp_pubsub:/home/rstole01/Documents/CSE-596/humble_ws/install/tutorial_interfaces:/home/rstole01/Documents/CSE-596/humble_ws/install/pursuit_lab:/home/rstole01/Documents/CSE-596/humble_ws/install/pure-pursuit_lab:/home/rstole01/Documents/CSE-596/humble_ws/install/pid_lab:/home/rstole01/Documents/CSE-596/humble_ws/install/lab1_package:/home/rstole01/Documents/CSE-596/humble_ws/install/f1tenth_gym_ros:/home/rstole01/Documents/CSE-596/humble_ws/install/aeb_lab:/opt/ros/humble', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/rstole01/Documents/CSE-596/humble_ws/build/waypoint_logger', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/rstole01/Documents/CSE-596/humble_ws/build/waypoint_logger/prefix_override:/home/rstole01/Documents/CSE-596/humble_ws/install/waypoint_logger/lib/python3.10/site-packages:/home/rstole01/Documents/CSE-596/humble_ws/install/waypoint_logger/lib/python3.10/site-packages:/home/rstole01/Documents/CSE-596/humble_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages:/home/rstole01/Documents/CSE-596/humble_ws/install/pursuit_lab/local/lib/python3.10/dist-packages:/home/rstole01/Documents/CSE-596/humble_ws/install/f1tenth_gym_ros/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/rstole01/Documents/CSE-596/humble_ws/install/scan_pubsub:/home/rstole01/Documents/CSE-596/humble_ws/install/cpp_pubsub:/home/rstole01/Documents/CSE-596/humble_ws/install/tutorial_interfaces:/home/rstole01/Documents/CSE-596/humble_ws/install/pursuit_lab:/home/rstole01/Documents/CSE-596/humble_ws/install/pure-pursuit_lab:/home/rstole01/Documents/CSE-596/humble_ws/install/pid_lab:/home/rstole01/Documents/CSE-596/humble_ws/install/lab1_package:/home/rstole01/Documents/CSE-596/humble_ws/install/aeb_lab'}, 'shell': False}
+[4.230054] (-) TimerEvent: {}
+[4.276225] (tutorial_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[4.330224] (-) TimerEvent: {}
+[4.431068] (-) TimerEvent: {}
+[4.440839] (pid_lab) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[4.531191] (-) TimerEvent: {}
+[4.631894] (-) TimerEvent: {}
+[4.732595] (-) TimerEvent: {}
+[4.789485] (pid_lab) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[4.792822] (pid_lab) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[4.793980] (pid_lab) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/rstole01/Documents/CSE-596/humble_ws/src/pid_lab/include\n'}
+[4.794283] (pid_lab) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[4.796499] (pid_lab) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[4.796832] (pid_lab) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[4.798388] (pid_lab) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[4.801288] (pid_lab) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[4.801641] (pid_lab) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[4.802768] (pid_lab) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[4.806166] (pid_lab) StdoutLine: {'line': b'-- Configuring done\n'}
+[4.834861] (-) TimerEvent: {}
+[4.856630] (pid_lab) StdoutLine: {'line': b'-- Generating done\n'}
+[4.857043] (pid_lab) StdoutLine: {'line': b'-- Build files have been written to: /home/rstole01/Documents/CSE-596/humble_ws/build/pid_lab\n'}
+[4.922126] (tutorial_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[4.934985] (-) TimerEvent: {}
+[4.998599] (tutorial_interfaces) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[4.999689] (pid_lab) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target pid\x1b[0m\n'}
+[5.035100] (-) TimerEvent: {}
+[5.054781] (pid_lab) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/pid.dir/src/wall_follow_node.cpp.o\x1b[0m\n'}
+[5.065978] (tutorial_interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[5.066817] (tutorial_interfaces) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[5.067385] (tutorial_interfaces) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[5.071093] (f1tenth_gym_ros) StderrLine: {'line': b"/usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead\n"}
+[5.071447] (f1tenth_gym_ros) StderrLine: {'line': b'  warnings.warn(\n'}
+[5.103524] (f1tenth_gym_ros) StdoutLine: {'line': b'running egg_info\n'}
+[5.106528] (f1tenth_gym_ros) StdoutLine: {'line': b'writing ../../build/f1tenth_gym_ros/f1tenth_gym_ros.egg-info/PKG-INFO\n'}
+[5.107759] (f1tenth_gym_ros) StdoutLine: {'line': b'writing dependency_links to ../../build/f1tenth_gym_ros/f1tenth_gym_ros.egg-info/dependency_links.txt\n'}
+[5.108817] (f1tenth_gym_ros) StdoutLine: {'line': b'writing entry points to ../../build/f1tenth_gym_ros/f1tenth_gym_ros.egg-info/entry_points.txt\n'}
+[5.109685] (f1tenth_gym_ros) StdoutLine: {'line': b'writing requirements to ../../build/f1tenth_gym_ros/f1tenth_gym_ros.egg-info/requires.txt\n'}
+[5.110448] (f1tenth_gym_ros) StdoutLine: {'line': b'writing top-level names to ../../build/f1tenth_gym_ros/f1tenth_gym_ros.egg-info/top_level.txt\n'}
+[5.116449] (f1tenth_gym_ros) StdoutLine: {'line': b"reading manifest file '../../build/f1tenth_gym_ros/f1tenth_gym_ros.egg-info/SOURCES.txt'\n"}
+[5.117977] (f1tenth_gym_ros) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[5.121193] (f1tenth_gym_ros) StdoutLine: {'line': b"writing manifest file '../../build/f1tenth_gym_ros/f1tenth_gym_ros.egg-info/SOURCES.txt'\n"}
+[5.122264] (f1tenth_gym_ros) StdoutLine: {'line': b'running build\n'}
+[5.122929] (f1tenth_gym_ros) StdoutLine: {'line': b'running build_py\n'}
+[5.124480] (f1tenth_gym_ros) StdoutLine: {'line': b'running install\n'}
+[5.125984] (f1tenth_gym_ros) StdoutLine: {'line': b'running install_lib\n'}
+[5.130515] (f1tenth_gym_ros) StdoutLine: {'line': b'running install_data\n'}
+[5.132212] (f1tenth_gym_ros) StdoutLine: {'line': b'running install_egg_info\n'}
+[5.135212] (-) TimerEvent: {}
+[5.138564] (f1tenth_gym_ros) StdoutLine: {'line': b"removing '/home/rstole01/Documents/CSE-596/humble_ws/install/f1tenth_gym_ros/lib/python3.10/site-packages/f1tenth_gym_ros-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[5.140123] (f1tenth_gym_ros) StdoutLine: {'line': b'Copying ../../build/f1tenth_gym_ros/f1tenth_gym_ros.egg-info to /home/rstole01/Documents/CSE-596/humble_ws/install/f1tenth_gym_ros/lib/python3.10/site-packages/f1tenth_gym_ros-0.0.0-py3.10.egg-info\n'}
+[5.143329] (f1tenth_gym_ros) StdoutLine: {'line': b'running install_scripts\n'}
+[5.204534] (waypoint_logger) StdoutLine: {'line': b'running egg_info\n'}
+[5.207162] (waypoint_logger) StdoutLine: {'line': b'writing ../../build/waypoint_logger/waypoint_logger.egg-info/PKG-INFO\n'}
+[5.207986] (waypoint_logger) StdoutLine: {'line': b'writing dependency_links to ../../build/waypoint_logger/waypoint_logger.egg-info/dependency_links.txt\n'}
+[5.208748] (waypoint_logger) StdoutLine: {'line': b'writing entry points to ../../build/waypoint_logger/waypoint_logger.egg-info/entry_points.txt\n'}
+[5.209292] (waypoint_logger) StdoutLine: {'line': b'writing requirements to ../../build/waypoint_logger/waypoint_logger.egg-info/requires.txt\n'}
+[5.209789] (waypoint_logger) StdoutLine: {'line': b'writing top-level names to ../../build/waypoint_logger/waypoint_logger.egg-info/top_level.txt\n'}
+[5.216244] (waypoint_logger) StdoutLine: {'line': b"reading manifest file '../../build/waypoint_logger/waypoint_logger.egg-info/SOURCES.txt'\n"}
+[5.218017] (f1tenth_gym_ros) StdoutLine: {'line': b'Installing gym_bridge script to /home/rstole01/Documents/CSE-596/humble_ws/install/f1tenth_gym_ros/lib/f1tenth_gym_ros\n'}
+[5.219953] (f1tenth_gym_ros) StdoutLine: {'line': b"writing list of installed files to '/home/rstole01/Documents/CSE-596/humble_ws/build/f1tenth_gym_ros/install.log'\n"}
+[5.222010] (waypoint_logger) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[5.226746] (waypoint_logger) StdoutLine: {'line': b"writing manifest file '../../build/waypoint_logger/waypoint_logger.egg-info/SOURCES.txt'\n"}
+[5.227242] (waypoint_logger) StdoutLine: {'line': b'running build\n'}
+[5.227604] (waypoint_logger) StdoutLine: {'line': b'running build_py\n'}
+[5.228425] (waypoint_logger) StdoutLine: {'line': b'running install\n'}
+[5.229591] (waypoint_logger) StdoutLine: {'line': b'running install_lib\n'}
+[5.233564] (waypoint_logger) StdoutLine: {'line': b'running install_data\n'}
+[5.234072] (waypoint_logger) StdoutLine: {'line': b'running install_egg_info\n'}
+[5.235313] (-) TimerEvent: {}
+[5.239771] (waypoint_logger) StdoutLine: {'line': b"removing '/home/rstole01/Documents/CSE-596/humble_ws/install/waypoint_logger/lib/python3.10/site-packages/waypoint_logger-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[5.249857] (waypoint_logger) StdoutLine: {'line': b'Copying ../../build/waypoint_logger/waypoint_logger.egg-info to /home/rstole01/Documents/CSE-596/humble_ws/install/waypoint_logger/lib/python3.10/site-packages/waypoint_logger-0.0.0-py3.10.egg-info\n'}
+[5.254393] (tutorial_interfaces) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[5.276118] (waypoint_logger) StdoutLine: {'line': b'running install_scripts\n'}
+[5.294522] (tutorial_interfaces) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[5.299678] (tutorial_interfaces) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[5.301525] (f1tenth_gym_ros) CommandEnded: {'returncode': 0}
+[5.319837] (tutorial_interfaces) StdoutLine: {'line': b'-- Configuring done\n'}
+[5.325391] (f1tenth_gym_ros) JobEnded: {'identifier': 'f1tenth_gym_ros', 'rc': 0}
+[5.335436] (-) TimerEvent: {}
+[5.350403] (waypoint_logger) StdoutLine: {'line': b'Installing waypoint_logger script to /home/rstole01/Documents/CSE-596/humble_ws/install/waypoint_logger/lib/waypoint_logger\n'}
+[5.351444] (waypoint_logger) StdoutLine: {'line': b"writing list of installed files to '/home/rstole01/Documents/CSE-596/humble_ws/build/waypoint_logger/install.log'\n"}
+[5.435795] (-) TimerEvent: {}
+[5.442573] (waypoint_logger) CommandEnded: {'returncode': 0}
+[5.458735] (waypoint_logger) JobEnded: {'identifier': 'waypoint_logger', 'rc': 0}
+[5.501587] (tutorial_interfaces) StdoutLine: {'line': b'-- Generating done\n'}
+[5.512972] (tutorial_interfaces) StdoutLine: {'line': b'-- Build files have been written to: /home/rstole01/Documents/CSE-596/humble_ws/build/tutorial_interfaces\n'}
+[5.535928] (-) TimerEvent: {}
+[5.600454] (tutorial_interfaces) StdoutLine: {'line': b'[  1%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[5.636075] (-) TimerEvent: {}
+[5.659730] (tutorial_interfaces) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[5.699248] (tutorial_interfaces) StdoutLine: {'line': b'[  3%] Built target ament_cmake_python_copy_tutorial_interfaces\n'}
+[5.736200] (-) TimerEvent: {}
+[5.836692] (-) TimerEvent: {}
+[5.937199] (-) TimerEvent: {}
+[6.037700] (-) TimerEvent: {}
+[6.138197] (-) TimerEvent: {}
+[6.238703] (-) TimerEvent: {}
+[6.339210] (-) TimerEvent: {}
+[6.439814] (-) TimerEvent: {}
+[6.540340] (-) TimerEvent: {}
+[6.640883] (-) TimerEvent: {}
+[6.742124] (-) TimerEvent: {}
+[6.754963] (tutorial_interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[6.757504] (tutorial_interfaces) StdoutLine: {'line': b'writing tutorial_interfaces.egg-info/PKG-INFO\n'}
+[6.758125] (tutorial_interfaces) StdoutLine: {'line': b'writing dependency_links to tutorial_interfaces.egg-info/dependency_links.txt\n'}
+[6.758797] (tutorial_interfaces) StdoutLine: {'line': b'writing top-level names to tutorial_interfaces.egg-info/top_level.txt\n'}
+[6.767805] (tutorial_interfaces) StdoutLine: {'line': b"reading manifest file 'tutorial_interfaces.egg-info/SOURCES.txt'\n"}
+[6.770207] (tutorial_interfaces) StdoutLine: {'line': b"writing manifest file 'tutorial_interfaces.egg-info/SOURCES.txt'\n"}
+[6.842228] (-) TimerEvent: {}
+[6.857308] (tutorial_interfaces) StdoutLine: {'line': b'[  3%] Built target ament_cmake_python_build_tutorial_interfaces_egg\n'}
+[6.942354] (-) TimerEvent: {}
+[7.042889] (-) TimerEvent: {}
+[7.143551] (-) TimerEvent: {}
+[7.244098] (-) TimerEvent: {}
+[7.321338] (tutorial_interfaces) StdoutLine: {'line': b'[  3%] Built target tutorial_interfaces__cpp\n'}
+[7.344224] (-) TimerEvent: {}
+[7.404798] (tutorial_interfaces) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[7.417048] (tutorial_interfaces) StdoutLine: {'line': b'[  7%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[7.431111] (tutorial_interfaces) StdoutLine: {'line': b'[  9%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[7.444366] (-) TimerEvent: {}
+[7.459834] (tutorial_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target tutorial_interfaces__rosidl_generator_c\x1b[0m\n'}
+[7.541230] (tutorial_interfaces) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_generator_c.dir/rosidl_generator_c/tutorial_interfaces/msg/detail/num__functions.c.o\x1b[0m\n'}
+[7.544482] (-) TimerEvent: {}
+[7.548349] (tutorial_interfaces) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_generator_c.dir/rosidl_generator_c/tutorial_interfaces/srv/detail/add_three_ints__functions.c.o\x1b[0m\n'}
+[7.550031] (tutorial_interfaces) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_generator_c.dir/rosidl_generator_c/tutorial_interfaces/msg/detail/sphere__functions.c.o\x1b[0m\n'}
+[7.571686] (tutorial_interfaces) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_generator_c.dir/rosidl_generator_c/tutorial_interfaces/msg/detail/scan_range__functions.c.o\x1b[0m\n'}
+[7.645923] (-) TimerEvent: {}
+[7.746516] (-) TimerEvent: {}
+[7.847122] (-) TimerEvent: {}
+[7.947673] (-) TimerEvent: {}
+[8.001676] (tutorial_interfaces) StdoutLine: {'line': b'[ 18%] \x1b[32m\x1b[1mLinking C shared library libtutorial_interfaces__rosidl_generator_c.so\x1b[0m\n'}
+[8.047802] (-) TimerEvent: {}
+[8.148432] (-) TimerEvent: {}
+[8.248941] (-) TimerEvent: {}
+[8.333151] (tutorial_interfaces) StdoutLine: {'line': b'[ 18%] Built target tutorial_interfaces__rosidl_generator_c\n'}
+[8.349069] (-) TimerEvent: {}
+[8.394205] (tutorial_interfaces) StdoutLine: {'line': b'[ 20%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[8.449203] (-) TimerEvent: {}
+[8.463000] (tutorial_interfaces) StdoutLine: {'line': b'[ 21%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[8.463591] (tutorial_interfaces) StdoutLine: {'line': b'[ 23%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[8.549315] (-) TimerEvent: {}
+[8.649854] (-) TimerEvent: {}
+[8.750302] (-) TimerEvent: {}
+[8.850784] (-) TimerEvent: {}
+[8.951265] (-) TimerEvent: {}
+[8.958516] (tutorial_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target tutorial_interfaces__rosidl_typesupport_cpp\x1b[0m\n'}
+[9.051387] (-) TimerEvent: {}
+[9.091824] (tutorial_interfaces) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tutorial_interfaces/msg/num__type_support.cpp.o\x1b[0m\n'}
+[9.109307] (tutorial_interfaces) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tutorial_interfaces/msg/sphere__type_support.cpp.o\x1b[0m\n'}
+[9.151559] (-) TimerEvent: {}
+[9.225215] (tutorial_interfaces) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tutorial_interfaces/srv/add_three_ints__type_support.cpp.o\x1b[0m\n'}
+[9.251667] (-) TimerEvent: {}
+[9.352173] (-) TimerEvent: {}
+[9.435263] (tutorial_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target tutorial_interfaces__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[9.452299] (-) TimerEvent: {}
+[9.530929] (tutorial_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target tutorial_interfaces__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[9.552427] (-) TimerEvent: {}
+[9.567437] (tutorial_interfaces) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tutorial_interfaces/msg/detail/dds_fastrtps/num__type_support.cpp.o\x1b[0m\n'}
+[9.652546] (-) TimerEvent: {}
+[9.661069] (tutorial_interfaces) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tutorial_interfaces/msg/detail/num__type_support.cpp.o\x1b[0m\n'}
+[9.752684] (-) TimerEvent: {}
+[9.820883] (tutorial_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target tutorial_interfaces__rosidl_typesupport_c\x1b[0m\n'}
+[9.852788] (-) TimerEvent: {}
+[9.899822] (tutorial_interfaces) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/tutorial_interfaces/msg/num__type_support.cpp.o\x1b[0m\n'}
+[9.952924] (-) TimerEvent: {}
+[10.053570] (-) TimerEvent: {}
+[10.154163] (-) TimerEvent: {}
+[10.176679] (tutorial_interfaces) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/tutorial_interfaces/msg/sphere__type_support.cpp.o\x1b[0m\n'}
+[10.254294] (-) TimerEvent: {}
+[10.354833] (-) TimerEvent: {}
+[10.397136] (tutorial_interfaces) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tutorial_interfaces/msg/scan_range__type_support.cpp.o\x1b[0m\n'}
+[10.407273] (tutorial_interfaces) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/tutorial_interfaces/srv/add_three_ints__type_support.cpp.o\x1b[0m\n'}
+[10.454959] (-) TimerEvent: {}
+[10.512146] (tutorial_interfaces) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/tutorial_interfaces/msg/scan_range__type_support.cpp.o\x1b[0m\n'}
+[10.556069] (-) TimerEvent: {}
+[10.657276] (-) TimerEvent: {}
+[10.726250] (tutorial_interfaces) StdoutLine: {'line': b'[ 43%] \x1b[32m\x1b[1mLinking CXX shared library libtutorial_interfaces__rosidl_typesupport_c.so\x1b[0m\n'}
+[10.757627] (-) TimerEvent: {}
+[10.859570] (-) TimerEvent: {}
+[10.864458] (tutorial_interfaces) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tutorial_interfaces/msg/detail/sphere__type_support.cpp.o\x1b[0m\n'}
+[10.922524] (tutorial_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target tutorial_interfaces__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[10.935304] (tutorial_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target tutorial_interfaces__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[10.959708] (-) TimerEvent: {}
+[11.039200] (tutorial_interfaces) StdoutLine: {'line': b'[ 47%] \x1b[32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/tutorial_interfaces/msg/detail/num__type_support.c.o\x1b[0m\n'}
+[11.045164] (tutorial_interfaces) StdoutLine: {'line': b'[ 47%] Built target tutorial_interfaces__rosidl_typesupport_c\n'}
+[11.059811] (-) TimerEvent: {}
+[11.078971] (tutorial_interfaces) StdoutLine: {'line': b'[ 49%] \x1b[32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tutorial_interfaces/msg/detail/num__type_support_c.cpp.o\x1b[0m\n'}
+[11.100800] (tutorial_interfaces) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/tutorial_interfaces/msg/detail/sphere__type_support.c.o\x1b[0m\n'}
+[11.114641] (tutorial_interfaces) StdoutLine: {'line': b'[ 52%] \x1b[32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tutorial_interfaces/msg/detail/dds_fastrtps/sphere__type_support.cpp.o\x1b[0m\n'}
+[11.159935] (-) TimerEvent: {}
+[11.260493] (-) TimerEvent: {}
+[11.325805] (tutorial_interfaces) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tutorial_interfaces/srv/detail/add_three_ints__type_support.cpp.o\x1b[0m\n'}
+[11.357104] (tutorial_interfaces) StdoutLine: {'line': b'[ 56%] \x1b[32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/tutorial_interfaces/srv/detail/add_three_ints__type_support.c.o\x1b[0m\n'}
+[11.360619] (-) TimerEvent: {}
+[11.450988] (tutorial_interfaces) StdoutLine: {'line': b'[ 58%] \x1b[32m\x1b[1mLinking CXX shared library libtutorial_interfaces__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[11.460780] (-) TimerEvent: {}
+[11.561562] (-) TimerEvent: {}
+[11.662251] (-) TimerEvent: {}
+[11.719139] (tutorial_interfaces) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/tutorial_interfaces/msg/detail/scan_range__type_support.c.o\x1b[0m\n'}
+[11.762396] (-) TimerEvent: {}
+[11.823112] (tutorial_interfaces) StdoutLine: {'line': b'[ 60%] Built target tutorial_interfaces__rosidl_typesupport_cpp\n'}
+[11.862529] (-) TimerEvent: {}
+[11.919787] (tutorial_interfaces) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tutorial_interfaces/msg/detail/scan_range__type_support.cpp.o\x1b[0m\n'}
+[11.962673] (-) TimerEvent: {}
+[12.035337] (tutorial_interfaces) StdoutLine: {'line': b'[ 63%] \x1b[32m\x1b[1mLinking C shared library libtutorial_interfaces__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[12.062814] (-) TimerEvent: {}
+[12.163438] (-) TimerEvent: {}
+[12.264019] (-) TimerEvent: {}
+[12.364559] (-) TimerEvent: {}
+[12.367200] (tutorial_interfaces) StdoutLine: {'line': b'[ 63%] Built target tutorial_interfaces__rosidl_typesupport_introspection_c\n'}
+[12.411880] (pure-pursuit_lab) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rstole01/Documents/CSE-596/humble_ws/src/pure-pursuit_lab/src/pure_pursuit_node.cpp:48:81:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::msg::PoseStamped_<std::allocator<void> >::ConstPtr\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[12.412300] (pure-pursuit_lab) StderrLine: {'line': b'   48 |     void pose_callback(const geometry_msgs::msg::PoseStamped::ConstPtr &pose_msg\x1b[01;35m\x1b[K)\x1b[m\x1b[K\n'}
+[12.412540] (pure-pursuit_lab) StderrLine: {'line': b'      |                                                                                 \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[12.412847] (pure-pursuit_lab) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/pose_stamped.hpp:7\x1b[m\x1b[K,\n'}
+[12.413106] (pure-pursuit_lab) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/rstole01/Documents/CSE-596/humble_ws/src/pure-pursuit_lab/src/pure_pursuit_node.cpp:10\x1b[m\x1b[K:\n'}
+[12.413357] (pure-pursuit_lab) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__struct.hpp:115:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[12.413576] (pure-pursuit_lab) StderrLine: {'line': b'  115 |     \x1b[01;36m\x1b[KConstPtr\x1b[m\x1b[K;\n'}
+[12.413807] (pure-pursuit_lab) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[12.419669] (pure-pursuit_lab) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rstole01/Documents/CSE-596/humble_ws/src/pure-pursuit_lab/src/pure_pursuit_node.cpp:26:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[Kstd\x1b[m\x1b[K\xe2\x80\x99\n'}
+[12.420266] (pure-pursuit_lab) StderrLine: {'line': b'   26 |     \x1b[01;31m\x1b[Kstd\x1b[m\x1b[K::string file = folder + "/4_corners_levine.csv"\n'}
+[12.420595] (pure-pursuit_lab) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[12.421024] (tutorial_interfaces) StdoutLine: {'line': b'[ 65%] \x1b[32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tutorial_interfaces/srv/detail/dds_fastrtps/add_three_ints__type_support.cpp.o\x1b[0m\n'}
+[12.421521] (pure-pursuit_lab) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rstole01/Documents/CSE-596/humble_ws/src/pure-pursuit_lab/src/pure_pursuit_node.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KPurePursuit::PurePursuit()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[12.421774] (pure-pursuit_lab) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rstole01/Documents/CSE-596/humble_ws/src/pure-pursuit_lab/src/pure_pursuit_node.cpp:41:49:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KSafety\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[12.421993] (pure-pursuit_lab) StderrLine: {'line': b'   41 |             "/ego_racecar/odom", 10, std::bind(&\x1b[01;31m\x1b[KSafety\x1b[m\x1b[K::odom_callback, this, _1));\n'}
+[12.422211] (pure-pursuit_lab) StderrLine: {'line': b'      |                                                 \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[12.422607] (pure-pursuit_lab) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rstole01/Documents/CSE-596/humble_ws/src/pure-pursuit_lab/src/pure_pursuit_node.cpp:41:78:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K_1\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kstd::placeholders::_1\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[12.422870] (pure-pursuit_lab) StderrLine: {'line': b'   41 |             "/ego_racecar/odom", 10, std::bind(&Safety::odom_callback, this, \x1b[01;31m\x1b[K_1\x1b[m\x1b[K));\n'}
+[12.423108] (pure-pursuit_lab) StderrLine: {'line': b'      |                                                                              \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[12.423348] (pure-pursuit_lab) StderrLine: {'line': b'      |                                                                              \x1b[32m\x1b[Kstd::placeholders::_1\x1b[m\x1b[K\n'}
+[12.423822] (pure-pursuit_lab) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/pstl/glue_algorithm_defs.h:13\x1b[m\x1b[K,\n'}
+[12.424083] (pure-pursuit_lab) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/algorithm:74\x1b[m\x1b[K,\n'}
+[12.424325] (pure-pursuit_lab) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:18\x1b[m\x1b[K,\n'}
+[12.424575] (pure-pursuit_lab) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[12.424840] (pure-pursuit_lab) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[12.425071] (pure-pursuit_lab) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[12.425313] (pure-pursuit_lab) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/rstole01/Documents/CSE-596/humble_ws/src/pure-pursuit_lab/src/pure_pursuit_node.cpp:6\x1b[m\x1b[K:\n'}
+[12.425581] (pure-pursuit_lab) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/functional:225:34:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstd::placeholders::_1\x1b[m\x1b[K\xe2\x80\x99 declared here\n'}
+[12.425866] (pure-pursuit_lab) StderrLine: {'line': b'  225 |     extern const _Placeholder<1> \x1b[01;36m\x1b[K_1\x1b[m\x1b[K;\n'}
+[12.426125] (pure-pursuit_lab) StderrLine: {'line': b'      |                                  \x1b[01;36m\x1b[K^~\x1b[m\x1b[K\n'}
+[12.452029] (pure-pursuit_lab) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rstole01/Documents/CSE-596/humble_ws/src/pure-pursuit_lab/src/pure_pursuit_node.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid PurePursuit::pose_callback(const ConstPtr&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[12.452544] (pure-pursuit_lab) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rstole01/Documents/CSE-596/humble_ws/src/pure-pursuit_lab/src/pure_pursuit_node.cpp:55:30:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ky_dist\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[12.452909] (pure-pursuit_lab) StderrLine: {'line': b'   55 |         float curvature = 2*(\x1b[01;31m\x1b[Ky_dist\x1b[m\x1b[K) / pow(lookahead, 2);\n'}
+[12.453245] (pure-pursuit_lab) StderrLine: {'line': b'      |                              \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[12.464672] (-) TimerEvent: {}
+[12.465629] (pure-pursuit_lab) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rstole01/Documents/CSE-596/humble_ws/src/pure-pursuit_lab/src/pure_pursuit_node.cpp:56:32:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kkp\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[12.466131] (pure-pursuit_lab) StderrLine: {'line': b'   56 |         float steering_angle = \x1b[01;31m\x1b[Kkp\x1b[m\x1b[K * curvature;\n'}
+[12.466553] (pure-pursuit_lab) StderrLine: {'line': b'      |                                \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[12.468009] (pure-pursuit_lab) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rstole01/Documents/CSE-596/humble_ws/src/pure-pursuit_lab/src/pure_pursuit_node.cpp:56:15:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Ksteering_angle\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[12.468444] (pure-pursuit_lab) StderrLine: {'line': b'   56 |         float \x1b[01;35m\x1b[Ksteering_angle\x1b[m\x1b[K = kp * curvature;\n'}
+[12.468872] (pure-pursuit_lab) StderrLine: {'line': b'      |               \x1b[01;35m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[12.469346] (pure-pursuit_lab) StderrLine: {'line': b'\x1b[01m\x1b[K/home/rstole01/Documents/CSE-596/humble_ws/src/pure-pursuit_lab/src/pure_pursuit_node.cpp:48:73:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kpose_msg\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[12.469718] (pure-pursuit_lab) StderrLine: {'line': b'   48 |     void pose_callback(\x1b[01;35m\x1b[Kconst geometry_msgs::msg::PoseStamped::ConstPtr &pose_msg\x1b[m\x1b[K)\n'}
+[12.470054] (pure-pursuit_lab) StderrLine: {'line': b'      |                        \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~\x1b[m\x1b[K\n'}
+[12.500089] (tutorial_interfaces) StdoutLine: {'line': b'[ 67%] \x1b[32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tutorial_interfaces/msg/detail/dds_fastrtps/scan_range__type_support.cpp.o\x1b[0m\n'}
+[12.564793] (-) TimerEvent: {}
+[12.566694] (tutorial_interfaces) StdoutLine: {'line': b'[ 69%] \x1b[32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tutorial_interfaces/msg/detail/sphere__type_support_c.cpp.o\x1b[0m\n'}
+[12.664941] (-) TimerEvent: {}
+[12.765654] (-) TimerEvent: {}
+[12.866402] (-) TimerEvent: {}
+[12.967242] (-) TimerEvent: {}
+[13.053220] (tutorial_interfaces) StdoutLine: {'line': b'[ 70%] \x1b[32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tutorial_interfaces/srv/detail/add_three_ints__type_support_c.cpp.o\x1b[0m\n'}
+[13.067402] (-) TimerEvent: {}
+[13.149400] (tutorial_interfaces) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tutorial_interfaces/msg/detail/scan_range__type_support_c.cpp.o\x1b[0m\n'}
+[13.167550] (-) TimerEvent: {}
+[13.268259] (-) TimerEvent: {}
+[13.368971] (-) TimerEvent: {}
+[13.469663] (-) TimerEvent: {}
+[13.570252] (-) TimerEvent: {}
+[13.670906] (-) TimerEvent: {}
+[13.771450] (-) TimerEvent: {}
+[13.872015] (-) TimerEvent: {}
+[13.972567] (-) TimerEvent: {}
+[14.073303] (-) TimerEvent: {}
+[14.084318] (tutorial_interfaces) StdoutLine: {'line': b'[ 74%] \x1b[32m\x1b[1mLinking CXX shared library libtutorial_interfaces__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[14.173435] (-) TimerEvent: {}
+[14.274102] (-) TimerEvent: {}
+[14.374957] (-) TimerEvent: {}
+[14.456521] (tutorial_interfaces) StdoutLine: {'line': b'[ 74%] Built target tutorial_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[14.475079] (-) TimerEvent: {}
+[14.575654] (-) TimerEvent: {}
+[14.676320] (-) TimerEvent: {}
+[14.677254] (tutorial_interfaces) StdoutLine: {'line': b'[ 76%] \x1b[32m\x1b[1mLinking CXX shared library libtutorial_interfaces__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[14.776474] (-) TimerEvent: {}
+[14.867721] (tutorial_interfaces) StdoutLine: {'line': b'[ 78%] \x1b[32m\x1b[1mLinking CXX shared library libtutorial_interfaces__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[14.876607] (-) TimerEvent: {}
+[14.939395] (tutorial_interfaces) StdoutLine: {'line': b'[ 78%] Built target tutorial_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[14.976773] (-) TimerEvent: {}
+[15.077734] (-) TimerEvent: {}
+[15.122483] (tutorial_interfaces) StdoutLine: {'line': b'[ 78%] Built target tutorial_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[15.177855] (-) TimerEvent: {}
+[15.183752] (tutorial_interfaces) StdoutLine: {'line': b'[ 78%] Built target tutorial_interfaces\n'}
+[15.245825] (tutorial_interfaces) StdoutLine: {'line': b'[ 80%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[15.277979] (-) TimerEvent: {}
+[15.378575] (-) TimerEvent: {}
+[15.479085] (-) TimerEvent: {}
+[15.579629] (-) TimerEvent: {}
+[15.628476] (pure-pursuit_lab) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/pure_pursuit_node.dir/build.make:76: CMakeFiles/pure_pursuit_node.dir/src/pure_pursuit_node.cpp.o] Error 1\n'}
+[15.629027] (pure-pursuit_lab) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/pure_pursuit_node.dir/all] Error 2\n'}
+[15.629550] (pure-pursuit_lab) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[15.634461] (pure-pursuit_lab) CommandEnded: {'returncode': 2}
+[15.679764] (-) TimerEvent: {}
+[15.736542] (pure-pursuit_lab) JobEnded: {'identifier': 'pure-pursuit_lab', 'rc': 2}
+[15.780208] (-) TimerEvent: {}
+[15.880878] (-) TimerEvent: {}
+[15.981732] (-) TimerEvent: {}
+[16.082223] (-) TimerEvent: {}
+[16.182725] (-) TimerEvent: {}
+[16.283203] (-) TimerEvent: {}
+[16.383683] (-) TimerEvent: {}
+[16.484136] (-) TimerEvent: {}
+[16.584702] (-) TimerEvent: {}
+[16.685376] (-) TimerEvent: {}
+[16.786108] (-) TimerEvent: {}
+[16.886516] (-) TimerEvent: {}
+[16.986989] (-) TimerEvent: {}
+[17.087395] (-) TimerEvent: {}
+[17.187973] (-) TimerEvent: {}
+[17.249712] (tutorial_interfaces) StdoutLine: {'line': b'[ 80%] Built target tutorial_interfaces__py\n'}
+[17.277699] (tutorial_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target tutorial_interfaces__rosidl_generator_py\x1b[0m\n'}
+[17.288112] (-) TimerEvent: {}
+[17.331093] (tutorial_interfaces) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_generator_py.dir/rosidl_generator_py/tutorial_interfaces/msg/_num_s.c.o\x1b[0m\n'}
+[17.331568] (tutorial_interfaces) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_generator_py.dir/rosidl_generator_py/tutorial_interfaces/msg/_sphere_s.c.o\x1b[0m\n'}
+[17.335156] (tutorial_interfaces) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_generator_py.dir/rosidl_generator_py/tutorial_interfaces/srv/_add_three_ints_s.c.o\x1b[0m\n'}
+[17.346159] (tutorial_interfaces) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_generator_py.dir/rosidl_generator_py/tutorial_interfaces/msg/_scan_range_s.c.o\x1b[0m\n'}
+[17.388271] (-) TimerEvent: {}
+[17.488955] (-) TimerEvent: {}
+[17.589595] (-) TimerEvent: {}
+[17.690194] (-) TimerEvent: {}
+[17.790740] (-) TimerEvent: {}
+[17.804048] (tutorial_interfaces) StdoutLine: {'line': b'[ 89%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/tutorial_interfaces/libtutorial_interfaces__rosidl_generator_py.so\x1b[0m\n'}
+[17.890885] (-) TimerEvent: {}
+[17.936404] (tutorial_interfaces) StdoutLine: {'line': b'[ 89%] Built target tutorial_interfaces__rosidl_generator_py\n'}
+[17.970629] (tutorial_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target tutorial_interfaces__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[17.974335] (tutorial_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target tutorial_interfaces__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[17.981769] (tutorial_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target tutorial_interfaces__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[17.991769] (-) TimerEvent: {}
+[18.013295] (tutorial_interfaces) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/tutorial_interfaces/_tutorial_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[18.018493] (tutorial_interfaces) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/tutorial_interfaces/_tutorial_interfaces_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[18.030187] (tutorial_interfaces) StdoutLine: {'line': b'[ 94%] \x1b[32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/tutorial_interfaces/_tutorial_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[18.091872] (-) TimerEvent: {}
+[18.192360] (-) TimerEvent: {}
+[18.292865] (-) TimerEvent: {}
+[18.372741] (tutorial_interfaces) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[18.393000] (-) TimerEvent: {}
+[18.418690] (tutorial_interfaces) StdoutLine: {'line': b'[ 98%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[18.420149] (tutorial_interfaces) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[18.493127] (-) TimerEvent: {}
+[18.525706] (tutorial_interfaces) StdoutLine: {'line': b'[100%] Built target tutorial_interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[18.545720] (tutorial_interfaces) StdoutLine: {'line': b'[100%] Built target tutorial_interfaces__rosidl_typesupport_c__pyext\n'}
+[18.581103] (tutorial_interfaces) StdoutLine: {'line': b'[100%] Built target tutorial_interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[18.593312] (-) TimerEvent: {}
+[18.613477] (tutorial_interfaces) JobEnded: {'identifier': 'tutorial_interfaces', 'rc': 'SIGINT'}
+[18.693450] (-) TimerEvent: {}
+[18.793870] (-) TimerEvent: {}
+[18.894360] (-) TimerEvent: {}
+[18.994848] (-) TimerEvent: {}
+[19.095266] (-) TimerEvent: {}
+[19.195702] (-) TimerEvent: {}
+[19.296122] (-) TimerEvent: {}
+[19.396633] (-) TimerEvent: {}
+[19.497136] (-) TimerEvent: {}
+[19.597537] (-) TimerEvent: {}
+[19.697885] (-) TimerEvent: {}
+[19.798349] (-) TimerEvent: {}
+[19.898751] (-) TimerEvent: {}
+[19.999100] (-) TimerEvent: {}
+[20.099498] (-) TimerEvent: {}
+[20.199970] (-) TimerEvent: {}
+[20.300480] (-) TimerEvent: {}
+[20.400890] (-) TimerEvent: {}
+[20.501281] (-) TimerEvent: {}
+[20.601656] (-) TimerEvent: {}
+[20.702049] (-) TimerEvent: {}
+[20.802483] (-) TimerEvent: {}
+[20.902978] (-) TimerEvent: {}
+[21.003391] (-) TimerEvent: {}
+[21.103781] (-) TimerEvent: {}
+[21.204256] (-) TimerEvent: {}
+[21.304609] (-) TimerEvent: {}
+[21.404995] (-) TimerEvent: {}
+[21.505395] (-) TimerEvent: {}
+[21.605991] (-) TimerEvent: {}
+[21.706384] (-) TimerEvent: {}
+[21.806765] (-) TimerEvent: {}
+[21.907207] (-) TimerEvent: {}
+[22.007763] (-) TimerEvent: {}
+[22.108207] (-) TimerEvent: {}
+[22.208721] (-) TimerEvent: {}
+[22.309278] (-) TimerEvent: {}
+[22.409665] (-) TimerEvent: {}
+[22.510056] (-) TimerEvent: {}
+[22.610439] (-) TimerEvent: {}
+[22.710796] (-) TimerEvent: {}
+[22.811159] (-) TimerEvent: {}
+[22.911627] (-) TimerEvent: {}
+[23.012130] (-) TimerEvent: {}
+[23.112572] (-) TimerEvent: {}
+[23.213033] (-) TimerEvent: {}
+[23.313407] (-) TimerEvent: {}
+[23.413785] (-) TimerEvent: {}
+[23.514184] (-) TimerEvent: {}
+[23.614614] (-) TimerEvent: {}
+[23.715057] (-) TimerEvent: {}
+[23.815528] (-) TimerEvent: {}
+[23.915955] (-) TimerEvent: {}
+[24.016402] (-) TimerEvent: {}
+[24.116862] (-) TimerEvent: {}
+[24.217287] (-) TimerEvent: {}
+[24.317671] (-) TimerEvent: {}
+[24.418077] (-) TimerEvent: {}
+[24.518543] (-) TimerEvent: {}
+[24.618970] (-) TimerEvent: {}
+[24.719414] (-) TimerEvent: {}
+[24.819903] (-) TimerEvent: {}
+[24.920334] (-) TimerEvent: {}
+[25.020787] (-) TimerEvent: {}
+[25.121293] (-) TimerEvent: {}
+[25.221778] (-) TimerEvent: {}
+[25.322228] (-) TimerEvent: {}
+[25.422673] (-) TimerEvent: {}
+[25.523061] (-) TimerEvent: {}
+[25.623541] (-) TimerEvent: {}
+[25.724008] (-) TimerEvent: {}
+[25.824459] (-) TimerEvent: {}
+[25.925026] (-) TimerEvent: {}
+[26.025562] (-) TimerEvent: {}
+[26.126027] (-) TimerEvent: {}
+[26.226483] (-) TimerEvent: {}
+[26.326950] (-) TimerEvent: {}
+[26.427422] (-) TimerEvent: {}
+[26.527932] (-) TimerEvent: {}
+[26.628499] (-) TimerEvent: {}
+[26.729086] (-) TimerEvent: {}
+[26.829560] (-) TimerEvent: {}
+[26.930005] (-) TimerEvent: {}
+[27.030450] (-) TimerEvent: {}
+[27.130895] (-) TimerEvent: {}
+[27.231373] (-) TimerEvent: {}
+[27.331928] (-) TimerEvent: {}
+[27.432463] (-) TimerEvent: {}
+[27.532917] (-) TimerEvent: {}
+[27.633367] (-) TimerEvent: {}
+[27.733830] (-) TimerEvent: {}
+[27.834274] (-) TimerEvent: {}
+[27.934716] (-) TimerEvent: {}
+[28.035171] (-) TimerEvent: {}
+[28.135630] (-) TimerEvent: {}
+[28.236022] (-) TimerEvent: {}
+[28.336422] (-) TimerEvent: {}
+[28.436819] (-) TimerEvent: {}
+[28.537199] (-) TimerEvent: {}
+[28.637551] (-) TimerEvent: {}
+[28.737957] (-) TimerEvent: {}
+[28.838467] (-) TimerEvent: {}
+[28.938870] (-) TimerEvent: {}
+[29.039373] (-) TimerEvent: {}
+[29.081729] (pid_lab) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable pid\x1b[0m\n'}
+[29.139524] (-) TimerEvent: {}
+[29.239926] (-) TimerEvent: {}
+[29.340448] (-) TimerEvent: {}
+[29.441052] (-) TimerEvent: {}
+[29.542061] (-) TimerEvent: {}
+[29.642866] (-) TimerEvent: {}
+[29.743518] (-) TimerEvent: {}
+[29.843973] (-) TimerEvent: {}
+[29.944439] (-) TimerEvent: {}
+[30.044931] (-) TimerEvent: {}
+[30.145423] (-) TimerEvent: {}
+[30.233159] (pid_lab) StdoutLine: {'line': b'[100%] Built target pid\n'}
+[30.245544] (-) TimerEvent: {}
+[30.263556] (pid_lab) JobEnded: {'identifier': 'pid_lab', 'rc': 'SIGINT'}
+[30.345647] (-) TimerEvent: {}
+[30.445993] (-) TimerEvent: {}
+[30.546374] (-) TimerEvent: {}
+[30.646755] (-) TimerEvent: {}
+[30.747093] (-) TimerEvent: {}
+[30.847514] (-) TimerEvent: {}
+[30.947898] (-) TimerEvent: {}
+[31.048242] (-) TimerEvent: {}
+[31.148574] (-) TimerEvent: {}
+[31.248975] (-) TimerEvent: {}
+[31.349333] (-) TimerEvent: {}
+[31.449724] (-) TimerEvent: {}
+[31.550077] (-) TimerEvent: {}
+[31.650527] (-) TimerEvent: {}
+[31.751003] (-) TimerEvent: {}
+[31.851430] (-) TimerEvent: {}
+[31.951878] (-) TimerEvent: {}
+[32.052249] (-) TimerEvent: {}
+[32.152640] (-) TimerEvent: {}
+[32.253019] (-) TimerEvent: {}
+[32.353426] (-) TimerEvent: {}
+[32.453811] (-) TimerEvent: {}
+[32.554177] (-) TimerEvent: {}
+[32.654609] (-) TimerEvent: {}
+[32.755007] (-) TimerEvent: {}
+[32.855453] (-) TimerEvent: {}
+[32.955878] (-) TimerEvent: {}
+[33.056315] (-) TimerEvent: {}
+[33.156759] (-) TimerEvent: {}
+[33.257205] (-) TimerEvent: {}
+[33.357669] (-) TimerEvent: {}
+[33.458068] (-) TimerEvent: {}
+[33.558448] (-) TimerEvent: {}
+[33.658828] (-) TimerEvent: {}
+[33.759208] (-) TimerEvent: {}
+[33.859644] (-) TimerEvent: {}
+[33.960033] (-) TimerEvent: {}
+[34.060398] (-) TimerEvent: {}
+[34.160770] (-) TimerEvent: {}
+[34.261124] (-) TimerEvent: {}
+[34.361482] (-) TimerEvent: {}
+[34.461826] (-) TimerEvent: {}
+[34.562248] (-) TimerEvent: {}
+[34.662632] (-) TimerEvent: {}
+[34.762995] (-) TimerEvent: {}
+[34.863367] (-) TimerEvent: {}
+[34.963736] (-) TimerEvent: {}
+[35.064071] (-) TimerEvent: {}
+[35.164447] (-) TimerEvent: {}
+[35.264840] (-) TimerEvent: {}
+[35.365197] (-) TimerEvent: {}
+[35.465603] (-) TimerEvent: {}
+[35.566000] (-) TimerEvent: {}
+[35.666341] (-) TimerEvent: {}
+[35.766713] (-) TimerEvent: {}
+[35.867051] (-) TimerEvent: {}
+[35.967393] (-) TimerEvent: {}
+[36.067842] (-) TimerEvent: {}
+[36.168297] (-) TimerEvent: {}
+[36.268700] (-) TimerEvent: {}
+[36.369090] (-) TimerEvent: {}
+[36.469421] (-) TimerEvent: {}
+[36.569789] (-) TimerEvent: {}
+[36.670171] (-) TimerEvent: {}
+[36.770631] (-) TimerEvent: {}
+[36.871062] (-) TimerEvent: {}
+[36.971437] (-) TimerEvent: {}
+[37.071868] (-) TimerEvent: {}
+[37.172271] (-) TimerEvent: {}
+[37.272857] (-) TimerEvent: {}
+[37.373201] (-) TimerEvent: {}
+[37.473630] (-) TimerEvent: {}
+[37.574146] (-) TimerEvent: {}
+[37.674533] (-) TimerEvent: {}
+[37.774936] (-) TimerEvent: {}
+[37.875341] (-) TimerEvent: {}
+[37.975719] (-) TimerEvent: {}
+[38.076116] (-) TimerEvent: {}
+[38.176553] (-) TimerEvent: {}
+[38.277280] (-) TimerEvent: {}
+[38.377866] (-) TimerEvent: {}
+[38.478287] (-) TimerEvent: {}
+[38.578699] (-) TimerEvent: {}
+[38.679057] (-) TimerEvent: {}
+[38.779699] (-) TimerEvent: {}
+[38.880449] (-) TimerEvent: {}
+[38.980959] (-) TimerEvent: {}
+[39.081411] (-) TimerEvent: {}
+[39.181787] (-) TimerEvent: {}
+[39.282200] (-) TimerEvent: {}
+[39.382604] (-) TimerEvent: {}
+[39.482975] (-) TimerEvent: {}
+[39.583413] (-) TimerEvent: {}
+[39.683871] (-) TimerEvent: {}
+[39.784339] (-) TimerEvent: {}
+[39.884795] (-) TimerEvent: {}
+[39.985177] (-) TimerEvent: {}
+[40.085572] (-) TimerEvent: {}
+[40.186068] (-) TimerEvent: {}
+[40.286436] (-) TimerEvent: {}
+[40.386926] (-) TimerEvent: {}
+[40.487372] (-) TimerEvent: {}
+[40.587826] (-) TimerEvent: {}
+[40.688285] (-) TimerEvent: {}
+[40.788666] (-) TimerEvent: {}
+[40.889046] (-) TimerEvent: {}
+[40.989410] (-) TimerEvent: {}
+[41.089800] (-) TimerEvent: {}
+[41.190195] (-) TimerEvent: {}
+[41.290591] (-) TimerEvent: {}
+[41.391040] (-) TimerEvent: {}
+[41.491440] (-) TimerEvent: {}
+[41.591905] (-) TimerEvent: {}
+[41.692372] (-) TimerEvent: {}
+[41.792856] (-) TimerEvent: {}
+[41.893336] (-) TimerEvent: {}
+[41.993705] (-) TimerEvent: {}
+[42.094111] (-) TimerEvent: {}
+[42.194920] (-) TimerEvent: {}
+[42.295301] (-) TimerEvent: {}
+[42.340284] (aeb_lab) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable aeb\x1b[0m\n'}
+[42.395412] (-) TimerEvent: {}
+[42.495825] (-) TimerEvent: {}
+[42.596420] (-) TimerEvent: {}
+[42.696919] (-) TimerEvent: {}
+[42.797287] (-) TimerEvent: {}
+[42.818851] (aeb_lab) StdoutLine: {'line': b'[100%] Built target aeb\n'}
+[42.850599] (aeb_lab) JobEnded: {'identifier': 'aeb_lab', 'rc': 'SIGINT'}
+[42.862080] (cpp_pubsub) JobSkipped: {'identifier': 'cpp_pubsub'}
+[42.862324] (scan_pubsub) JobSkipped: {'identifier': 'scan_pubsub'}
+[42.862469] (-) EventReactorShutdown: {}

@@ -1,0 +1,49 @@
+[0.510s] Invoking command in '/home/rstole01/Documents/CSE-596/humble_ws/build/pure-pursuit_lab': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rstole01/Documents/CSE-596/humble_ws/install/waypoint_logger:/home/rstole01/Documents/CSE-596/humble_ws/install/f1tenth_gym_ros:/opt/ros/humble /usr/bin/cmake --build /home/rstole01/Documents/CSE-596/humble_ws/build/pure-pursuit_lab -- -j8 -l8
+[0.597s] [35m[1mConsolidate compiler generated dependencies of target pure_pursuit_node[0m
+[0.656s] [ 50%] [32mBuilding CXX object CMakeFiles/pure_pursuit_node.dir/src/pure_pursuit_node.cpp.o[0m
+[5.823s] [01m[K/home/rstole01/Documents/CSE-596/humble_ws/src/pure-pursuit_lab/src/pure_pursuit_node.cpp:48:81:[m[K [01;35m[Kwarning: [m[K‘[01m[Kgeometry_msgs::msg::PoseStamped_<std::allocator<void> >::ConstPtr[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[5.823s]    48 |     void pose_callback(const geometry_msgs::msg::PoseStamped::ConstPtr &pose_msg[01;35m[K)[m[K
+[5.824s]       |                                                                                 [01;35m[K^[m[K
+[5.824s] In file included from [01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/pose_stamped.hpp:7[m[K,
+[5.824s]                  from [01m[K/home/rstole01/Documents/CSE-596/humble_ws/src/pure-pursuit_lab/src/pure_pursuit_node.cpp:10[m[K:
+[5.824s] [01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__struct.hpp:115:5:[m[K [01;36m[Knote: [m[Kdeclared here
+[5.824s]   115 |     [01;36m[KConstPtr[m[K;
+[5.825s]       |     [01;36m[K^~~~~~~~[m[K
+[5.825s] [01m[K/home/rstole01/Documents/CSE-596/humble_ws/src/pure-pursuit_lab/src/pure_pursuit_node.cpp:26:5:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kstd[m[K’
+[5.825s]    26 |     [01;31m[Kstd[m[K::string file = folder + "/4_corners_levine.csv"
+[5.825s]       |     [01;31m[K^~~[m[K
+[5.825s] [01m[K/home/rstole01/Documents/CSE-596/humble_ws/src/pure-pursuit_lab/src/pure_pursuit_node.cpp:[m[K In constructor ‘[01m[KPurePursuit::PurePursuit()[m[K’:
+[5.825s] [01m[K/home/rstole01/Documents/CSE-596/humble_ws/src/pure-pursuit_lab/src/pure_pursuit_node.cpp:41:49:[m[K [01;31m[Kerror: [m[K‘[01m[KSafety[m[K’ has not been declared
+[5.826s]    41 |             "/ego_racecar/odom", 10, std::bind(&[01;31m[KSafety[m[K::odom_callback, this, _1));
+[5.826s]       |                                                 [01;31m[K^~~~~~[m[K
+[5.826s] [01m[K/home/rstole01/Documents/CSE-596/humble_ws/src/pure-pursuit_lab/src/pure_pursuit_node.cpp:41:78:[m[K [01;31m[Kerror: [m[K‘[01m[K_1[m[K’ was not declared in this scope; did you mean ‘[01m[Kstd::placeholders::_1[m[K’?
+[5.827s]    41 |             "/ego_racecar/odom", 10, std::bind(&Safety::odom_callback, this, [01;31m[K_1[m[K));
+[5.827s]       |                                                                              [01;31m[K^~[m[K
+[5.827s]       |                                                                              [32m[Kstd::placeholders::_1[m[K
+[5.827s] In file included from [01m[K/usr/include/c++/11/pstl/glue_algorithm_defs.h:13[m[K,
+[5.827s]                  from [01m[K/usr/include/c++/11/algorithm:74[m[K,
+[5.827s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:18[m[K,
+[5.827s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[5.828s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[5.828s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[5.828s]                  from [01m[K/home/rstole01/Documents/CSE-596/humble_ws/src/pure-pursuit_lab/src/pure_pursuit_node.cpp:6[m[K:
+[5.828s] [01m[K/usr/include/c++/11/functional:225:34:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::placeholders::_1[m[K’ declared here
+[5.828s]   225 |     extern const _Placeholder<1> [01;36m[K_1[m[K;
+[5.828s]       |                                  [01;36m[K^~[m[K
+[5.842s] [01m[K/home/rstole01/Documents/CSE-596/humble_ws/src/pure-pursuit_lab/src/pure_pursuit_node.cpp:[m[K In member function ‘[01m[Kvoid PurePursuit::pose_callback(const ConstPtr&)[m[K’:
+[5.842s] [01m[K/home/rstole01/Documents/CSE-596/humble_ws/src/pure-pursuit_lab/src/pure_pursuit_node.cpp:55:30:[m[K [01;31m[Kerror: [m[K‘[01m[Ky_dist[m[K’ was not declared in this scope
+[5.842s]    55 |         float curvature = 2*([01;31m[Ky_dist[m[K) / pow(lookahead, 2);
+[5.842s]       |                              [01;31m[K^~~~~~[m[K
+[5.853s] [01m[K/home/rstole01/Documents/CSE-596/humble_ws/src/pure-pursuit_lab/src/pure_pursuit_node.cpp:56:32:[m[K [01;31m[Kerror: [m[K‘[01m[Kkp[m[K’ was not declared in this scope
+[5.853s]    56 |         float steering_angle = [01;31m[Kkp[m[K * curvature;
+[5.853s]       |                                [01;31m[K^~[m[K
+[5.854s] [01m[K/home/rstole01/Documents/CSE-596/humble_ws/src/pure-pursuit_lab/src/pure_pursuit_node.cpp:56:15:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ksteering_angle[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[5.854s]    56 |         float [01;35m[Ksteering_angle[m[K = kp * curvature;
+[5.854s]       |               [01;35m[K^~~~~~~~~~~~~~[m[K
+[5.854s] [01m[K/home/rstole01/Documents/CSE-596/humble_ws/src/pure-pursuit_lab/src/pure_pursuit_node.cpp:48:73:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpose_msg[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[5.854s]    48 |     void pose_callback([01;35m[Kconst geometry_msgs::msg::PoseStamped::ConstPtr &pose_msg[m[K)
+[5.854s]       |                        [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+[7.346s] gmake[2]: *** [CMakeFiles/pure_pursuit_node.dir/build.make:76: CMakeFiles/pure_pursuit_node.dir/src/pure_pursuit_node.cpp.o] Error 1
+[7.346s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/pure_pursuit_node.dir/all] Error 2
+[7.346s] gmake: *** [Makefile:146: all] Error 2
+[7.351s] Invoked command in '/home/rstole01/Documents/CSE-596/humble_ws/build/pure-pursuit_lab' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rstole01/Documents/CSE-596/humble_ws/install/waypoint_logger:/home/rstole01/Documents/CSE-596/humble_ws/install/f1tenth_gym_ros:/opt/ros/humble /usr/bin/cmake --build /home/rstole01/Documents/CSE-596/humble_ws/build/pure-pursuit_lab -- -j8 -l8
