@@ -1,7 +1,0 @@
-{
-  "package_name": "ackermann_msgs",
-  "non_idl_tuples": [
-    "/home/rstole01/Documents/CSE-596/msu_ws/src/ackermann_msgs:msg/AckermannDrive.msg",
-    "/home/rstole01/Documents/CSE-596/msu_ws/src/ackermann_msgs:msg/AckermannDriveStamped.msg"
-  ]
-}

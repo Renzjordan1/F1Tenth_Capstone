@@ -1,4 +1,0 @@
-[console_scripts]
-control = wall_follower_pid.control:main
-wall_distance_finder = wall_follower_pid.wall_distance_finder:main
-
