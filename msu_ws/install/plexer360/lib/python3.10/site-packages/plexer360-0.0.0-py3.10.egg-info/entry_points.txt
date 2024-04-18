@@ -1,6 +1,0 @@
-[console_scripts]
-dec = src.multiplexer:main
-learn = src.dqn_bridge:main
-pub = src.control:main
-sub = src.field_view:main
-
