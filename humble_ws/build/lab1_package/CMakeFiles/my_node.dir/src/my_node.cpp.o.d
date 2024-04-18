@@ -1,5 +1,9 @@
 CMakeFiles/my_node.dir/src/my_node.cpp.o: \
+<<<<<<< HEAD
  /home/rstole01/Documents/CapstoneGit/humble_ws/src/lab1_package/src/my_node.cpp \
+=======
+ /home/rstole01/Documents/CSE-596/humble_ws/src/lab1_package/src/my_node.cpp \
+>>>>>>> ce1a67ebf7edb694f0f93a1943a2aeb630cdb943
  /usr/include/stdc-predef.h /usr/include/c++/11/cstdio \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \

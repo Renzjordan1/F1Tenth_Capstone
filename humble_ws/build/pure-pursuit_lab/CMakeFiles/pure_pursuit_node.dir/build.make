@@ -53,10 +53,17 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
+<<<<<<< HEAD
 CMAKE_SOURCE_DIR = /home/rstole01/Documents/CapstoneGit/humble_ws/src/pure-pursuit_lab
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/rstole01/Documents/CapstoneGit/humble_ws/build/pure-pursuit_lab
+=======
+CMAKE_SOURCE_DIR = /home/rstole01/Documents/CSE-596/humble_ws/src/pure-pursuit_lab
+
+# The top-level build directory on which CMake was run.
+CMAKE_BINARY_DIR = /home/rstole01/Documents/CSE-596/humble_ws/build/pure-pursuit_lab
+>>>>>>> ce1a67ebf7edb694f0f93a1943a2aeb630cdb943
 
 # Include any dependencies generated for this target.
 include CMakeFiles/pure_pursuit_node.dir/depend.make
@@ -70,6 +77,7 @@ include CMakeFiles/pure_pursuit_node.dir/progress.make
 include CMakeFiles/pure_pursuit_node.dir/flags.make
 
 CMakeFiles/pure_pursuit_node.dir/src/pure_pursuit_node.cpp.o: CMakeFiles/pure_pursuit_node.dir/flags.make
+<<<<<<< HEAD
 CMakeFiles/pure_pursuit_node.dir/src/pure_pursuit_node.cpp.o: /home/rstole01/Documents/CapstoneGit/humble_ws/src/pure-pursuit_lab/src/pure_pursuit_node.cpp
 CMakeFiles/pure_pursuit_node.dir/src/pure_pursuit_node.cpp.o: CMakeFiles/pure_pursuit_node.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rstole01/Documents/CapstoneGit/humble_ws/build/pure-pursuit_lab/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/pure_pursuit_node.dir/src/pure_pursuit_node.cpp.o"
@@ -82,6 +90,20 @@ CMakeFiles/pure_pursuit_node.dir/src/pure_pursuit_node.cpp.i: cmake_force
 CMakeFiles/pure_pursuit_node.dir/src/pure_pursuit_node.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pure_pursuit_node.dir/src/pure_pursuit_node.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rstole01/Documents/CapstoneGit/humble_ws/src/pure-pursuit_lab/src/pure_pursuit_node.cpp -o CMakeFiles/pure_pursuit_node.dir/src/pure_pursuit_node.cpp.s
+=======
+CMakeFiles/pure_pursuit_node.dir/src/pure_pursuit_node.cpp.o: /home/rstole01/Documents/CSE-596/humble_ws/src/pure-pursuit_lab/src/pure_pursuit_node.cpp
+CMakeFiles/pure_pursuit_node.dir/src/pure_pursuit_node.cpp.o: CMakeFiles/pure_pursuit_node.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rstole01/Documents/CSE-596/humble_ws/build/pure-pursuit_lab/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/pure_pursuit_node.dir/src/pure_pursuit_node.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pure_pursuit_node.dir/src/pure_pursuit_node.cpp.o -MF CMakeFiles/pure_pursuit_node.dir/src/pure_pursuit_node.cpp.o.d -o CMakeFiles/pure_pursuit_node.dir/src/pure_pursuit_node.cpp.o -c /home/rstole01/Documents/CSE-596/humble_ws/src/pure-pursuit_lab/src/pure_pursuit_node.cpp
+
+CMakeFiles/pure_pursuit_node.dir/src/pure_pursuit_node.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pure_pursuit_node.dir/src/pure_pursuit_node.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rstole01/Documents/CSE-596/humble_ws/src/pure-pursuit_lab/src/pure_pursuit_node.cpp > CMakeFiles/pure_pursuit_node.dir/src/pure_pursuit_node.cpp.i
+
+CMakeFiles/pure_pursuit_node.dir/src/pure_pursuit_node.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pure_pursuit_node.dir/src/pure_pursuit_node.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rstole01/Documents/CSE-596/humble_ws/src/pure-pursuit_lab/src/pure_pursuit_node.cpp -o CMakeFiles/pure_pursuit_node.dir/src/pure_pursuit_node.cpp.s
+>>>>>>> ce1a67ebf7edb694f0f93a1943a2aeb630cdb943
 
 # Object files for target pure_pursuit_node
 pure_pursuit_node_OBJECTS = \
@@ -225,7 +247,11 @@ pure_pursuit_node: /opt/ros/humble/lib/libunique_identifier_msgs__rosidl_generat
 pure_pursuit_node: /opt/ros/humble/lib/librosidl_runtime_c.so
 pure_pursuit_node: /opt/ros/humble/lib/librcutils.so
 pure_pursuit_node: CMakeFiles/pure_pursuit_node.dir/link.txt
+<<<<<<< HEAD
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/rstole01/Documents/CapstoneGit/humble_ws/build/pure-pursuit_lab/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable pure_pursuit_node"
+=======
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/rstole01/Documents/CSE-596/humble_ws/build/pure-pursuit_lab/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable pure_pursuit_node"
+>>>>>>> ce1a67ebf7edb694f0f93a1943a2aeb630cdb943
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/pure_pursuit_node.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -237,6 +263,10 @@ CMakeFiles/pure_pursuit_node.dir/clean:
 .PHONY : CMakeFiles/pure_pursuit_node.dir/clean
 
 CMakeFiles/pure_pursuit_node.dir/depend:
+<<<<<<< HEAD
 	cd /home/rstole01/Documents/CapstoneGit/humble_ws/build/pure-pursuit_lab && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/rstole01/Documents/CapstoneGit/humble_ws/src/pure-pursuit_lab /home/rstole01/Documents/CapstoneGit/humble_ws/src/pure-pursuit_lab /home/rstole01/Documents/CapstoneGit/humble_ws/build/pure-pursuit_lab /home/rstole01/Documents/CapstoneGit/humble_ws/build/pure-pursuit_lab /home/rstole01/Documents/CapstoneGit/humble_ws/build/pure-pursuit_lab/CMakeFiles/pure_pursuit_node.dir/DependInfo.cmake --color=$(COLOR)
+=======
+	cd /home/rstole01/Documents/CSE-596/humble_ws/build/pure-pursuit_lab && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/rstole01/Documents/CSE-596/humble_ws/src/pure-pursuit_lab /home/rstole01/Documents/CSE-596/humble_ws/src/pure-pursuit_lab /home/rstole01/Documents/CSE-596/humble_ws/build/pure-pursuit_lab /home/rstole01/Documents/CSE-596/humble_ws/build/pure-pursuit_lab /home/rstole01/Documents/CSE-596/humble_ws/build/pure-pursuit_lab/CMakeFiles/pure_pursuit_node.dir/DependInfo.cmake --color=$(COLOR)
+>>>>>>> ce1a67ebf7edb694f0f93a1943a2aeb630cdb943
 .PHONY : CMakeFiles/pure_pursuit_node.dir/depend
 

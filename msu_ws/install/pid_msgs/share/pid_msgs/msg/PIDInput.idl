@@ -1,0 +1,14 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from pid_msgs/msg/PIDInput.msg
+// generated code does not contain a copyright notice
+
+
+module pid_msgs {
+  module msg {
+    struct PIDInput {
+      float pid_vel;
+
+      float pid_error;
+    };
+  };
+};

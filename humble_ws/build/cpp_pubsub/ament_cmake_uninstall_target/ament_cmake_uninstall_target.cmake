@@ -2,7 +2,11 @@
 # ament_cmake_core/cmake/uninstall_target/ament_cmake_uninstall_target.cmake.in
 
 function(ament_cmake_uninstall_target_remove_empty_directories path)
+<<<<<<< HEAD
   set(install_space "/home/rstole01/Documents/CapstoneGit/humble_ws/install/cpp_pubsub")
+=======
+  set(install_space "/home/rstole01/Documents/CSE-596/humble_ws/install/cpp_pubsub")
+>>>>>>> ce1a67ebf7edb694f0f93a1943a2aeb630cdb943
   if(install_space STREQUAL "")
     message(FATAL_ERROR "The CMAKE_INSTALL_PREFIX variable must not be empty")
   endif()
@@ -29,7 +33,11 @@ function(ament_cmake_uninstall_target_remove_empty_directories path)
 endfunction()
 
 # uninstall files installed using the standard install() function
+<<<<<<< HEAD
 set(install_manifest "/home/rstole01/Documents/CapstoneGit/humble_ws/build/cpp_pubsub/install_manifest.txt")
+=======
+set(install_manifest "/home/rstole01/Documents/CSE-596/humble_ws/build/cpp_pubsub/install_manifest.txt")
+>>>>>>> ce1a67ebf7edb694f0f93a1943a2aeb630cdb943
 if(NOT EXISTS "${install_manifest}")
   message(FATAL_ERROR "Cannot find install manifest: ${install_manifest}")
 endif()

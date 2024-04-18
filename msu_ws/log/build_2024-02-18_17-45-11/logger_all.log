@@ -1,0 +1,1097 @@
+[3.241s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[3.241s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7f07cf0c02b0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f07cf0c37f0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f07cf0c37f0>>, mixin_verb=('build',))
+[3.364s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[3.364s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[3.364s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[3.364s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[3.364s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[3.365s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[3.365s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/rstole01/Documents/CSE-596/msu_ws'
+[3.365s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[3.365s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[3.365s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[3.365s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[3.365s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[3.365s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[3.365s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[3.366s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[3.366s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[3.389s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[3.389s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[3.389s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[3.389s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[3.389s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[3.389s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[3.390s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[3.390s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[3.390s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[3.390s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[3.390s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[3.390s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[3.391s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[3.391s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[3.391s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[3.391s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[3.391s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[3.391s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[3.391s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[3.391s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[3.392s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[3.392s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[3.392s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[3.392s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[3.392s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[3.392s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[3.392s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[3.392s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[3.392s] Level 1:colcon.colcon_core.package_identification:_identify(src/Raceline-Optimization) by extensions ['ignore', 'ignore_ament_install']
+[3.393s] Level 1:colcon.colcon_core.package_identification:_identify(src/Raceline-Optimization) by extension 'ignore'
+[3.393s] Level 1:colcon.colcon_core.package_identification:_identify(src/Raceline-Optimization) by extension 'ignore_ament_install'
+[3.393s] Level 1:colcon.colcon_core.package_identification:_identify(src/Raceline-Optimization) by extensions ['colcon_pkg']
+[3.393s] Level 1:colcon.colcon_core.package_identification:_identify(src/Raceline-Optimization) by extension 'colcon_pkg'
+[3.393s] Level 1:colcon.colcon_core.package_identification:_identify(src/Raceline-Optimization) by extensions ['colcon_meta']
+[3.393s] Level 1:colcon.colcon_core.package_identification:_identify(src/Raceline-Optimization) by extension 'colcon_meta'
+[3.393s] Level 1:colcon.colcon_core.package_identification:_identify(src/Raceline-Optimization) by extensions ['ros']
+[3.393s] Level 1:colcon.colcon_core.package_identification:_identify(src/Raceline-Optimization) by extension 'ros'
+[3.393s] Level 1:colcon.colcon_core.package_identification:_identify(src/Raceline-Optimization) by extensions ['cmake', 'python']
+[3.393s] Level 1:colcon.colcon_core.package_identification:_identify(src/Raceline-Optimization) by extension 'cmake'
+[3.393s] Level 1:colcon.colcon_core.package_identification:_identify(src/Raceline-Optimization) by extension 'python'
+[3.394s] Level 1:colcon.colcon_core.package_identification:_identify(src/Raceline-Optimization) by extensions ['python_setup_py']
+[3.394s] Level 1:colcon.colcon_core.package_identification:_identify(src/Raceline-Optimization) by extension 'python_setup_py'
+[3.394s] Level 1:colcon.colcon_core.package_identification:_identify(src/Raceline-Optimization/frictionmap) by extensions ['ignore', 'ignore_ament_install']
+[3.394s] Level 1:colcon.colcon_core.package_identification:_identify(src/Raceline-Optimization/frictionmap) by extension 'ignore'
+[3.394s] Level 1:colcon.colcon_core.package_identification:_identify(src/Raceline-Optimization/frictionmap) by extension 'ignore_ament_install'
+[3.394s] Level 1:colcon.colcon_core.package_identification:_identify(src/Raceline-Optimization/frictionmap) by extensions ['colcon_pkg']
+[3.394s] Level 1:colcon.colcon_core.package_identification:_identify(src/Raceline-Optimization/frictionmap) by extension 'colcon_pkg'
+[3.394s] Level 1:colcon.colcon_core.package_identification:_identify(src/Raceline-Optimization/frictionmap) by extensions ['colcon_meta']
+[3.394s] Level 1:colcon.colcon_core.package_identification:_identify(src/Raceline-Optimization/frictionmap) by extension 'colcon_meta'
+[3.395s] Level 1:colcon.colcon_core.package_identification:_identify(src/Raceline-Optimization/frictionmap) by extensions ['ros']
+[3.395s] Level 1:colcon.colcon_core.package_identification:_identify(src/Raceline-Optimization/frictionmap) by extension 'ros'
+[3.395s] Level 1:colcon.colcon_core.package_identification:_identify(src/Raceline-Optimization/frictionmap) by extensions ['cmake', 'python']
+[3.395s] Level 1:colcon.colcon_core.package_identification:_identify(src/Raceline-Optimization/frictionmap) by extension 'cmake'
+[3.395s] Level 1:colcon.colcon_core.package_identification:_identify(src/Raceline-Optimization/frictionmap) by extension 'python'
+[3.395s] Level 1:colcon.colcon_core.package_identification:_identify(src/Raceline-Optimization/frictionmap) by extensions ['python_setup_py']
+[3.395s] Level 1:colcon.colcon_core.package_identification:_identify(src/Raceline-Optimization/frictionmap) by extension 'python_setup_py'
+[3.395s] Level 1:colcon.colcon_core.package_identification:_identify(src/Raceline-Optimization/frictionmap/src) by extensions ['ignore', 'ignore_ament_install']
+[3.395s] Level 1:colcon.colcon_core.package_identification:_identify(src/Raceline-Optimization/frictionmap/src) by extension 'ignore'
+[3.396s] Level 1:colcon.colcon_core.package_identification:_identify(src/Raceline-Optimization/frictionmap/src) by extension 'ignore_ament_install'
+[3.396s] Level 1:colcon.colcon_core.package_identification:_identify(src/Raceline-Optimization/frictionmap/src) by extensions ['colcon_pkg']
+[3.396s] Level 1:colcon.colcon_core.package_identification:_identify(src/Raceline-Optimization/frictionmap/src) by extension 'colcon_pkg'
+[3.396s] Level 1:colcon.colcon_core.package_identification:_identify(src/Raceline-Optimization/frictionmap/src) by extensions ['colcon_meta']
+[3.396s] Level 1:colcon.colcon_core.package_identification:_identify(src/Raceline-Optimization/frictionmap/src) by extension 'colcon_meta'
+[3.396s] Level 1:colcon.colcon_core.package_identification:_identify(src/Raceline-Optimization/frictionmap/src) by extensions ['ros']
+[3.396s] Level 1:colcon.colcon_core.package_identification:_identify(src/Raceline-Optimization/frictionmap/src) by extension 'ros'
+[3.396s] Level 1:colcon.colcon_core.package_identification:_identify(src/Raceline-Optimization/frictionmap/src) by extensions ['cmake', 'python']
+[3.396s] Level 1:colcon.colcon_core.package_identification:_identify(src/Raceline-Optimization/frictionmap/src) by extension 'cmake'
+[3.396s] Level 1:colcon.colcon_core.package_identification:_identify(src/Raceline-Optimization/frictionmap/src) by extension 'python'
+[3.396s] Level 1:colcon.colcon_core.package_identification:_identify(src/Raceline-Optimization/frictionmap/src) by extensions ['python_setup_py']
+[3.397s] Level 1:colcon.colcon_core.package_identification:_identify(src/Raceline-Optimization/frictionmap/src) by extension 'python_setup_py'
+[3.397s] Level 1:colcon.colcon_core.package_identification:_identify(src/Raceline-Optimization/helper_funcs_glob) by extensions ['ignore', 'ignore_ament_install']
+[3.397s] Level 1:colcon.colcon_core.package_identification:_identify(src/Raceline-Optimization/helper_funcs_glob) by extension 'ignore'
+[3.397s] Level 1:colcon.colcon_core.package_identification:_identify(src/Raceline-Optimization/helper_funcs_glob) by extension 'ignore_ament_install'
+[3.397s] Level 1:colcon.colcon_core.package_identification:_identify(src/Raceline-Optimization/helper_funcs_glob) by extensions ['colcon_pkg']
+[3.397s] Level 1:colcon.colcon_core.package_identification:_identify(src/Raceline-Optimization/helper_funcs_glob) by extension 'colcon_pkg'
+[3.397s] Level 1:colcon.colcon_core.package_identification:_identify(src/Raceline-Optimization/helper_funcs_glob) by extensions ['colcon_meta']
+[3.397s] Level 1:colcon.colcon_core.package_identification:_identify(src/Raceline-Optimization/helper_funcs_glob) by extension 'colcon_meta'
+[3.397s] Level 1:colcon.colcon_core.package_identification:_identify(src/Raceline-Optimization/helper_funcs_glob) by extensions ['ros']
+[3.398s] Level 1:colcon.colcon_core.package_identification:_identify(src/Raceline-Optimization/helper_funcs_glob) by extension 'ros'
+[3.398s] Level 1:colcon.colcon_core.package_identification:_identify(src/Raceline-Optimization/helper_funcs_glob) by extensions ['cmake', 'python']
+[3.398s] Level 1:colcon.colcon_core.package_identification:_identify(src/Raceline-Optimization/helper_funcs_glob) by extension 'cmake'
+[3.398s] Level 1:colcon.colcon_core.package_identification:_identify(src/Raceline-Optimization/helper_funcs_glob) by extension 'python'
+[3.398s] Level 1:colcon.colcon_core.package_identification:_identify(src/Raceline-Optimization/helper_funcs_glob) by extensions ['python_setup_py']
+[3.398s] Level 1:colcon.colcon_core.package_identification:_identify(src/Raceline-Optimization/helper_funcs_glob) by extension 'python_setup_py'
+[3.398s] Level 1:colcon.colcon_core.package_identification:_identify(src/Raceline-Optimization/helper_funcs_glob/src) by extensions ['ignore', 'ignore_ament_install']
+[3.398s] Level 1:colcon.colcon_core.package_identification:_identify(src/Raceline-Optimization/helper_funcs_glob/src) by extension 'ignore'
+[3.399s] Level 1:colcon.colcon_core.package_identification:_identify(src/Raceline-Optimization/helper_funcs_glob/src) by extension 'ignore_ament_install'
+[3.399s] Level 1:colcon.colcon_core.package_identification:_identify(src/Raceline-Optimization/helper_funcs_glob/src) by extensions ['colcon_pkg']
+[3.399s] Level 1:colcon.colcon_core.package_identification:_identify(src/Raceline-Optimization/helper_funcs_glob/src) by extension 'colcon_pkg'
+[3.399s] Level 1:colcon.colcon_core.package_identification:_identify(src/Raceline-Optimization/helper_funcs_glob/src) by extensions ['colcon_meta']
+[3.399s] Level 1:colcon.colcon_core.package_identification:_identify(src/Raceline-Optimization/helper_funcs_glob/src) by extension 'colcon_meta'
+[3.399s] Level 1:colcon.colcon_core.package_identification:_identify(src/Raceline-Optimization/helper_funcs_glob/src) by extensions ['ros']
+[3.399s] Level 1:colcon.colcon_core.package_identification:_identify(src/Raceline-Optimization/helper_funcs_glob/src) by extension 'ros'
+[3.399s] Level 1:colcon.colcon_core.package_identification:_identify(src/Raceline-Optimization/helper_funcs_glob/src) by extensions ['cmake', 'python']
+[3.399s] Level 1:colcon.colcon_core.package_identification:_identify(src/Raceline-Optimization/helper_funcs_glob/src) by extension 'cmake'
+[3.399s] Level 1:colcon.colcon_core.package_identification:_identify(src/Raceline-Optimization/helper_funcs_glob/src) by extension 'python'
+[3.399s] Level 1:colcon.colcon_core.package_identification:_identify(src/Raceline-Optimization/helper_funcs_glob/src) by extensions ['python_setup_py']
+[3.399s] Level 1:colcon.colcon_core.package_identification:_identify(src/Raceline-Optimization/helper_funcs_glob/src) by extension 'python_setup_py'
+[3.400s] Level 1:colcon.colcon_core.package_identification:_identify(src/Raceline-Optimization/inputs) by extensions ['ignore', 'ignore_ament_install']
+[3.400s] Level 1:colcon.colcon_core.package_identification:_identify(src/Raceline-Optimization/inputs) by extension 'ignore'
+[3.400s] Level 1:colcon.colcon_core.package_identification:_identify(src/Raceline-Optimization/inputs) by extension 'ignore_ament_install'
+[3.400s] Level 1:colcon.colcon_core.package_identification:_identify(src/Raceline-Optimization/inputs) by extensions ['colcon_pkg']
+[3.400s] Level 1:colcon.colcon_core.package_identification:_identify(src/Raceline-Optimization/inputs) by extension 'colcon_pkg'
+[3.400s] Level 1:colcon.colcon_core.package_identification:_identify(src/Raceline-Optimization/inputs) by extensions ['colcon_meta']
+[3.400s] Level 1:colcon.colcon_core.package_identification:_identify(src/Raceline-Optimization/inputs) by extension 'colcon_meta'
+[3.400s] Level 1:colcon.colcon_core.package_identification:_identify(src/Raceline-Optimization/inputs) by extensions ['ros']
+[3.401s] Level 1:colcon.colcon_core.package_identification:_identify(src/Raceline-Optimization/inputs) by extension 'ros'
+[3.401s] Level 1:colcon.colcon_core.package_identification:_identify(src/Raceline-Optimization/inputs) by extensions ['cmake', 'python']
+[3.401s] Level 1:colcon.colcon_core.package_identification:_identify(src/Raceline-Optimization/inputs) by extension 'cmake'
+[3.401s] Level 1:colcon.colcon_core.package_identification:_identify(src/Raceline-Optimization/inputs) by extension 'python'
+[3.401s] Level 1:colcon.colcon_core.package_identification:_identify(src/Raceline-Optimization/inputs) by extensions ['python_setup_py']
+[3.401s] Level 1:colcon.colcon_core.package_identification:_identify(src/Raceline-Optimization/inputs) by extension 'python_setup_py'
+[3.401s] Level 1:colcon.colcon_core.package_identification:_identify(src/Raceline-Optimization/inputs/frictionmaps) by extensions ['ignore', 'ignore_ament_install']
+[3.401s] Level 1:colcon.colcon_core.package_identification:_identify(src/Raceline-Optimization/inputs/frictionmaps) by extension 'ignore'
+[3.402s] Level 1:colcon.colcon_core.package_identification:_identify(src/Raceline-Optimization/inputs/frictionmaps) by extension 'ignore_ament_install'
+[3.402s] Level 1:colcon.colcon_core.package_identification:_identify(src/Raceline-Optimization/inputs/frictionmaps) by extensions ['colcon_pkg']
+[3.402s] Level 1:colcon.colcon_core.package_identification:_identify(src/Raceline-Optimization/inputs/frictionmaps) by extension 'colcon_pkg'
+[3.402s] Level 1:colcon.colcon_core.package_identification:_identify(src/Raceline-Optimization/inputs/frictionmaps) by extensions ['colcon_meta']
+[3.402s] Level 1:colcon.colcon_core.package_identification:_identify(src/Raceline-Optimization/inputs/frictionmaps) by extension 'colcon_meta'
+[3.402s] Level 1:colcon.colcon_core.package_identification:_identify(src/Raceline-Optimization/inputs/frictionmaps) by extensions ['ros']
+[3.402s] Level 1:colcon.colcon_core.package_identification:_identify(src/Raceline-Optimization/inputs/frictionmaps) by extension 'ros'
+[3.402s] Level 1:colcon.colcon_core.package_identification:_identify(src/Raceline-Optimization/inputs/frictionmaps) by extensions ['cmake', 'python']
+[3.402s] Level 1:colcon.colcon_core.package_identification:_identify(src/Raceline-Optimization/inputs/frictionmaps) by extension 'cmake'
+[3.402s] Level 1:colcon.colcon_core.package_identification:_identify(src/Raceline-Optimization/inputs/frictionmaps) by extension 'python'
+[3.402s] Level 1:colcon.colcon_core.package_identification:_identify(src/Raceline-Optimization/inputs/frictionmaps) by extensions ['python_setup_py']
+[3.402s] Level 1:colcon.colcon_core.package_identification:_identify(src/Raceline-Optimization/inputs/frictionmaps) by extension 'python_setup_py'
+[3.403s] Level 1:colcon.colcon_core.package_identification:_identify(src/Raceline-Optimization/inputs/tracks) by extensions ['ignore', 'ignore_ament_install']
+[3.403s] Level 1:colcon.colcon_core.package_identification:_identify(src/Raceline-Optimization/inputs/tracks) by extension 'ignore'
+[3.403s] Level 1:colcon.colcon_core.package_identification:_identify(src/Raceline-Optimization/inputs/tracks) by extension 'ignore_ament_install'
+[3.403s] Level 1:colcon.colcon_core.package_identification:_identify(src/Raceline-Optimization/inputs/tracks) by extensions ['colcon_pkg']
+[3.403s] Level 1:colcon.colcon_core.package_identification:_identify(src/Raceline-Optimization/inputs/tracks) by extension 'colcon_pkg'
+[3.403s] Level 1:colcon.colcon_core.package_identification:_identify(src/Raceline-Optimization/inputs/tracks) by extensions ['colcon_meta']
+[3.403s] Level 1:colcon.colcon_core.package_identification:_identify(src/Raceline-Optimization/inputs/tracks) by extension 'colcon_meta'
+[3.403s] Level 1:colcon.colcon_core.package_identification:_identify(src/Raceline-Optimization/inputs/tracks) by extensions ['ros']
+[3.404s] Level 1:colcon.colcon_core.package_identification:_identify(src/Raceline-Optimization/inputs/tracks) by extension 'ros'
+[3.404s] Level 1:colcon.colcon_core.package_identification:_identify(src/Raceline-Optimization/inputs/tracks) by extensions ['cmake', 'python']
+[3.404s] Level 1:colcon.colcon_core.package_identification:_identify(src/Raceline-Optimization/inputs/tracks) by extension 'cmake'
+[3.404s] Level 1:colcon.colcon_core.package_identification:_identify(src/Raceline-Optimization/inputs/tracks) by extension 'python'
+[3.404s] Level 1:colcon.colcon_core.package_identification:_identify(src/Raceline-Optimization/inputs/tracks) by extensions ['python_setup_py']
+[3.404s] Level 1:colcon.colcon_core.package_identification:_identify(src/Raceline-Optimization/inputs/tracks) by extension 'python_setup_py'
+[3.404s] Level 1:colcon.colcon_core.package_identification:_identify(src/Raceline-Optimization/inputs/veh_dyn_info) by extensions ['ignore', 'ignore_ament_install']
+[3.404s] Level 1:colcon.colcon_core.package_identification:_identify(src/Raceline-Optimization/inputs/veh_dyn_info) by extension 'ignore'
+[3.405s] Level 1:colcon.colcon_core.package_identification:_identify(src/Raceline-Optimization/inputs/veh_dyn_info) by extension 'ignore_ament_install'
+[3.405s] Level 1:colcon.colcon_core.package_identification:_identify(src/Raceline-Optimization/inputs/veh_dyn_info) by extensions ['colcon_pkg']
+[3.405s] Level 1:colcon.colcon_core.package_identification:_identify(src/Raceline-Optimization/inputs/veh_dyn_info) by extension 'colcon_pkg'
+[3.405s] Level 1:colcon.colcon_core.package_identification:_identify(src/Raceline-Optimization/inputs/veh_dyn_info) by extensions ['colcon_meta']
+[3.405s] Level 1:colcon.colcon_core.package_identification:_identify(src/Raceline-Optimization/inputs/veh_dyn_info) by extension 'colcon_meta'
+[3.405s] Level 1:colcon.colcon_core.package_identification:_identify(src/Raceline-Optimization/inputs/veh_dyn_info) by extensions ['ros']
+[3.405s] Level 1:colcon.colcon_core.package_identification:_identify(src/Raceline-Optimization/inputs/veh_dyn_info) by extension 'ros'
+[3.405s] Level 1:colcon.colcon_core.package_identification:_identify(src/Raceline-Optimization/inputs/veh_dyn_info) by extensions ['cmake', 'python']
+[3.405s] Level 1:colcon.colcon_core.package_identification:_identify(src/Raceline-Optimization/inputs/veh_dyn_info) by extension 'cmake'
+[3.405s] Level 1:colcon.colcon_core.package_identification:_identify(src/Raceline-Optimization/inputs/veh_dyn_info) by extension 'python'
+[3.405s] Level 1:colcon.colcon_core.package_identification:_identify(src/Raceline-Optimization/inputs/veh_dyn_info) by extensions ['python_setup_py']
+[3.405s] Level 1:colcon.colcon_core.package_identification:_identify(src/Raceline-Optimization/inputs/veh_dyn_info) by extension 'python_setup_py'
+[3.406s] Level 1:colcon.colcon_core.package_identification:_identify(src/Raceline-Optimization/maps) by extensions ['ignore', 'ignore_ament_install']
+[3.406s] Level 1:colcon.colcon_core.package_identification:_identify(src/Raceline-Optimization/maps) by extension 'ignore'
+[3.406s] Level 1:colcon.colcon_core.package_identification:_identify(src/Raceline-Optimization/maps) by extension 'ignore_ament_install'
+[3.406s] Level 1:colcon.colcon_core.package_identification:_identify(src/Raceline-Optimization/maps) by extensions ['colcon_pkg']
+[3.406s] Level 1:colcon.colcon_core.package_identification:_identify(src/Raceline-Optimization/maps) by extension 'colcon_pkg'
+[3.406s] Level 1:colcon.colcon_core.package_identification:_identify(src/Raceline-Optimization/maps) by extensions ['colcon_meta']
+[3.406s] Level 1:colcon.colcon_core.package_identification:_identify(src/Raceline-Optimization/maps) by extension 'colcon_meta'
+[3.406s] Level 1:colcon.colcon_core.package_identification:_identify(src/Raceline-Optimization/maps) by extensions ['ros']
+[3.407s] Level 1:colcon.colcon_core.package_identification:_identify(src/Raceline-Optimization/maps) by extension 'ros'
+[3.407s] Level 1:colcon.colcon_core.package_identification:_identify(src/Raceline-Optimization/maps) by extensions ['cmake', 'python']
+[3.407s] Level 1:colcon.colcon_core.package_identification:_identify(src/Raceline-Optimization/maps) by extension 'cmake'
+[3.407s] Level 1:colcon.colcon_core.package_identification:_identify(src/Raceline-Optimization/maps) by extension 'python'
+[3.407s] Level 1:colcon.colcon_core.package_identification:_identify(src/Raceline-Optimization/maps) by extensions ['python_setup_py']
+[3.407s] Level 1:colcon.colcon_core.package_identification:_identify(src/Raceline-Optimization/maps) by extension 'python_setup_py'
+[3.407s] Level 1:colcon.colcon_core.package_identification:_identify(src/Raceline-Optimization/opt_mintime_traj) by extensions ['ignore', 'ignore_ament_install']
+[3.407s] Level 1:colcon.colcon_core.package_identification:_identify(src/Raceline-Optimization/opt_mintime_traj) by extension 'ignore'
+[3.407s] Level 1:colcon.colcon_core.package_identification:_identify(src/Raceline-Optimization/opt_mintime_traj) by extension 'ignore_ament_install'
+[3.408s] Level 1:colcon.colcon_core.package_identification:_identify(src/Raceline-Optimization/opt_mintime_traj) by extensions ['colcon_pkg']
+[3.408s] Level 1:colcon.colcon_core.package_identification:_identify(src/Raceline-Optimization/opt_mintime_traj) by extension 'colcon_pkg'
+[3.408s] Level 1:colcon.colcon_core.package_identification:_identify(src/Raceline-Optimization/opt_mintime_traj) by extensions ['colcon_meta']
+[3.408s] Level 1:colcon.colcon_core.package_identification:_identify(src/Raceline-Optimization/opt_mintime_traj) by extension 'colcon_meta'
+[3.408s] Level 1:colcon.colcon_core.package_identification:_identify(src/Raceline-Optimization/opt_mintime_traj) by extensions ['ros']
+[3.408s] Level 1:colcon.colcon_core.package_identification:_identify(src/Raceline-Optimization/opt_mintime_traj) by extension 'ros'
+[3.408s] Level 1:colcon.colcon_core.package_identification:_identify(src/Raceline-Optimization/opt_mintime_traj) by extensions ['cmake', 'python']
+[3.408s] Level 1:colcon.colcon_core.package_identification:_identify(src/Raceline-Optimization/opt_mintime_traj) by extension 'cmake'
+[3.408s] Level 1:colcon.colcon_core.package_identification:_identify(src/Raceline-Optimization/opt_mintime_traj) by extension 'python'
+[3.408s] Level 1:colcon.colcon_core.package_identification:_identify(src/Raceline-Optimization/opt_mintime_traj) by extensions ['python_setup_py']
+[3.408s] Level 1:colcon.colcon_core.package_identification:_identify(src/Raceline-Optimization/opt_mintime_traj) by extension 'python_setup_py'
+[3.409s] Level 1:colcon.colcon_core.package_identification:_identify(src/Raceline-Optimization/opt_mintime_traj/powertrain_src) by extensions ['ignore', 'ignore_ament_install']
+[3.409s] Level 1:colcon.colcon_core.package_identification:_identify(src/Raceline-Optimization/opt_mintime_traj/powertrain_src) by extension 'ignore'
+[3.409s] Level 1:colcon.colcon_core.package_identification:_identify(src/Raceline-Optimization/opt_mintime_traj/powertrain_src) by extension 'ignore_ament_install'
+[3.409s] Level 1:colcon.colcon_core.package_identification:_identify(src/Raceline-Optimization/opt_mintime_traj/powertrain_src) by extensions ['colcon_pkg']
+[3.409s] Level 1:colcon.colcon_core.package_identification:_identify(src/Raceline-Optimization/opt_mintime_traj/powertrain_src) by extension 'colcon_pkg'
+[3.409s] Level 1:colcon.colcon_core.package_identification:_identify(src/Raceline-Optimization/opt_mintime_traj/powertrain_src) by extensions ['colcon_meta']
+[3.409s] Level 1:colcon.colcon_core.package_identification:_identify(src/Raceline-Optimization/opt_mintime_traj/powertrain_src) by extension 'colcon_meta'
+[3.409s] Level 1:colcon.colcon_core.package_identification:_identify(src/Raceline-Optimization/opt_mintime_traj/powertrain_src) by extensions ['ros']
+[3.409s] Level 1:colcon.colcon_core.package_identification:_identify(src/Raceline-Optimization/opt_mintime_traj/powertrain_src) by extension 'ros'
+[3.410s] Level 1:colcon.colcon_core.package_identification:_identify(src/Raceline-Optimization/opt_mintime_traj/powertrain_src) by extensions ['cmake', 'python']
+[3.410s] Level 1:colcon.colcon_core.package_identification:_identify(src/Raceline-Optimization/opt_mintime_traj/powertrain_src) by extension 'cmake'
+[3.410s] Level 1:colcon.colcon_core.package_identification:_identify(src/Raceline-Optimization/opt_mintime_traj/powertrain_src) by extension 'python'
+[3.410s] Level 1:colcon.colcon_core.package_identification:_identify(src/Raceline-Optimization/opt_mintime_traj/powertrain_src) by extensions ['python_setup_py']
+[3.410s] Level 1:colcon.colcon_core.package_identification:_identify(src/Raceline-Optimization/opt_mintime_traj/powertrain_src) by extension 'python_setup_py'
+[3.410s] Level 1:colcon.colcon_core.package_identification:_identify(src/Raceline-Optimization/opt_mintime_traj/powertrain_src/src) by extensions ['ignore', 'ignore_ament_install']
+[3.410s] Level 1:colcon.colcon_core.package_identification:_identify(src/Raceline-Optimization/opt_mintime_traj/powertrain_src/src) by extension 'ignore'
+[3.410s] Level 1:colcon.colcon_core.package_identification:_identify(src/Raceline-Optimization/opt_mintime_traj/powertrain_src/src) by extension 'ignore_ament_install'
+[3.411s] Level 1:colcon.colcon_core.package_identification:_identify(src/Raceline-Optimization/opt_mintime_traj/powertrain_src/src) by extensions ['colcon_pkg']
+[3.411s] Level 1:colcon.colcon_core.package_identification:_identify(src/Raceline-Optimization/opt_mintime_traj/powertrain_src/src) by extension 'colcon_pkg'
+[3.411s] Level 1:colcon.colcon_core.package_identification:_identify(src/Raceline-Optimization/opt_mintime_traj/powertrain_src/src) by extensions ['colcon_meta']
+[3.411s] Level 1:colcon.colcon_core.package_identification:_identify(src/Raceline-Optimization/opt_mintime_traj/powertrain_src/src) by extension 'colcon_meta'
+[3.411s] Level 1:colcon.colcon_core.package_identification:_identify(src/Raceline-Optimization/opt_mintime_traj/powertrain_src/src) by extensions ['ros']
+[3.411s] Level 1:colcon.colcon_core.package_identification:_identify(src/Raceline-Optimization/opt_mintime_traj/powertrain_src/src) by extension 'ros'
+[3.411s] Level 1:colcon.colcon_core.package_identification:_identify(src/Raceline-Optimization/opt_mintime_traj/powertrain_src/src) by extensions ['cmake', 'python']
+[3.411s] Level 1:colcon.colcon_core.package_identification:_identify(src/Raceline-Optimization/opt_mintime_traj/powertrain_src/src) by extension 'cmake'
+[3.411s] Level 1:colcon.colcon_core.package_identification:_identify(src/Raceline-Optimization/opt_mintime_traj/powertrain_src/src) by extension 'python'
+[3.411s] Level 1:colcon.colcon_core.package_identification:_identify(src/Raceline-Optimization/opt_mintime_traj/powertrain_src/src) by extensions ['python_setup_py']
+[3.411s] Level 1:colcon.colcon_core.package_identification:_identify(src/Raceline-Optimization/opt_mintime_traj/powertrain_src/src) by extension 'python_setup_py'
+[3.412s] Level 1:colcon.colcon_core.package_identification:_identify(src/Raceline-Optimization/opt_mintime_traj/src) by extensions ['ignore', 'ignore_ament_install']
+[3.412s] Level 1:colcon.colcon_core.package_identification:_identify(src/Raceline-Optimization/opt_mintime_traj/src) by extension 'ignore'
+[3.412s] Level 1:colcon.colcon_core.package_identification:_identify(src/Raceline-Optimization/opt_mintime_traj/src) by extension 'ignore_ament_install'
+[3.412s] Level 1:colcon.colcon_core.package_identification:_identify(src/Raceline-Optimization/opt_mintime_traj/src) by extensions ['colcon_pkg']
+[3.412s] Level 1:colcon.colcon_core.package_identification:_identify(src/Raceline-Optimization/opt_mintime_traj/src) by extension 'colcon_pkg'
+[3.412s] Level 1:colcon.colcon_core.package_identification:_identify(src/Raceline-Optimization/opt_mintime_traj/src) by extensions ['colcon_meta']
+[3.412s] Level 1:colcon.colcon_core.package_identification:_identify(src/Raceline-Optimization/opt_mintime_traj/src) by extension 'colcon_meta'
+[3.412s] Level 1:colcon.colcon_core.package_identification:_identify(src/Raceline-Optimization/opt_mintime_traj/src) by extensions ['ros']
+[3.413s] Level 1:colcon.colcon_core.package_identification:_identify(src/Raceline-Optimization/opt_mintime_traj/src) by extension 'ros'
+[3.413s] Level 1:colcon.colcon_core.package_identification:_identify(src/Raceline-Optimization/opt_mintime_traj/src) by extensions ['cmake', 'python']
+[3.413s] Level 1:colcon.colcon_core.package_identification:_identify(src/Raceline-Optimization/opt_mintime_traj/src) by extension 'cmake'
+[3.413s] Level 1:colcon.colcon_core.package_identification:_identify(src/Raceline-Optimization/opt_mintime_traj/src) by extension 'python'
+[3.413s] Level 1:colcon.colcon_core.package_identification:_identify(src/Raceline-Optimization/opt_mintime_traj/src) by extensions ['python_setup_py']
+[3.413s] Level 1:colcon.colcon_core.package_identification:_identify(src/Raceline-Optimization/opt_mintime_traj/src) by extension 'python_setup_py'
+[3.413s] Level 1:colcon.colcon_core.package_identification:_identify(src/Raceline-Optimization/params) by extensions ['ignore', 'ignore_ament_install']
+[3.413s] Level 1:colcon.colcon_core.package_identification:_identify(src/Raceline-Optimization/params) by extension 'ignore'
+[3.413s] Level 1:colcon.colcon_core.package_identification:_identify(src/Raceline-Optimization/params) by extension 'ignore_ament_install'
+[3.414s] Level 1:colcon.colcon_core.package_identification:_identify(src/Raceline-Optimization/params) by extensions ['colcon_pkg']
+[3.414s] Level 1:colcon.colcon_core.package_identification:_identify(src/Raceline-Optimization/params) by extension 'colcon_pkg'
+[3.414s] Level 1:colcon.colcon_core.package_identification:_identify(src/Raceline-Optimization/params) by extensions ['colcon_meta']
+[3.414s] Level 1:colcon.colcon_core.package_identification:_identify(src/Raceline-Optimization/params) by extension 'colcon_meta'
+[3.414s] Level 1:colcon.colcon_core.package_identification:_identify(src/Raceline-Optimization/params) by extensions ['ros']
+[3.414s] Level 1:colcon.colcon_core.package_identification:_identify(src/Raceline-Optimization/params) by extension 'ros'
+[3.414s] Level 1:colcon.colcon_core.package_identification:_identify(src/Raceline-Optimization/params) by extensions ['cmake', 'python']
+[3.414s] Level 1:colcon.colcon_core.package_identification:_identify(src/Raceline-Optimization/params) by extension 'cmake'
+[3.414s] Level 1:colcon.colcon_core.package_identification:_identify(src/Raceline-Optimization/params) by extension 'python'
+[3.414s] Level 1:colcon.colcon_core.package_identification:_identify(src/Raceline-Optimization/params) by extensions ['python_setup_py']
+[3.414s] Level 1:colcon.colcon_core.package_identification:_identify(src/Raceline-Optimization/params) by extension 'python_setup_py'
+[3.415s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann_msgs) by extensions ['ignore', 'ignore_ament_install']
+[3.415s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann_msgs) by extension 'ignore'
+[3.415s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann_msgs) by extension 'ignore_ament_install'
+[3.415s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann_msgs) by extensions ['colcon_pkg']
+[3.415s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann_msgs) by extension 'colcon_pkg'
+[3.415s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann_msgs) by extensions ['colcon_meta']
+[3.415s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann_msgs) by extension 'colcon_meta'
+[3.415s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann_msgs) by extensions ['ros']
+[3.415s] Level 1:colcon.colcon_core.package_identification:_identify(src/ackermann_msgs) by extension 'ros'
+[3.420s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ackermann_msgs' with type 'ros.ament_cmake' and name 'ackermann_msgs'
+[3.420s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1tenth_gym_ros) by extensions ['ignore', 'ignore_ament_install']
+[3.420s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1tenth_gym_ros) by extension 'ignore'
+[3.421s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1tenth_gym_ros) by extension 'ignore_ament_install'
+[3.421s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1tenth_gym_ros) by extensions ['colcon_pkg']
+[3.421s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1tenth_gym_ros) by extension 'colcon_pkg'
+[3.421s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1tenth_gym_ros) by extensions ['colcon_meta']
+[3.421s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1tenth_gym_ros) by extension 'colcon_meta'
+[3.421s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1tenth_gym_ros) by extensions ['ros']
+[3.421s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1tenth_gym_ros) by extension 'ros'
+[3.422s] DEBUG:colcon.colcon_core.package_identification:Package 'src/f1tenth_gym_ros' with type 'ros.ament_python' and name 'f1tenth_gym_ros'
+[3.423s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_messages) by extensions ['ignore', 'ignore_ament_install']
+[3.423s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_messages) by extension 'ignore'
+[3.423s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_messages) by extension 'ignore_ament_install'
+[3.423s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_messages) by extensions ['colcon_pkg']
+[3.423s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_messages) by extension 'colcon_pkg'
+[3.423s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_messages) by extensions ['colcon_meta']
+[3.423s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_messages) by extension 'colcon_meta'
+[3.423s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_messages) by extensions ['ros']
+[3.424s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_messages) by extension 'ros'
+[3.424s] DEBUG:colcon.colcon_core.package_identification:Package 'src/my_messages' with type 'ros.ament_cmake' and name 'my_messages'
+[3.425s] Level 1:colcon.colcon_core.package_identification:_identify(src/painter) by extensions ['ignore', 'ignore_ament_install']
+[3.425s] Level 1:colcon.colcon_core.package_identification:_identify(src/painter) by extension 'ignore'
+[3.425s] Level 1:colcon.colcon_core.package_identification:_identify(src/painter) by extension 'ignore_ament_install'
+[3.425s] Level 1:colcon.colcon_core.package_identification:_identify(src/painter) by extensions ['colcon_pkg']
+[3.425s] Level 1:colcon.colcon_core.package_identification:_identify(src/painter) by extension 'colcon_pkg'
+[3.425s] Level 1:colcon.colcon_core.package_identification:_identify(src/painter) by extensions ['colcon_meta']
+[3.425s] Level 1:colcon.colcon_core.package_identification:_identify(src/painter) by extension 'colcon_meta'
+[3.425s] Level 1:colcon.colcon_core.package_identification:_identify(src/painter) by extensions ['ros']
+[3.425s] Level 1:colcon.colcon_core.package_identification:_identify(src/painter) by extension 'ros'
+[3.426s] DEBUG:colcon.colcon_core.package_identification:Package 'src/painter' with type 'ros.ament_python' and name 'painter'
+[3.426s] Level 1:colcon.colcon_core.package_identification:_identify(src/pid_msgs) by extensions ['ignore', 'ignore_ament_install']
+[3.427s] Level 1:colcon.colcon_core.package_identification:_identify(src/pid_msgs) by extension 'ignore'
+[3.427s] Level 1:colcon.colcon_core.package_identification:_identify(src/pid_msgs) by extension 'ignore_ament_install'
+[3.427s] Level 1:colcon.colcon_core.package_identification:_identify(src/pid_msgs) by extensions ['colcon_pkg']
+[3.427s] Level 1:colcon.colcon_core.package_identification:_identify(src/pid_msgs) by extension 'colcon_pkg'
+[3.427s] Level 1:colcon.colcon_core.package_identification:_identify(src/pid_msgs) by extensions ['colcon_meta']
+[3.427s] Level 1:colcon.colcon_core.package_identification:_identify(src/pid_msgs) by extension 'colcon_meta'
+[3.427s] Level 1:colcon.colcon_core.package_identification:_identify(src/pid_msgs) by extensions ['ros']
+[3.428s] Level 1:colcon.colcon_core.package_identification:_identify(src/pid_msgs) by extension 'ros'
+[3.429s] DEBUG:colcon.colcon_core.package_identification:Package 'src/pid_msgs' with type 'ros.ament_cmake' and name 'pid_msgs'
+[3.429s] Level 1:colcon.colcon_core.package_identification:_identify(src/plexer360) by extensions ['ignore', 'ignore_ament_install']
+[3.429s] Level 1:colcon.colcon_core.package_identification:_identify(src/plexer360) by extension 'ignore'
+[3.429s] Level 1:colcon.colcon_core.package_identification:_identify(src/plexer360) by extension 'ignore_ament_install'
+[3.429s] Level 1:colcon.colcon_core.package_identification:_identify(src/plexer360) by extensions ['colcon_pkg']
+[3.429s] Level 1:colcon.colcon_core.package_identification:_identify(src/plexer360) by extension 'colcon_pkg'
+[3.430s] Level 1:colcon.colcon_core.package_identification:_identify(src/plexer360) by extensions ['colcon_meta']
+[3.430s] Level 1:colcon.colcon_core.package_identification:_identify(src/plexer360) by extension 'colcon_meta'
+[3.430s] Level 1:colcon.colcon_core.package_identification:_identify(src/plexer360) by extensions ['ros']
+[3.430s] Level 1:colcon.colcon_core.package_identification:_identify(src/plexer360) by extension 'ros'
+[3.431s] DEBUG:colcon.colcon_core.package_identification:Package 'src/plexer360' with type 'ros.ament_python' and name 'plexer360'
+[3.431s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_pubsub) by extensions ['ignore', 'ignore_ament_install']
+[3.432s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_pubsub) by extension 'ignore'
+[3.432s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_pubsub) by extension 'ignore_ament_install'
+[3.432s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_pubsub) by extensions ['colcon_pkg']
+[3.432s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_pubsub) by extension 'colcon_pkg'
+[3.432s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_pubsub) by extensions ['colcon_meta']
+[3.432s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_pubsub) by extension 'colcon_meta'
+[3.432s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_pubsub) by extensions ['ros']
+[3.432s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_pubsub) by extension 'ros'
+[3.433s] DEBUG:colcon.colcon_core.package_identification:Package 'src/py_pubsub' with type 'ros.ament_python' and name 'py_pubsub'
+[3.434s] Level 1:colcon.colcon_core.package_identification:_identify(src/qlearn) by extensions ['ignore', 'ignore_ament_install']
+[3.434s] Level 1:colcon.colcon_core.package_identification:_identify(src/qlearn) by extension 'ignore'
+[3.434s] Level 1:colcon.colcon_core.package_identification:_identify(src/qlearn) by extension 'ignore_ament_install'
+[3.434s] Level 1:colcon.colcon_core.package_identification:_identify(src/qlearn) by extensions ['colcon_pkg']
+[3.434s] Level 1:colcon.colcon_core.package_identification:_identify(src/qlearn) by extension 'colcon_pkg'
+[3.434s] Level 1:colcon.colcon_core.package_identification:_identify(src/qlearn) by extensions ['colcon_meta']
+[3.434s] Level 1:colcon.colcon_core.package_identification:_identify(src/qlearn) by extension 'colcon_meta'
+[3.434s] Level 1:colcon.colcon_core.package_identification:_identify(src/qlearn) by extensions ['ros']
+[3.434s] Level 1:colcon.colcon_core.package_identification:_identify(src/qlearn) by extension 'ros'
+[3.435s] DEBUG:colcon.colcon_core.package_identification:Package 'src/qlearn' with type 'ros.ament_python' and name 'qlearn'
+[3.436s] Level 1:colcon.colcon_core.package_identification:_identify(src/qlearn_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[3.436s] Level 1:colcon.colcon_core.package_identification:_identify(src/qlearn_interfaces) by extension 'ignore'
+[3.436s] Level 1:colcon.colcon_core.package_identification:_identify(src/qlearn_interfaces) by extension 'ignore_ament_install'
+[3.436s] Level 1:colcon.colcon_core.package_identification:_identify(src/qlearn_interfaces) by extensions ['colcon_pkg']
+[3.436s] Level 1:colcon.colcon_core.package_identification:_identify(src/qlearn_interfaces) by extension 'colcon_pkg'
+[3.436s] Level 1:colcon.colcon_core.package_identification:_identify(src/qlearn_interfaces) by extensions ['colcon_meta']
+[3.436s] Level 1:colcon.colcon_core.package_identification:_identify(src/qlearn_interfaces) by extension 'colcon_meta'
+[3.436s] Level 1:colcon.colcon_core.package_identification:_identify(src/qlearn_interfaces) by extensions ['ros']
+[3.436s] Level 1:colcon.colcon_core.package_identification:_identify(src/qlearn_interfaces) by extension 'ros'
+[3.437s] DEBUG:colcon.colcon_core.package_identification:Package 'src/qlearn_interfaces' with type 'ros.ament_cmake' and name 'qlearn_interfaces'
+[3.438s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_toolbox) by extensions ['ignore', 'ignore_ament_install']
+[3.438s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_toolbox) by extension 'ignore'
+[3.438s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_toolbox) by extension 'ignore_ament_install'
+[3.438s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_toolbox) by extensions ['colcon_pkg']
+[3.438s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_toolbox) by extension 'colcon_pkg'
+[3.438s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_toolbox) by extensions ['colcon_meta']
+[3.438s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_toolbox) by extension 'colcon_meta'
+[3.438s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_toolbox) by extensions ['ros']
+[3.439s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_toolbox) by extension 'ros'
+[3.442s] DEBUG:colcon.colcon_core.package_identification:Package 'src/slam_toolbox' with type 'ros.ament_cmake' and name 'slam_toolbox'
+[3.442s] Level 1:colcon.colcon_core.package_identification:_identify(src/wall_follower_pid) by extensions ['ignore', 'ignore_ament_install']
+[3.442s] Level 1:colcon.colcon_core.package_identification:_identify(src/wall_follower_pid) by extension 'ignore'
+[3.442s] Level 1:colcon.colcon_core.package_identification:_identify(src/wall_follower_pid) by extension 'ignore_ament_install'
+[3.442s] Level 1:colcon.colcon_core.package_identification:_identify(src/wall_follower_pid) by extensions ['colcon_pkg']
+[3.443s] Level 1:colcon.colcon_core.package_identification:_identify(src/wall_follower_pid) by extension 'colcon_pkg'
+[3.443s] Level 1:colcon.colcon_core.package_identification:_identify(src/wall_follower_pid) by extensions ['colcon_meta']
+[3.443s] Level 1:colcon.colcon_core.package_identification:_identify(src/wall_follower_pid) by extension 'colcon_meta'
+[3.443s] Level 1:colcon.colcon_core.package_identification:_identify(src/wall_follower_pid) by extensions ['ros']
+[3.443s] Level 1:colcon.colcon_core.package_identification:_identify(src/wall_follower_pid) by extension 'ros'
+[3.444s] DEBUG:colcon.colcon_core.package_identification:Package 'src/wall_follower_pid' with type 'ros.ament_python' and name 'wall_follower_pid'
+[3.444s] Level 1:colcon.colcon_core.package_identification:_identify(src/waypoint_follow) by extensions ['ignore', 'ignore_ament_install']
+[3.444s] Level 1:colcon.colcon_core.package_identification:_identify(src/waypoint_follow) by extension 'ignore'
+[3.444s] Level 1:colcon.colcon_core.package_identification:_identify(src/waypoint_follow) by extension 'ignore_ament_install'
+[3.445s] Level 1:colcon.colcon_core.package_identification:_identify(src/waypoint_follow) by extensions ['colcon_pkg']
+[3.445s] Level 1:colcon.colcon_core.package_identification:_identify(src/waypoint_follow) by extension 'colcon_pkg'
+[3.445s] Level 1:colcon.colcon_core.package_identification:_identify(src/waypoint_follow) by extensions ['colcon_meta']
+[3.445s] Level 1:colcon.colcon_core.package_identification:_identify(src/waypoint_follow) by extension 'colcon_meta'
+[3.445s] Level 1:colcon.colcon_core.package_identification:_identify(src/waypoint_follow) by extensions ['ros']
+[3.445s] Level 1:colcon.colcon_core.package_identification:_identify(src/waypoint_follow) by extension 'ros'
+[3.446s] DEBUG:colcon.colcon_core.package_identification:Package 'src/waypoint_follow' with type 'ros.ament_python' and name 'waypoint_follow'
+[3.446s] Level 1:colcon.colcon_core.package_identification:_identify(src/waypoint_publisher) by extensions ['ignore', 'ignore_ament_install']
+[3.447s] Level 1:colcon.colcon_core.package_identification:_identify(src/waypoint_publisher) by extension 'ignore'
+[3.447s] Level 1:colcon.colcon_core.package_identification:_identify(src/waypoint_publisher) by extension 'ignore_ament_install'
+[3.447s] Level 1:colcon.colcon_core.package_identification:_identify(src/waypoint_publisher) by extensions ['colcon_pkg']
+[3.447s] Level 1:colcon.colcon_core.package_identification:_identify(src/waypoint_publisher) by extension 'colcon_pkg'
+[3.447s] Level 1:colcon.colcon_core.package_identification:_identify(src/waypoint_publisher) by extensions ['colcon_meta']
+[3.447s] Level 1:colcon.colcon_core.package_identification:_identify(src/waypoint_publisher) by extension 'colcon_meta'
+[3.447s] Level 1:colcon.colcon_core.package_identification:_identify(src/waypoint_publisher) by extensions ['ros']
+[3.447s] Level 1:colcon.colcon_core.package_identification:_identify(src/waypoint_publisher) by extension 'ros'
+[3.449s] DEBUG:colcon.colcon_core.package_identification:Package 'src/waypoint_publisher' with type 'ros.ament_cmake' and name 'waypoint_publisher'
+[3.449s] Level 1:colcon.colcon_core.package_identification:_identify(src/waypoint_writer) by extensions ['ignore', 'ignore_ament_install']
+[3.449s] Level 1:colcon.colcon_core.package_identification:_identify(src/waypoint_writer) by extension 'ignore'
+[3.449s] Level 1:colcon.colcon_core.package_identification:_identify(src/waypoint_writer) by extension 'ignore_ament_install'
+[3.449s] Level 1:colcon.colcon_core.package_identification:_identify(src/waypoint_writer) by extensions ['colcon_pkg']
+[3.450s] Level 1:colcon.colcon_core.package_identification:_identify(src/waypoint_writer) by extension 'colcon_pkg'
+[3.450s] Level 1:colcon.colcon_core.package_identification:_identify(src/waypoint_writer) by extensions ['colcon_meta']
+[3.450s] Level 1:colcon.colcon_core.package_identification:_identify(src/waypoint_writer) by extension 'colcon_meta'
+[3.450s] Level 1:colcon.colcon_core.package_identification:_identify(src/waypoint_writer) by extensions ['ros']
+[3.450s] Level 1:colcon.colcon_core.package_identification:_identify(src/waypoint_writer) by extension 'ros'
+[3.451s] DEBUG:colcon.colcon_core.package_identification:Package 'src/waypoint_writer' with type 'ros.ament_python' and name 'waypoint_writer'
+[3.451s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[3.452s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[3.452s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[3.452s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[3.452s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[3.693s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[3.694s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[3.774s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 14 installed packages in /home/rstole01/Documents/CSE-596/msu_ws/install
+[3.815s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 388 installed packages in /opt/ros/humble
+[3.819s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[4.044s] WARNING:colcon.colcon_core.package_selection:Some selected packages are already built in one or more underlay workspaces:
+	'ackermann_msgs' is in: /home/rstole01/Documents/CSE-596/msu_ws/install/ackermann_msgs, /opt/ros/humble
+	'slam_toolbox' is in: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox, /opt/ros/humble
+If a package in a merged underlay workspace is overridden and it installs headers, then all packages in the overlay must sort their include directories by workspace order. Failure to do so may result in build failures or undefined behavior at run time.
+If the overridden package is used by another package in any underlay, then the overriding package in the overlay must be API and ABI compatible or undefined behavior at run time may occur.
+
+If you understand the risks and want to override a package anyways, add the following to the command line:
+	--allow-overriding ackermann_msgs slam_toolbox
+
+This may be promoted to an error in a future release of colcon-override-check.
+[4.093s] Level 5:colcon.colcon_core.verb:set package 'ackermann_msgs' build argument 'cmake_args' from command line to 'None'
+[4.094s] Level 5:colcon.colcon_core.verb:set package 'ackermann_msgs' build argument 'cmake_target' from command line to 'None'
+[4.094s] Level 5:colcon.colcon_core.verb:set package 'ackermann_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[4.094s] Level 5:colcon.colcon_core.verb:set package 'ackermann_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[4.094s] Level 5:colcon.colcon_core.verb:set package 'ackermann_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[4.094s] Level 5:colcon.colcon_core.verb:set package 'ackermann_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[4.094s] Level 5:colcon.colcon_core.verb:set package 'ackermann_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[4.094s] Level 5:colcon.colcon_core.verb:set package 'ackermann_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[4.094s] Level 5:colcon.colcon_core.verb:set package 'ackermann_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[4.094s] DEBUG:colcon.colcon_core.verb:Building package 'ackermann_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/rstole01/Documents/CSE-596/msu_ws/build/ackermann_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/rstole01/Documents/CSE-596/msu_ws/install/ackermann_msgs', 'merge_install': False, 'path': '/home/rstole01/Documents/CSE-596/msu_ws/src/ackermann_msgs', 'symlink_install': False, 'test_result_base': None}
+[4.133s] Level 5:colcon.colcon_core.verb:set package 'my_messages' build argument 'cmake_args' from command line to 'None'
+[4.133s] Level 5:colcon.colcon_core.verb:set package 'my_messages' build argument 'cmake_target' from command line to 'None'
+[4.133s] Level 5:colcon.colcon_core.verb:set package 'my_messages' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[4.133s] Level 5:colcon.colcon_core.verb:set package 'my_messages' build argument 'cmake_clean_cache' from command line to 'False'
+[4.133s] Level 5:colcon.colcon_core.verb:set package 'my_messages' build argument 'cmake_clean_first' from command line to 'False'
+[4.133s] Level 5:colcon.colcon_core.verb:set package 'my_messages' build argument 'cmake_force_configure' from command line to 'False'
+[4.133s] Level 5:colcon.colcon_core.verb:set package 'my_messages' build argument 'ament_cmake_args' from command line to 'None'
+[4.133s] Level 5:colcon.colcon_core.verb:set package 'my_messages' build argument 'catkin_cmake_args' from command line to 'None'
+[4.134s] Level 5:colcon.colcon_core.verb:set package 'my_messages' build argument 'catkin_skip_building_tests' from command line to 'False'
+[4.134s] DEBUG:colcon.colcon_core.verb:Building package 'my_messages' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/rstole01/Documents/CSE-596/msu_ws/build/my_messages', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/rstole01/Documents/CSE-596/msu_ws/install/my_messages', 'merge_install': False, 'path': '/home/rstole01/Documents/CSE-596/msu_ws/src/my_messages', 'symlink_install': False, 'test_result_base': None}
+[4.172s] Level 5:colcon.colcon_core.verb:set package 'painter' build argument 'cmake_args' from command line to 'None'
+[4.172s] Level 5:colcon.colcon_core.verb:set package 'painter' build argument 'cmake_target' from command line to 'None'
+[4.173s] Level 5:colcon.colcon_core.verb:set package 'painter' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[4.173s] Level 5:colcon.colcon_core.verb:set package 'painter' build argument 'cmake_clean_cache' from command line to 'False'
+[4.173s] Level 5:colcon.colcon_core.verb:set package 'painter' build argument 'cmake_clean_first' from command line to 'False'
+[4.173s] Level 5:colcon.colcon_core.verb:set package 'painter' build argument 'cmake_force_configure' from command line to 'False'
+[4.173s] Level 5:colcon.colcon_core.verb:set package 'painter' build argument 'ament_cmake_args' from command line to 'None'
+[4.173s] Level 5:colcon.colcon_core.verb:set package 'painter' build argument 'catkin_cmake_args' from command line to 'None'
+[4.173s] Level 5:colcon.colcon_core.verb:set package 'painter' build argument 'catkin_skip_building_tests' from command line to 'False'
+[4.173s] DEBUG:colcon.colcon_core.verb:Building package 'painter' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/rstole01/Documents/CSE-596/msu_ws/build/painter', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/rstole01/Documents/CSE-596/msu_ws/install/painter', 'merge_install': False, 'path': '/home/rstole01/Documents/CSE-596/msu_ws/src/painter', 'symlink_install': False, 'test_result_base': None}
+[4.211s] Level 5:colcon.colcon_core.verb:set package 'pid_msgs' build argument 'cmake_args' from command line to 'None'
+[4.211s] Level 5:colcon.colcon_core.verb:set package 'pid_msgs' build argument 'cmake_target' from command line to 'None'
+[4.212s] Level 5:colcon.colcon_core.verb:set package 'pid_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[4.212s] Level 5:colcon.colcon_core.verb:set package 'pid_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[4.212s] Level 5:colcon.colcon_core.verb:set package 'pid_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[4.212s] Level 5:colcon.colcon_core.verb:set package 'pid_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[4.212s] Level 5:colcon.colcon_core.verb:set package 'pid_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[4.212s] Level 5:colcon.colcon_core.verb:set package 'pid_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[4.212s] Level 5:colcon.colcon_core.verb:set package 'pid_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[4.212s] DEBUG:colcon.colcon_core.verb:Building package 'pid_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/rstole01/Documents/CSE-596/msu_ws/build/pid_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/rstole01/Documents/CSE-596/msu_ws/install/pid_msgs', 'merge_install': False, 'path': '/home/rstole01/Documents/CSE-596/msu_ws/src/pid_msgs', 'symlink_install': False, 'test_result_base': None}
+[4.250s] Level 5:colcon.colcon_core.verb:set package 'py_pubsub' build argument 'cmake_args' from command line to 'None'
+[4.250s] Level 5:colcon.colcon_core.verb:set package 'py_pubsub' build argument 'cmake_target' from command line to 'None'
+[4.251s] Level 5:colcon.colcon_core.verb:set package 'py_pubsub' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[4.251s] Level 5:colcon.colcon_core.verb:set package 'py_pubsub' build argument 'cmake_clean_cache' from command line to 'False'
+[4.251s] Level 5:colcon.colcon_core.verb:set package 'py_pubsub' build argument 'cmake_clean_first' from command line to 'False'
+[4.251s] Level 5:colcon.colcon_core.verb:set package 'py_pubsub' build argument 'cmake_force_configure' from command line to 'False'
+[4.251s] Level 5:colcon.colcon_core.verb:set package 'py_pubsub' build argument 'ament_cmake_args' from command line to 'None'
+[4.251s] Level 5:colcon.colcon_core.verb:set package 'py_pubsub' build argument 'catkin_cmake_args' from command line to 'None'
+[4.251s] Level 5:colcon.colcon_core.verb:set package 'py_pubsub' build argument 'catkin_skip_building_tests' from command line to 'False'
+[4.251s] DEBUG:colcon.colcon_core.verb:Building package 'py_pubsub' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/rstole01/Documents/CSE-596/msu_ws/build/py_pubsub', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/rstole01/Documents/CSE-596/msu_ws/install/py_pubsub', 'merge_install': False, 'path': '/home/rstole01/Documents/CSE-596/msu_ws/src/py_pubsub', 'symlink_install': False, 'test_result_base': None}
+[4.292s] Level 5:colcon.colcon_core.verb:set package 'qlearn_interfaces' build argument 'cmake_args' from command line to 'None'
+[4.292s] Level 5:colcon.colcon_core.verb:set package 'qlearn_interfaces' build argument 'cmake_target' from command line to 'None'
+[4.292s] Level 5:colcon.colcon_core.verb:set package 'qlearn_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[4.292s] Level 5:colcon.colcon_core.verb:set package 'qlearn_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[4.292s] Level 5:colcon.colcon_core.verb:set package 'qlearn_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[4.292s] Level 5:colcon.colcon_core.verb:set package 'qlearn_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[4.292s] Level 5:colcon.colcon_core.verb:set package 'qlearn_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[4.292s] Level 5:colcon.colcon_core.verb:set package 'qlearn_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[4.292s] Level 5:colcon.colcon_core.verb:set package 'qlearn_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[4.292s] DEBUG:colcon.colcon_core.verb:Building package 'qlearn_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/rstole01/Documents/CSE-596/msu_ws/build/qlearn_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/rstole01/Documents/CSE-596/msu_ws/install/qlearn_interfaces', 'merge_install': False, 'path': '/home/rstole01/Documents/CSE-596/msu_ws/src/qlearn_interfaces', 'symlink_install': False, 'test_result_base': None}
+[4.330s] Level 5:colcon.colcon_core.verb:set package 'slam_toolbox' build argument 'cmake_args' from command line to 'None'
+[4.330s] Level 5:colcon.colcon_core.verb:set package 'slam_toolbox' build argument 'cmake_target' from command line to 'None'
+[4.330s] Level 5:colcon.colcon_core.verb:set package 'slam_toolbox' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[4.331s] Level 5:colcon.colcon_core.verb:set package 'slam_toolbox' build argument 'cmake_clean_cache' from command line to 'False'
+[4.331s] Level 5:colcon.colcon_core.verb:set package 'slam_toolbox' build argument 'cmake_clean_first' from command line to 'False'
+[4.331s] Level 5:colcon.colcon_core.verb:set package 'slam_toolbox' build argument 'cmake_force_configure' from command line to 'False'
+[4.331s] Level 5:colcon.colcon_core.verb:set package 'slam_toolbox' build argument 'ament_cmake_args' from command line to 'None'
+[4.331s] Level 5:colcon.colcon_core.verb:set package 'slam_toolbox' build argument 'catkin_cmake_args' from command line to 'None'
+[4.331s] Level 5:colcon.colcon_core.verb:set package 'slam_toolbox' build argument 'catkin_skip_building_tests' from command line to 'False'
+[4.331s] DEBUG:colcon.colcon_core.verb:Building package 'slam_toolbox' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/rstole01/Documents/CSE-596/msu_ws/build/slam_toolbox', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox', 'merge_install': False, 'path': '/home/rstole01/Documents/CSE-596/msu_ws/src/slam_toolbox', 'symlink_install': False, 'test_result_base': None}
+[4.369s] Level 5:colcon.colcon_core.verb:set package 'waypoint_publisher' build argument 'cmake_args' from command line to 'None'
+[4.369s] Level 5:colcon.colcon_core.verb:set package 'waypoint_publisher' build argument 'cmake_target' from command line to 'None'
+[4.369s] Level 5:colcon.colcon_core.verb:set package 'waypoint_publisher' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[4.370s] Level 5:colcon.colcon_core.verb:set package 'waypoint_publisher' build argument 'cmake_clean_cache' from command line to 'False'
+[4.370s] Level 5:colcon.colcon_core.verb:set package 'waypoint_publisher' build argument 'cmake_clean_first' from command line to 'False'
+[4.370s] Level 5:colcon.colcon_core.verb:set package 'waypoint_publisher' build argument 'cmake_force_configure' from command line to 'False'
+[4.370s] Level 5:colcon.colcon_core.verb:set package 'waypoint_publisher' build argument 'ament_cmake_args' from command line to 'None'
+[4.370s] Level 5:colcon.colcon_core.verb:set package 'waypoint_publisher' build argument 'catkin_cmake_args' from command line to 'None'
+[4.370s] Level 5:colcon.colcon_core.verb:set package 'waypoint_publisher' build argument 'catkin_skip_building_tests' from command line to 'False'
+[4.370s] DEBUG:colcon.colcon_core.verb:Building package 'waypoint_publisher' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/rstole01/Documents/CSE-596/msu_ws/build/waypoint_publisher', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/rstole01/Documents/CSE-596/msu_ws/install/waypoint_publisher', 'merge_install': False, 'path': '/home/rstole01/Documents/CSE-596/msu_ws/src/waypoint_publisher', 'symlink_install': False, 'test_result_base': None}
+[4.408s] Level 5:colcon.colcon_core.verb:set package 'waypoint_writer' build argument 'cmake_args' from command line to 'None'
+[4.408s] Level 5:colcon.colcon_core.verb:set package 'waypoint_writer' build argument 'cmake_target' from command line to 'None'
+[4.408s] Level 5:colcon.colcon_core.verb:set package 'waypoint_writer' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[4.408s] Level 5:colcon.colcon_core.verb:set package 'waypoint_writer' build argument 'cmake_clean_cache' from command line to 'False'
+[4.409s] Level 5:colcon.colcon_core.verb:set package 'waypoint_writer' build argument 'cmake_clean_first' from command line to 'False'
+[4.409s] Level 5:colcon.colcon_core.verb:set package 'waypoint_writer' build argument 'cmake_force_configure' from command line to 'False'
+[4.409s] Level 5:colcon.colcon_core.verb:set package 'waypoint_writer' build argument 'ament_cmake_args' from command line to 'None'
+[4.409s] Level 5:colcon.colcon_core.verb:set package 'waypoint_writer' build argument 'catkin_cmake_args' from command line to 'None'
+[4.409s] Level 5:colcon.colcon_core.verb:set package 'waypoint_writer' build argument 'catkin_skip_building_tests' from command line to 'False'
+[4.409s] DEBUG:colcon.colcon_core.verb:Building package 'waypoint_writer' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/rstole01/Documents/CSE-596/msu_ws/build/waypoint_writer', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/rstole01/Documents/CSE-596/msu_ws/install/waypoint_writer', 'merge_install': False, 'path': '/home/rstole01/Documents/CSE-596/msu_ws/src/waypoint_writer', 'symlink_install': False, 'test_result_base': None}
+[4.447s] Level 5:colcon.colcon_core.verb:set package 'f1tenth_gym_ros' build argument 'cmake_args' from command line to 'None'
+[4.447s] Level 5:colcon.colcon_core.verb:set package 'f1tenth_gym_ros' build argument 'cmake_target' from command line to 'None'
+[4.447s] Level 5:colcon.colcon_core.verb:set package 'f1tenth_gym_ros' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[4.447s] Level 5:colcon.colcon_core.verb:set package 'f1tenth_gym_ros' build argument 'cmake_clean_cache' from command line to 'False'
+[4.447s] Level 5:colcon.colcon_core.verb:set package 'f1tenth_gym_ros' build argument 'cmake_clean_first' from command line to 'False'
+[4.447s] Level 5:colcon.colcon_core.verb:set package 'f1tenth_gym_ros' build argument 'cmake_force_configure' from command line to 'False'
+[4.447s] Level 5:colcon.colcon_core.verb:set package 'f1tenth_gym_ros' build argument 'ament_cmake_args' from command line to 'None'
+[4.448s] Level 5:colcon.colcon_core.verb:set package 'f1tenth_gym_ros' build argument 'catkin_cmake_args' from command line to 'None'
+[4.448s] Level 5:colcon.colcon_core.verb:set package 'f1tenth_gym_ros' build argument 'catkin_skip_building_tests' from command line to 'False'
+[4.448s] DEBUG:colcon.colcon_core.verb:Building package 'f1tenth_gym_ros' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/rstole01/Documents/CSE-596/msu_ws/build/f1tenth_gym_ros', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/rstole01/Documents/CSE-596/msu_ws/install/f1tenth_gym_ros', 'merge_install': False, 'path': '/home/rstole01/Documents/CSE-596/msu_ws/src/f1tenth_gym_ros', 'symlink_install': False, 'test_result_base': None}
+[4.486s] Level 5:colcon.colcon_core.verb:set package 'plexer360' build argument 'cmake_args' from command line to 'None'
+[4.487s] Level 5:colcon.colcon_core.verb:set package 'plexer360' build argument 'cmake_target' from command line to 'None'
+[4.487s] Level 5:colcon.colcon_core.verb:set package 'plexer360' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[4.487s] Level 5:colcon.colcon_core.verb:set package 'plexer360' build argument 'cmake_clean_cache' from command line to 'False'
+[4.487s] Level 5:colcon.colcon_core.verb:set package 'plexer360' build argument 'cmake_clean_first' from command line to 'False'
+[4.487s] Level 5:colcon.colcon_core.verb:set package 'plexer360' build argument 'cmake_force_configure' from command line to 'False'
+[4.487s] Level 5:colcon.colcon_core.verb:set package 'plexer360' build argument 'ament_cmake_args' from command line to 'None'
+[4.487s] Level 5:colcon.colcon_core.verb:set package 'plexer360' build argument 'catkin_cmake_args' from command line to 'None'
+[4.487s] Level 5:colcon.colcon_core.verb:set package 'plexer360' build argument 'catkin_skip_building_tests' from command line to 'False'
+[4.487s] DEBUG:colcon.colcon_core.verb:Building package 'plexer360' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/rstole01/Documents/CSE-596/msu_ws/build/plexer360', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/rstole01/Documents/CSE-596/msu_ws/install/plexer360', 'merge_install': False, 'path': '/home/rstole01/Documents/CSE-596/msu_ws/src/plexer360', 'symlink_install': False, 'test_result_base': None}
+[4.525s] Level 5:colcon.colcon_core.verb:set package 'qlearn' build argument 'cmake_args' from command line to 'None'
+[4.525s] Level 5:colcon.colcon_core.verb:set package 'qlearn' build argument 'cmake_target' from command line to 'None'
+[4.526s] Level 5:colcon.colcon_core.verb:set package 'qlearn' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[4.526s] Level 5:colcon.colcon_core.verb:set package 'qlearn' build argument 'cmake_clean_cache' from command line to 'False'
+[4.526s] Level 5:colcon.colcon_core.verb:set package 'qlearn' build argument 'cmake_clean_first' from command line to 'False'
+[4.526s] Level 5:colcon.colcon_core.verb:set package 'qlearn' build argument 'cmake_force_configure' from command line to 'False'
+[4.526s] Level 5:colcon.colcon_core.verb:set package 'qlearn' build argument 'ament_cmake_args' from command line to 'None'
+[4.526s] Level 5:colcon.colcon_core.verb:set package 'qlearn' build argument 'catkin_cmake_args' from command line to 'None'
+[4.526s] Level 5:colcon.colcon_core.verb:set package 'qlearn' build argument 'catkin_skip_building_tests' from command line to 'False'
+[4.526s] DEBUG:colcon.colcon_core.verb:Building package 'qlearn' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/rstole01/Documents/CSE-596/msu_ws/build/qlearn', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/rstole01/Documents/CSE-596/msu_ws/install/qlearn', 'merge_install': False, 'path': '/home/rstole01/Documents/CSE-596/msu_ws/src/qlearn', 'symlink_install': False, 'test_result_base': None}
+[4.565s] Level 5:colcon.colcon_core.verb:set package 'wall_follower_pid' build argument 'cmake_args' from command line to 'None'
+[4.565s] Level 5:colcon.colcon_core.verb:set package 'wall_follower_pid' build argument 'cmake_target' from command line to 'None'
+[4.565s] Level 5:colcon.colcon_core.verb:set package 'wall_follower_pid' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[4.565s] Level 5:colcon.colcon_core.verb:set package 'wall_follower_pid' build argument 'cmake_clean_cache' from command line to 'False'
+[4.565s] Level 5:colcon.colcon_core.verb:set package 'wall_follower_pid' build argument 'cmake_clean_first' from command line to 'False'
+[4.565s] Level 5:colcon.colcon_core.verb:set package 'wall_follower_pid' build argument 'cmake_force_configure' from command line to 'False'
+[4.565s] Level 5:colcon.colcon_core.verb:set package 'wall_follower_pid' build argument 'ament_cmake_args' from command line to 'None'
+[4.565s] Level 5:colcon.colcon_core.verb:set package 'wall_follower_pid' build argument 'catkin_cmake_args' from command line to 'None'
+[4.565s] Level 5:colcon.colcon_core.verb:set package 'wall_follower_pid' build argument 'catkin_skip_building_tests' from command line to 'False'
+[4.566s] DEBUG:colcon.colcon_core.verb:Building package 'wall_follower_pid' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/rstole01/Documents/CSE-596/msu_ws/build/wall_follower_pid', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/rstole01/Documents/CSE-596/msu_ws/install/wall_follower_pid', 'merge_install': False, 'path': '/home/rstole01/Documents/CSE-596/msu_ws/src/wall_follower_pid', 'symlink_install': False, 'test_result_base': None}
+[4.604s] Level 5:colcon.colcon_core.verb:set package 'waypoint_follow' build argument 'cmake_args' from command line to 'None'
+[4.604s] Level 5:colcon.colcon_core.verb:set package 'waypoint_follow' build argument 'cmake_target' from command line to 'None'
+[4.604s] Level 5:colcon.colcon_core.verb:set package 'waypoint_follow' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[4.604s] Level 5:colcon.colcon_core.verb:set package 'waypoint_follow' build argument 'cmake_clean_cache' from command line to 'False'
+[4.604s] Level 5:colcon.colcon_core.verb:set package 'waypoint_follow' build argument 'cmake_clean_first' from command line to 'False'
+[4.604s] Level 5:colcon.colcon_core.verb:set package 'waypoint_follow' build argument 'cmake_force_configure' from command line to 'False'
+[4.604s] Level 5:colcon.colcon_core.verb:set package 'waypoint_follow' build argument 'ament_cmake_args' from command line to 'None'
+[4.604s] Level 5:colcon.colcon_core.verb:set package 'waypoint_follow' build argument 'catkin_cmake_args' from command line to 'None'
+[4.605s] Level 5:colcon.colcon_core.verb:set package 'waypoint_follow' build argument 'catkin_skip_building_tests' from command line to 'False'
+[4.605s] DEBUG:colcon.colcon_core.verb:Building package 'waypoint_follow' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/rstole01/Documents/CSE-596/msu_ws/build/waypoint_follow', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/rstole01/Documents/CSE-596/msu_ws/install/waypoint_follow', 'merge_install': False, 'path': '/home/rstole01/Documents/CSE-596/msu_ws/src/waypoint_follow', 'symlink_install': False, 'test_result_base': None}
+[4.642s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[4.682s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[4.683s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/rstole01/Documents/CSE-596/msu_ws/src/ackermann_msgs' with build type 'ament_cmake'
+[4.683s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/rstole01/Documents/CSE-596/msu_ws/src/ackermann_msgs'
+[4.731s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[4.731s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.731s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.863s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/rstole01/Documents/CSE-596/msu_ws/src/pid_msgs' with build type 'ament_cmake'
+[4.863s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/rstole01/Documents/CSE-596/msu_ws/src/pid_msgs'
+[4.903s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.903s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.026s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/rstole01/Documents/CSE-596/msu_ws/src/my_messages' with build type 'ament_cmake'
+[5.027s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/rstole01/Documents/CSE-596/msu_ws/src/my_messages'
+[5.072s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.072s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.222s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/rstole01/Documents/CSE-596/msu_ws/src/painter' with build type 'ament_python'
+[5.222s] Level 1:colcon.colcon_core.shell:create_environment_hook('painter', 'ament_prefix_path')
+[5.263s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rstole01/Documents/CSE-596/msu_ws/install/painter/share/painter/hook/ament_prefix_path.ps1'
+[5.264s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rstole01/Documents/CSE-596/msu_ws/install/painter/share/painter/hook/ament_prefix_path.dsv'
+[5.265s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rstole01/Documents/CSE-596/msu_ws/install/painter/share/painter/hook/ament_prefix_path.sh'
+[5.310s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.310s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.435s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/rstole01/Documents/CSE-596/msu_ws/src/py_pubsub' with build type 'ament_python'
+[5.435s] Level 1:colcon.colcon_core.shell:create_environment_hook('py_pubsub', 'ament_prefix_path')
+[5.477s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rstole01/Documents/CSE-596/msu_ws/install/py_pubsub/share/py_pubsub/hook/ament_prefix_path.ps1'
+[5.478s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rstole01/Documents/CSE-596/msu_ws/install/py_pubsub/share/py_pubsub/hook/ament_prefix_path.dsv'
+[5.478s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rstole01/Documents/CSE-596/msu_ws/install/py_pubsub/share/py_pubsub/hook/ament_prefix_path.sh'
+[5.523s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.523s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.654s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/rstole01/Documents/CSE-596/msu_ws/src/qlearn_interfaces' with build type 'ament_cmake'
+[5.655s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/rstole01/Documents/CSE-596/msu_ws/src/qlearn_interfaces'
+[5.699s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.699s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.830s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/rstole01/Documents/CSE-596/msu_ws/src/slam_toolbox' with build type 'ament_cmake'
+[5.830s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/rstole01/Documents/CSE-596/msu_ws/src/slam_toolbox'
+[5.872s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.872s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.994s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/rstole01/Documents/CSE-596/msu_ws/src/waypoint_publisher' with build type 'ament_cmake'
+[5.995s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/rstole01/Documents/CSE-596/msu_ws/src/waypoint_publisher'
+[6.034s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[6.034s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[6.174s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rstole01/Documents/CSE-596/msu_ws/build/ackermann_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rstole01/Documents/CSE-596/msu_ws/install/waypoint_writer:/home/rstole01/Documents/CSE-596/msu_ws/install/waypoint_follow:/home/rstole01/Documents/CSE-596/msu_ws/install/wall_follower_pid:/home/rstole01/Documents/CSE-596/msu_ws/install/qlearn:/home/rstole01/Documents/CSE-596/msu_ws/install/py_pubsub:/home/rstole01/Documents/CSE-596/msu_ws/install/plexer360:/home/rstole01/Documents/CSE-596/msu_ws/install/painter:/home/rstole01/Documents/CSE-596/msu_ws/install/f1tenth_gym_ros:/opt/ros/humble /usr/bin/cmake --build /home/rstole01/Documents/CSE-596/msu_ws/build/ackermann_msgs -- -j8 -l8
+[6.186s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rstole01/Documents/CSE-596/msu_ws/build/pid_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rstole01/Documents/CSE-596/msu_ws/install/waypoint_writer:/home/rstole01/Documents/CSE-596/msu_ws/install/waypoint_follow:/home/rstole01/Documents/CSE-596/msu_ws/install/wall_follower_pid:/home/rstole01/Documents/CSE-596/msu_ws/install/qlearn:/home/rstole01/Documents/CSE-596/msu_ws/install/py_pubsub:/home/rstole01/Documents/CSE-596/msu_ws/install/plexer360:/home/rstole01/Documents/CSE-596/msu_ws/install/painter:/home/rstole01/Documents/CSE-596/msu_ws/install/f1tenth_gym_ros:/opt/ros/humble /usr/bin/cmake --build /home/rstole01/Documents/CSE-596/msu_ws/build/pid_msgs -- -j8 -l8
+[6.193s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rstole01/Documents/CSE-596/msu_ws/build/my_messages': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rstole01/Documents/CSE-596/msu_ws/install/waypoint_writer:/home/rstole01/Documents/CSE-596/msu_ws/install/waypoint_follow:/home/rstole01/Documents/CSE-596/msu_ws/install/wall_follower_pid:/home/rstole01/Documents/CSE-596/msu_ws/install/qlearn:/home/rstole01/Documents/CSE-596/msu_ws/install/py_pubsub:/home/rstole01/Documents/CSE-596/msu_ws/install/plexer360:/home/rstole01/Documents/CSE-596/msu_ws/install/painter:/home/rstole01/Documents/CSE-596/msu_ws/install/f1tenth_gym_ros:/opt/ros/humble /usr/bin/cmake --build /home/rstole01/Documents/CSE-596/msu_ws/build/my_messages -- -j8 -l8
+[7.193s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/rstole01/Documents/CSE-596/msu_ws/src/painter'
+[7.234s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[7.234s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[8.020s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/rstole01/Documents/CSE-596/msu_ws/src/py_pubsub'
+[8.068s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[8.068s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[8.250s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rstole01/Documents/CSE-596/msu_ws/build/qlearn_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rstole01/Documents/CSE-596/msu_ws/install/waypoint_writer:/home/rstole01/Documents/CSE-596/msu_ws/install/waypoint_follow:/home/rstole01/Documents/CSE-596/msu_ws/install/wall_follower_pid:/home/rstole01/Documents/CSE-596/msu_ws/install/qlearn:/home/rstole01/Documents/CSE-596/msu_ws/install/py_pubsub:/home/rstole01/Documents/CSE-596/msu_ws/install/plexer360:/home/rstole01/Documents/CSE-596/msu_ws/install/painter:/home/rstole01/Documents/CSE-596/msu_ws/install/f1tenth_gym_ros:/opt/ros/humble /usr/bin/cmake --build /home/rstole01/Documents/CSE-596/msu_ws/build/qlearn_interfaces -- -j8 -l8
+[8.260s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rstole01/Documents/CSE-596/msu_ws/build/slam_toolbox': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rstole01/Documents/CSE-596/msu_ws/install/waypoint_writer:/home/rstole01/Documents/CSE-596/msu_ws/install/waypoint_follow:/home/rstole01/Documents/CSE-596/msu_ws/install/wall_follower_pid:/home/rstole01/Documents/CSE-596/msu_ws/install/qlearn:/home/rstole01/Documents/CSE-596/msu_ws/install/py_pubsub:/home/rstole01/Documents/CSE-596/msu_ws/install/plexer360:/home/rstole01/Documents/CSE-596/msu_ws/install/painter:/home/rstole01/Documents/CSE-596/msu_ws/install/f1tenth_gym_ros:/opt/ros/humble /usr/bin/cmake --build /home/rstole01/Documents/CSE-596/msu_ws/build/slam_toolbox -- -j8 -l8
+[8.312s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rstole01/Documents/CSE-596/msu_ws/build/waypoint_publisher': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rstole01/Documents/CSE-596/msu_ws/install/waypoint_writer:/home/rstole01/Documents/CSE-596/msu_ws/install/waypoint_follow:/home/rstole01/Documents/CSE-596/msu_ws/install/wall_follower_pid:/home/rstole01/Documents/CSE-596/msu_ws/install/qlearn:/home/rstole01/Documents/CSE-596/msu_ws/install/py_pubsub:/home/rstole01/Documents/CSE-596/msu_ws/install/plexer360:/home/rstole01/Documents/CSE-596/msu_ws/install/painter:/home/rstole01/Documents/CSE-596/msu_ws/install/f1tenth_gym_ros:/opt/ros/humble /usr/bin/cmake --build /home/rstole01/Documents/CSE-596/msu_ws/build/waypoint_publisher -- -j8 -l8
+[8.314s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rstole01/Documents/CSE-596/msu_ws/build/my_messages' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rstole01/Documents/CSE-596/msu_ws/install/waypoint_writer:/home/rstole01/Documents/CSE-596/msu_ws/install/waypoint_follow:/home/rstole01/Documents/CSE-596/msu_ws/install/wall_follower_pid:/home/rstole01/Documents/CSE-596/msu_ws/install/qlearn:/home/rstole01/Documents/CSE-596/msu_ws/install/py_pubsub:/home/rstole01/Documents/CSE-596/msu_ws/install/plexer360:/home/rstole01/Documents/CSE-596/msu_ws/install/painter:/home/rstole01/Documents/CSE-596/msu_ws/install/f1tenth_gym_ros:/opt/ros/humble /usr/bin/cmake --build /home/rstole01/Documents/CSE-596/msu_ws/build/my_messages -- -j8 -l8
+[8.314s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rstole01/Documents/CSE-596/msu_ws/build/ackermann_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rstole01/Documents/CSE-596/msu_ws/install/waypoint_writer:/home/rstole01/Documents/CSE-596/msu_ws/install/waypoint_follow:/home/rstole01/Documents/CSE-596/msu_ws/install/wall_follower_pid:/home/rstole01/Documents/CSE-596/msu_ws/install/qlearn:/home/rstole01/Documents/CSE-596/msu_ws/install/py_pubsub:/home/rstole01/Documents/CSE-596/msu_ws/install/plexer360:/home/rstole01/Documents/CSE-596/msu_ws/install/painter:/home/rstole01/Documents/CSE-596/msu_ws/install/f1tenth_gym_ros:/opt/ros/humble /usr/bin/cmake --build /home/rstole01/Documents/CSE-596/msu_ws/build/ackermann_msgs -- -j8 -l8
+[8.315s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rstole01/Documents/CSE-596/msu_ws/build/pid_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rstole01/Documents/CSE-596/msu_ws/install/waypoint_writer:/home/rstole01/Documents/CSE-596/msu_ws/install/waypoint_follow:/home/rstole01/Documents/CSE-596/msu_ws/install/wall_follower_pid:/home/rstole01/Documents/CSE-596/msu_ws/install/qlearn:/home/rstole01/Documents/CSE-596/msu_ws/install/py_pubsub:/home/rstole01/Documents/CSE-596/msu_ws/install/plexer360:/home/rstole01/Documents/CSE-596/msu_ws/install/painter:/home/rstole01/Documents/CSE-596/msu_ws/install/f1tenth_gym_ros:/opt/ros/humble /usr/bin/cmake --build /home/rstole01/Documents/CSE-596/msu_ws/build/pid_msgs -- -j8 -l8
+[8.574s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rstole01/Documents/CSE-596/msu_ws/build/waypoint_publisher' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rstole01/Documents/CSE-596/msu_ws/install/waypoint_writer:/home/rstole01/Documents/CSE-596/msu_ws/install/waypoint_follow:/home/rstole01/Documents/CSE-596/msu_ws/install/wall_follower_pid:/home/rstole01/Documents/CSE-596/msu_ws/install/qlearn:/home/rstole01/Documents/CSE-596/msu_ws/install/py_pubsub:/home/rstole01/Documents/CSE-596/msu_ws/install/plexer360:/home/rstole01/Documents/CSE-596/msu_ws/install/painter:/home/rstole01/Documents/CSE-596/msu_ws/install/f1tenth_gym_ros:/opt/ros/humble /usr/bin/cmake --build /home/rstole01/Documents/CSE-596/msu_ws/build/waypoint_publisher -- -j8 -l8
+[8.874s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rstole01/Documents/CSE-596/msu_ws/build/waypoint_publisher': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rstole01/Documents/CSE-596/msu_ws/install/waypoint_writer:/home/rstole01/Documents/CSE-596/msu_ws/install/waypoint_follow:/home/rstole01/Documents/CSE-596/msu_ws/install/wall_follower_pid:/home/rstole01/Documents/CSE-596/msu_ws/install/qlearn:/home/rstole01/Documents/CSE-596/msu_ws/install/py_pubsub:/home/rstole01/Documents/CSE-596/msu_ws/install/plexer360:/home/rstole01/Documents/CSE-596/msu_ws/install/painter:/home/rstole01/Documents/CSE-596/msu_ws/install/f1tenth_gym_ros:/opt/ros/humble /usr/bin/cmake --install /home/rstole01/Documents/CSE-596/msu_ws/build/waypoint_publisher
+[8.937s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(waypoint_publisher)
+[8.939s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rstole01/Documents/CSE-596/msu_ws/build/waypoint_publisher' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rstole01/Documents/CSE-596/msu_ws/install/waypoint_writer:/home/rstole01/Documents/CSE-596/msu_ws/install/waypoint_follow:/home/rstole01/Documents/CSE-596/msu_ws/install/wall_follower_pid:/home/rstole01/Documents/CSE-596/msu_ws/install/qlearn:/home/rstole01/Documents/CSE-596/msu_ws/install/py_pubsub:/home/rstole01/Documents/CSE-596/msu_ws/install/plexer360:/home/rstole01/Documents/CSE-596/msu_ws/install/painter:/home/rstole01/Documents/CSE-596/msu_ws/install/f1tenth_gym_ros:/opt/ros/humble /usr/bin/cmake --install /home/rstole01/Documents/CSE-596/msu_ws/build/waypoint_publisher
+[9.050s] Level 1:colcon.colcon_core.environment:checking '/home/rstole01/Documents/CSE-596/msu_ws/install/waypoint_publisher' for CMake module files
+[9.066s] Level 1:colcon.colcon_core.environment:checking '/home/rstole01/Documents/CSE-596/msu_ws/install/waypoint_publisher' for CMake config files
+[9.067s] Level 1:colcon.colcon_core.shell:create_environment_hook('waypoint_publisher', 'cmake_prefix_path')
+[9.172s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rstole01/Documents/CSE-596/msu_ws/install/waypoint_publisher/share/waypoint_publisher/hook/cmake_prefix_path.ps1'
+[9.173s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rstole01/Documents/CSE-596/msu_ws/install/waypoint_publisher/share/waypoint_publisher/hook/cmake_prefix_path.dsv'
+[9.174s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rstole01/Documents/CSE-596/msu_ws/install/waypoint_publisher/share/waypoint_publisher/hook/cmake_prefix_path.sh'
+[9.180s] Level 1:colcon.colcon_core.environment:checking '/home/rstole01/Documents/CSE-596/msu_ws/install/waypoint_publisher/lib'
+[9.181s] Level 1:colcon.colcon_core.environment:checking '/home/rstole01/Documents/CSE-596/msu_ws/install/waypoint_publisher/bin'
+[9.182s] Level 1:colcon.colcon_core.environment:checking '/home/rstole01/Documents/CSE-596/msu_ws/install/waypoint_publisher/lib/pkgconfig/waypoint_publisher.pc'
+[9.182s] Level 1:colcon.colcon_core.environment:checking '/home/rstole01/Documents/CSE-596/msu_ws/install/waypoint_publisher/lib/python3.10/site-packages'
+[9.183s] Level 1:colcon.colcon_core.environment:checking '/home/rstole01/Documents/CSE-596/msu_ws/install/waypoint_publisher/bin'
+[9.281s] INFO:colcon.colcon_core.shell:Creating package script '/home/rstole01/Documents/CSE-596/msu_ws/install/waypoint_publisher/share/waypoint_publisher/package.ps1'
+[9.285s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rstole01/Documents/CSE-596/msu_ws/install/waypoint_publisher/share/waypoint_publisher/package.dsv'
+[9.286s] INFO:colcon.colcon_core.shell:Creating package script '/home/rstole01/Documents/CSE-596/msu_ws/install/waypoint_publisher/share/waypoint_publisher/package.sh'
+[9.289s] INFO:colcon.colcon_core.shell:Creating package script '/home/rstole01/Documents/CSE-596/msu_ws/install/waypoint_publisher/share/waypoint_publisher/package.bash'
+[9.291s] INFO:colcon.colcon_core.shell:Creating package script '/home/rstole01/Documents/CSE-596/msu_ws/install/waypoint_publisher/share/waypoint_publisher/package.zsh'
+[9.293s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rstole01/Documents/CSE-596/msu_ws/install/waypoint_publisher/share/colcon-core/packages/waypoint_publisher)
+[9.380s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rstole01/Documents/CSE-596/msu_ws/build/my_messages': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rstole01/Documents/CSE-596/msu_ws/install/waypoint_writer:/home/rstole01/Documents/CSE-596/msu_ws/install/waypoint_follow:/home/rstole01/Documents/CSE-596/msu_ws/install/wall_follower_pid:/home/rstole01/Documents/CSE-596/msu_ws/install/qlearn:/home/rstole01/Documents/CSE-596/msu_ws/install/py_pubsub:/home/rstole01/Documents/CSE-596/msu_ws/install/plexer360:/home/rstole01/Documents/CSE-596/msu_ws/install/painter:/home/rstole01/Documents/CSE-596/msu_ws/install/f1tenth_gym_ros:/opt/ros/humble /usr/bin/cmake --install /home/rstole01/Documents/CSE-596/msu_ws/build/my_messages
+[9.404s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rstole01/Documents/CSE-596/msu_ws/build/pid_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rstole01/Documents/CSE-596/msu_ws/install/waypoint_writer:/home/rstole01/Documents/CSE-596/msu_ws/install/waypoint_follow:/home/rstole01/Documents/CSE-596/msu_ws/install/wall_follower_pid:/home/rstole01/Documents/CSE-596/msu_ws/install/qlearn:/home/rstole01/Documents/CSE-596/msu_ws/install/py_pubsub:/home/rstole01/Documents/CSE-596/msu_ws/install/plexer360:/home/rstole01/Documents/CSE-596/msu_ws/install/painter:/home/rstole01/Documents/CSE-596/msu_ws/install/f1tenth_gym_ros:/opt/ros/humble /usr/bin/cmake --install /home/rstole01/Documents/CSE-596/msu_ws/build/pid_msgs
+[9.427s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rstole01/Documents/CSE-596/msu_ws/build/ackermann_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rstole01/Documents/CSE-596/msu_ws/install/waypoint_writer:/home/rstole01/Documents/CSE-596/msu_ws/install/waypoint_follow:/home/rstole01/Documents/CSE-596/msu_ws/install/wall_follower_pid:/home/rstole01/Documents/CSE-596/msu_ws/install/qlearn:/home/rstole01/Documents/CSE-596/msu_ws/install/py_pubsub:/home/rstole01/Documents/CSE-596/msu_ws/install/plexer360:/home/rstole01/Documents/CSE-596/msu_ws/install/painter:/home/rstole01/Documents/CSE-596/msu_ws/install/f1tenth_gym_ros:/opt/ros/humble /usr/bin/cmake --install /home/rstole01/Documents/CSE-596/msu_ws/build/ackermann_msgs
+[9.812s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(waypoint_publisher)
+[9.919s] Level 1:colcon.colcon_core.environment:checking '/home/rstole01/Documents/CSE-596/msu_ws/install/waypoint_publisher' for CMake module files
+[9.921s] Level 1:colcon.colcon_core.environment:checking '/home/rstole01/Documents/CSE-596/msu_ws/install/waypoint_publisher' for CMake config files
+[9.922s] Level 1:colcon.colcon_core.shell:create_environment_hook('waypoint_publisher', 'cmake_prefix_path')
+[10.004s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rstole01/Documents/CSE-596/msu_ws/install/waypoint_publisher/share/waypoint_publisher/hook/cmake_prefix_path.ps1'
+[10.005s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rstole01/Documents/CSE-596/msu_ws/install/waypoint_publisher/share/waypoint_publisher/hook/cmake_prefix_path.dsv'
+[10.006s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rstole01/Documents/CSE-596/msu_ws/install/waypoint_publisher/share/waypoint_publisher/hook/cmake_prefix_path.sh'
+[10.008s] Level 1:colcon.colcon_core.environment:checking '/home/rstole01/Documents/CSE-596/msu_ws/install/waypoint_publisher/lib'
+[10.008s] Level 1:colcon.colcon_core.environment:checking '/home/rstole01/Documents/CSE-596/msu_ws/install/waypoint_publisher/bin'
+[10.009s] Level 1:colcon.colcon_core.environment:checking '/home/rstole01/Documents/CSE-596/msu_ws/install/waypoint_publisher/lib/pkgconfig/waypoint_publisher.pc'
+[10.010s] Level 1:colcon.colcon_core.environment:checking '/home/rstole01/Documents/CSE-596/msu_ws/install/waypoint_publisher/lib/python3.10/site-packages'
+[10.010s] Level 1:colcon.colcon_core.environment:checking '/home/rstole01/Documents/CSE-596/msu_ws/install/waypoint_publisher/bin'
+[10.090s] INFO:colcon.colcon_core.shell:Creating package script '/home/rstole01/Documents/CSE-596/msu_ws/install/waypoint_publisher/share/waypoint_publisher/package.ps1'
+[10.092s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rstole01/Documents/CSE-596/msu_ws/install/waypoint_publisher/share/waypoint_publisher/package.dsv'
+[10.093s] INFO:colcon.colcon_core.shell:Creating package script '/home/rstole01/Documents/CSE-596/msu_ws/install/waypoint_publisher/share/waypoint_publisher/package.sh'
+[10.096s] INFO:colcon.colcon_core.shell:Creating package script '/home/rstole01/Documents/CSE-596/msu_ws/install/waypoint_publisher/share/waypoint_publisher/package.bash'
+[10.098s] INFO:colcon.colcon_core.shell:Creating package script '/home/rstole01/Documents/CSE-596/msu_ws/install/waypoint_publisher/share/waypoint_publisher/package.zsh'
+[10.099s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rstole01/Documents/CSE-596/msu_ws/install/waypoint_publisher/share/colcon-core/packages/waypoint_publisher)
+[10.102s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/rstole01/Documents/CSE-596/msu_ws/src/waypoint_writer' with build type 'ament_python'
+[10.102s] Level 1:colcon.colcon_core.shell:create_environment_hook('waypoint_writer', 'ament_prefix_path')
+[10.186s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rstole01/Documents/CSE-596/msu_ws/install/waypoint_writer/share/waypoint_writer/hook/ament_prefix_path.ps1'
+[10.187s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rstole01/Documents/CSE-596/msu_ws/install/waypoint_writer/share/waypoint_writer/hook/ament_prefix_path.dsv'
+[10.190s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rstole01/Documents/CSE-596/msu_ws/install/waypoint_writer/share/waypoint_writer/hook/ament_prefix_path.sh'
+[10.254s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[10.254s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[10.389s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(pid_msgs)
+[10.390s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rstole01/Documents/CSE-596/msu_ws/build/pid_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rstole01/Documents/CSE-596/msu_ws/install/waypoint_writer:/home/rstole01/Documents/CSE-596/msu_ws/install/waypoint_follow:/home/rstole01/Documents/CSE-596/msu_ws/install/wall_follower_pid:/home/rstole01/Documents/CSE-596/msu_ws/install/qlearn:/home/rstole01/Documents/CSE-596/msu_ws/install/py_pubsub:/home/rstole01/Documents/CSE-596/msu_ws/install/plexer360:/home/rstole01/Documents/CSE-596/msu_ws/install/painter:/home/rstole01/Documents/CSE-596/msu_ws/install/f1tenth_gym_ros:/opt/ros/humble /usr/bin/cmake --install /home/rstole01/Documents/CSE-596/msu_ws/build/pid_msgs
+[10.450s] Level 1:colcon.colcon_core.environment:checking '/home/rstole01/Documents/CSE-596/msu_ws/install/pid_msgs' for CMake module files
+[10.451s] Level 1:colcon.colcon_core.environment:checking '/home/rstole01/Documents/CSE-596/msu_ws/install/pid_msgs' for CMake config files
+[10.452s] Level 1:colcon.colcon_core.shell:create_environment_hook('pid_msgs', 'cmake_prefix_path')
+[10.491s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rstole01/Documents/CSE-596/msu_ws/install/pid_msgs/share/pid_msgs/hook/cmake_prefix_path.ps1'
+[10.492s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rstole01/Documents/CSE-596/msu_ws/install/pid_msgs/share/pid_msgs/hook/cmake_prefix_path.dsv'
+[10.493s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rstole01/Documents/CSE-596/msu_ws/install/pid_msgs/share/pid_msgs/hook/cmake_prefix_path.sh'
+[10.494s] Level 1:colcon.colcon_core.environment:checking '/home/rstole01/Documents/CSE-596/msu_ws/install/pid_msgs/lib'
+[10.495s] Level 1:colcon.colcon_core.shell:create_environment_hook('pid_msgs', 'ld_library_path_lib')
+[10.533s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rstole01/Documents/CSE-596/msu_ws/install/pid_msgs/share/pid_msgs/hook/ld_library_path_lib.ps1'
+[10.534s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rstole01/Documents/CSE-596/msu_ws/install/pid_msgs/share/pid_msgs/hook/ld_library_path_lib.dsv'
+[10.535s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rstole01/Documents/CSE-596/msu_ws/install/pid_msgs/share/pid_msgs/hook/ld_library_path_lib.sh'
+[10.535s] Level 1:colcon.colcon_core.environment:checking '/home/rstole01/Documents/CSE-596/msu_ws/install/pid_msgs/bin'
+[10.536s] Level 1:colcon.colcon_core.environment:checking '/home/rstole01/Documents/CSE-596/msu_ws/install/pid_msgs/lib/pkgconfig/pid_msgs.pc'
+[10.536s] Level 1:colcon.colcon_core.environment:checking '/home/rstole01/Documents/CSE-596/msu_ws/install/pid_msgs/lib/python3.10/site-packages'
+[10.537s] Level 1:colcon.colcon_core.environment:checking '/home/rstole01/Documents/CSE-596/msu_ws/install/pid_msgs/bin'
+[10.576s] INFO:colcon.colcon_core.shell:Creating package script '/home/rstole01/Documents/CSE-596/msu_ws/install/pid_msgs/share/pid_msgs/package.ps1'
+[10.577s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rstole01/Documents/CSE-596/msu_ws/install/pid_msgs/share/pid_msgs/package.dsv'
+[10.578s] INFO:colcon.colcon_core.shell:Creating package script '/home/rstole01/Documents/CSE-596/msu_ws/install/pid_msgs/share/pid_msgs/package.sh'
+[10.579s] INFO:colcon.colcon_core.shell:Creating package script '/home/rstole01/Documents/CSE-596/msu_ws/install/pid_msgs/share/pid_msgs/package.bash'
+[10.579s] INFO:colcon.colcon_core.shell:Creating package script '/home/rstole01/Documents/CSE-596/msu_ws/install/pid_msgs/share/pid_msgs/package.zsh'
+[10.580s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rstole01/Documents/CSE-596/msu_ws/install/pid_msgs/share/colcon-core/packages/pid_msgs)
+[10.582s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ackermann_msgs)
+[10.584s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rstole01/Documents/CSE-596/msu_ws/build/ackermann_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rstole01/Documents/CSE-596/msu_ws/install/waypoint_writer:/home/rstole01/Documents/CSE-596/msu_ws/install/waypoint_follow:/home/rstole01/Documents/CSE-596/msu_ws/install/wall_follower_pid:/home/rstole01/Documents/CSE-596/msu_ws/install/qlearn:/home/rstole01/Documents/CSE-596/msu_ws/install/py_pubsub:/home/rstole01/Documents/CSE-596/msu_ws/install/plexer360:/home/rstole01/Documents/CSE-596/msu_ws/install/painter:/home/rstole01/Documents/CSE-596/msu_ws/install/f1tenth_gym_ros:/opt/ros/humble /usr/bin/cmake --install /home/rstole01/Documents/CSE-596/msu_ws/build/ackermann_msgs
+[10.659s] Level 1:colcon.colcon_core.environment:checking '/home/rstole01/Documents/CSE-596/msu_ws/install/ackermann_msgs' for CMake module files
+[10.661s] Level 1:colcon.colcon_core.environment:checking '/home/rstole01/Documents/CSE-596/msu_ws/install/ackermann_msgs' for CMake config files
+[10.663s] Level 1:colcon.colcon_core.shell:create_environment_hook('ackermann_msgs', 'cmake_prefix_path')
+[10.736s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rstole01/Documents/CSE-596/msu_ws/install/ackermann_msgs/share/ackermann_msgs/hook/cmake_prefix_path.ps1'
+[10.738s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rstole01/Documents/CSE-596/msu_ws/install/ackermann_msgs/share/ackermann_msgs/hook/cmake_prefix_path.dsv'
+[10.739s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rstole01/Documents/CSE-596/msu_ws/install/ackermann_msgs/share/ackermann_msgs/hook/cmake_prefix_path.sh'
+[10.740s] Level 1:colcon.colcon_core.environment:checking '/home/rstole01/Documents/CSE-596/msu_ws/install/ackermann_msgs/lib'
+[10.741s] Level 1:colcon.colcon_core.shell:create_environment_hook('ackermann_msgs', 'ld_library_path_lib')
+[10.797s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rstole01/Documents/CSE-596/msu_ws/install/ackermann_msgs/share/ackermann_msgs/hook/ld_library_path_lib.ps1'
+[10.798s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rstole01/Documents/CSE-596/msu_ws/install/ackermann_msgs/share/ackermann_msgs/hook/ld_library_path_lib.dsv'
+[10.799s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rstole01/Documents/CSE-596/msu_ws/install/ackermann_msgs/share/ackermann_msgs/hook/ld_library_path_lib.sh'
+[10.799s] Level 1:colcon.colcon_core.environment:checking '/home/rstole01/Documents/CSE-596/msu_ws/install/ackermann_msgs/bin'
+[10.800s] Level 1:colcon.colcon_core.environment:checking '/home/rstole01/Documents/CSE-596/msu_ws/install/ackermann_msgs/lib/pkgconfig/ackermann_msgs.pc'
+[10.800s] Level 1:colcon.colcon_core.environment:checking '/home/rstole01/Documents/CSE-596/msu_ws/install/ackermann_msgs/lib/python3.10/site-packages'
+[10.800s] Level 1:colcon.colcon_core.environment:checking '/home/rstole01/Documents/CSE-596/msu_ws/install/ackermann_msgs/bin'
+[10.840s] INFO:colcon.colcon_core.shell:Creating package script '/home/rstole01/Documents/CSE-596/msu_ws/install/ackermann_msgs/share/ackermann_msgs/package.ps1'
+[10.841s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rstole01/Documents/CSE-596/msu_ws/install/ackermann_msgs/share/ackermann_msgs/package.dsv'
+[10.843s] INFO:colcon.colcon_core.shell:Creating package script '/home/rstole01/Documents/CSE-596/msu_ws/install/ackermann_msgs/share/ackermann_msgs/package.sh'
+[10.844s] INFO:colcon.colcon_core.shell:Creating package script '/home/rstole01/Documents/CSE-596/msu_ws/install/ackermann_msgs/share/ackermann_msgs/package.bash'
+[10.844s] INFO:colcon.colcon_core.shell:Creating package script '/home/rstole01/Documents/CSE-596/msu_ws/install/ackermann_msgs/share/ackermann_msgs/package.zsh'
+[10.845s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rstole01/Documents/CSE-596/msu_ws/install/ackermann_msgs/share/colcon-core/packages/ackermann_msgs)
+[10.847s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_messages)
+[10.849s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rstole01/Documents/CSE-596/msu_ws/build/my_messages' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rstole01/Documents/CSE-596/msu_ws/install/waypoint_writer:/home/rstole01/Documents/CSE-596/msu_ws/install/waypoint_follow:/home/rstole01/Documents/CSE-596/msu_ws/install/wall_follower_pid:/home/rstole01/Documents/CSE-596/msu_ws/install/qlearn:/home/rstole01/Documents/CSE-596/msu_ws/install/py_pubsub:/home/rstole01/Documents/CSE-596/msu_ws/install/plexer360:/home/rstole01/Documents/CSE-596/msu_ws/install/painter:/home/rstole01/Documents/CSE-596/msu_ws/install/f1tenth_gym_ros:/opt/ros/humble /usr/bin/cmake --install /home/rstole01/Documents/CSE-596/msu_ws/build/my_messages
+[10.900s] Level 1:colcon.colcon_core.environment:checking '/home/rstole01/Documents/CSE-596/msu_ws/install/my_messages' for CMake module files
+[10.902s] Level 1:colcon.colcon_core.environment:checking '/home/rstole01/Documents/CSE-596/msu_ws/install/my_messages' for CMake config files
+[10.904s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_messages', 'cmake_prefix_path')
+[10.951s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rstole01/Documents/CSE-596/msu_ws/install/my_messages/share/my_messages/hook/cmake_prefix_path.ps1'
+[10.952s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rstole01/Documents/CSE-596/msu_ws/install/my_messages/share/my_messages/hook/cmake_prefix_path.dsv'
+[10.953s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rstole01/Documents/CSE-596/msu_ws/install/my_messages/share/my_messages/hook/cmake_prefix_path.sh'
+[10.954s] Level 1:colcon.colcon_core.environment:checking '/home/rstole01/Documents/CSE-596/msu_ws/install/my_messages/lib'
+[10.954s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_messages', 'ld_library_path_lib')
+[11.008s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rstole01/Documents/CSE-596/msu_ws/install/my_messages/share/my_messages/hook/ld_library_path_lib.ps1'
+[11.010s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rstole01/Documents/CSE-596/msu_ws/install/my_messages/share/my_messages/hook/ld_library_path_lib.dsv'
+[11.011s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rstole01/Documents/CSE-596/msu_ws/install/my_messages/share/my_messages/hook/ld_library_path_lib.sh'
+[11.012s] Level 1:colcon.colcon_core.environment:checking '/home/rstole01/Documents/CSE-596/msu_ws/install/my_messages/bin'
+[11.012s] Level 1:colcon.colcon_core.environment:checking '/home/rstole01/Documents/CSE-596/msu_ws/install/my_messages/lib/pkgconfig/my_messages.pc'
+[11.013s] Level 1:colcon.colcon_core.environment:checking '/home/rstole01/Documents/CSE-596/msu_ws/install/my_messages/lib/python3.10/site-packages'
+[11.014s] Level 1:colcon.colcon_core.environment:checking '/home/rstole01/Documents/CSE-596/msu_ws/install/my_messages/bin'
+[11.067s] INFO:colcon.colcon_core.shell:Creating package script '/home/rstole01/Documents/CSE-596/msu_ws/install/my_messages/share/my_messages/package.ps1'
+[11.068s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rstole01/Documents/CSE-596/msu_ws/install/my_messages/share/my_messages/package.dsv'
+[11.069s] INFO:colcon.colcon_core.shell:Creating package script '/home/rstole01/Documents/CSE-596/msu_ws/install/my_messages/share/my_messages/package.sh'
+[11.070s] INFO:colcon.colcon_core.shell:Creating package script '/home/rstole01/Documents/CSE-596/msu_ws/install/my_messages/share/my_messages/package.bash'
+[11.070s] INFO:colcon.colcon_core.shell:Creating package script '/home/rstole01/Documents/CSE-596/msu_ws/install/my_messages/share/my_messages/package.zsh'
+[11.071s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rstole01/Documents/CSE-596/msu_ws/install/my_messages/share/colcon-core/packages/my_messages)
+[11.075s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rstole01/Documents/CSE-596/msu_ws/build/qlearn_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rstole01/Documents/CSE-596/msu_ws/install/waypoint_writer:/home/rstole01/Documents/CSE-596/msu_ws/install/waypoint_follow:/home/rstole01/Documents/CSE-596/msu_ws/install/wall_follower_pid:/home/rstole01/Documents/CSE-596/msu_ws/install/qlearn:/home/rstole01/Documents/CSE-596/msu_ws/install/py_pubsub:/home/rstole01/Documents/CSE-596/msu_ws/install/plexer360:/home/rstole01/Documents/CSE-596/msu_ws/install/painter:/home/rstole01/Documents/CSE-596/msu_ws/install/f1tenth_gym_ros:/opt/ros/humble /usr/bin/cmake --build /home/rstole01/Documents/CSE-596/msu_ws/build/qlearn_interfaces -- -j8 -l8
+[11.086s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rstole01/Documents/CSE-596/msu_ws/src/py_pubsub': PYTHONPATH=/home/rstole01/Documents/CSE-596/msu_ws/build/py_pubsub/prefix_override:/home/rstole01/Documents/CSE-596/msu_ws/install/py_pubsub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_pubsub build --build-base /home/rstole01/Documents/CSE-596/msu_ws/build/py_pubsub/build install --record /home/rstole01/Documents/CSE-596/msu_ws/build/py_pubsub/install.log --single-version-externally-managed
+[11.099s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rstole01/Documents/CSE-596/msu_ws/src/painter': PYTHONPATH=/home/rstole01/Documents/CSE-596/msu_ws/build/painter/prefix_override:/home/rstole01/Documents/CSE-596/msu_ws/install/painter/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/painter build --build-base /home/rstole01/Documents/CSE-596/msu_ws/build/painter/build install --record /home/rstole01/Documents/CSE-596/msu_ws/build/painter/install.log --single-version-externally-managed
+[12.167s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/rstole01/Documents/CSE-596/msu_ws/src/waypoint_writer'
+[12.223s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[12.223s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[12.436s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(pid_msgs)
+[12.476s] Level 1:colcon.colcon_core.environment:checking '/home/rstole01/Documents/CSE-596/msu_ws/install/pid_msgs' for CMake module files
+[12.477s] Level 1:colcon.colcon_core.environment:checking '/home/rstole01/Documents/CSE-596/msu_ws/install/pid_msgs' for CMake config files
+[12.478s] Level 1:colcon.colcon_core.shell:create_environment_hook('pid_msgs', 'cmake_prefix_path')
+[12.541s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rstole01/Documents/CSE-596/msu_ws/install/pid_msgs/share/pid_msgs/hook/cmake_prefix_path.ps1'
+[12.542s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rstole01/Documents/CSE-596/msu_ws/install/pid_msgs/share/pid_msgs/hook/cmake_prefix_path.dsv'
+[12.542s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rstole01/Documents/CSE-596/msu_ws/install/pid_msgs/share/pid_msgs/hook/cmake_prefix_path.sh'
+[12.543s] Level 1:colcon.colcon_core.environment:checking '/home/rstole01/Documents/CSE-596/msu_ws/install/pid_msgs/lib'
+[12.544s] Level 1:colcon.colcon_core.shell:create_environment_hook('pid_msgs', 'ld_library_path_lib')
+[12.586s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rstole01/Documents/CSE-596/msu_ws/install/pid_msgs/share/pid_msgs/hook/ld_library_path_lib.ps1'
+[12.587s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rstole01/Documents/CSE-596/msu_ws/install/pid_msgs/share/pid_msgs/hook/ld_library_path_lib.dsv'
+[12.588s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rstole01/Documents/CSE-596/msu_ws/install/pid_msgs/share/pid_msgs/hook/ld_library_path_lib.sh'
+[12.589s] Level 1:colcon.colcon_core.environment:checking '/home/rstole01/Documents/CSE-596/msu_ws/install/pid_msgs/bin'
+[12.590s] Level 1:colcon.colcon_core.environment:checking '/home/rstole01/Documents/CSE-596/msu_ws/install/pid_msgs/lib/pkgconfig/pid_msgs.pc'
+[12.590s] Level 1:colcon.colcon_core.environment:checking '/home/rstole01/Documents/CSE-596/msu_ws/install/pid_msgs/lib/python3.10/site-packages'
+[12.591s] Level 1:colcon.colcon_core.environment:checking '/home/rstole01/Documents/CSE-596/msu_ws/install/pid_msgs/bin'
+[12.640s] INFO:colcon.colcon_core.shell:Creating package script '/home/rstole01/Documents/CSE-596/msu_ws/install/pid_msgs/share/pid_msgs/package.ps1'
+[12.641s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rstole01/Documents/CSE-596/msu_ws/install/pid_msgs/share/pid_msgs/package.dsv'
+[12.642s] INFO:colcon.colcon_core.shell:Creating package script '/home/rstole01/Documents/CSE-596/msu_ws/install/pid_msgs/share/pid_msgs/package.sh'
+[12.643s] INFO:colcon.colcon_core.shell:Creating package script '/home/rstole01/Documents/CSE-596/msu_ws/install/pid_msgs/share/pid_msgs/package.bash'
+[12.644s] INFO:colcon.colcon_core.shell:Creating package script '/home/rstole01/Documents/CSE-596/msu_ws/install/pid_msgs/share/pid_msgs/package.zsh'
+[12.644s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rstole01/Documents/CSE-596/msu_ws/install/pid_msgs/share/colcon-core/packages/pid_msgs)
+[12.706s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ackermann_msgs)
+[12.761s] Level 1:colcon.colcon_core.environment:checking '/home/rstole01/Documents/CSE-596/msu_ws/install/ackermann_msgs' for CMake module files
+[12.762s] Level 1:colcon.colcon_core.environment:checking '/home/rstole01/Documents/CSE-596/msu_ws/install/ackermann_msgs' for CMake config files
+[12.763s] Level 1:colcon.colcon_core.shell:create_environment_hook('ackermann_msgs', 'cmake_prefix_path')
+[12.812s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rstole01/Documents/CSE-596/msu_ws/install/ackermann_msgs/share/ackermann_msgs/hook/cmake_prefix_path.ps1'
+[12.813s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rstole01/Documents/CSE-596/msu_ws/install/ackermann_msgs/share/ackermann_msgs/hook/cmake_prefix_path.dsv'
+[12.814s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rstole01/Documents/CSE-596/msu_ws/install/ackermann_msgs/share/ackermann_msgs/hook/cmake_prefix_path.sh'
+[12.815s] Level 1:colcon.colcon_core.environment:checking '/home/rstole01/Documents/CSE-596/msu_ws/install/ackermann_msgs/lib'
+[12.815s] Level 1:colcon.colcon_core.shell:create_environment_hook('ackermann_msgs', 'ld_library_path_lib')
+[12.860s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rstole01/Documents/CSE-596/msu_ws/install/ackermann_msgs/share/ackermann_msgs/hook/ld_library_path_lib.ps1'
+[12.860s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rstole01/Documents/CSE-596/msu_ws/install/ackermann_msgs/share/ackermann_msgs/hook/ld_library_path_lib.dsv'
+[12.861s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rstole01/Documents/CSE-596/msu_ws/install/ackermann_msgs/share/ackermann_msgs/hook/ld_library_path_lib.sh'
+[12.862s] Level 1:colcon.colcon_core.environment:checking '/home/rstole01/Documents/CSE-596/msu_ws/install/ackermann_msgs/bin'
+[12.862s] Level 1:colcon.colcon_core.environment:checking '/home/rstole01/Documents/CSE-596/msu_ws/install/ackermann_msgs/lib/pkgconfig/ackermann_msgs.pc'
+[12.862s] Level 1:colcon.colcon_core.environment:checking '/home/rstole01/Documents/CSE-596/msu_ws/install/ackermann_msgs/lib/python3.10/site-packages'
+[12.863s] Level 1:colcon.colcon_core.environment:checking '/home/rstole01/Documents/CSE-596/msu_ws/install/ackermann_msgs/bin'
+[12.906s] INFO:colcon.colcon_core.shell:Creating package script '/home/rstole01/Documents/CSE-596/msu_ws/install/ackermann_msgs/share/ackermann_msgs/package.ps1'
+[12.907s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rstole01/Documents/CSE-596/msu_ws/install/ackermann_msgs/share/ackermann_msgs/package.dsv'
+[12.908s] INFO:colcon.colcon_core.shell:Creating package script '/home/rstole01/Documents/CSE-596/msu_ws/install/ackermann_msgs/share/ackermann_msgs/package.sh'
+[12.909s] INFO:colcon.colcon_core.shell:Creating package script '/home/rstole01/Documents/CSE-596/msu_ws/install/ackermann_msgs/share/ackermann_msgs/package.bash'
+[12.909s] INFO:colcon.colcon_core.shell:Creating package script '/home/rstole01/Documents/CSE-596/msu_ws/install/ackermann_msgs/share/ackermann_msgs/package.zsh'
+[12.910s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rstole01/Documents/CSE-596/msu_ws/install/ackermann_msgs/share/colcon-core/packages/ackermann_msgs)
+[12.912s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/rstole01/Documents/CSE-596/msu_ws/src/f1tenth_gym_ros' with build type 'ament_python'
+[12.913s] Level 1:colcon.colcon_core.shell:create_environment_hook('f1tenth_gym_ros', 'ament_prefix_path')
+[12.967s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rstole01/Documents/CSE-596/msu_ws/install/f1tenth_gym_ros/share/f1tenth_gym_ros/hook/ament_prefix_path.ps1'
+[12.968s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rstole01/Documents/CSE-596/msu_ws/install/f1tenth_gym_ros/share/f1tenth_gym_ros/hook/ament_prefix_path.dsv'
+[12.969s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rstole01/Documents/CSE-596/msu_ws/install/f1tenth_gym_ros/share/f1tenth_gym_ros/hook/ament_prefix_path.sh'
+[13.024s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[13.024s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[13.176s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/rstole01/Documents/CSE-596/msu_ws/src/plexer360' with build type 'ament_python'
+[13.177s] Level 1:colcon.colcon_core.shell:create_environment_hook('plexer360', 'ament_prefix_path')
+[13.221s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rstole01/Documents/CSE-596/msu_ws/install/plexer360/share/plexer360/hook/ament_prefix_path.ps1'
+[13.222s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rstole01/Documents/CSE-596/msu_ws/install/plexer360/share/plexer360/hook/ament_prefix_path.dsv'
+[13.222s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rstole01/Documents/CSE-596/msu_ws/install/plexer360/share/plexer360/hook/ament_prefix_path.sh'
+[13.265s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[13.266s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[13.409s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rstole01/Documents/CSE-596/msu_ws/src/painter' returned '0': PYTHONPATH=/home/rstole01/Documents/CSE-596/msu_ws/build/painter/prefix_override:/home/rstole01/Documents/CSE-596/msu_ws/install/painter/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/painter build --build-base /home/rstole01/Documents/CSE-596/msu_ws/build/painter/build install --record /home/rstole01/Documents/CSE-596/msu_ws/build/painter/install.log --single-version-externally-managed
+[13.450s] Level 1:colcon.colcon_core.environment:checking '/home/rstole01/Documents/CSE-596/msu_ws/install/painter' for CMake module files
+[13.451s] Level 1:colcon.colcon_core.environment:checking '/home/rstole01/Documents/CSE-596/msu_ws/install/painter' for CMake config files
+[13.452s] Level 1:colcon.colcon_core.environment:checking '/home/rstole01/Documents/CSE-596/msu_ws/install/painter/lib'
+[13.452s] Level 1:colcon.colcon_core.environment:checking '/home/rstole01/Documents/CSE-596/msu_ws/install/painter/bin'
+[13.452s] Level 1:colcon.colcon_core.environment:checking '/home/rstole01/Documents/CSE-596/msu_ws/install/painter/lib/pkgconfig/painter.pc'
+[13.452s] Level 1:colcon.colcon_core.environment:checking '/home/rstole01/Documents/CSE-596/msu_ws/install/painter/lib/python3.10/site-packages'
+[13.453s] Level 1:colcon.colcon_core.shell:create_environment_hook('painter', 'pythonpath')
+[13.492s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rstole01/Documents/CSE-596/msu_ws/install/painter/share/painter/hook/pythonpath.ps1'
+[13.493s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rstole01/Documents/CSE-596/msu_ws/install/painter/share/painter/hook/pythonpath.dsv'
+[13.494s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rstole01/Documents/CSE-596/msu_ws/install/painter/share/painter/hook/pythonpath.sh'
+[13.495s] Level 1:colcon.colcon_core.environment:checking '/home/rstole01/Documents/CSE-596/msu_ws/install/painter/bin'
+[13.495s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(painter)
+[13.542s] INFO:colcon.colcon_core.shell:Creating package script '/home/rstole01/Documents/CSE-596/msu_ws/install/painter/share/painter/package.ps1'
+[13.543s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rstole01/Documents/CSE-596/msu_ws/install/painter/share/painter/package.dsv'
+[13.544s] INFO:colcon.colcon_core.shell:Creating package script '/home/rstole01/Documents/CSE-596/msu_ws/install/painter/share/painter/package.sh'
+[13.545s] INFO:colcon.colcon_core.shell:Creating package script '/home/rstole01/Documents/CSE-596/msu_ws/install/painter/share/painter/package.bash'
+[13.545s] INFO:colcon.colcon_core.shell:Creating package script '/home/rstole01/Documents/CSE-596/msu_ws/install/painter/share/painter/package.zsh'
+[13.546s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rstole01/Documents/CSE-596/msu_ws/install/painter/share/colcon-core/packages/painter)
+[13.549s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rstole01/Documents/CSE-596/msu_ws/src/py_pubsub' returned '0': PYTHONPATH=/home/rstole01/Documents/CSE-596/msu_ws/build/py_pubsub/prefix_override:/home/rstole01/Documents/CSE-596/msu_ws/install/py_pubsub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_pubsub build --build-base /home/rstole01/Documents/CSE-596/msu_ws/build/py_pubsub/build install --record /home/rstole01/Documents/CSE-596/msu_ws/build/py_pubsub/install.log --single-version-externally-managed
+[13.604s] Level 1:colcon.colcon_core.environment:checking '/home/rstole01/Documents/CSE-596/msu_ws/install/py_pubsub' for CMake module files
+[13.605s] Level 1:colcon.colcon_core.environment:checking '/home/rstole01/Documents/CSE-596/msu_ws/install/py_pubsub' for CMake config files
+[13.606s] Level 1:colcon.colcon_core.environment:checking '/home/rstole01/Documents/CSE-596/msu_ws/install/py_pubsub/lib'
+[13.606s] Level 1:colcon.colcon_core.environment:checking '/home/rstole01/Documents/CSE-596/msu_ws/install/py_pubsub/bin'
+[13.607s] Level 1:colcon.colcon_core.environment:checking '/home/rstole01/Documents/CSE-596/msu_ws/install/py_pubsub/lib/pkgconfig/py_pubsub.pc'
+[13.607s] Level 1:colcon.colcon_core.environment:checking '/home/rstole01/Documents/CSE-596/msu_ws/install/py_pubsub/lib/python3.10/site-packages'
+[13.607s] Level 1:colcon.colcon_core.shell:create_environment_hook('py_pubsub', 'pythonpath')
+[13.652s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rstole01/Documents/CSE-596/msu_ws/install/py_pubsub/share/py_pubsub/hook/pythonpath.ps1'
+[13.653s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rstole01/Documents/CSE-596/msu_ws/install/py_pubsub/share/py_pubsub/hook/pythonpath.dsv'
+[13.654s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rstole01/Documents/CSE-596/msu_ws/install/py_pubsub/share/py_pubsub/hook/pythonpath.sh'
+[13.655s] Level 1:colcon.colcon_core.environment:checking '/home/rstole01/Documents/CSE-596/msu_ws/install/py_pubsub/bin'
+[13.655s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(py_pubsub)
+[13.700s] INFO:colcon.colcon_core.shell:Creating package script '/home/rstole01/Documents/CSE-596/msu_ws/install/py_pubsub/share/py_pubsub/package.ps1'
+[13.701s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rstole01/Documents/CSE-596/msu_ws/install/py_pubsub/share/py_pubsub/package.dsv'
+[13.702s] INFO:colcon.colcon_core.shell:Creating package script '/home/rstole01/Documents/CSE-596/msu_ws/install/py_pubsub/share/py_pubsub/package.sh'
+[13.703s] INFO:colcon.colcon_core.shell:Creating package script '/home/rstole01/Documents/CSE-596/msu_ws/install/py_pubsub/share/py_pubsub/package.bash'
+[13.703s] INFO:colcon.colcon_core.shell:Creating package script '/home/rstole01/Documents/CSE-596/msu_ws/install/py_pubsub/share/py_pubsub/package.zsh'
+[13.704s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rstole01/Documents/CSE-596/msu_ws/install/py_pubsub/share/colcon-core/packages/py_pubsub)
+[13.756s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_messages)
+[13.800s] Level 1:colcon.colcon_core.environment:checking '/home/rstole01/Documents/CSE-596/msu_ws/install/my_messages' for CMake module files
+[13.802s] Level 1:colcon.colcon_core.environment:checking '/home/rstole01/Documents/CSE-596/msu_ws/install/my_messages' for CMake config files
+[13.803s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_messages', 'cmake_prefix_path')
+[13.850s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rstole01/Documents/CSE-596/msu_ws/install/my_messages/share/my_messages/hook/cmake_prefix_path.ps1'
+[13.851s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rstole01/Documents/CSE-596/msu_ws/install/my_messages/share/my_messages/hook/cmake_prefix_path.dsv'
+[13.851s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rstole01/Documents/CSE-596/msu_ws/install/my_messages/share/my_messages/hook/cmake_prefix_path.sh'
+[13.853s] Level 1:colcon.colcon_core.environment:checking '/home/rstole01/Documents/CSE-596/msu_ws/install/my_messages/lib'
+[13.853s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_messages', 'ld_library_path_lib')
+[13.901s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rstole01/Documents/CSE-596/msu_ws/install/my_messages/share/my_messages/hook/ld_library_path_lib.ps1'
+[13.902s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rstole01/Documents/CSE-596/msu_ws/install/my_messages/share/my_messages/hook/ld_library_path_lib.dsv'
+[13.903s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rstole01/Documents/CSE-596/msu_ws/install/my_messages/share/my_messages/hook/ld_library_path_lib.sh'
+[13.904s] Level 1:colcon.colcon_core.environment:checking '/home/rstole01/Documents/CSE-596/msu_ws/install/my_messages/bin'
+[13.904s] Level 1:colcon.colcon_core.environment:checking '/home/rstole01/Documents/CSE-596/msu_ws/install/my_messages/lib/pkgconfig/my_messages.pc'
+[13.904s] Level 1:colcon.colcon_core.environment:checking '/home/rstole01/Documents/CSE-596/msu_ws/install/my_messages/lib/python3.10/site-packages'
+[13.905s] Level 1:colcon.colcon_core.environment:checking '/home/rstole01/Documents/CSE-596/msu_ws/install/my_messages/bin'
+[13.955s] INFO:colcon.colcon_core.shell:Creating package script '/home/rstole01/Documents/CSE-596/msu_ws/install/my_messages/share/my_messages/package.ps1'
+[13.956s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rstole01/Documents/CSE-596/msu_ws/install/my_messages/share/my_messages/package.dsv'
+[13.957s] INFO:colcon.colcon_core.shell:Creating package script '/home/rstole01/Documents/CSE-596/msu_ws/install/my_messages/share/my_messages/package.sh'
+[13.958s] INFO:colcon.colcon_core.shell:Creating package script '/home/rstole01/Documents/CSE-596/msu_ws/install/my_messages/share/my_messages/package.bash'
+[13.959s] INFO:colcon.colcon_core.shell:Creating package script '/home/rstole01/Documents/CSE-596/msu_ws/install/my_messages/share/my_messages/package.zsh'
+[13.960s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rstole01/Documents/CSE-596/msu_ws/install/my_messages/share/colcon-core/packages/my_messages)
+[13.965s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/rstole01/Documents/CSE-596/msu_ws/src/qlearn' with build type 'ament_python'
+[13.965s] Level 1:colcon.colcon_core.shell:create_environment_hook('qlearn', 'ament_prefix_path')
+[13.967s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rstole01/Documents/CSE-596/msu_ws/build/qlearn_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rstole01/Documents/CSE-596/msu_ws/install/waypoint_writer:/home/rstole01/Documents/CSE-596/msu_ws/install/waypoint_follow:/home/rstole01/Documents/CSE-596/msu_ws/install/wall_follower_pid:/home/rstole01/Documents/CSE-596/msu_ws/install/qlearn:/home/rstole01/Documents/CSE-596/msu_ws/install/py_pubsub:/home/rstole01/Documents/CSE-596/msu_ws/install/plexer360:/home/rstole01/Documents/CSE-596/msu_ws/install/painter:/home/rstole01/Documents/CSE-596/msu_ws/install/f1tenth_gym_ros:/opt/ros/humble /usr/bin/cmake --install /home/rstole01/Documents/CSE-596/msu_ws/build/qlearn_interfaces
+[14.028s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rstole01/Documents/CSE-596/msu_ws/install/qlearn/share/qlearn/hook/ament_prefix_path.ps1'
+[14.029s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rstole01/Documents/CSE-596/msu_ws/install/qlearn/share/qlearn/hook/ament_prefix_path.dsv'
+[14.031s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rstole01/Documents/CSE-596/msu_ws/install/qlearn/share/qlearn/hook/ament_prefix_path.sh'
+[14.074s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[14.074s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[14.231s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/rstole01/Documents/CSE-596/msu_ws/src/wall_follower_pid' with build type 'ament_python'
+[14.231s] Level 1:colcon.colcon_core.shell:create_environment_hook('wall_follower_pid', 'ament_prefix_path')
+[14.284s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rstole01/Documents/CSE-596/msu_ws/install/wall_follower_pid/share/wall_follower_pid/hook/ament_prefix_path.ps1'
+[14.285s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rstole01/Documents/CSE-596/msu_ws/install/wall_follower_pid/share/wall_follower_pid/hook/ament_prefix_path.dsv'
+[14.285s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rstole01/Documents/CSE-596/msu_ws/install/wall_follower_pid/share/wall_follower_pid/hook/ament_prefix_path.sh'
+[14.334s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[14.335s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[14.475s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/rstole01/Documents/CSE-596/msu_ws/src/waypoint_follow' with build type 'ament_python'
+[14.475s] Level 1:colcon.colcon_core.shell:create_environment_hook('waypoint_follow', 'ament_prefix_path')
+[14.519s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rstole01/Documents/CSE-596/msu_ws/install/waypoint_follow/share/waypoint_follow/hook/ament_prefix_path.ps1'
+[14.520s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rstole01/Documents/CSE-596/msu_ws/install/waypoint_follow/share/waypoint_follow/hook/ament_prefix_path.dsv'
+[14.521s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rstole01/Documents/CSE-596/msu_ws/install/waypoint_follow/share/waypoint_follow/hook/ament_prefix_path.sh'
+[14.562s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[14.562s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[15.428s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/rstole01/Documents/CSE-596/msu_ws/src/f1tenth_gym_ros'
+[15.481s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[15.481s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[16.262s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/rstole01/Documents/CSE-596/msu_ws/src/plexer360'
+[16.302s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[16.302s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[17.042s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/rstole01/Documents/CSE-596/msu_ws/src/qlearn'
+[17.082s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[17.082s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[17.806s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/rstole01/Documents/CSE-596/msu_ws/src/wall_follower_pid'
+[17.848s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[17.849s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[18.578s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/rstole01/Documents/CSE-596/msu_ws/src/waypoint_follow'
+[18.619s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[18.620s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[18.752s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(qlearn_interfaces)
+[18.754s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rstole01/Documents/CSE-596/msu_ws/src/waypoint_writer': PYTHONPATH=/home/rstole01/Documents/CSE-596/msu_ws/build/waypoint_writer/prefix_override:/home/rstole01/Documents/CSE-596/msu_ws/install/waypoint_writer/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/waypoint_writer build --build-base /home/rstole01/Documents/CSE-596/msu_ws/build/waypoint_writer/build install --record /home/rstole01/Documents/CSE-596/msu_ws/build/waypoint_writer/install.log --single-version-externally-managed
+[18.755s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rstole01/Documents/CSE-596/msu_ws/build/qlearn_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rstole01/Documents/CSE-596/msu_ws/install/waypoint_writer:/home/rstole01/Documents/CSE-596/msu_ws/install/waypoint_follow:/home/rstole01/Documents/CSE-596/msu_ws/install/wall_follower_pid:/home/rstole01/Documents/CSE-596/msu_ws/install/qlearn:/home/rstole01/Documents/CSE-596/msu_ws/install/py_pubsub:/home/rstole01/Documents/CSE-596/msu_ws/install/plexer360:/home/rstole01/Documents/CSE-596/msu_ws/install/painter:/home/rstole01/Documents/CSE-596/msu_ws/install/f1tenth_gym_ros:/opt/ros/humble /usr/bin/cmake --install /home/rstole01/Documents/CSE-596/msu_ws/build/qlearn_interfaces
+[18.794s] Level 1:colcon.colcon_core.environment:checking '/home/rstole01/Documents/CSE-596/msu_ws/install/qlearn_interfaces' for CMake module files
+[18.796s] Level 1:colcon.colcon_core.environment:checking '/home/rstole01/Documents/CSE-596/msu_ws/install/qlearn_interfaces' for CMake config files
+[18.798s] Level 1:colcon.colcon_core.shell:create_environment_hook('qlearn_interfaces', 'cmake_prefix_path')
+[18.858s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rstole01/Documents/CSE-596/msu_ws/install/qlearn_interfaces/share/qlearn_interfaces/hook/cmake_prefix_path.ps1'
+[18.859s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rstole01/Documents/CSE-596/msu_ws/install/qlearn_interfaces/share/qlearn_interfaces/hook/cmake_prefix_path.dsv'
+[18.860s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rstole01/Documents/CSE-596/msu_ws/install/qlearn_interfaces/share/qlearn_interfaces/hook/cmake_prefix_path.sh'
+[18.861s] Level 1:colcon.colcon_core.environment:checking '/home/rstole01/Documents/CSE-596/msu_ws/install/qlearn_interfaces/lib'
+[18.861s] Level 1:colcon.colcon_core.shell:create_environment_hook('qlearn_interfaces', 'ld_library_path_lib')
+[18.903s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rstole01/Documents/CSE-596/msu_ws/install/qlearn_interfaces/share/qlearn_interfaces/hook/ld_library_path_lib.ps1'
+[18.903s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rstole01/Documents/CSE-596/msu_ws/install/qlearn_interfaces/share/qlearn_interfaces/hook/ld_library_path_lib.dsv'
+[18.904s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rstole01/Documents/CSE-596/msu_ws/install/qlearn_interfaces/share/qlearn_interfaces/hook/ld_library_path_lib.sh'
+[18.905s] Level 1:colcon.colcon_core.environment:checking '/home/rstole01/Documents/CSE-596/msu_ws/install/qlearn_interfaces/bin'
+[18.905s] Level 1:colcon.colcon_core.environment:checking '/home/rstole01/Documents/CSE-596/msu_ws/install/qlearn_interfaces/lib/pkgconfig/qlearn_interfaces.pc'
+[18.905s] Level 1:colcon.colcon_core.environment:checking '/home/rstole01/Documents/CSE-596/msu_ws/install/qlearn_interfaces/lib/python3.10/site-packages'
+[18.906s] Level 1:colcon.colcon_core.environment:checking '/home/rstole01/Documents/CSE-596/msu_ws/install/qlearn_interfaces/bin'
+[18.948s] INFO:colcon.colcon_core.shell:Creating package script '/home/rstole01/Documents/CSE-596/msu_ws/install/qlearn_interfaces/share/qlearn_interfaces/package.ps1'
+[18.949s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rstole01/Documents/CSE-596/msu_ws/install/qlearn_interfaces/share/qlearn_interfaces/package.dsv'
+[18.950s] INFO:colcon.colcon_core.shell:Creating package script '/home/rstole01/Documents/CSE-596/msu_ws/install/qlearn_interfaces/share/qlearn_interfaces/package.sh'
+[18.951s] INFO:colcon.colcon_core.shell:Creating package script '/home/rstole01/Documents/CSE-596/msu_ws/install/qlearn_interfaces/share/qlearn_interfaces/package.bash'
+[18.952s] INFO:colcon.colcon_core.shell:Creating package script '/home/rstole01/Documents/CSE-596/msu_ws/install/qlearn_interfaces/share/qlearn_interfaces/package.zsh'
+[18.952s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rstole01/Documents/CSE-596/msu_ws/install/qlearn_interfaces/share/colcon-core/packages/qlearn_interfaces)
+[19.743s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(qlearn_interfaces)
+[19.816s] Level 1:colcon.colcon_core.environment:checking '/home/rstole01/Documents/CSE-596/msu_ws/install/qlearn_interfaces' for CMake module files
+[19.818s] Level 1:colcon.colcon_core.environment:checking '/home/rstole01/Documents/CSE-596/msu_ws/install/qlearn_interfaces' for CMake config files
+[19.820s] Level 1:colcon.colcon_core.shell:create_environment_hook('qlearn_interfaces', 'cmake_prefix_path')
+[19.895s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rstole01/Documents/CSE-596/msu_ws/install/qlearn_interfaces/share/qlearn_interfaces/hook/cmake_prefix_path.ps1'
+[19.896s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rstole01/Documents/CSE-596/msu_ws/install/qlearn_interfaces/share/qlearn_interfaces/hook/cmake_prefix_path.dsv'
+[19.897s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rstole01/Documents/CSE-596/msu_ws/install/qlearn_interfaces/share/qlearn_interfaces/hook/cmake_prefix_path.sh'
+[19.899s] Level 1:colcon.colcon_core.environment:checking '/home/rstole01/Documents/CSE-596/msu_ws/install/qlearn_interfaces/lib'
+[19.899s] Level 1:colcon.colcon_core.shell:create_environment_hook('qlearn_interfaces', 'ld_library_path_lib')
+[19.972s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rstole01/Documents/CSE-596/msu_ws/install/qlearn_interfaces/share/qlearn_interfaces/hook/ld_library_path_lib.ps1'
+[19.973s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rstole01/Documents/CSE-596/msu_ws/install/qlearn_interfaces/share/qlearn_interfaces/hook/ld_library_path_lib.dsv'
+[19.974s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rstole01/Documents/CSE-596/msu_ws/install/qlearn_interfaces/share/qlearn_interfaces/hook/ld_library_path_lib.sh'
+[19.975s] Level 1:colcon.colcon_core.environment:checking '/home/rstole01/Documents/CSE-596/msu_ws/install/qlearn_interfaces/bin'
+[19.975s] Level 1:colcon.colcon_core.environment:checking '/home/rstole01/Documents/CSE-596/msu_ws/install/qlearn_interfaces/lib/pkgconfig/qlearn_interfaces.pc'
+[19.976s] Level 1:colcon.colcon_core.environment:checking '/home/rstole01/Documents/CSE-596/msu_ws/install/qlearn_interfaces/lib/python3.10/site-packages'
+[19.977s] Level 1:colcon.colcon_core.environment:checking '/home/rstole01/Documents/CSE-596/msu_ws/install/qlearn_interfaces/bin'
+[20.048s] INFO:colcon.colcon_core.shell:Creating package script '/home/rstole01/Documents/CSE-596/msu_ws/install/qlearn_interfaces/share/qlearn_interfaces/package.ps1'
+[20.049s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rstole01/Documents/CSE-596/msu_ws/install/qlearn_interfaces/share/qlearn_interfaces/package.dsv'
+[20.051s] INFO:colcon.colcon_core.shell:Creating package script '/home/rstole01/Documents/CSE-596/msu_ws/install/qlearn_interfaces/share/qlearn_interfaces/package.sh'
+[20.052s] INFO:colcon.colcon_core.shell:Creating package script '/home/rstole01/Documents/CSE-596/msu_ws/install/qlearn_interfaces/share/qlearn_interfaces/package.bash'
+[20.054s] INFO:colcon.colcon_core.shell:Creating package script '/home/rstole01/Documents/CSE-596/msu_ws/install/qlearn_interfaces/share/qlearn_interfaces/package.zsh'
+[20.055s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rstole01/Documents/CSE-596/msu_ws/install/qlearn_interfaces/share/colcon-core/packages/qlearn_interfaces)
+[20.058s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rstole01/Documents/CSE-596/msu_ws/src/waypoint_writer' returned '0': PYTHONPATH=/home/rstole01/Documents/CSE-596/msu_ws/build/waypoint_writer/prefix_override:/home/rstole01/Documents/CSE-596/msu_ws/install/waypoint_writer/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/waypoint_writer build --build-base /home/rstole01/Documents/CSE-596/msu_ws/build/waypoint_writer/build install --record /home/rstole01/Documents/CSE-596/msu_ws/build/waypoint_writer/install.log --single-version-externally-managed
+[20.131s] Level 1:colcon.colcon_core.environment:checking '/home/rstole01/Documents/CSE-596/msu_ws/install/waypoint_writer' for CMake module files
+[20.132s] Level 1:colcon.colcon_core.environment:checking '/home/rstole01/Documents/CSE-596/msu_ws/install/waypoint_writer' for CMake config files
+[20.134s] Level 1:colcon.colcon_core.environment:checking '/home/rstole01/Documents/CSE-596/msu_ws/install/waypoint_writer/lib'
+[20.134s] Level 1:colcon.colcon_core.environment:checking '/home/rstole01/Documents/CSE-596/msu_ws/install/waypoint_writer/bin'
+[20.134s] Level 1:colcon.colcon_core.environment:checking '/home/rstole01/Documents/CSE-596/msu_ws/install/waypoint_writer/lib/pkgconfig/waypoint_writer.pc'
+[20.135s] Level 1:colcon.colcon_core.environment:checking '/home/rstole01/Documents/CSE-596/msu_ws/install/waypoint_writer/lib/python3.10/site-packages'
+[20.135s] Level 1:colcon.colcon_core.shell:create_environment_hook('waypoint_writer', 'pythonpath')
+[20.209s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rstole01/Documents/CSE-596/msu_ws/install/waypoint_writer/share/waypoint_writer/hook/pythonpath.ps1'
+[20.211s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rstole01/Documents/CSE-596/msu_ws/install/waypoint_writer/share/waypoint_writer/hook/pythonpath.dsv'
+[20.211s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rstole01/Documents/CSE-596/msu_ws/install/waypoint_writer/share/waypoint_writer/hook/pythonpath.sh'
+[20.213s] Level 1:colcon.colcon_core.environment:checking '/home/rstole01/Documents/CSE-596/msu_ws/install/waypoint_writer/bin'
+[20.213s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(waypoint_writer)
+[20.285s] INFO:colcon.colcon_core.shell:Creating package script '/home/rstole01/Documents/CSE-596/msu_ws/install/waypoint_writer/share/waypoint_writer/package.ps1'
+[20.287s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rstole01/Documents/CSE-596/msu_ws/install/waypoint_writer/share/waypoint_writer/package.dsv'
+[20.289s] INFO:colcon.colcon_core.shell:Creating package script '/home/rstole01/Documents/CSE-596/msu_ws/install/waypoint_writer/share/waypoint_writer/package.sh'
+[20.290s] INFO:colcon.colcon_core.shell:Creating package script '/home/rstole01/Documents/CSE-596/msu_ws/install/waypoint_writer/share/waypoint_writer/package.bash'
+[20.291s] INFO:colcon.colcon_core.shell:Creating package script '/home/rstole01/Documents/CSE-596/msu_ws/install/waypoint_writer/share/waypoint_writer/package.zsh'
+[20.292s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rstole01/Documents/CSE-596/msu_ws/install/waypoint_writer/share/colcon-core/packages/waypoint_writer)
+[20.633s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rstole01/Documents/CSE-596/msu_ws/src/plexer360': CMAKE_PREFIX_PATH=/home/rstole01/Documents/CSE-596/msu_ws/install/ackermann_msgs:/home/rstole01/Documents/CSE-596/msu_ws/install/waypoint_publisher:/home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox:/home/rstole01/Documents/CSE-596/msu_ws/install/qlearn_interfaces:/home/rstole01/Documents/CSE-596/msu_ws/install/pid_msgs:/home/rstole01/Documents/CSE-596/msu_ws/install/my_messages LD_LIBRARY_PATH=/home/rstole01/Documents/CSE-596/msu_ws/install/ackermann_msgs/lib:/home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/lib:/home/rstole01/Documents/CSE-596/msu_ws/install/qlearn_interfaces/lib:/home/rstole01/Documents/CSE-596/msu_ws/install/pid_msgs/lib:/home/rstole01/Documents/CSE-596/msu_ws/install/my_messages/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/rstole01/Documents/CSE-596/msu_ws/build/plexer360/prefix_override:/home/rstole01/Documents/CSE-596/msu_ws/install/plexer360/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/plexer360 build --build-base /home/rstole01/Documents/CSE-596/msu_ws/build/plexer360/build install --record /home/rstole01/Documents/CSE-596/msu_ws/build/plexer360/install.log --single-version-externally-managed
+[20.708s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rstole01/Documents/CSE-596/msu_ws/src/waypoint_follow': CMAKE_PREFIX_PATH=/home/rstole01/Documents/CSE-596/msu_ws/install/ackermann_msgs:/home/rstole01/Documents/CSE-596/msu_ws/install/waypoint_publisher:/home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox:/home/rstole01/Documents/CSE-596/msu_ws/install/qlearn_interfaces:/home/rstole01/Documents/CSE-596/msu_ws/install/pid_msgs:/home/rstole01/Documents/CSE-596/msu_ws/install/my_messages LD_LIBRARY_PATH=/home/rstole01/Documents/CSE-596/msu_ws/install/ackermann_msgs/lib:/home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/lib:/home/rstole01/Documents/CSE-596/msu_ws/install/qlearn_interfaces/lib:/home/rstole01/Documents/CSE-596/msu_ws/install/pid_msgs/lib:/home/rstole01/Documents/CSE-596/msu_ws/install/my_messages/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/rstole01/Documents/CSE-596/msu_ws/build/waypoint_follow/prefix_override:/home/rstole01/Documents/CSE-596/msu_ws/install/waypoint_follow/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/waypoint_follow build --build-base /home/rstole01/Documents/CSE-596/msu_ws/build/waypoint_follow/build install --record /home/rstole01/Documents/CSE-596/msu_ws/build/waypoint_follow/install.log --single-version-externally-managed
+[20.755s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rstole01/Documents/CSE-596/msu_ws/src/f1tenth_gym_ros': CMAKE_PREFIX_PATH=/home/rstole01/Documents/CSE-596/msu_ws/install/ackermann_msgs:/home/rstole01/Documents/CSE-596/msu_ws/install/waypoint_publisher:/home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox:/home/rstole01/Documents/CSE-596/msu_ws/install/qlearn_interfaces:/home/rstole01/Documents/CSE-596/msu_ws/install/pid_msgs:/home/rstole01/Documents/CSE-596/msu_ws/install/my_messages LD_LIBRARY_PATH=/home/rstole01/Documents/CSE-596/msu_ws/install/ackermann_msgs/lib:/home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/lib:/home/rstole01/Documents/CSE-596/msu_ws/install/qlearn_interfaces/lib:/home/rstole01/Documents/CSE-596/msu_ws/install/pid_msgs/lib:/home/rstole01/Documents/CSE-596/msu_ws/install/my_messages/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/rstole01/Documents/CSE-596/msu_ws/build/f1tenth_gym_ros/prefix_override:/home/rstole01/Documents/CSE-596/msu_ws/install/f1tenth_gym_ros/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/f1tenth_gym_ros build --build-base /home/rstole01/Documents/CSE-596/msu_ws/build/f1tenth_gym_ros/build install --record /home/rstole01/Documents/CSE-596/msu_ws/build/f1tenth_gym_ros/install.log --single-version-externally-managed
+[20.762s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rstole01/Documents/CSE-596/msu_ws/src/qlearn': CMAKE_PREFIX_PATH=/home/rstole01/Documents/CSE-596/msu_ws/install/ackermann_msgs:/home/rstole01/Documents/CSE-596/msu_ws/install/waypoint_publisher:/home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox:/home/rstole01/Documents/CSE-596/msu_ws/install/qlearn_interfaces:/home/rstole01/Documents/CSE-596/msu_ws/install/pid_msgs:/home/rstole01/Documents/CSE-596/msu_ws/install/my_messages LD_LIBRARY_PATH=/home/rstole01/Documents/CSE-596/msu_ws/install/ackermann_msgs/lib:/home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/lib:/home/rstole01/Documents/CSE-596/msu_ws/install/qlearn_interfaces/lib:/home/rstole01/Documents/CSE-596/msu_ws/install/pid_msgs/lib:/home/rstole01/Documents/CSE-596/msu_ws/install/my_messages/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/rstole01/Documents/CSE-596/msu_ws/build/qlearn/prefix_override:/home/rstole01/Documents/CSE-596/msu_ws/install/qlearn/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/qlearn build --build-base /home/rstole01/Documents/CSE-596/msu_ws/build/qlearn/build install --record /home/rstole01/Documents/CSE-596/msu_ws/build/qlearn/install.log --single-version-externally-managed
+[20.806s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rstole01/Documents/CSE-596/msu_ws/src/wall_follower_pid': CMAKE_PREFIX_PATH=/home/rstole01/Documents/CSE-596/msu_ws/install/pid_msgs:/home/rstole01/Documents/CSE-596/msu_ws/install/ackermann_msgs:/home/rstole01/Documents/CSE-596/msu_ws/install/waypoint_publisher:/home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox:/home/rstole01/Documents/CSE-596/msu_ws/install/qlearn_interfaces:/home/rstole01/Documents/CSE-596/msu_ws/install/my_messages LD_LIBRARY_PATH=/home/rstole01/Documents/CSE-596/msu_ws/install/pid_msgs/lib:/home/rstole01/Documents/CSE-596/msu_ws/install/ackermann_msgs/lib:/home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/lib:/home/rstole01/Documents/CSE-596/msu_ws/install/qlearn_interfaces/lib:/home/rstole01/Documents/CSE-596/msu_ws/install/my_messages/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/rstole01/Documents/CSE-596/msu_ws/build/wall_follower_pid/prefix_override:/home/rstole01/Documents/CSE-596/msu_ws/install/wall_follower_pid/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/wall_follower_pid build --build-base /home/rstole01/Documents/CSE-596/msu_ws/build/wall_follower_pid/build install --record /home/rstole01/Documents/CSE-596/msu_ws/build/wall_follower_pid/install.log --single-version-externally-managed
+[21.532s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rstole01/Documents/CSE-596/msu_ws/src/qlearn' returned '0': CMAKE_PREFIX_PATH=/home/rstole01/Documents/CSE-596/msu_ws/install/ackermann_msgs:/home/rstole01/Documents/CSE-596/msu_ws/install/waypoint_publisher:/home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox:/home/rstole01/Documents/CSE-596/msu_ws/install/qlearn_interfaces:/home/rstole01/Documents/CSE-596/msu_ws/install/pid_msgs:/home/rstole01/Documents/CSE-596/msu_ws/install/my_messages LD_LIBRARY_PATH=/home/rstole01/Documents/CSE-596/msu_ws/install/ackermann_msgs/lib:/home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/lib:/home/rstole01/Documents/CSE-596/msu_ws/install/qlearn_interfaces/lib:/home/rstole01/Documents/CSE-596/msu_ws/install/pid_msgs/lib:/home/rstole01/Documents/CSE-596/msu_ws/install/my_messages/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/rstole01/Documents/CSE-596/msu_ws/build/qlearn/prefix_override:/home/rstole01/Documents/CSE-596/msu_ws/install/qlearn/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/qlearn build --build-base /home/rstole01/Documents/CSE-596/msu_ws/build/qlearn/build install --record /home/rstole01/Documents/CSE-596/msu_ws/build/qlearn/install.log --single-version-externally-managed
+[21.594s] Level 1:colcon.colcon_core.environment:checking '/home/rstole01/Documents/CSE-596/msu_ws/install/qlearn' for CMake module files
+[21.595s] Level 1:colcon.colcon_core.environment:checking '/home/rstole01/Documents/CSE-596/msu_ws/install/qlearn' for CMake config files
+[21.596s] Level 1:colcon.colcon_core.environment:checking '/home/rstole01/Documents/CSE-596/msu_ws/install/qlearn/lib'
+[21.597s] Level 1:colcon.colcon_core.environment:checking '/home/rstole01/Documents/CSE-596/msu_ws/install/qlearn/bin'
+[21.597s] Level 1:colcon.colcon_core.environment:checking '/home/rstole01/Documents/CSE-596/msu_ws/install/qlearn/lib/pkgconfig/qlearn.pc'
+[21.598s] Level 1:colcon.colcon_core.environment:checking '/home/rstole01/Documents/CSE-596/msu_ws/install/qlearn/lib/python3.10/site-packages'
+[21.598s] Level 1:colcon.colcon_core.shell:create_environment_hook('qlearn', 'pythonpath')
+[21.663s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rstole01/Documents/CSE-596/msu_ws/install/qlearn/share/qlearn/hook/pythonpath.ps1'
+[21.665s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rstole01/Documents/CSE-596/msu_ws/install/qlearn/share/qlearn/hook/pythonpath.dsv'
+[21.666s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rstole01/Documents/CSE-596/msu_ws/install/qlearn/share/qlearn/hook/pythonpath.sh'
+[21.667s] Level 1:colcon.colcon_core.environment:checking '/home/rstole01/Documents/CSE-596/msu_ws/install/qlearn/bin'
+[21.667s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(qlearn)
+[21.714s] INFO:colcon.colcon_core.shell:Creating package script '/home/rstole01/Documents/CSE-596/msu_ws/install/qlearn/share/qlearn/package.ps1'
+[21.716s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rstole01/Documents/CSE-596/msu_ws/install/qlearn/share/qlearn/package.dsv'
+[21.717s] INFO:colcon.colcon_core.shell:Creating package script '/home/rstole01/Documents/CSE-596/msu_ws/install/qlearn/share/qlearn/package.sh'
+[21.718s] INFO:colcon.colcon_core.shell:Creating package script '/home/rstole01/Documents/CSE-596/msu_ws/install/qlearn/share/qlearn/package.bash'
+[21.718s] INFO:colcon.colcon_core.shell:Creating package script '/home/rstole01/Documents/CSE-596/msu_ws/install/qlearn/share/qlearn/package.zsh'
+[21.719s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rstole01/Documents/CSE-596/msu_ws/install/qlearn/share/colcon-core/packages/qlearn)
+[21.725s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rstole01/Documents/CSE-596/msu_ws/src/waypoint_follow' returned '0': CMAKE_PREFIX_PATH=/home/rstole01/Documents/CSE-596/msu_ws/install/ackermann_msgs:/home/rstole01/Documents/CSE-596/msu_ws/install/waypoint_publisher:/home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox:/home/rstole01/Documents/CSE-596/msu_ws/install/qlearn_interfaces:/home/rstole01/Documents/CSE-596/msu_ws/install/pid_msgs:/home/rstole01/Documents/CSE-596/msu_ws/install/my_messages LD_LIBRARY_PATH=/home/rstole01/Documents/CSE-596/msu_ws/install/ackermann_msgs/lib:/home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/lib:/home/rstole01/Documents/CSE-596/msu_ws/install/qlearn_interfaces/lib:/home/rstole01/Documents/CSE-596/msu_ws/install/pid_msgs/lib:/home/rstole01/Documents/CSE-596/msu_ws/install/my_messages/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/rstole01/Documents/CSE-596/msu_ws/build/waypoint_follow/prefix_override:/home/rstole01/Documents/CSE-596/msu_ws/install/waypoint_follow/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/waypoint_follow build --build-base /home/rstole01/Documents/CSE-596/msu_ws/build/waypoint_follow/build install --record /home/rstole01/Documents/CSE-596/msu_ws/build/waypoint_follow/install.log --single-version-externally-managed
+[21.805s] Level 1:colcon.colcon_core.environment:checking '/home/rstole01/Documents/CSE-596/msu_ws/install/waypoint_follow' for CMake module files
+[21.809s] Level 1:colcon.colcon_core.environment:checking '/home/rstole01/Documents/CSE-596/msu_ws/install/waypoint_follow' for CMake config files
+[21.810s] Level 1:colcon.colcon_core.environment:checking '/home/rstole01/Documents/CSE-596/msu_ws/install/waypoint_follow/lib'
+[21.811s] Level 1:colcon.colcon_core.environment:checking '/home/rstole01/Documents/CSE-596/msu_ws/install/waypoint_follow/bin'
+[21.811s] Level 1:colcon.colcon_core.environment:checking '/home/rstole01/Documents/CSE-596/msu_ws/install/waypoint_follow/lib/pkgconfig/waypoint_follow.pc'
+[21.812s] Level 1:colcon.colcon_core.environment:checking '/home/rstole01/Documents/CSE-596/msu_ws/install/waypoint_follow/lib/python3.10/site-packages'
+[21.813s] Level 1:colcon.colcon_core.shell:create_environment_hook('waypoint_follow', 'pythonpath')
+[21.888s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rstole01/Documents/CSE-596/msu_ws/install/waypoint_follow/share/waypoint_follow/hook/pythonpath.ps1'
+[21.889s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rstole01/Documents/CSE-596/msu_ws/install/waypoint_follow/share/waypoint_follow/hook/pythonpath.dsv'
+[21.890s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rstole01/Documents/CSE-596/msu_ws/install/waypoint_follow/share/waypoint_follow/hook/pythonpath.sh'
+[21.892s] Level 1:colcon.colcon_core.environment:checking '/home/rstole01/Documents/CSE-596/msu_ws/install/waypoint_follow/bin'
+[21.892s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(waypoint_follow)
+[21.944s] INFO:colcon.colcon_core.shell:Creating package script '/home/rstole01/Documents/CSE-596/msu_ws/install/waypoint_follow/share/waypoint_follow/package.ps1'
+[21.945s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rstole01/Documents/CSE-596/msu_ws/install/waypoint_follow/share/waypoint_follow/package.dsv'
+[21.946s] INFO:colcon.colcon_core.shell:Creating package script '/home/rstole01/Documents/CSE-596/msu_ws/install/waypoint_follow/share/waypoint_follow/package.sh'
+[21.947s] INFO:colcon.colcon_core.shell:Creating package script '/home/rstole01/Documents/CSE-596/msu_ws/install/waypoint_follow/share/waypoint_follow/package.bash'
+[21.947s] INFO:colcon.colcon_core.shell:Creating package script '/home/rstole01/Documents/CSE-596/msu_ws/install/waypoint_follow/share/waypoint_follow/package.zsh'
+[21.948s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rstole01/Documents/CSE-596/msu_ws/install/waypoint_follow/share/colcon-core/packages/waypoint_follow)
+[21.954s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rstole01/Documents/CSE-596/msu_ws/src/plexer360' returned '0': CMAKE_PREFIX_PATH=/home/rstole01/Documents/CSE-596/msu_ws/install/ackermann_msgs:/home/rstole01/Documents/CSE-596/msu_ws/install/waypoint_publisher:/home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox:/home/rstole01/Documents/CSE-596/msu_ws/install/qlearn_interfaces:/home/rstole01/Documents/CSE-596/msu_ws/install/pid_msgs:/home/rstole01/Documents/CSE-596/msu_ws/install/my_messages LD_LIBRARY_PATH=/home/rstole01/Documents/CSE-596/msu_ws/install/ackermann_msgs/lib:/home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/lib:/home/rstole01/Documents/CSE-596/msu_ws/install/qlearn_interfaces/lib:/home/rstole01/Documents/CSE-596/msu_ws/install/pid_msgs/lib:/home/rstole01/Documents/CSE-596/msu_ws/install/my_messages/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/rstole01/Documents/CSE-596/msu_ws/build/plexer360/prefix_override:/home/rstole01/Documents/CSE-596/msu_ws/install/plexer360/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/plexer360 build --build-base /home/rstole01/Documents/CSE-596/msu_ws/build/plexer360/build install --record /home/rstole01/Documents/CSE-596/msu_ws/build/plexer360/install.log --single-version-externally-managed
+[21.998s] Level 1:colcon.colcon_core.environment:checking '/home/rstole01/Documents/CSE-596/msu_ws/install/plexer360' for CMake module files
+[21.999s] Level 1:colcon.colcon_core.environment:checking '/home/rstole01/Documents/CSE-596/msu_ws/install/plexer360' for CMake config files
+[22.000s] Level 1:colcon.colcon_core.environment:checking '/home/rstole01/Documents/CSE-596/msu_ws/install/plexer360/lib'
+[22.001s] Level 1:colcon.colcon_core.environment:checking '/home/rstole01/Documents/CSE-596/msu_ws/install/plexer360/bin'
+[22.001s] Level 1:colcon.colcon_core.environment:checking '/home/rstole01/Documents/CSE-596/msu_ws/install/plexer360/lib/pkgconfig/plexer360.pc'
+[22.001s] Level 1:colcon.colcon_core.environment:checking '/home/rstole01/Documents/CSE-596/msu_ws/install/plexer360/lib/python3.10/site-packages'
+[22.001s] Level 1:colcon.colcon_core.shell:create_environment_hook('plexer360', 'pythonpath')
+[22.059s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rstole01/Documents/CSE-596/msu_ws/install/plexer360/share/plexer360/hook/pythonpath.ps1'
+[22.060s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rstole01/Documents/CSE-596/msu_ws/install/plexer360/share/plexer360/hook/pythonpath.dsv'
+[22.061s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rstole01/Documents/CSE-596/msu_ws/install/plexer360/share/plexer360/hook/pythonpath.sh'
+[22.063s] Level 1:colcon.colcon_core.environment:checking '/home/rstole01/Documents/CSE-596/msu_ws/install/plexer360/bin'
+[22.063s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(plexer360)
+[22.106s] INFO:colcon.colcon_core.shell:Creating package script '/home/rstole01/Documents/CSE-596/msu_ws/install/plexer360/share/plexer360/package.ps1'
+[22.107s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rstole01/Documents/CSE-596/msu_ws/install/plexer360/share/plexer360/package.dsv'
+[22.108s] INFO:colcon.colcon_core.shell:Creating package script '/home/rstole01/Documents/CSE-596/msu_ws/install/plexer360/share/plexer360/package.sh'
+[22.109s] INFO:colcon.colcon_core.shell:Creating package script '/home/rstole01/Documents/CSE-596/msu_ws/install/plexer360/share/plexer360/package.bash'
+[22.109s] INFO:colcon.colcon_core.shell:Creating package script '/home/rstole01/Documents/CSE-596/msu_ws/install/plexer360/share/plexer360/package.zsh'
+[22.110s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rstole01/Documents/CSE-596/msu_ws/install/plexer360/share/colcon-core/packages/plexer360)
+[22.113s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rstole01/Documents/CSE-596/msu_ws/src/wall_follower_pid' returned '0': CMAKE_PREFIX_PATH=/home/rstole01/Documents/CSE-596/msu_ws/install/pid_msgs:/home/rstole01/Documents/CSE-596/msu_ws/install/ackermann_msgs:/home/rstole01/Documents/CSE-596/msu_ws/install/waypoint_publisher:/home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox:/home/rstole01/Documents/CSE-596/msu_ws/install/qlearn_interfaces:/home/rstole01/Documents/CSE-596/msu_ws/install/my_messages LD_LIBRARY_PATH=/home/rstole01/Documents/CSE-596/msu_ws/install/pid_msgs/lib:/home/rstole01/Documents/CSE-596/msu_ws/install/ackermann_msgs/lib:/home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/lib:/home/rstole01/Documents/CSE-596/msu_ws/install/qlearn_interfaces/lib:/home/rstole01/Documents/CSE-596/msu_ws/install/my_messages/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/rstole01/Documents/CSE-596/msu_ws/build/wall_follower_pid/prefix_override:/home/rstole01/Documents/CSE-596/msu_ws/install/wall_follower_pid/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/wall_follower_pid build --build-base /home/rstole01/Documents/CSE-596/msu_ws/build/wall_follower_pid/build install --record /home/rstole01/Documents/CSE-596/msu_ws/build/wall_follower_pid/install.log --single-version-externally-managed
+[22.154s] Level 1:colcon.colcon_core.environment:checking '/home/rstole01/Documents/CSE-596/msu_ws/install/wall_follower_pid' for CMake module files
+[22.155s] Level 1:colcon.colcon_core.environment:checking '/home/rstole01/Documents/CSE-596/msu_ws/install/wall_follower_pid' for CMake config files
+[22.157s] Level 1:colcon.colcon_core.environment:checking '/home/rstole01/Documents/CSE-596/msu_ws/install/wall_follower_pid/lib'
+[22.157s] Level 1:colcon.colcon_core.environment:checking '/home/rstole01/Documents/CSE-596/msu_ws/install/wall_follower_pid/bin'
+[22.157s] Level 1:colcon.colcon_core.environment:checking '/home/rstole01/Documents/CSE-596/msu_ws/install/wall_follower_pid/lib/pkgconfig/wall_follower_pid.pc'
+[22.157s] Level 1:colcon.colcon_core.environment:checking '/home/rstole01/Documents/CSE-596/msu_ws/install/wall_follower_pid/lib/python3.10/site-packages'
+[22.157s] Level 1:colcon.colcon_core.shell:create_environment_hook('wall_follower_pid', 'pythonpath')
+[22.199s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rstole01/Documents/CSE-596/msu_ws/install/wall_follower_pid/share/wall_follower_pid/hook/pythonpath.ps1'
+[22.200s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rstole01/Documents/CSE-596/msu_ws/install/wall_follower_pid/share/wall_follower_pid/hook/pythonpath.dsv'
+[22.200s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rstole01/Documents/CSE-596/msu_ws/install/wall_follower_pid/share/wall_follower_pid/hook/pythonpath.sh'
+[22.201s] Level 1:colcon.colcon_core.environment:checking '/home/rstole01/Documents/CSE-596/msu_ws/install/wall_follower_pid/bin'
+[22.202s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(wall_follower_pid)
+[22.244s] INFO:colcon.colcon_core.shell:Creating package script '/home/rstole01/Documents/CSE-596/msu_ws/install/wall_follower_pid/share/wall_follower_pid/package.ps1'
+[22.245s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rstole01/Documents/CSE-596/msu_ws/install/wall_follower_pid/share/wall_follower_pid/package.dsv'
+[22.245s] INFO:colcon.colcon_core.shell:Creating package script '/home/rstole01/Documents/CSE-596/msu_ws/install/wall_follower_pid/share/wall_follower_pid/package.sh'
+[22.246s] INFO:colcon.colcon_core.shell:Creating package script '/home/rstole01/Documents/CSE-596/msu_ws/install/wall_follower_pid/share/wall_follower_pid/package.bash'
+[22.247s] INFO:colcon.colcon_core.shell:Creating package script '/home/rstole01/Documents/CSE-596/msu_ws/install/wall_follower_pid/share/wall_follower_pid/package.zsh'
+[22.248s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rstole01/Documents/CSE-596/msu_ws/install/wall_follower_pid/share/colcon-core/packages/wall_follower_pid)
+[22.251s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rstole01/Documents/CSE-596/msu_ws/src/f1tenth_gym_ros' returned '0': CMAKE_PREFIX_PATH=/home/rstole01/Documents/CSE-596/msu_ws/install/ackermann_msgs:/home/rstole01/Documents/CSE-596/msu_ws/install/waypoint_publisher:/home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox:/home/rstole01/Documents/CSE-596/msu_ws/install/qlearn_interfaces:/home/rstole01/Documents/CSE-596/msu_ws/install/pid_msgs:/home/rstole01/Documents/CSE-596/msu_ws/install/my_messages LD_LIBRARY_PATH=/home/rstole01/Documents/CSE-596/msu_ws/install/ackermann_msgs/lib:/home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/lib:/home/rstole01/Documents/CSE-596/msu_ws/install/qlearn_interfaces/lib:/home/rstole01/Documents/CSE-596/msu_ws/install/pid_msgs/lib:/home/rstole01/Documents/CSE-596/msu_ws/install/my_messages/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/rstole01/Documents/CSE-596/msu_ws/build/f1tenth_gym_ros/prefix_override:/home/rstole01/Documents/CSE-596/msu_ws/install/f1tenth_gym_ros/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/f1tenth_gym_ros build --build-base /home/rstole01/Documents/CSE-596/msu_ws/build/f1tenth_gym_ros/build install --record /home/rstole01/Documents/CSE-596/msu_ws/build/f1tenth_gym_ros/install.log --single-version-externally-managed
+[22.296s] Level 1:colcon.colcon_core.environment:checking '/home/rstole01/Documents/CSE-596/msu_ws/install/f1tenth_gym_ros' for CMake module files
+[22.297s] Level 1:colcon.colcon_core.environment:checking '/home/rstole01/Documents/CSE-596/msu_ws/install/f1tenth_gym_ros' for CMake config files
+[22.298s] Level 1:colcon.colcon_core.environment:checking '/home/rstole01/Documents/CSE-596/msu_ws/install/f1tenth_gym_ros/lib'
+[22.298s] Level 1:colcon.colcon_core.environment:checking '/home/rstole01/Documents/CSE-596/msu_ws/install/f1tenth_gym_ros/bin'
+[22.299s] Level 1:colcon.colcon_core.environment:checking '/home/rstole01/Documents/CSE-596/msu_ws/install/f1tenth_gym_ros/lib/pkgconfig/f1tenth_gym_ros.pc'
+[22.299s] Level 1:colcon.colcon_core.environment:checking '/home/rstole01/Documents/CSE-596/msu_ws/install/f1tenth_gym_ros/lib/python3.10/site-packages'
+[22.299s] Level 1:colcon.colcon_core.shell:create_environment_hook('f1tenth_gym_ros', 'pythonpath')
+[22.346s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rstole01/Documents/CSE-596/msu_ws/install/f1tenth_gym_ros/share/f1tenth_gym_ros/hook/pythonpath.ps1'
+[22.348s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rstole01/Documents/CSE-596/msu_ws/install/f1tenth_gym_ros/share/f1tenth_gym_ros/hook/pythonpath.dsv'
+[22.348s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rstole01/Documents/CSE-596/msu_ws/install/f1tenth_gym_ros/share/f1tenth_gym_ros/hook/pythonpath.sh'
+[22.350s] Level 1:colcon.colcon_core.environment:checking '/home/rstole01/Documents/CSE-596/msu_ws/install/f1tenth_gym_ros/bin'
+[22.350s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(f1tenth_gym_ros)
+[22.393s] INFO:colcon.colcon_core.shell:Creating package script '/home/rstole01/Documents/CSE-596/msu_ws/install/f1tenth_gym_ros/share/f1tenth_gym_ros/package.ps1'
+[22.394s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rstole01/Documents/CSE-596/msu_ws/install/f1tenth_gym_ros/share/f1tenth_gym_ros/package.dsv'
+[22.395s] INFO:colcon.colcon_core.shell:Creating package script '/home/rstole01/Documents/CSE-596/msu_ws/install/f1tenth_gym_ros/share/f1tenth_gym_ros/package.sh'
+[22.396s] INFO:colcon.colcon_core.shell:Creating package script '/home/rstole01/Documents/CSE-596/msu_ws/install/f1tenth_gym_ros/share/f1tenth_gym_ros/package.bash'
+[22.396s] INFO:colcon.colcon_core.shell:Creating package script '/home/rstole01/Documents/CSE-596/msu_ws/install/f1tenth_gym_ros/share/f1tenth_gym_ros/package.zsh'
+[22.397s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rstole01/Documents/CSE-596/msu_ws/install/f1tenth_gym_ros/share/colcon-core/packages/f1tenth_gym_ros)
+[76.008s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rstole01/Documents/CSE-596/msu_ws/build/slam_toolbox' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rstole01/Documents/CSE-596/msu_ws/install/waypoint_writer:/home/rstole01/Documents/CSE-596/msu_ws/install/waypoint_follow:/home/rstole01/Documents/CSE-596/msu_ws/install/wall_follower_pid:/home/rstole01/Documents/CSE-596/msu_ws/install/qlearn:/home/rstole01/Documents/CSE-596/msu_ws/install/py_pubsub:/home/rstole01/Documents/CSE-596/msu_ws/install/plexer360:/home/rstole01/Documents/CSE-596/msu_ws/install/painter:/home/rstole01/Documents/CSE-596/msu_ws/install/f1tenth_gym_ros:/opt/ros/humble /usr/bin/cmake --build /home/rstole01/Documents/CSE-596/msu_ws/build/slam_toolbox -- -j8 -l8
+[76.744s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(slam_toolbox)
+[76.783s] Level 1:colcon.colcon_core.environment:checking '/home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox' for CMake module files
+[76.785s] Level 1:colcon.colcon_core.environment:checking '/home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox' for CMake config files
+[76.786s] Level 1:colcon.colcon_core.shell:create_environment_hook('slam_toolbox', 'cmake_prefix_path')
+[76.825s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/share/slam_toolbox/hook/cmake_prefix_path.ps1'
+[76.826s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/share/slam_toolbox/hook/cmake_prefix_path.dsv'
+[76.826s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/share/slam_toolbox/hook/cmake_prefix_path.sh'
+[76.827s] Level 1:colcon.colcon_core.environment:checking '/home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/lib'
+[76.827s] Level 1:colcon.colcon_core.shell:create_environment_hook('slam_toolbox', 'ld_library_path_lib')
+[76.867s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/share/slam_toolbox/hook/ld_library_path_lib.ps1'
+[76.868s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/share/slam_toolbox/hook/ld_library_path_lib.dsv'
+[76.869s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/share/slam_toolbox/hook/ld_library_path_lib.sh'
+[76.869s] Level 1:colcon.colcon_core.environment:checking '/home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/bin'
+[76.870s] Level 1:colcon.colcon_core.environment:checking '/home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/lib/pkgconfig/slam_toolbox.pc'
+[76.870s] Level 1:colcon.colcon_core.environment:checking '/home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/lib/python3.10/site-packages'
+[76.870s] Level 1:colcon.colcon_core.environment:checking '/home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/bin'
+[76.914s] INFO:colcon.colcon_core.shell:Creating package script '/home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/share/slam_toolbox/package.ps1'
+[76.915s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/share/slam_toolbox/package.dsv'
+[76.916s] INFO:colcon.colcon_core.shell:Creating package script '/home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/share/slam_toolbox/package.sh'
+[76.916s] INFO:colcon.colcon_core.shell:Creating package script '/home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/share/slam_toolbox/package.bash'
+[76.917s] INFO:colcon.colcon_core.shell:Creating package script '/home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/share/slam_toolbox/package.zsh'
+[76.918s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/share/colcon-core/packages/slam_toolbox)
+[76.929s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[76.929s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[76.929s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '2'
+[76.929s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[76.993s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[76.993s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[76.993s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[77.012s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[77.061s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/rstole01/Documents/CSE-596/msu_ws/install/local_setup.ps1'
+[77.064s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/rstole01/Documents/CSE-596/msu_ws/install/_local_setup_util_ps1.py'
+[77.067s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/rstole01/Documents/CSE-596/msu_ws/install/setup.ps1'
+[77.113s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/rstole01/Documents/CSE-596/msu_ws/install/local_setup.sh'
+[77.114s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/rstole01/Documents/CSE-596/msu_ws/install/_local_setup_util_sh.py'
+[77.115s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/rstole01/Documents/CSE-596/msu_ws/install/setup.sh'
+[77.163s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/rstole01/Documents/CSE-596/msu_ws/install/local_setup.bash'
+[77.164s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/rstole01/Documents/CSE-596/msu_ws/install/setup.bash'
+[77.209s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/rstole01/Documents/CSE-596/msu_ws/install/local_setup.zsh'
+[77.210s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/rstole01/Documents/CSE-596/msu_ws/install/setup.zsh'

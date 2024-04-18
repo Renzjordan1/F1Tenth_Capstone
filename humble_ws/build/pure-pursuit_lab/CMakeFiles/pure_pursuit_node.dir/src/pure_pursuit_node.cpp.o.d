@@ -1,5 +1,9 @@
 CMakeFiles/pure_pursuit_node.dir/src/pure_pursuit_node.cpp.o: \
+<<<<<<< HEAD
  /home/rstole01/Documents/CapstoneGit/humble_ws/src/pure-pursuit_lab/src/pure_pursuit_node.cpp \
+=======
+ /home/rstole01/Documents/CSE-596/humble_ws/src/pure-pursuit_lab/src/pure_pursuit_node.cpp \
+>>>>>>> ce1a67ebf7edb694f0f93a1943a2aeb630cdb943
  /usr/include/stdc-predef.h /usr/include/c++/11/sstream \
  /usr/include/c++/11/istream /usr/include/c++/11/ios \
  /usr/include/c++/11/iosfwd \

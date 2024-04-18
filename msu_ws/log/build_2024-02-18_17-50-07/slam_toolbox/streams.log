@@ -1,0 +1,446 @@
+[2.731s] Invoking command in '/home/rstole01/Documents/CSE-596/msu_ws/build/slam_toolbox': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rstole01/Documents/CSE-596/msu_ws/install/waypoint_writer:/home/rstole01/Documents/CSE-596/msu_ws/install/waypoint_follow:/home/rstole01/Documents/CSE-596/msu_ws/install/wall_follower_pid:/home/rstole01/Documents/CSE-596/msu_ws/install/qlearn:/home/rstole01/Documents/CSE-596/msu_ws/install/py_pubsub:/home/rstole01/Documents/CSE-596/msu_ws/install/plexer360:/home/rstole01/Documents/CSE-596/msu_ws/install/painter:/home/rstole01/Documents/CSE-596/msu_ws/install/f1tenth_gym_ros:/opt/ros/humble /usr/bin/cmake --build /home/rstole01/Documents/CSE-596/msu_ws/build/slam_toolbox -- -j8 -l8
+[2.995s] [  1%] Built target slam_toolbox__cpp
+[3.066s] [ 10%] Built target slam_toolbox__rosidl_generator_c
+[3.142s] [ 10%] Built target ament_cmake_python_copy_slam_toolbox
+[3.198s] [ 12%] Built target kartoSlamToolbox
+[3.243s] [ 20%] Built target slam_toolbox__rosidl_typesupport_cpp
+[3.274s] [ 28%] Built target slam_toolbox__rosidl_typesupport_introspection_c
+[3.278s] [ 37%] Built target slam_toolbox__rosidl_typesupport_fastrtps_c
+[3.290s] [ 45%] Built target slam_toolbox__rosidl_typesupport_introspection_cpp
+[3.307s] [ 54%] Built target slam_toolbox__rosidl_typesupport_fastrtps_cpp
+[3.321s] [ 62%] Built target slam_toolbox__rosidl_typesupport_c
+[3.449s] [35m[1mConsolidate compiler generated dependencies of target toolbox_common[0m
+[3.475s] [ 62%] Built target slam_toolbox
+[3.517s] [ 64%] Built target SlamToolboxPlugin
+[3.637s] [ 66%] Built target ceres_solver_plugin
+[3.644s] [ 66%] Built target slam_toolbox__py
+[3.802s] [ 67%] [32mBuilding CXX object CMakeFiles/toolbox_common.dir/src/map_saver.cpp.o[0m
+[3.802s] [ 75%] Built target slam_toolbox__rosidl_generator_py
+[3.955s] [ 77%] Built target slam_toolbox__rosidl_typesupport_introspection_c__pyext
+[4.054s] [ 78%] Built target slam_toolbox__rosidl_typesupport_fastrtps_c__pyext
+[4.150s] [ 80%] Built target slam_toolbox__rosidl_typesupport_c__pyext
+[4.715s] running egg_info
+[4.718s] writing slam_toolbox.egg-info/PKG-INFO
+[4.719s] writing dependency_links to slam_toolbox.egg-info/dependency_links.txt
+[4.720s] writing top-level names to slam_toolbox.egg-info/top_level.txt
+[4.733s] reading manifest file 'slam_toolbox.egg-info/SOURCES.txt'
+[4.733s] writing manifest file 'slam_toolbox.egg-info/SOURCES.txt'
+[4.861s] [ 80%] Built target ament_cmake_python_build_slam_toolbox_egg
+[30.821s] [ 81%] [32m[1mLinking CXX shared library libtoolbox_common.so[0m
+[32.430s] [ 84%] Built target toolbox_common
+[32.538s] [ 85%] [32m[1mLinking CXX shared library libasync_slam_toolbox.so[0m
+[32.549s] [ 86%] [32m[1mLinking CXX shared library liblocalization_slam_toolbox.so[0m
+[32.555s] [ 87%] [32m[1mLinking CXX shared library liblifelong_slam_toolbox.so[0m
+[32.555s] [ 87%] [32m[1mLinking CXX shared library libsync_slam_toolbox.so[0m
+[32.562s] [ 88%] [32m[1mLinking CXX executable merge_maps_kinematic[0m
+[35.842s] [ 89%] Built target sync_slam_toolbox
+[36.011s] [ 89%] [32m[1mLinking CXX executable sync_slam_toolbox_node[0m
+[36.039s] [ 90%] Built target async_slam_toolbox
+[36.142s] [ 91%] Built target merge_maps_kinematic
+[36.153s] [ 91%] [32m[1mLinking CXX executable async_slam_toolbox_node[0m
+[36.331s] [ 92%] Built target lifelong_slam_toolbox
+[36.454s] [ 92%] Built target localization_slam_toolbox
+[36.471s] [ 93%] [32m[1mLinking CXX executable lifelong_slam_toolbox_node[0m
+[36.611s] [ 95%] [32m[1mLinking CXX executable localization_slam_toolbox_node[0m
+[36.612s] [ 95%] [32m[1mLinking CXX shared library libmap_and_localization_slam_toolbox.so[0m
+[37.662s] [ 96%] Built target sync_slam_toolbox_node
+[37.927s] [ 97%] Built target async_slam_toolbox_node
+[38.297s] [ 98%] Built target lifelong_slam_toolbox_node
+[38.531s] [ 99%] Built target localization_slam_toolbox_node
+[38.834s] [ 99%] Built target map_and_localization_slam_toolbox
+[38.927s] [ 99%] [32m[1mLinking CXX executable map_and_localization_slam_toolbox_node[0m
+[39.812s] [100%] Built target map_and_localization_slam_toolbox_node
+[39.841s] Invoked command in '/home/rstole01/Documents/CSE-596/msu_ws/build/slam_toolbox' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rstole01/Documents/CSE-596/msu_ws/install/waypoint_writer:/home/rstole01/Documents/CSE-596/msu_ws/install/waypoint_follow:/home/rstole01/Documents/CSE-596/msu_ws/install/wall_follower_pid:/home/rstole01/Documents/CSE-596/msu_ws/install/qlearn:/home/rstole01/Documents/CSE-596/msu_ws/install/py_pubsub:/home/rstole01/Documents/CSE-596/msu_ws/install/plexer360:/home/rstole01/Documents/CSE-596/msu_ws/install/painter:/home/rstole01/Documents/CSE-596/msu_ws/install/f1tenth_gym_ros:/opt/ros/humble /usr/bin/cmake --build /home/rstole01/Documents/CSE-596/msu_ws/build/slam_toolbox -- -j8 -l8
+[40.624s] Invoking command in '/home/rstole01/Documents/CSE-596/msu_ws/build/slam_toolbox': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rstole01/Documents/CSE-596/msu_ws/install/waypoint_writer:/home/rstole01/Documents/CSE-596/msu_ws/install/waypoint_follow:/home/rstole01/Documents/CSE-596/msu_ws/install/wall_follower_pid:/home/rstole01/Documents/CSE-596/msu_ws/install/qlearn:/home/rstole01/Documents/CSE-596/msu_ws/install/py_pubsub:/home/rstole01/Documents/CSE-596/msu_ws/install/plexer360:/home/rstole01/Documents/CSE-596/msu_ws/install/painter:/home/rstole01/Documents/CSE-596/msu_ws/install/f1tenth_gym_ros:/opt/ros/humble /usr/bin/cmake --install /home/rstole01/Documents/CSE-596/msu_ws/build/slam_toolbox
+[40.643s] -- Install configuration: "Release"
+[40.644s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/share/ament_index/resource_index/rosidl_interfaces/slam_toolbox
+[40.644s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox
+[40.645s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv
+[40.645s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/loop_closure.h
+[40.645s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/clear_queue.h
+[40.646s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/toggle_interactive.h
+[40.646s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/deserialize_pose_graph.h
+[40.647s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/serialize_pose_graph.h
+[40.647s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/merge_maps.h
+[40.648s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail
+[40.648s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/serialize_pose_graph__struct.h
+[40.648s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/clear_queue__functions.c
+[40.649s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/merge_maps__functions.c
+[40.649s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/clear__functions.h
+[40.649s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/loop_closure__functions.h
+[40.650s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/save_map__type_support.h
+[40.650s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/serialize_pose_graph__functions.c
+[40.650s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/save_map__functions.h
+[40.651s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/toggle_interactive__functions.c
+[40.651s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/merge_maps__functions.h
+[40.651s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/clear_queue__struct.h
+[40.651s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/serialize_pose_graph__type_support.h
+[40.652s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/save_map__functions.c
+[40.652s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/loop_closure__functions.c
+[40.652s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/merge_maps__struct.h
+[40.652s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/add_submap__functions.h
+[40.652s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/clear__functions.c
+[40.652s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/serialize_pose_graph__functions.h
+[40.653s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/toggle_interactive__struct.h
+[40.653s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/save_map__struct.h
+[40.653s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/deserialize_pose_graph__struct.h
+[40.654s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/add_submap__struct.h
+[40.654s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/clear__struct.h
+[40.655s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/toggle_interactive__functions.h
+[40.655s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/toggle_interactive__type_support.h
+[40.655s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/loop_closure__type_support.h
+[40.656s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/clear_queue__type_support.h
+[40.656s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/pause__functions.c
+[40.657s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/pause__functions.h
+[40.657s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/add_submap__functions.c
+[40.658s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/pause__struct.h
+[40.658s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/deserialize_pose_graph__functions.h
+[40.658s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/merge_maps__type_support.h
+[40.659s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/deserialize_pose_graph__type_support.h
+[40.659s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/add_submap__type_support.h
+[40.660s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/deserialize_pose_graph__functions.c
+[40.660s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/pause__type_support.h
+[40.661s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/clear_queue__functions.h
+[40.661s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/clear__type_support.h
+[40.661s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/loop_closure__struct.h
+[40.662s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/save_map.h
+[40.662s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/pause.h
+[40.662s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/add_submap.h
+[40.663s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/clear.h
+[40.663s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/msg
+[40.663s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/msg/rosidl_generator_c__visibility_control.h
+[40.664s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/share/slam_toolbox/environment/library_path.sh
+[40.664s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/share/slam_toolbox/environment/library_path.dsv
+[40.665s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/lib/libslam_toolbox__rosidl_generator_c.so
+[40.665s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox
+[40.666s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv
+[40.666s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail
+[40.666s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/serialize_pose_graph__rosidl_typesupport_fastrtps_c.h
+[40.666s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/deserialize_pose_graph__rosidl_typesupport_fastrtps_c.h
+[40.667s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/clear_queue__rosidl_typesupport_fastrtps_c.h
+[40.667s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/pause__rosidl_typesupport_fastrtps_c.h
+[40.668s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/loop_closure__rosidl_typesupport_fastrtps_c.h
+[40.668s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/save_map__rosidl_typesupport_fastrtps_c.h
+[40.668s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/toggle_interactive__rosidl_typesupport_fastrtps_c.h
+[40.669s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/merge_maps__rosidl_typesupport_fastrtps_c.h
+[40.669s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/add_submap__rosidl_typesupport_fastrtps_c.h
+[40.669s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/clear__rosidl_typesupport_fastrtps_c.h
+[40.669s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/msg
+[40.669s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[40.669s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/lib/libslam_toolbox__rosidl_typesupport_fastrtps_c.so
+[40.669s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox
+[40.670s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv
+[40.670s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/merge_maps.hpp
+[40.670s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/deserialize_pose_graph.hpp
+[40.670s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/clear.hpp
+[40.670s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail
+[40.670s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/add_submap__builder.hpp
+[40.670s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/loop_closure__struct.hpp
+[40.670s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/merge_maps__builder.hpp
+[40.671s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/save_map__struct.hpp
+[40.671s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/pause__builder.hpp
+[40.671s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/deserialize_pose_graph__traits.hpp
+[40.671s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/merge_maps__traits.hpp
+[40.671s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/serialize_pose_graph__builder.hpp
+[40.671s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/merge_maps__struct.hpp
+[40.671s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/serialize_pose_graph__struct.hpp
+[40.671s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/save_map__traits.hpp
+[40.672s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/pause__struct.hpp
+[40.672s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/clear_queue__struct.hpp
+[40.672s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/toggle_interactive__traits.hpp
+[40.672s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/clear__builder.hpp
+[40.672s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/add_submap__traits.hpp
+[40.672s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/clear_queue__traits.hpp
+[40.672s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/loop_closure__builder.hpp
+[40.672s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/serialize_pose_graph__traits.hpp
+[40.673s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/loop_closure__traits.hpp
+[40.673s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/clear__struct.hpp
+[40.673s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/save_map__builder.hpp
+[40.673s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/pause__traits.hpp
+[40.673s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/clear__traits.hpp
+[40.673s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/deserialize_pose_graph__struct.hpp
+[40.673s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/add_submap__struct.hpp
+[40.674s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/deserialize_pose_graph__builder.hpp
+[40.674s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/clear_queue__builder.hpp
+[40.674s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/toggle_interactive__struct.hpp
+[40.674s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/toggle_interactive__builder.hpp
+[40.674s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/add_submap.hpp
+[40.674s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/clear_queue.hpp
+[40.674s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/pause.hpp
+[40.675s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/serialize_pose_graph.hpp
+[40.675s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/toggle_interactive.hpp
+[40.675s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/save_map.hpp
+[40.675s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/loop_closure.hpp
+[40.676s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox
+[40.676s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv
+[40.676s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail
+[40.676s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/add_submap__rosidl_typesupport_fastrtps_cpp.hpp
+[40.677s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/serialize_pose_graph__rosidl_typesupport_fastrtps_cpp.hpp
+[40.677s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/clear_queue__rosidl_typesupport_fastrtps_cpp.hpp
+[40.677s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/loop_closure__rosidl_typesupport_fastrtps_cpp.hpp
+[40.677s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/clear__rosidl_typesupport_fastrtps_cpp.hpp
+[40.678s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/deserialize_pose_graph__rosidl_typesupport_fastrtps_cpp.hpp
+[40.678s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/toggle_interactive__rosidl_typesupport_fastrtps_cpp.hpp
+[40.678s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/dds_fastrtps
+[40.678s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/save_map__rosidl_typesupport_fastrtps_cpp.hpp
+[40.679s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/pause__rosidl_typesupport_fastrtps_cpp.hpp
+[40.679s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/merge_maps__rosidl_typesupport_fastrtps_cpp.hpp
+[40.679s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/msg
+[40.680s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[40.680s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/lib/libslam_toolbox__rosidl_typesupport_fastrtps_cpp.so
+[40.680s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox
+[40.680s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv
+[40.680s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail
+[40.681s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/merge_maps__type_support.c
+[40.681s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/add_submap__type_support.c
+[40.681s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/clear__rosidl_typesupport_introspection_c.h
+[40.681s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/loop_closure__type_support.c
+[40.682s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/toggle_interactive__type_support.c
+[40.682s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/pause__rosidl_typesupport_introspection_c.h
+[40.682s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/deserialize_pose_graph__type_support.c
+[40.682s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/clear_queue__rosidl_typesupport_introspection_c.h
+[40.682s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/toggle_interactive__rosidl_typesupport_introspection_c.h
+[40.683s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/save_map__type_support.c
+[40.683s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/clear__type_support.c
+[40.683s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/add_submap__rosidl_typesupport_introspection_c.h
+[40.683s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/merge_maps__rosidl_typesupport_introspection_c.h
+[40.684s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/pause__type_support.c
+[40.684s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/clear_queue__type_support.c
+[40.684s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/deserialize_pose_graph__rosidl_typesupport_introspection_c.h
+[40.684s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/serialize_pose_graph__rosidl_typesupport_introspection_c.h
+[40.684s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/serialize_pose_graph__type_support.c
+[40.685s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/loop_closure__rosidl_typesupport_introspection_c.h
+[40.685s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/save_map__rosidl_typesupport_introspection_c.h
+[40.685s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/msg
+[40.685s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[40.685s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/lib/libslam_toolbox__rosidl_typesupport_introspection_c.so
+[40.686s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/lib/libslam_toolbox__rosidl_typesupport_c.so
+[40.686s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox
+[40.686s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv
+[40.686s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail
+[40.686s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/toggle_interactive__type_support.cpp
+[40.687s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/serialize_pose_graph__type_support.cpp
+[40.687s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/add_submap__rosidl_typesupport_introspection_cpp.hpp
+[40.687s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/toggle_interactive__rosidl_typesupport_introspection_cpp.hpp
+[40.687s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/clear_queue__type_support.cpp
+[40.687s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/save_map__rosidl_typesupport_introspection_cpp.hpp
+[40.688s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/serialize_pose_graph__rosidl_typesupport_introspection_cpp.hpp
+[40.688s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/clear__type_support.cpp
+[40.688s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/clear__rosidl_typesupport_introspection_cpp.hpp
+[40.688s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/pause__type_support.cpp
+[40.688s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/add_submap__type_support.cpp
+[40.689s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/deserialize_pose_graph__rosidl_typesupport_introspection_cpp.hpp
+[40.689s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/merge_maps__rosidl_typesupport_introspection_cpp.hpp
+[40.689s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/pause__rosidl_typesupport_introspection_cpp.hpp
+[40.689s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/merge_maps__type_support.cpp
+[40.689s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/save_map__type_support.cpp
+[40.689s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/deserialize_pose_graph__type_support.cpp
+[40.689s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/loop_closure__rosidl_typesupport_introspection_cpp.hpp
+[40.689s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/clear_queue__rosidl_typesupport_introspection_cpp.hpp
+[40.690s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/loop_closure__type_support.cpp
+[40.690s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/lib/libslam_toolbox__rosidl_typesupport_introspection_cpp.so
+[40.690s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/lib/libslam_toolbox__rosidl_typesupport_cpp.so
+[40.690s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/share/slam_toolbox/environment/pythonpath.sh
+[40.690s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/share/slam_toolbox/environment/pythonpath.dsv
+[40.690s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox-2.7.2-py3.10.egg-info
+[40.691s] -- Installing: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox-2.7.2-py3.10.egg-info/top_level.txt
+[40.694s] -- Installing: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox-2.7.2-py3.10.egg-info/SOURCES.txt
+[40.695s] -- Installing: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox-2.7.2-py3.10.egg-info/PKG-INFO
+[40.695s] -- Installing: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox-2.7.2-py3.10.egg-info/dependency_links.txt
+[40.696s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox
+[40.696s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/libslam_toolbox__rosidl_generator_py.so
+[40.697s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/slam_toolbox_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[40.697s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/_slam_toolbox_s.ep.rosidl_typesupport_fastrtps_c.c
+[40.698s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/slam_toolbox_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[40.698s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/srv
+[40.699s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/srv/_merge_maps.py
+[40.699s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/srv/_add_submap_s.c
+[40.699s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/srv/_deserialize_pose_graph.py
+[40.700s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/srv/_clear_queue_s.c
+[40.700s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/srv/_toggle_interactive_s.c
+[40.700s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/srv/_pause.py
+[40.700s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/srv/_save_map.py
+[40.700s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/srv/_loop_closure.py
+[40.700s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/srv/_merge_maps_s.c
+[40.701s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/srv/_serialize_pose_graph.py
+[40.701s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/srv/_serialize_pose_graph_s.c
+[40.701s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/srv/_pause_s.c
+[40.701s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/srv/_save_map_s.c
+[40.701s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/srv/_clear_queue.py
+[40.701s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/srv/__init__.py
+[40.701s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/srv/_loop_closure_s.c
+[40.702s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/srv/_clear.py
+[40.702s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/srv/_toggle_interactive.py
+[40.702s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/srv/_add_submap.py
+[40.702s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/srv/_deserialize_pose_graph_s.c
+[40.702s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/srv/_clear_s.c
+[40.702s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/_slam_toolbox_s.ep.rosidl_typesupport_introspection_c.c
+[40.702s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/__init__.py
+[40.702s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/slam_toolbox_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[40.703s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/_slam_toolbox_s.ep.rosidl_typesupport_c.c
+[40.798s] Listing '/home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox'...
+[40.798s] Listing '/home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/srv'...
+[40.814s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/slam_toolbox_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[40.815s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/slam_toolbox_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[40.816s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/slam_toolbox_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[40.817s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/lib/libslam_toolbox__rosidl_generator_py.so
+[40.817s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/share/slam_toolbox/srv/Pause.idl
+[40.818s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/share/slam_toolbox/srv/ClearQueue.idl
+[40.818s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/share/slam_toolbox/srv/ToggleInteractive.idl
+[40.819s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/share/slam_toolbox/srv/Clear.idl
+[40.819s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/share/slam_toolbox/srv/SaveMap.idl
+[40.819s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/share/slam_toolbox/srv/LoopClosure.idl
+[40.820s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/share/slam_toolbox/srv/MergeMaps.idl
+[40.820s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/share/slam_toolbox/srv/AddSubmap.idl
+[40.821s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/share/slam_toolbox/srv/DeserializePoseGraph.idl
+[40.821s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/share/slam_toolbox/srv/SerializePoseGraph.idl
+[40.821s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/share/slam_toolbox/srvs/Pause.srv
+[40.822s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/share/slam_toolbox/srvs/Pause_Request.msg
+[40.822s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/share/slam_toolbox/srvs/Pause_Response.msg
+[40.823s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/share/slam_toolbox/srvs/ClearQueue.srv
+[40.823s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/share/slam_toolbox/srvs/ClearQueue_Request.msg
+[40.824s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/share/slam_toolbox/srvs/ClearQueue_Response.msg
+[40.824s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/share/slam_toolbox/srvs/ToggleInteractive.srv
+[40.824s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/share/slam_toolbox/srvs/ToggleInteractive_Request.msg
+[40.825s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/share/slam_toolbox/srvs/ToggleInteractive_Response.msg
+[40.825s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/share/slam_toolbox/srvs/Clear.srv
+[40.826s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/share/slam_toolbox/srvs/Clear_Request.msg
+[40.826s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/share/slam_toolbox/srvs/Clear_Response.msg
+[40.826s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/share/slam_toolbox/srvs/SaveMap.srv
+[40.826s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/share/slam_toolbox/srvs/SaveMap_Request.msg
+[40.827s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/share/slam_toolbox/srvs/SaveMap_Response.msg
+[40.827s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/share/slam_toolbox/srvs/LoopClosure.srv
+[40.827s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/share/slam_toolbox/srvs/LoopClosure_Request.msg
+[40.827s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/share/slam_toolbox/srvs/LoopClosure_Response.msg
+[40.828s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/share/slam_toolbox/srvs/MergeMaps.srv
+[40.828s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/share/slam_toolbox/srvs/MergeMaps_Request.msg
+[40.828s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/share/slam_toolbox/srvs/MergeMaps_Response.msg
+[40.828s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/share/slam_toolbox/srvs/AddSubmap.srv
+[40.829s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/share/slam_toolbox/srvs/AddSubmap_Request.msg
+[40.829s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/share/slam_toolbox/srvs/AddSubmap_Response.msg
+[40.829s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/share/slam_toolbox/srvs/DeserializePoseGraph.srv
+[40.829s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/share/slam_toolbox/srvs/DeserializePoseGraph_Request.msg
+[40.829s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/share/slam_toolbox/srvs/DeserializePoseGraph_Response.msg
+[40.830s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/share/slam_toolbox/srvs/SerializePoseGraph.srv
+[40.830s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/share/slam_toolbox/srvs/SerializePoseGraph_Request.msg
+[40.830s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/share/slam_toolbox/srvs/SerializePoseGraph_Response.msg
+[40.830s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/share/slam_toolbox/rviz_plugins.xml
+[40.831s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/share/slam_toolbox/solver_plugins.xml
+[40.831s] -- Installing: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/lib/slam_toolbox/async_slam_toolbox_node
+[40.831s] -- Set runtime path of "/home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/lib/slam_toolbox/async_slam_toolbox_node" to ""
+[40.831s] -- Installing: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/lib/slam_toolbox/sync_slam_toolbox_node
+[40.834s] -- Set runtime path of "/home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/lib/slam_toolbox/sync_slam_toolbox_node" to ""
+[40.835s] -- Installing: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/lib/slam_toolbox/localization_slam_toolbox_node
+[40.838s] -- Set runtime path of "/home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/lib/slam_toolbox/localization_slam_toolbox_node" to ""
+[40.839s] -- Installing: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/lib/slam_toolbox/map_and_localization_slam_toolbox_node
+[40.843s] -- Set runtime path of "/home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/lib/slam_toolbox/map_and_localization_slam_toolbox_node" to ""
+[40.844s] -- Installing: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/lib/slam_toolbox/merge_maps_kinematic
+[40.850s] -- Set runtime path of "/home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/lib/slam_toolbox/merge_maps_kinematic" to ""
+[40.850s] -- Installing: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/lib/slam_toolbox/lifelong_slam_toolbox_node
+[40.854s] -- Set runtime path of "/home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/lib/slam_toolbox/lifelong_slam_toolbox_node" to ""
+[40.855s] -- Installing: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/lib/libtoolbox_common.so
+[40.869s] -- Set runtime path of "/home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/lib/libtoolbox_common.so" to ""
+[40.870s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/lib/libSlamToolboxPlugin.so
+[40.871s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/lib/libceres_solver_plugin.so
+[40.872s] -- Installing: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/lib/libasync_slam_toolbox.so
+[40.879s] -- Set runtime path of "/home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/lib/libasync_slam_toolbox.so" to ""
+[40.880s] -- Installing: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/lib/libsync_slam_toolbox.so
+[40.884s] -- Set runtime path of "/home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/lib/libsync_slam_toolbox.so" to ""
+[40.885s] -- Installing: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/lib/liblocalization_slam_toolbox.so
+[40.892s] -- Set runtime path of "/home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/lib/liblocalization_slam_toolbox.so" to ""
+[40.893s] -- Installing: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/lib/liblifelong_slam_toolbox.so
+[40.897s] -- Set runtime path of "/home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/lib/liblifelong_slam_toolbox.so" to ""
+[40.898s] -- Installing: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/lib/libmap_and_localization_slam_toolbox.so
+[40.910s] -- Set runtime path of "/home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/lib/libmap_and_localization_slam_toolbox.so" to ""
+[40.910s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/lib/libkartoSlamToolbox.so
+[40.911s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/lib/libSlamToolboxPlugin.so
+[40.912s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/include
+[40.913s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/include/slam_toolbox
+[40.913s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/include/slam_toolbox/map_saver.hpp
+[40.913s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/include/slam_toolbox/loop_closure_assistant.hpp
+[40.914s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox_localization.hpp
+[40.914s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/include/slam_toolbox/serialization.hpp
+[40.914s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/include/slam_toolbox/experimental
+[40.915s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/include/slam_toolbox/experimental/slam_toolbox_map_and_localization.hpp
+[40.915s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/include/slam_toolbox/experimental/slam_toolbox_lifelong.hpp
+[40.915s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/include/slam_toolbox/slam_mapper.hpp
+[40.916s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/include/slam_toolbox/visualization_utils.hpp
+[40.916s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox_async.hpp
+[40.916s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox_sync.hpp
+[40.916s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/include/slam_toolbox/get_pose_helper.hpp
+[40.917s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/include/slam_toolbox/toolbox_types.hpp
+[40.917s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/include/slam_toolbox/toolbox_msgs.hpp
+[40.917s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/include/slam_toolbox/slam_toolbox_common.hpp
+[40.918s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/include/slam_toolbox/laser_utils.hpp
+[40.918s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/include/slam_toolbox/merge_maps_kinematic.hpp
+[40.918s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/include/slam_toolbox/snap_utils.hpp
+[40.918s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/share/slam_toolbox/launch
+[40.919s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/share/slam_toolbox/launch/online_sync_launch.py
+[40.919s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/share/slam_toolbox/launch/reset_and_slam_launch.py
+[40.919s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/share/slam_toolbox/launch/online_async_launch.py
+[40.920s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/share/slam_toolbox/launch/offline_launch.py
+[40.920s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/share/slam_toolbox/launch/localization_launch.py
+[40.920s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/share/slam_toolbox/launch/merge_maps_kinematic_launch.py
+[40.921s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/share/slam_toolbox/launch/lifelong_launch.py
+[40.921s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/share/slam_toolbox/config
+[40.921s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/share/slam_toolbox/config/mapper_params_online_async.yaml
+[40.922s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/share/slam_toolbox/config/mapper_params_online_sync.yaml
+[40.922s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/share/slam_toolbox/config/mapper_params_lifelong.yaml
+[40.922s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/share/slam_toolbox/config/mapper_params_offline.yaml
+[40.923s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/share/slam_toolbox/config/slam_toolbox_default.rviz
+[40.924s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/share/slam_toolbox/config/mapper_params_localization.yaml
+[40.924s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/share/solver_plugins.xml
+[40.925s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/share/rviz_plugins.xml
+[40.926s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/share/ament_index/resource_index/package_run_dependencies/slam_toolbox
+[40.926s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/share/ament_index/resource_index/parent_prefix_path/slam_toolbox
+[40.926s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/share/slam_toolbox/environment/ament_prefix_path.sh
+[40.927s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/share/slam_toolbox/environment/ament_prefix_path.dsv
+[40.927s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/share/slam_toolbox/environment/path.sh
+[40.927s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/share/slam_toolbox/environment/path.dsv
+[40.927s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/share/slam_toolbox/local_setup.bash
+[40.927s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/share/slam_toolbox/local_setup.sh
+[40.928s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/share/slam_toolbox/local_setup.zsh
+[40.928s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/share/slam_toolbox/local_setup.dsv
+[40.928s] -- Installing: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/share/slam_toolbox/package.dsv
+[40.928s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/share/ament_index/resource_index/packages/slam_toolbox
+[40.929s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/share/ament_index/resource_index/rviz_common__pluginlib__plugin/slam_toolbox
+[40.929s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/share/ament_index/resource_index/slam_toolbox__pluginlib__plugin/slam_toolbox
+[40.929s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/share/slam_toolbox/cmake/export_slam_toolbox__rosidl_generator_cExport.cmake
+[40.929s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/share/slam_toolbox/cmake/export_slam_toolbox__rosidl_generator_cExport-release.cmake
+[40.929s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/share/slam_toolbox/cmake/export_slam_toolbox__rosidl_typesupport_fastrtps_cExport.cmake
+[40.930s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/share/slam_toolbox/cmake/export_slam_toolbox__rosidl_typesupport_fastrtps_cExport-release.cmake
+[40.931s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/share/slam_toolbox/cmake/export_slam_toolbox__rosidl_generator_cppExport.cmake
+[40.931s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/share/slam_toolbox/cmake/export_slam_toolbox__rosidl_typesupport_fastrtps_cppExport.cmake
+[40.931s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/share/slam_toolbox/cmake/export_slam_toolbox__rosidl_typesupport_fastrtps_cppExport-release.cmake
+[40.932s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/share/slam_toolbox/cmake/slam_toolbox__rosidl_typesupport_introspection_cExport.cmake
+[40.932s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/share/slam_toolbox/cmake/slam_toolbox__rosidl_typesupport_introspection_cExport-release.cmake
+[40.933s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/share/slam_toolbox/cmake/slam_toolbox__rosidl_typesupport_cExport.cmake
+[40.933s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/share/slam_toolbox/cmake/slam_toolbox__rosidl_typesupport_cExport-release.cmake
+[40.933s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/share/slam_toolbox/cmake/slam_toolbox__rosidl_typesupport_introspection_cppExport.cmake
+[40.934s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/share/slam_toolbox/cmake/slam_toolbox__rosidl_typesupport_introspection_cppExport-release.cmake
+[40.934s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/share/slam_toolbox/cmake/slam_toolbox__rosidl_typesupport_cppExport.cmake
+[40.935s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/share/slam_toolbox/cmake/slam_toolbox__rosidl_typesupport_cppExport-release.cmake
+[40.935s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/share/slam_toolbox/cmake/export_slam_toolbox__rosidl_generator_pyExport.cmake
+[40.936s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/share/slam_toolbox/cmake/export_slam_toolbox__rosidl_generator_pyExport-release.cmake
+[40.936s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/share/slam_toolbox/cmake/SlamToolboxPluginExport.cmake
+[40.937s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/share/slam_toolbox/cmake/SlamToolboxPluginExport-release.cmake
+[40.937s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/share/slam_toolbox/cmake/rosidl_cmake-extras.cmake
+[40.938s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/share/slam_toolbox/cmake/ament_cmake_export_dependencies-extras.cmake
+[40.938s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/share/slam_toolbox/cmake/ament_cmake_export_include_directories-extras.cmake
+[40.939s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/share/slam_toolbox/cmake/ament_cmake_export_libraries-extras.cmake
+[40.939s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/share/slam_toolbox/cmake/ament_cmake_export_targets-extras.cmake
+[40.940s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/share/slam_toolbox/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[40.940s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/share/slam_toolbox/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[40.942s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/share/slam_toolbox/cmake/slam_toolboxConfig.cmake
+[40.943s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/share/slam_toolbox/cmake/slam_toolboxConfig-version.cmake
+[40.943s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/share/slam_toolbox/package.xml
+[40.943s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/include/
+[40.944s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/include//karto_sdk
+[40.945s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/include//karto_sdk/nanoflann_adaptors.h
+[40.945s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/include//karto_sdk/nanoflann.hpp
+[40.945s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/include//karto_sdk/Macros.h
+[40.946s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/include//karto_sdk/Types.h
+[40.947s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/include//karto_sdk/Mapper.h
+[40.947s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/include//karto_sdk/Math.h
+[40.947s] -- Up-to-date: /home/rstole01/Documents/CSE-596/msu_ws/install/slam_toolbox/include//karto_sdk/Karto.h
+[40.948s] Invoked command in '/home/rstole01/Documents/CSE-596/msu_ws/build/slam_toolbox' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rstole01/Documents/CSE-596/msu_ws/install/waypoint_writer:/home/rstole01/Documents/CSE-596/msu_ws/install/waypoint_follow:/home/rstole01/Documents/CSE-596/msu_ws/install/wall_follower_pid:/home/rstole01/Documents/CSE-596/msu_ws/install/qlearn:/home/rstole01/Documents/CSE-596/msu_ws/install/py_pubsub:/home/rstole01/Documents/CSE-596/msu_ws/install/plexer360:/home/rstole01/Documents/CSE-596/msu_ws/install/painter:/home/rstole01/Documents/CSE-596/msu_ws/install/f1tenth_gym_ros:/opt/ros/humble /usr/bin/cmake --install /home/rstole01/Documents/CSE-596/msu_ws/build/slam_toolbox

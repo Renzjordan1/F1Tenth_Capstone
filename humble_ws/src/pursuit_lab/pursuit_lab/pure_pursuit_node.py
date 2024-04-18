@@ -25,6 +25,7 @@ class PurePursuit(Node):
     This is just a template, you are free to implement your own node!
     """
 
+<<<<<<< HEAD
     ##READ CSV FILE
     folder = "/home/rstole01/Documents/CSE-596/humble_ws/waypoints"
     file = folder + "/SLAM-good1.csv"
@@ -43,11 +44,24 @@ class PurePursuit(Node):
         super().__init__('pure_pursuit_node')
         
         ##SUBSCRIBE TO ODOM
+=======
+    folder = "/home/rstole01/Documents/CSE-596/humble_ws/waypoints"
+    file = folder + "/see.csv"
+
+    waypoints = np.genfromtxt(file, delimiter=',')
+    wp_x = waypoints[:,0]
+    wp_y = waypoints[:,1]
+
+    def __init__(self):
+        super().__init__('pure_pursuit_node')
+        # TODO: create ROS subscribers and publishers
+>>>>>>> ce1a67ebf7edb694f0f93a1943a2aeb630cdb943
         self.odom_sub = self.create_subscription(
             Odometry,
             '/ego_racecar/odom',
             self.pose_callback,
             10)
+<<<<<<< HEAD
 
         #PUBLISHER FOR DRIVE
         self.drive_pub = self.create_publisher(AckermannDriveStamped, "/drive", 10)
@@ -100,18 +114,74 @@ class PurePursuit(Node):
     ##CALLBACK ON ODOM
     def pose_callback(self, pose_msg):
         print("kp ",self.kp)
+=======
+        self.drive_pub = self.create_publisher(AckermannDriveStamped, "/drive", 10)
+
+        # Array of spline waypoints
+        # print(PurePursuit.waypoints)
+        # tck, u = splprep([PurePursuit.wp_x, PurePursuit.wp_y], s=0)
+        # self.new_points = splev(u, tck)
+
+        self.new_points = [PurePursuit.wp_x, PurePursuit.wp_y]
+
+        fig, ax = plt.subplots()
+
+        ax.plot(PurePursuit.wp_x, PurePursuit.wp_y, 'ro')
+
+        plt.show()
+        self.speed = 4.0
+        self.lookahead = 1.5
+        self.kp = .5
+
+        # print(self.new_points[0])
+        # print(self.new_points[1])
+
+
+    def pose_callback(self, pose_msg):
+
+        # std_msgs/msg/Header header
+        #     string child_frame_id
+
+        # geometry_msgs/msg/PoseWithCovariance pose
+        #     geometry_msgs/msg/Pose pose
+        #         geometry_msgs/msg/Point position
+        #             double x
+        #             double y
+        #             double z
+        #         geometry_msgs/msg/Quaternion orientation
+        #             double x=0.0
+        #             double y=0.0
+        #             double z=0.0
+        #             double w=1.0
+        #     double[36] covariance
+        # geometry_msgs/msg/TwistWithCovariance twist
+        #     geometry_msgs/msg/Twist twist
+        #         geometry_msgs/msg/Vector3 linear
+        #             double x
+        #             double y
+        #             double z
+        #         geometry_msgs/msg/Vector3 angular
+        #             double x
+        #             double y
+        #             double z
+        #     double[36] covariance
+>>>>>>> ce1a67ebf7edb694f0f93a1943a2aeb630cdb943
 
         #Pose and Yaw
         pose_x = pose_msg.pose.pose.position.x
         pose_y = pose_msg.pose.pose.position.y
         quaternion = pose_msg.pose.pose.orientation
         euler = tf_transformations.euler_from_quaternion([quaternion.x, quaternion.y, quaternion.z, quaternion.w])
+<<<<<<< HEAD
         print("pose: " + str(pose_x) + " " + str(pose_y))
+=======
+>>>>>>> ce1a67ebf7edb694f0f93a1943a2aeb630cdb943
 
         roll = euler[0]
         pitch = euler[1]
         yaw = euler[2]
 
+<<<<<<< HEAD
 
         #FIND NEXT WAYPOINT TO TRACK
         next_wp, next_angle = self.get_next_waypoint(pose_x, pose_y, yaw)
@@ -128,6 +198,31 @@ class PurePursuit(Node):
 
 
         ##DETERMINE HORIZONTAL DISTANCE
+=======
+        # TODO: find the current waypoint to track using methods mentioned in lecture
+        next_wp, next_angle = self.get_next_waypoint(pose_x, pose_y, yaw)
+
+        # TODO: transform goal point to vehicle frame of reference
+
+
+        # TODO: calculate curvature/steering angle
+        # y_dist = (next_wp[1] - pose_y)
+        # x_dist = (next_wp[0] - pose_x)
+
+        # if(x_dist >= 0 and abs(x_dist) >= abs(y_dist)):
+        #     print("up")
+        #     curvature = 2*(y_dist) / (self.lookahead**2)
+        # elif(x_dist < 0 and abs(x_dist) >= abs(y_dist)):
+        #     print("down")
+        #     curvature = -2*(y_dist) / (self.lookahead**2)
+        # elif(y_dist >= 0 and abs(y_dist) >= abs(x_dist)):
+        #     print("left")
+        #     curvature = -2*(x_dist) / (self.lookahead**2)
+        # elif(y_dist < 0 and abs(y_dist) >= abs(x_dist)):
+        #     print("right")
+        #     curvature = 2*(x_dist) / (self.lookahead**2)
+
+>>>>>>> ce1a67ebf7edb694f0f93a1943a2aeb630cdb943
         dist = 0
         yaw_deg = yaw*180/3.14
         if(yaw_deg >= 0 and yaw_deg < 60):
@@ -141,12 +236,16 @@ class PurePursuit(Node):
         elif(yaw_deg >= -60 and yaw_deg < 0):
             dist = (next_wp[1] - pose_y)
 
+<<<<<<< HEAD
 
         ##CALCULATE CURVATURE
+=======
+>>>>>>> ce1a67ebf7edb694f0f93a1943a2aeb630cdb943
         curvature = 2*abs(dist) / (self.lookahead**2)
 
         print("dist: ", dist)
         print("curve: ", curvature)
+<<<<<<< HEAD
 
 
         ##DETERMINE STEERING ANGLE
@@ -213,6 +312,33 @@ class PurePursuit(Node):
 
 
     ##FUNCTION TO GET NEXT WAYPOINT NEAREST TO LOOKAHEAD DISTANCE
+=======
+        # if(next_angle >= 0):
+        #     steering_angle = float(self.kp * curvature)
+        # else: 
+        #     steering_angle = -1 * float(self.kp * curvature)
+
+        steering_angle = float(self.kp * next_angle * curvature)
+        print("angle(rad): ", steering_angle)
+
+        # TODO: publish drive message, don't forget to limit the steering angle.
+        drive_msg = AckermannDriveStamped()
+        # std_msgs/Header header
+        # ackermann_msgs/AckermannDrive drive
+        #     float32 steering_angle
+        #     float32 steering_angle_velocity
+        #     float32 speed
+        #     float32 acceleration
+        #     float32 jerk
+
+        drive_msg.drive.steering_angle = steering_angle
+        drive_msg.drive.speed = self.speed
+
+        print("angle: ", steering_angle*180/3.14)
+        print("yaw: ", yaw*180/3.14)
+        self.drive_pub.publish(drive_msg)
+    
+>>>>>>> ce1a67ebf7edb694f0f93a1943a2aeb630cdb943
     def get_next_waypoint(self, curr_x, curr_y, curr_yaw):
         wp = None
         wp_in = None
@@ -221,6 +347,10 @@ class PurePursuit(Node):
         closest_dist_out = -1 * float('inf')
 
         # pick closest waypoint in direction of car
+<<<<<<< HEAD
+=======
+    
+>>>>>>> ce1a67ebf7edb694f0f93a1943a2aeb630cdb943
         search_angle = 1.5 # 90 degrees
         relative_angle = 0
         relative_angle_in = 0
@@ -230,6 +360,10 @@ class PurePursuit(Node):
         ##Loop through each point
         for i in range(len(self.new_points[0])):
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> ce1a67ebf7edb694f0f93a1943a2aeb630cdb943
             ##Find relative angle
             dx = self.new_points[0][i] - curr_x
             dy = self.new_points[1][i] - curr_y
@@ -241,28 +375,45 @@ class PurePursuit(Node):
             #Check if angle is towards direction
             if abs(relative_angle) < search_angle:
 
+<<<<<<< HEAD
                 #Point at lookahead
                 if(dist_from_look == 0):
                     wp = [self.new_points[0][i], self.new_points[1][i], self.new_points[2][i]]
+=======
+                # print(self.new_points[0][i], self.new_points[1][i])
+
+                #Point at lookahead
+                if(dist_from_look == 0):
+                    wp = [self.new_points[0][i], self.new_points[1][i]]
+>>>>>>> ce1a67ebf7edb694f0f93a1943a2aeb630cdb943
                     break
 
                 #Point inside radius
                 elif(dist_from_look > 0):
                     if(dist_from_look < closest_dist_in):
                         closest_dist_in = dist_from_look
+<<<<<<< HEAD
                         wp_in = [self.new_points[0][i], self.new_points[1][i], self.new_points[2][i]]
+=======
+                        wp_in = [self.new_points[0][i], self.new_points[1][i]]
+>>>>>>> ce1a67ebf7edb694f0f93a1943a2aeb630cdb943
                         relative_angle_in = relative_angle
 
                 #Point outside radius
                 else:
                     if(dist_from_look > closest_dist_out):
                         closest_dist_out = dist_from_look
+<<<<<<< HEAD
                         wp_out = [self.new_points[0][i], self.new_points[1][i], self.new_points[2][i]]
+=======
+                        wp_out = [self.new_points[0][i], self.new_points[1][i]]
+>>>>>>> ce1a67ebf7edb694f0f93a1943a2aeb630cdb943
                         relative_angle_out = relative_angle
 
 
         #Get Intersection of Circle and Line Interpolation
         if(wp is None):
+<<<<<<< HEAD
 
             ##Pick point outside
             if(wp_in is None):
@@ -288,11 +439,30 @@ class PurePursuit(Node):
                 print("\npoints: ", points)
 
                 #Find midpoint of inside and ouside point
+=======
+            if(wp_in is None):
+                wp = wp_out
+                relative_angle = relative_angle_out
+            elif(wp_out is None):
+                wp = wp_in
+                relative_angle = relative_angle_in
+            else:
+                circle = Circle([curr_x, curr_y], self.lookahead)
+                line = Line(wp_in, wp_out)
+                point_a, point_b = circle.intersect_line(line)
+
+                points = [point_a, point_b]
+                print("\npoints: ", points)
+
+>>>>>>> ce1a67ebf7edb694f0f93a1943a2aeb630cdb943
                 midpoint = [(wp_in[0] + wp_out[0]) / 2, (wp_in[1] + wp_out[1]) / 2]
 
                 print("midpoint: ", midpoint)
 
+<<<<<<< HEAD
                 ##Get distances from each point
+=======
+>>>>>>> ce1a67ebf7edb694f0f93a1943a2aeb630cdb943
                 dx_a = point_a[0] - midpoint[0]
                 dy_a = point_a[1] - midpoint[1]
 
@@ -305,23 +475,55 @@ class PurePursuit(Node):
 
                 print("dists: ", dist_a, dist_b)
 
+<<<<<<< HEAD
                 ##Pick point a
                 if(dist_a <= dist_b):
                     wp = [point_a[0], point_a[1], wp_v]
+=======
+                if(dist_a <= dist_b):
+                    wp = [point_a[0], point_a[1]]
+>>>>>>> ce1a67ebf7edb694f0f93a1943a2aeb630cdb943
                     dx_a = point_a[0] - curr_x
                     dy_a = point_a[1] - curr_y
                     angle = math.atan2(dy_a, dx_a)
                     relative_angle = self.get_relative_angle(curr_yaw, angle)
 
+<<<<<<< HEAD
                 ##Pick point b
                 else:
                     wp = [point_b[0], point_b[1], wp_v]
+=======
+                else:
+                    wp = [point_b[0], point_b[1]]
+>>>>>>> ce1a67ebf7edb694f0f93a1943a2aeb630cdb943
                     dx_b = point_b[0] - curr_x
                     dy_b = point_b[1] - curr_y
                     angle = math.atan2(dy_b, dx_b)
                     relative_angle = self.get_relative_angle(curr_yaw, angle)
 
+<<<<<<< HEAD
         
+=======
+                
+
+
+
+                # for point in points:
+                #     ##Find relative angle
+                #     dx = point[0] - curr_x
+                #     dy = point[1] - curr_y
+                #     angle = math.atan2(dy, dx)
+                #     relative_angle = self.get_relative_angle(curr_yaw, angle)
+                #     print("relative: ", relative_angle)
+
+                #     if abs(relative_angle) < search_angle:
+                #         wp = [point[0], point[1]]
+                #         search_angle = abs(relative_angle)
+
+                # print("interp: ", wp)
+        
+        # print(wp, wp_in, wp_out)
+>>>>>>> ce1a67ebf7edb694f0f93a1943a2aeb630cdb943
         print("wp_in: ", wp_in)
         print("wp_out: ", wp_out)
         print("wp: ", wp)
@@ -331,7 +533,11 @@ class PurePursuit(Node):
 
 
 
+<<<<<<< HEAD
     ##LIMIT ANGLE to -2pi to 2pi
+=======
+
+>>>>>>> ce1a67ebf7edb694f0f93a1943a2aeb630cdb943
     def angle_check(self,angle):
         while angle > math.pi:
             angle -= 2 * math.pi
@@ -339,7 +545,10 @@ class PurePursuit(Node):
             angle += 2 * math.pi
         return angle
     
+<<<<<<< HEAD
     ##GET RELATIVE ANGLE 
+=======
+>>>>>>> ce1a67ebf7edb694f0f93a1943a2aeb630cdb943
     def get_relative_angle(self, car_yaw, angle):
         relative_angle = angle - car_yaw
         relative_angle = self.angle_check(relative_angle)
