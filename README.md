@@ -1,3 +1,2 @@
 # F1Tenth_Capstone
-F1Tenth Capstone Spring 2024
-Using ROS 2
+F1Tenth Capstone Spring 2024 (requires ROS 2)
