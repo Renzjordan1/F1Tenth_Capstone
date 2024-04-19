@@ -1,0 +1,8 @@
+[0.074s] Invoking command in '/home/rstole01/Documents/CapstoneGit/humble_ws/build/aeb_lab': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rstole01/Documents/CapstoneGit/humble_ws/install/waypoint_logger:/home/rstole01/Documents/CapstoneGit/humble_ws/install/scan_pubsub:/home/rstole01/Documents/CapstoneGit/humble_ws/install/cpp_pubsub:/home/rstole01/Documents/CapstoneGit/humble_ws/install/tutorial_interfaces:/home/rstole01/Documents/CapstoneGit/humble_ws/install/pid_lab:/home/rstole01/Documents/CapstoneGit/humble_ws/install/lab1_package:/home/rstole01/Documents/CapstoneGit/humble_ws/install/f1tenth_gym_ros:/home/rstole01/Documents/CapstoneGit/humble_ws/install/aeb_lab:/opt/ros/humble /usr/bin/cmake --build /home/rstole01/Documents/CapstoneGit/humble_ws/build/aeb_lab -- -j8 -l8
+[1.351s] [ 50%] [32mBuilding CXX object CMakeFiles/aeb.dir/src/aeb.cpp.o[0m
+[1.363s] [0mCMake Error: The current CMakeCache.txt directory /home/rstole01/Documents/CapstoneGit/humble_ws/build/aeb_lab/CMakeCache.txt is different than the directory /home/rstole01/Documents/CSE-596/humble_ws/build/aeb_lab where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt[0m
+[5.725s] gmake[2]: *** wait: No child processes.  Stop.
+[5.726s] gmake[2]: *** Waiting for unfinished jobs....
+[5.731s] gmake[2]: *** wait: No child processes.  Stop.
+[5.732s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/aeb.dir/all] Error 2
+[5.732s] gmake: *** [Makefile:146: all] Interrupt

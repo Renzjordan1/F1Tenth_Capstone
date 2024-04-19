@@ -1,0 +1,5 @@
+[0mCMake Error: The current CMakeCache.txt directory /home/rstole01/Documents/CapstoneGit/humble_ws/build/pid_lab/CMakeCache.txt is different than the directory /home/rstole01/Documents/CSE-596/humble_ws/build/pid_lab where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/pid.dir/src/wall_follow_node.cpp.o[0m
+gmake[2]: *** [CMakeFiles/pid.dir/build.make:76: CMakeFiles/pid.dir/src/wall_follow_node.cpp.o] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/pid.dir/all] Interrupt
+gmake: *** [Makefile:146: all] Interrupt

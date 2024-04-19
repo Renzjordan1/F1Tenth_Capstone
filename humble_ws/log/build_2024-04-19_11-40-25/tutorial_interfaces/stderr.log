@@ -1,0 +1,10 @@
+[0mCMake Error: The current CMakeCache.txt directory /home/rstole01/Documents/CapstoneGit/humble_ws/build/tutorial_interfaces/CMakeCache.txt is different than the directory /home/rstole01/Documents/CSE-596/humble_ws/build/tutorial_interfaces where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt[0m
+gmake[2]: *** [CMakeFiles/tutorial_interfaces__rosidl_typesupport_c__pyext.dir/build.make:76: CMakeFiles/tutorial_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/tutorial_interfaces/_tutorial_interfaces_s.ep.rosidl_typesupport_c.c.o] Interrupt
+gmake[2]: *** [CMakeFiles/tutorial_interfaces__rosidl_typesupport_introspection_c__pyext.dir/build.make:76: CMakeFiles/tutorial_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/tutorial_interfaces/_tutorial_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o] Interrupt
+gmake[2]: *** [CMakeFiles/tutorial_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/build.make:76: CMakeFiles/tutorial_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/tutorial_interfaces/_tutorial_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:535: CMakeFiles/tutorial_interfaces__rosidl_typesupport_introspection_c__pyext.dir/all] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:505: CMakeFiles/tutorial_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/all] Interrupt
+gmake[1]: *** wait: No child processes.  Stop.
+gmake[1]: *** Waiting for unfinished jobs....
+gmake[1]: *** wait: No child processes.  Stop.
+gmake: *** [Makefile:146: all] Error 2

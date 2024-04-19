@@ -1,0 +1,42 @@
+[1.254s] Invoking command in '/home/rstole01/Documents/CapstoneGit/humble_ws/build/pursuit_lab': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rstole01/Documents/CapstoneGit/humble_ws/install/waypoint_logger:/home/rstole01/Documents/CapstoneGit/humble_ws/install/scan_pubsub:/home/rstole01/Documents/CapstoneGit/humble_ws/install/cpp_pubsub:/home/rstole01/Documents/CapstoneGit/humble_ws/install/tutorial_interfaces:/home/rstole01/Documents/CapstoneGit/humble_ws/install/pid_lab:/home/rstole01/Documents/CapstoneGit/humble_ws/install/lab1_package:/home/rstole01/Documents/CapstoneGit/humble_ws/install/f1tenth_gym_ros:/home/rstole01/Documents/CapstoneGit/humble_ws/install/aeb_lab:/opt/ros/humble /usr/bin/cmake --build /home/rstole01/Documents/CapstoneGit/humble_ws/build/pursuit_lab -- -j8 -l8
+[1.385s] [0mCMake Error: The current CMakeCache.txt directory /home/rstole01/Documents/CapstoneGit/humble_ws/build/pursuit_lab/CMakeCache.txt is different than the directory /home/rstole01/Documents/CSE-596/humble_ws/build/pursuit_lab where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt[0m
+[1.680s] Built target ament_cmake_python_copy_pursuit_lab
+[1.693s] Built target ament_cmake_python_copy_pursuit_lab_setup
+[3.098s] running egg_info
+[3.124s] writing pursuit_lab.egg-info/PKG-INFO
+[3.125s] writing dependency_links to pursuit_lab.egg-info/dependency_links.txt
+[3.125s] writing top-level names to pursuit_lab.egg-info/top_level.txt
+[3.134s] reading manifest file 'pursuit_lab.egg-info/SOURCES.txt'
+[3.160s] writing manifest file 'pursuit_lab.egg-info/SOURCES.txt'
+[3.335s] Built target ament_cmake_python_build_pursuit_lab_egg
+[3.413s] Invoked command in '/home/rstole01/Documents/CapstoneGit/humble_ws/build/pursuit_lab' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rstole01/Documents/CapstoneGit/humble_ws/install/waypoint_logger:/home/rstole01/Documents/CapstoneGit/humble_ws/install/scan_pubsub:/home/rstole01/Documents/CapstoneGit/humble_ws/install/cpp_pubsub:/home/rstole01/Documents/CapstoneGit/humble_ws/install/tutorial_interfaces:/home/rstole01/Documents/CapstoneGit/humble_ws/install/pid_lab:/home/rstole01/Documents/CapstoneGit/humble_ws/install/lab1_package:/home/rstole01/Documents/CapstoneGit/humble_ws/install/f1tenth_gym_ros:/home/rstole01/Documents/CapstoneGit/humble_ws/install/aeb_lab:/opt/ros/humble /usr/bin/cmake --build /home/rstole01/Documents/CapstoneGit/humble_ws/build/pursuit_lab -- -j8 -l8
+[3.777s] Invoking command in '/home/rstole01/Documents/CapstoneGit/humble_ws/build/pursuit_lab': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rstole01/Documents/CapstoneGit/humble_ws/install/waypoint_logger:/home/rstole01/Documents/CapstoneGit/humble_ws/install/scan_pubsub:/home/rstole01/Documents/CapstoneGit/humble_ws/install/cpp_pubsub:/home/rstole01/Documents/CapstoneGit/humble_ws/install/tutorial_interfaces:/home/rstole01/Documents/CapstoneGit/humble_ws/install/pid_lab:/home/rstole01/Documents/CapstoneGit/humble_ws/install/lab1_package:/home/rstole01/Documents/CapstoneGit/humble_ws/install/f1tenth_gym_ros:/home/rstole01/Documents/CapstoneGit/humble_ws/install/aeb_lab:/opt/ros/humble /usr/bin/cmake --install /home/rstole01/Documents/CapstoneGit/humble_ws/build/pursuit_lab
+[3.818s] -- Install configuration: ""
+[3.824s] -- Up-to-date: /home/rstole01/Documents/CSE-596/humble_ws/install/pursuit_lab/share/pursuit_lab/environment/pythonpath.sh
+[3.825s] -- Up-to-date: /home/rstole01/Documents/CSE-596/humble_ws/install/pursuit_lab/share/pursuit_lab/environment/pythonpath.dsv
+[3.825s] -- Up-to-date: /home/rstole01/Documents/CSE-596/humble_ws/install/pursuit_lab/local/lib/python3.10/dist-packages/pursuit_lab-0.0.0-py3.10.egg-info
+[3.825s] -- Installing: /home/rstole01/Documents/CSE-596/humble_ws/install/pursuit_lab/local/lib/python3.10/dist-packages/pursuit_lab-0.0.0-py3.10.egg-info/top_level.txt
+[3.826s] -- Installing: /home/rstole01/Documents/CSE-596/humble_ws/install/pursuit_lab/local/lib/python3.10/dist-packages/pursuit_lab-0.0.0-py3.10.egg-info/SOURCES.txt
+[3.826s] -- Installing: /home/rstole01/Documents/CSE-596/humble_ws/install/pursuit_lab/local/lib/python3.10/dist-packages/pursuit_lab-0.0.0-py3.10.egg-info/PKG-INFO
+[3.840s] -- Installing: /home/rstole01/Documents/CSE-596/humble_ws/install/pursuit_lab/local/lib/python3.10/dist-packages/pursuit_lab-0.0.0-py3.10.egg-info/dependency_links.txt
+[3.841s] -- Up-to-date: /home/rstole01/Documents/CSE-596/humble_ws/install/pursuit_lab/local/lib/python3.10/dist-packages/pursuit_lab
+[3.841s] -- Up-to-date: /home/rstole01/Documents/CSE-596/humble_ws/install/pursuit_lab/local/lib/python3.10/dist-packages/pursuit_lab/__init__.py
+[3.841s] -- Up-to-date: /home/rstole01/Documents/CSE-596/humble_ws/install/pursuit_lab/local/lib/python3.10/dist-packages/pursuit_lab/pure_pursuit_node.py
+[4.057s] Listing '/home/rstole01/Documents/CSE-596/humble_ws/install/pursuit_lab/local/lib/python3.10/dist-packages/pursuit_lab'...
+[4.085s] -- Up-to-date: /home/rstole01/Documents/CSE-596/humble_ws/install/pursuit_lab/lib/pursuit_lab/pure_pursuit_node.py
+[4.086s] -- Up-to-date: /home/rstole01/Documents/CSE-596/humble_ws/install/pursuit_lab/share/ament_index/resource_index/package_run_dependencies/pursuit_lab
+[4.086s] -- Up-to-date: /home/rstole01/Documents/CSE-596/humble_ws/install/pursuit_lab/share/ament_index/resource_index/parent_prefix_path/pursuit_lab
+[4.086s] -- Up-to-date: /home/rstole01/Documents/CSE-596/humble_ws/install/pursuit_lab/share/pursuit_lab/environment/ament_prefix_path.sh
+[4.087s] -- Up-to-date: /home/rstole01/Documents/CSE-596/humble_ws/install/pursuit_lab/share/pursuit_lab/environment/ament_prefix_path.dsv
+[4.087s] -- Up-to-date: /home/rstole01/Documents/CSE-596/humble_ws/install/pursuit_lab/share/pursuit_lab/environment/path.sh
+[4.087s] -- Up-to-date: /home/rstole01/Documents/CSE-596/humble_ws/install/pursuit_lab/share/pursuit_lab/environment/path.dsv
+[4.087s] -- Up-to-date: /home/rstole01/Documents/CSE-596/humble_ws/install/pursuit_lab/share/pursuit_lab/local_setup.bash
+[4.088s] -- Up-to-date: /home/rstole01/Documents/CSE-596/humble_ws/install/pursuit_lab/share/pursuit_lab/local_setup.sh
+[4.088s] -- Up-to-date: /home/rstole01/Documents/CSE-596/humble_ws/install/pursuit_lab/share/pursuit_lab/local_setup.zsh
+[4.088s] -- Up-to-date: /home/rstole01/Documents/CSE-596/humble_ws/install/pursuit_lab/share/pursuit_lab/local_setup.dsv
+[4.089s] -- Installing: /home/rstole01/Documents/CSE-596/humble_ws/install/pursuit_lab/share/pursuit_lab/package.dsv
+[4.089s] -- Up-to-date: /home/rstole01/Documents/CSE-596/humble_ws/install/pursuit_lab/share/ament_index/resource_index/packages/pursuit_lab
+[4.089s] -- Up-to-date: /home/rstole01/Documents/CSE-596/humble_ws/install/pursuit_lab/share/pursuit_lab/cmake/pursuit_labConfig.cmake
+[4.089s] -- Up-to-date: /home/rstole01/Documents/CSE-596/humble_ws/install/pursuit_lab/share/pursuit_lab/cmake/pursuit_labConfig-version.cmake
+[4.090s] -- Up-to-date: /home/rstole01/Documents/CSE-596/humble_ws/install/pursuit_lab/share/pursuit_lab/package.xml
+[4.094s] Invoked command in '/home/rstole01/Documents/CapstoneGit/humble_ws/build/pursuit_lab' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rstole01/Documents/CapstoneGit/humble_ws/install/waypoint_logger:/home/rstole01/Documents/CapstoneGit/humble_ws/install/scan_pubsub:/home/rstole01/Documents/CapstoneGit/humble_ws/install/cpp_pubsub:/home/rstole01/Documents/CapstoneGit/humble_ws/install/tutorial_interfaces:/home/rstole01/Documents/CapstoneGit/humble_ws/install/pid_lab:/home/rstole01/Documents/CapstoneGit/humble_ws/install/lab1_package:/home/rstole01/Documents/CapstoneGit/humble_ws/install/f1tenth_gym_ros:/home/rstole01/Documents/CapstoneGit/humble_ws/install/aeb_lab:/opt/ros/humble /usr/bin/cmake --install /home/rstole01/Documents/CapstoneGit/humble_ws/build/pursuit_lab

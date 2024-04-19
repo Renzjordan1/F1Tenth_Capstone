@@ -1,0 +1,64 @@
+[0.026s] Invoking command in '/home/rstole01/Documents/CapstoneGit/humble_ws/build/cpp_pubsub': CMAKE_PREFIX_PATH=/home/rstole01/Documents/CapstoneGit/humble_ws/install/tutorial_interfaces:/home/rstole01/Documents/CapstoneGit/humble_ws/install/pursuit_lab:/home/rstole01/Documents/CapstoneGit/humble_ws/install/pure-pursuit_lab:/home/rstole01/Documents/CapstoneGit/humble_ws/install/waypoint_logger:/home/rstole01/Documents/CapstoneGit/humble_ws/install/scan_pubsub:/home/rstole01/Documents/CapstoneGit/humble_ws/install/cpp_pubsub:/home/rstole01/Documents/CapstoneGit/humble_ws/install/pid_lab:/home/rstole01/Documents/CapstoneGit/humble_ws/install/lab1_package:/home/rstole01/Documents/CapstoneGit/humble_ws/install/f1tenth_gym_ros:/home/rstole01/Documents/CapstoneGit/humble_ws/install/aeb_lab:/opt/ros/humble /usr/bin/cmake /home/rstole01/Documents/CapstoneGit/humble_ws/src/cpp_pubsub -DCMAKE_INSTALL_PREFIX=/home/rstole01/Documents/CapstoneGit/humble_ws/install/cpp_pubsub
+[0.138s] -- The C compiler identification is GNU 11.4.0
+[0.250s] -- The CXX compiler identification is GNU 11.4.0
+[0.264s] -- Detecting C compiler ABI info
+[0.399s] -- Detecting C compiler ABI info - done
+[0.424s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.425s] -- Detecting C compile features
+[0.426s] -- Detecting C compile features - done
+[0.434s] -- Detecting CXX compiler ABI info
+[0.593s] -- Detecting CXX compiler ABI info - done
+[0.609s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.609s] -- Detecting CXX compile features
+[0.610s] -- Detecting CXX compile features - done
+[0.617s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.894s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.124s] -- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+[1.243s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.258s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.281s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.315s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.364s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.536s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.545s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[1.630s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[1.658s] -- Looking for pthread.h
+[1.799s] -- Looking for pthread.h - found
+[1.800s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.943s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.945s] -- Found Threads: TRUE  
+[2.354s] -- Found tutorial_interfaces: 0.0.0 (/home/rstole01/Documents/CapstoneGit/humble_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake)
+[2.825s] -- Configuring done
+[2.865s] -- Generating done
+[2.869s] -- Build files have been written to: /home/rstole01/Documents/CapstoneGit/humble_ws/build/cpp_pubsub
+[2.885s] Invoked command in '/home/rstole01/Documents/CapstoneGit/humble_ws/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=/home/rstole01/Documents/CapstoneGit/humble_ws/install/tutorial_interfaces:/home/rstole01/Documents/CapstoneGit/humble_ws/install/pursuit_lab:/home/rstole01/Documents/CapstoneGit/humble_ws/install/pure-pursuit_lab:/home/rstole01/Documents/CapstoneGit/humble_ws/install/waypoint_logger:/home/rstole01/Documents/CapstoneGit/humble_ws/install/scan_pubsub:/home/rstole01/Documents/CapstoneGit/humble_ws/install/cpp_pubsub:/home/rstole01/Documents/CapstoneGit/humble_ws/install/pid_lab:/home/rstole01/Documents/CapstoneGit/humble_ws/install/lab1_package:/home/rstole01/Documents/CapstoneGit/humble_ws/install/f1tenth_gym_ros:/home/rstole01/Documents/CapstoneGit/humble_ws/install/aeb_lab:/opt/ros/humble /usr/bin/cmake /home/rstole01/Documents/CapstoneGit/humble_ws/src/cpp_pubsub -DCMAKE_INSTALL_PREFIX=/home/rstole01/Documents/CapstoneGit/humble_ws/install/cpp_pubsub
+[2.889s] Invoking command in '/home/rstole01/Documents/CapstoneGit/humble_ws/build/cpp_pubsub': CMAKE_PREFIX_PATH=/home/rstole01/Documents/CapstoneGit/humble_ws/install/tutorial_interfaces:/home/rstole01/Documents/CapstoneGit/humble_ws/install/pursuit_lab:/home/rstole01/Documents/CapstoneGit/humble_ws/install/pure-pursuit_lab:/home/rstole01/Documents/CapstoneGit/humble_ws/install/waypoint_logger:/home/rstole01/Documents/CapstoneGit/humble_ws/install/scan_pubsub:/home/rstole01/Documents/CapstoneGit/humble_ws/install/cpp_pubsub:/home/rstole01/Documents/CapstoneGit/humble_ws/install/pid_lab:/home/rstole01/Documents/CapstoneGit/humble_ws/install/lab1_package:/home/rstole01/Documents/CapstoneGit/humble_ws/install/f1tenth_gym_ros:/home/rstole01/Documents/CapstoneGit/humble_ws/install/aeb_lab:/opt/ros/humble /usr/bin/cmake --build /home/rstole01/Documents/CapstoneGit/humble_ws/build/cpp_pubsub -- -j8 -l8
+[2.987s] [ 25%] [32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_MSG.cpp.o[0m
+[3.002s] [ 50%] [32mBuilding CXX object CMakeFiles/listener.dir/src/subscriber_MSG.cpp.o[0m
+[12.537s] [ 75%] [32m[1mLinking CXX executable talker[0m
+[13.100s] [ 75%] Built target talker
+[21.337s] [100%] [32m[1mLinking CXX executable listener[0m
+[22.072s] [100%] Built target listener
+[22.096s] Invoked command in '/home/rstole01/Documents/CapstoneGit/humble_ws/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=/home/rstole01/Documents/CapstoneGit/humble_ws/install/tutorial_interfaces:/home/rstole01/Documents/CapstoneGit/humble_ws/install/pursuit_lab:/home/rstole01/Documents/CapstoneGit/humble_ws/install/pure-pursuit_lab:/home/rstole01/Documents/CapstoneGit/humble_ws/install/waypoint_logger:/home/rstole01/Documents/CapstoneGit/humble_ws/install/scan_pubsub:/home/rstole01/Documents/CapstoneGit/humble_ws/install/cpp_pubsub:/home/rstole01/Documents/CapstoneGit/humble_ws/install/pid_lab:/home/rstole01/Documents/CapstoneGit/humble_ws/install/lab1_package:/home/rstole01/Documents/CapstoneGit/humble_ws/install/f1tenth_gym_ros:/home/rstole01/Documents/CapstoneGit/humble_ws/install/aeb_lab:/opt/ros/humble /usr/bin/cmake --build /home/rstole01/Documents/CapstoneGit/humble_ws/build/cpp_pubsub -- -j8 -l8
+[22.159s] Invoking command in '/home/rstole01/Documents/CapstoneGit/humble_ws/build/cpp_pubsub': CMAKE_PREFIX_PATH=/home/rstole01/Documents/CapstoneGit/humble_ws/install/tutorial_interfaces:/home/rstole01/Documents/CapstoneGit/humble_ws/install/pursuit_lab:/home/rstole01/Documents/CapstoneGit/humble_ws/install/pure-pursuit_lab:/home/rstole01/Documents/CapstoneGit/humble_ws/install/waypoint_logger:/home/rstole01/Documents/CapstoneGit/humble_ws/install/scan_pubsub:/home/rstole01/Documents/CapstoneGit/humble_ws/install/cpp_pubsub:/home/rstole01/Documents/CapstoneGit/humble_ws/install/pid_lab:/home/rstole01/Documents/CapstoneGit/humble_ws/install/lab1_package:/home/rstole01/Documents/CapstoneGit/humble_ws/install/f1tenth_gym_ros:/home/rstole01/Documents/CapstoneGit/humble_ws/install/aeb_lab:/opt/ros/humble /usr/bin/cmake --install /home/rstole01/Documents/CapstoneGit/humble_ws/build/cpp_pubsub
+[22.174s] -- Install configuration: ""
+[22.175s] -- Installing: /home/rstole01/Documents/CapstoneGit/humble_ws/install/cpp_pubsub/lib/cpp_pubsub/talker
+[22.178s] -- Set runtime path of "/home/rstole01/Documents/CapstoneGit/humble_ws/install/cpp_pubsub/lib/cpp_pubsub/talker" to ""
+[22.178s] -- Installing: /home/rstole01/Documents/CapstoneGit/humble_ws/install/cpp_pubsub/lib/cpp_pubsub/listener
+[22.187s] -- Set runtime path of "/home/rstole01/Documents/CapstoneGit/humble_ws/install/cpp_pubsub/lib/cpp_pubsub/listener" to ""
+[22.187s] -- Installing: /home/rstole01/Documents/CapstoneGit/humble_ws/install/cpp_pubsub/share/ament_index/resource_index/package_run_dependencies/cpp_pubsub
+[22.188s] -- Installing: /home/rstole01/Documents/CapstoneGit/humble_ws/install/cpp_pubsub/share/ament_index/resource_index/parent_prefix_path/cpp_pubsub
+[22.188s] -- Up-to-date: /home/rstole01/Documents/CapstoneGit/humble_ws/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.sh
+[22.188s] -- Installing: /home/rstole01/Documents/CapstoneGit/humble_ws/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.dsv
+[22.188s] -- Up-to-date: /home/rstole01/Documents/CapstoneGit/humble_ws/install/cpp_pubsub/share/cpp_pubsub/environment/path.sh
+[22.189s] -- Installing: /home/rstole01/Documents/CapstoneGit/humble_ws/install/cpp_pubsub/share/cpp_pubsub/environment/path.dsv
+[22.189s] -- Installing: /home/rstole01/Documents/CapstoneGit/humble_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.bash
+[22.189s] -- Installing: /home/rstole01/Documents/CapstoneGit/humble_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.sh
+[22.189s] -- Installing: /home/rstole01/Documents/CapstoneGit/humble_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.zsh
+[22.190s] -- Installing: /home/rstole01/Documents/CapstoneGit/humble_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.dsv
+[22.190s] -- Installing: /home/rstole01/Documents/CapstoneGit/humble_ws/install/cpp_pubsub/share/cpp_pubsub/package.dsv
+[22.191s] -- Installing: /home/rstole01/Documents/CapstoneGit/humble_ws/install/cpp_pubsub/share/ament_index/resource_index/packages/cpp_pubsub
+[22.191s] -- Installing: /home/rstole01/Documents/CapstoneGit/humble_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig.cmake
+[22.191s] -- Installing: /home/rstole01/Documents/CapstoneGit/humble_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig-version.cmake
+[22.192s] -- Up-to-date: /home/rstole01/Documents/CapstoneGit/humble_ws/install/cpp_pubsub/share/cpp_pubsub/package.xml
+[22.195s] Invoked command in '/home/rstole01/Documents/CapstoneGit/humble_ws/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=/home/rstole01/Documents/CapstoneGit/humble_ws/install/tutorial_interfaces:/home/rstole01/Documents/CapstoneGit/humble_ws/install/pursuit_lab:/home/rstole01/Documents/CapstoneGit/humble_ws/install/pure-pursuit_lab:/home/rstole01/Documents/CapstoneGit/humble_ws/install/waypoint_logger:/home/rstole01/Documents/CapstoneGit/humble_ws/install/scan_pubsub:/home/rstole01/Documents/CapstoneGit/humble_ws/install/cpp_pubsub:/home/rstole01/Documents/CapstoneGit/humble_ws/install/pid_lab:/home/rstole01/Documents/CapstoneGit/humble_ws/install/lab1_package:/home/rstole01/Documents/CapstoneGit/humble_ws/install/f1tenth_gym_ros:/home/rstole01/Documents/CapstoneGit/humble_ws/install/aeb_lab:/opt/ros/humble /usr/bin/cmake --install /home/rstole01/Documents/CapstoneGit/humble_ws/build/cpp_pubsub

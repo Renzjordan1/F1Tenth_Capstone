@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/rstole01/Documents/CSE-596/humble_ws/src/lab1_package/include
+CXX_INCLUDES = -I/home/rstole01/Documents/CapstoneGit/humble_ws/src/lab1_package/include
 
 CXX_FLAGS = -Wall -Wextra -Wpedantic
 

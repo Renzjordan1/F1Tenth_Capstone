@@ -1,0 +1,7 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/aeb.dir/src/aeb.cpp.o[0m
+[0mCMake Error: The current CMakeCache.txt directory /home/rstole01/Documents/CapstoneGit/humble_ws/build/aeb_lab/CMakeCache.txt is different than the directory /home/rstole01/Documents/CSE-596/humble_ws/build/aeb_lab where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt[0m
+gmake[2]: *** wait: No child processes.  Stop.
+gmake[2]: *** Waiting for unfinished jobs....
+gmake[2]: *** wait: No child processes.  Stop.
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/aeb.dir/all] Error 2
+gmake: *** [Makefile:146: all] Interrupt

@@ -1,0 +1,74 @@
+[0.636s] Invoking command in '/home/rstole01/Documents/CapstoneGit/humble_ws/build/pid_lab': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rstole01/Documents/CapstoneGit/humble_ws/install/waypoint_logger:/home/rstole01/Documents/CapstoneGit/humble_ws/install/scan_pubsub:/home/rstole01/Documents/CapstoneGit/humble_ws/install/cpp_pubsub:/home/rstole01/Documents/CapstoneGit/humble_ws/install/tutorial_interfaces:/home/rstole01/Documents/CapstoneGit/humble_ws/install/pid_lab:/home/rstole01/Documents/CapstoneGit/humble_ws/install/lab1_package:/home/rstole01/Documents/CapstoneGit/humble_ws/install/f1tenth_gym_ros:/home/rstole01/Documents/CapstoneGit/humble_ws/install/aeb_lab:/opt/ros/humble /usr/bin/cmake /home/rstole01/Documents/CapstoneGit/humble_ws/src/pid_lab -DCMAKE_INSTALL_PREFIX=/home/rstole01/Documents/CapstoneGit/humble_ws/install/pid_lab
+[0.749s] -- The C compiler identification is GNU 11.4.0
+[0.916s] -- The CXX compiler identification is GNU 11.4.0
+[0.937s] -- Detecting C compiler ABI info
+[1.094s] -- Detecting C compiler ABI info - done
+[1.110s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.111s] -- Detecting C compile features
+[1.112s] -- Detecting C compile features - done
+[1.118s] -- Detecting CXX compiler ABI info
+[1.291s] -- Detecting CXX compiler ABI info - done
+[1.307s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.307s] -- Detecting CXX compile features
+[1.309s] -- Detecting CXX compile features - done
+[1.318s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.688s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.044s] -- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+[2.311s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.338s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.377s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.442s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.537s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.854s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.867s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[3.031s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[3.075s] -- Looking for pthread.h
+[3.271s] -- Looking for pthread.h - found
+[3.271s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[3.448s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[3.452s] -- Found Threads: TRUE  
+[3.959s] -- Found rclpy: 3.3.12 (/opt/ros/humble/share/rclpy/cmake)
+[3.965s] -- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)
+[4.061s] -- Found nav_msgs: 4.2.3 (/opt/ros/humble/share/nav_msgs/cmake)
+[4.244s] -- Found ackermann_msgs: 2.0.2 (/opt/ros/humble/share/ackermann_msgs/cmake)
+[4.362s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+[4.576s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[4.796s] -- Added test 'copyright' to check source files copyright and LICENSE
+[4.799s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[4.799s] -- Configured cppcheck include dirs: /home/rstole01/Documents/CapstoneGit/humble_ws/src/pid_lab/include
+[4.800s] -- Configured cppcheck exclude dirs and/or files: 
+[4.802s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[4.802s] -- Configured cpplint exclude dirs and/or files: 
+[4.804s] -- Added test 'lint_cmake' to check CMake code style
+[4.807s] -- Added test 'uncrustify' to check C / C++ code style
+[4.807s] -- Configured uncrustify additional arguments: 
+[4.809s] -- Added test 'xmllint' to check XML markup files
+[4.812s] -- Configuring done
+[4.834s] -- Generating done
+[4.837s] -- Build files have been written to: /home/rstole01/Documents/CapstoneGit/humble_ws/build/pid_lab
+[4.851s] Invoked command in '/home/rstole01/Documents/CapstoneGit/humble_ws/build/pid_lab' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rstole01/Documents/CapstoneGit/humble_ws/install/waypoint_logger:/home/rstole01/Documents/CapstoneGit/humble_ws/install/scan_pubsub:/home/rstole01/Documents/CapstoneGit/humble_ws/install/cpp_pubsub:/home/rstole01/Documents/CapstoneGit/humble_ws/install/tutorial_interfaces:/home/rstole01/Documents/CapstoneGit/humble_ws/install/pid_lab:/home/rstole01/Documents/CapstoneGit/humble_ws/install/lab1_package:/home/rstole01/Documents/CapstoneGit/humble_ws/install/f1tenth_gym_ros:/home/rstole01/Documents/CapstoneGit/humble_ws/install/aeb_lab:/opt/ros/humble /usr/bin/cmake /home/rstole01/Documents/CapstoneGit/humble_ws/src/pid_lab -DCMAKE_INSTALL_PREFIX=/home/rstole01/Documents/CapstoneGit/humble_ws/install/pid_lab
+[4.856s] Invoking command in '/home/rstole01/Documents/CapstoneGit/humble_ws/build/pid_lab': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rstole01/Documents/CapstoneGit/humble_ws/install/waypoint_logger:/home/rstole01/Documents/CapstoneGit/humble_ws/install/scan_pubsub:/home/rstole01/Documents/CapstoneGit/humble_ws/install/cpp_pubsub:/home/rstole01/Documents/CapstoneGit/humble_ws/install/tutorial_interfaces:/home/rstole01/Documents/CapstoneGit/humble_ws/install/pid_lab:/home/rstole01/Documents/CapstoneGit/humble_ws/install/lab1_package:/home/rstole01/Documents/CapstoneGit/humble_ws/install/f1tenth_gym_ros:/home/rstole01/Documents/CapstoneGit/humble_ws/install/aeb_lab:/opt/ros/humble /usr/bin/cmake --build /home/rstole01/Documents/CapstoneGit/humble_ws/build/pid_lab -- -j8 -l8
+[4.959s] [ 50%] [32mBuilding CXX object CMakeFiles/pid.dir/src/wall_follow_node.cpp.o[0m
+[26.575s] [100%] [32m[1mLinking CXX executable pid[0m
+[27.492s] [100%] Built target pid
+[27.514s] Invoked command in '/home/rstole01/Documents/CapstoneGit/humble_ws/build/pid_lab' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rstole01/Documents/CapstoneGit/humble_ws/install/waypoint_logger:/home/rstole01/Documents/CapstoneGit/humble_ws/install/scan_pubsub:/home/rstole01/Documents/CapstoneGit/humble_ws/install/cpp_pubsub:/home/rstole01/Documents/CapstoneGit/humble_ws/install/tutorial_interfaces:/home/rstole01/Documents/CapstoneGit/humble_ws/install/pid_lab:/home/rstole01/Documents/CapstoneGit/humble_ws/install/lab1_package:/home/rstole01/Documents/CapstoneGit/humble_ws/install/f1tenth_gym_ros:/home/rstole01/Documents/CapstoneGit/humble_ws/install/aeb_lab:/opt/ros/humble /usr/bin/cmake --build /home/rstole01/Documents/CapstoneGit/humble_ws/build/pid_lab -- -j8 -l8
+[27.569s] Invoking command in '/home/rstole01/Documents/CapstoneGit/humble_ws/build/pid_lab': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rstole01/Documents/CapstoneGit/humble_ws/install/waypoint_logger:/home/rstole01/Documents/CapstoneGit/humble_ws/install/scan_pubsub:/home/rstole01/Documents/CapstoneGit/humble_ws/install/cpp_pubsub:/home/rstole01/Documents/CapstoneGit/humble_ws/install/tutorial_interfaces:/home/rstole01/Documents/CapstoneGit/humble_ws/install/pid_lab:/home/rstole01/Documents/CapstoneGit/humble_ws/install/lab1_package:/home/rstole01/Documents/CapstoneGit/humble_ws/install/f1tenth_gym_ros:/home/rstole01/Documents/CapstoneGit/humble_ws/install/aeb_lab:/opt/ros/humble /usr/bin/cmake --install /home/rstole01/Documents/CapstoneGit/humble_ws/build/pid_lab
+[27.584s] -- Install configuration: ""
+[27.584s] -- Installing: /home/rstole01/Documents/CapstoneGit/humble_ws/install/pid_lab/lib/pid_lab/pid
+[27.593s] -- Set runtime path of "/home/rstole01/Documents/CapstoneGit/humble_ws/install/pid_lab/lib/pid_lab/pid" to ""
+[27.594s] -- Installing: /home/rstole01/Documents/CapstoneGit/humble_ws/install/pid_lab/share/ament_index/resource_index/package_run_dependencies/pid_lab
+[27.594s] -- Installing: /home/rstole01/Documents/CapstoneGit/humble_ws/install/pid_lab/share/ament_index/resource_index/parent_prefix_path/pid_lab
+[27.594s] -- Up-to-date: /home/rstole01/Documents/CapstoneGit/humble_ws/install/pid_lab/share/pid_lab/environment/ament_prefix_path.sh
+[27.595s] -- Installing: /home/rstole01/Documents/CapstoneGit/humble_ws/install/pid_lab/share/pid_lab/environment/ament_prefix_path.dsv
+[27.595s] -- Up-to-date: /home/rstole01/Documents/CapstoneGit/humble_ws/install/pid_lab/share/pid_lab/environment/path.sh
+[27.595s] -- Installing: /home/rstole01/Documents/CapstoneGit/humble_ws/install/pid_lab/share/pid_lab/environment/path.dsv
+[27.595s] -- Installing: /home/rstole01/Documents/CapstoneGit/humble_ws/install/pid_lab/share/pid_lab/local_setup.bash
+[27.596s] -- Installing: /home/rstole01/Documents/CapstoneGit/humble_ws/install/pid_lab/share/pid_lab/local_setup.sh
+[27.596s] -- Installing: /home/rstole01/Documents/CapstoneGit/humble_ws/install/pid_lab/share/pid_lab/local_setup.zsh
+[27.596s] -- Installing: /home/rstole01/Documents/CapstoneGit/humble_ws/install/pid_lab/share/pid_lab/local_setup.dsv
+[27.597s] -- Installing: /home/rstole01/Documents/CapstoneGit/humble_ws/install/pid_lab/share/pid_lab/package.dsv
+[27.597s] -- Installing: /home/rstole01/Documents/CapstoneGit/humble_ws/install/pid_lab/share/ament_index/resource_index/packages/pid_lab
+[27.597s] -- Installing: /home/rstole01/Documents/CapstoneGit/humble_ws/install/pid_lab/share/pid_lab/cmake/pid_labConfig.cmake
+[27.598s] -- Installing: /home/rstole01/Documents/CapstoneGit/humble_ws/install/pid_lab/share/pid_lab/cmake/pid_labConfig-version.cmake
+[27.598s] -- Up-to-date: /home/rstole01/Documents/CapstoneGit/humble_ws/install/pid_lab/share/pid_lab/package.xml
+[27.602s] Invoked command in '/home/rstole01/Documents/CapstoneGit/humble_ws/build/pid_lab' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rstole01/Documents/CapstoneGit/humble_ws/install/waypoint_logger:/home/rstole01/Documents/CapstoneGit/humble_ws/install/scan_pubsub:/home/rstole01/Documents/CapstoneGit/humble_ws/install/cpp_pubsub:/home/rstole01/Documents/CapstoneGit/humble_ws/install/tutorial_interfaces:/home/rstole01/Documents/CapstoneGit/humble_ws/install/pid_lab:/home/rstole01/Documents/CapstoneGit/humble_ws/install/lab1_package:/home/rstole01/Documents/CapstoneGit/humble_ws/install/f1tenth_gym_ros:/home/rstole01/Documents/CapstoneGit/humble_ws/install/aeb_lab:/opt/ros/humble /usr/bin/cmake --install /home/rstole01/Documents/CapstoneGit/humble_ws/build/pid_lab
