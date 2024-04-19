@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/rstole01/Documents/CapstoneGit/humble_ws/src/pursuit_lab
+CMAKE_SOURCE_DIR = /home/rstole01/Documents/CSE-596/humble_ws/src/pursuit_lab
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/rstole01/Documents/CapstoneGit/humble_ws/build/pursuit_lab
+CMAKE_BINARY_DIR = /home/rstole01/Documents/CSE-596/humble_ws/build/pursuit_lab
 
 # Utility rule file for ament_cmake_python_build_pursuit_lab_egg.
 
@@ -67,7 +67,7 @@ include CMakeFiles/ament_cmake_python_build_pursuit_lab_egg.dir/compiler_depend.
 include CMakeFiles/ament_cmake_python_build_pursuit_lab_egg.dir/progress.make
 
 CMakeFiles/ament_cmake_python_build_pursuit_lab_egg:
-	cd /home/rstole01/Documents/CapstoneGit/humble_ws/build/pursuit_lab/ament_cmake_python/pursuit_lab && /usr/bin/python3 setup.py egg_info
+	cd /home/rstole01/Documents/CSE-596/humble_ws/build/pursuit_lab/ament_cmake_python/pursuit_lab && /usr/bin/python3.10 setup.py egg_info
 
 ament_cmake_python_build_pursuit_lab_egg: CMakeFiles/ament_cmake_python_build_pursuit_lab_egg
 ament_cmake_python_build_pursuit_lab_egg: CMakeFiles/ament_cmake_python_build_pursuit_lab_egg.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/ament_cmake_python_build_pursuit_lab_egg.dir/clean:
 .PHONY : CMakeFiles/ament_cmake_python_build_pursuit_lab_egg.dir/clean
 
 CMakeFiles/ament_cmake_python_build_pursuit_lab_egg.dir/depend:
-	cd /home/rstole01/Documents/CapstoneGit/humble_ws/build/pursuit_lab && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/rstole01/Documents/CapstoneGit/humble_ws/src/pursuit_lab /home/rstole01/Documents/CapstoneGit/humble_ws/src/pursuit_lab /home/rstole01/Documents/CapstoneGit/humble_ws/build/pursuit_lab /home/rstole01/Documents/CapstoneGit/humble_ws/build/pursuit_lab /home/rstole01/Documents/CapstoneGit/humble_ws/build/pursuit_lab/CMakeFiles/ament_cmake_python_build_pursuit_lab_egg.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/rstole01/Documents/CSE-596/humble_ws/build/pursuit_lab && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/rstole01/Documents/CSE-596/humble_ws/src/pursuit_lab /home/rstole01/Documents/CSE-596/humble_ws/src/pursuit_lab /home/rstole01/Documents/CSE-596/humble_ws/build/pursuit_lab /home/rstole01/Documents/CSE-596/humble_ws/build/pursuit_lab /home/rstole01/Documents/CSE-596/humble_ws/build/pursuit_lab/CMakeFiles/ament_cmake_python_build_pursuit_lab_egg.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/ament_cmake_python_build_pursuit_lab_egg.dir/depend
 

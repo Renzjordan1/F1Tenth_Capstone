@@ -1,8 +1,0 @@
-setup.cfg
-setup.py
-pursuit_lab/__init__.py
-pursuit_lab/pure_pursuit_node.py
-pursuit_lab.egg-info/PKG-INFO
-pursuit_lab.egg-info/SOURCES.txt
-pursuit_lab.egg-info/dependency_links.txt
-pursuit_lab.egg-info/top_level.txt
