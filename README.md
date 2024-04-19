@@ -25,6 +25,16 @@ ros2 launch f1tenth_gym_ros gym_bridge_launch.py
 ```
 <br />
 
+**Run waypoint logger node:** <br />
+
+* Run:
+``
+ros2 run waypoint_logger waypoint_logger
+``
+* Drive car around the track
+
+<br />
+
 **Run Pure Pusuit node:** <br />
 ```
 ros2 run pursuit_lab pure_pursuit_node.py
@@ -32,10 +42,14 @@ ros2 run pursuit_lab pure_pursuit_node.py
 <br />
 
 **To start F1Tenth car and slam_toolbox (requires Autoware and F1Tenth car):** <br />
-```
+* Run
+``
 chmod +x /LaunchSlam.sh
 ./LaunchSlam.sh
-```
+``
+* Drive car around the track
+
+<br />
 
 ## Tech Stack
 
