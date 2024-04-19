@@ -1,0 +1,48 @@
+[3.445s] Invoking command in '/home/rstole01/Documents/CSE-596/humble_ws/src/f1tenth_gym_ros': PYTHONPATH=/home/rstole01/Documents/CSE-596/humble_ws/src/build/f1tenth_gym_ros/prefix_override:/home/rstole01/Documents/CSE-596/humble_ws/src/install/f1tenth_gym_ros/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/f1tenth_gym_ros build --build-base /home/rstole01/Documents/CSE-596/humble_ws/src/build/f1tenth_gym_ros/build install --record /home/rstole01/Documents/CSE-596/humble_ws/src/build/f1tenth_gym_ros/install.log --install-scripts $base/lib/f1tenth_gym_ros --single-version-externally-managed install_data
+[4.023s] /usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[4.024s]   warnings.warn(
+[4.044s] running egg_info
+[4.045s] creating ../build/f1tenth_gym_ros/f1tenth_gym_ros.egg-info
+[4.045s] writing ../build/f1tenth_gym_ros/f1tenth_gym_ros.egg-info/PKG-INFO
+[4.046s] writing dependency_links to ../build/f1tenth_gym_ros/f1tenth_gym_ros.egg-info/dependency_links.txt
+[4.046s] writing entry points to ../build/f1tenth_gym_ros/f1tenth_gym_ros.egg-info/entry_points.txt
+[4.047s] writing requirements to ../build/f1tenth_gym_ros/f1tenth_gym_ros.egg-info/requires.txt
+[4.047s] writing top-level names to ../build/f1tenth_gym_ros/f1tenth_gym_ros.egg-info/top_level.txt
+[4.047s] writing manifest file '../build/f1tenth_gym_ros/f1tenth_gym_ros.egg-info/SOURCES.txt'
+[4.053s] reading manifest file '../build/f1tenth_gym_ros/f1tenth_gym_ros.egg-info/SOURCES.txt'
+[4.053s] adding license file 'LICENSE'
+[4.056s] writing manifest file '../build/f1tenth_gym_ros/f1tenth_gym_ros.egg-info/SOURCES.txt'
+[4.056s] running build
+[4.056s] running build_py
+[4.057s] creating /home/rstole01/Documents/CSE-596/humble_ws/src/build/f1tenth_gym_ros/build
+[4.057s] creating /home/rstole01/Documents/CSE-596/humble_ws/src/build/f1tenth_gym_ros/build/lib
+[4.057s] creating /home/rstole01/Documents/CSE-596/humble_ws/src/build/f1tenth_gym_ros/build/lib/f1tenth_gym_ros
+[4.057s] copying f1tenth_gym_ros/gym_bridge.py -> /home/rstole01/Documents/CSE-596/humble_ws/src/build/f1tenth_gym_ros/build/lib/f1tenth_gym_ros
+[4.058s] copying f1tenth_gym_ros/__init__.py -> /home/rstole01/Documents/CSE-596/humble_ws/src/build/f1tenth_gym_ros/build/lib/f1tenth_gym_ros
+[4.058s] running install
+[4.059s] running install_lib
+[4.061s] creating /home/rstole01/Documents/CSE-596/humble_ws/src/install/f1tenth_gym_ros/lib/python3.10/site-packages/f1tenth_gym_ros
+[4.061s] copying /home/rstole01/Documents/CSE-596/humble_ws/src/build/f1tenth_gym_ros/build/lib/f1tenth_gym_ros/gym_bridge.py -> /home/rstole01/Documents/CSE-596/humble_ws/src/install/f1tenth_gym_ros/lib/python3.10/site-packages/f1tenth_gym_ros
+[4.061s] copying /home/rstole01/Documents/CSE-596/humble_ws/src/build/f1tenth_gym_ros/build/lib/f1tenth_gym_ros/__init__.py -> /home/rstole01/Documents/CSE-596/humble_ws/src/install/f1tenth_gym_ros/lib/python3.10/site-packages/f1tenth_gym_ros
+[4.063s] byte-compiling /home/rstole01/Documents/CSE-596/humble_ws/src/install/f1tenth_gym_ros/lib/python3.10/site-packages/f1tenth_gym_ros/gym_bridge.py to gym_bridge.cpython-310.pyc
+[4.072s] byte-compiling /home/rstole01/Documents/CSE-596/humble_ws/src/install/f1tenth_gym_ros/lib/python3.10/site-packages/f1tenth_gym_ros/__init__.py to __init__.cpython-310.pyc
+[4.072s] running install_data
+[4.073s] creating /home/rstole01/Documents/CSE-596/humble_ws/src/install/f1tenth_gym_ros/share/ament_index
+[4.073s] creating /home/rstole01/Documents/CSE-596/humble_ws/src/install/f1tenth_gym_ros/share/ament_index/resource_index
+[4.073s] creating /home/rstole01/Documents/CSE-596/humble_ws/src/install/f1tenth_gym_ros/share/ament_index/resource_index/packages
+[4.074s] copying resource/f1tenth_gym_ros -> /home/rstole01/Documents/CSE-596/humble_ws/src/install/f1tenth_gym_ros/share/ament_index/resource_index/packages
+[4.074s] copying package.xml -> /home/rstole01/Documents/CSE-596/humble_ws/src/install/f1tenth_gym_ros/share/f1tenth_gym_ros
+[4.074s] creating /home/rstole01/Documents/CSE-596/humble_ws/src/install/f1tenth_gym_ros/share/f1tenth_gym_ros/launch
+[4.074s] copying launch/gym_bridge_launch.py -> /home/rstole01/Documents/CSE-596/humble_ws/src/install/f1tenth_gym_ros/share/f1tenth_gym_ros/launch
+[4.075s] copying launch/opp_racecar.xacro -> /home/rstole01/Documents/CSE-596/humble_ws/src/install/f1tenth_gym_ros/share/f1tenth_gym_ros/launch
+[4.075s] copying launch/ego_racecar.xacro -> /home/rstole01/Documents/CSE-596/humble_ws/src/install/f1tenth_gym_ros/share/f1tenth_gym_ros/launch
+[4.075s] copying launch/gym_bridge.rviz -> /home/rstole01/Documents/CSE-596/humble_ws/src/install/f1tenth_gym_ros/share/f1tenth_gym_ros/launch
+[4.075s] creating /home/rstole01/Documents/CSE-596/humble_ws/src/install/f1tenth_gym_ros/share/f1tenth_gym_ros/config
+[4.076s] copying config/f1tenth_online_async.yaml -> /home/rstole01/Documents/CSE-596/humble_ws/src/install/f1tenth_gym_ros/share/f1tenth_gym_ros/config
+[4.076s] copying config/sim.yaml -> /home/rstole01/Documents/CSE-596/humble_ws/src/install/f1tenth_gym_ros/share/f1tenth_gym_ros/config
+[4.077s] running install_egg_info
+[4.081s] Copying ../build/f1tenth_gym_ros/f1tenth_gym_ros.egg-info to /home/rstole01/Documents/CSE-596/humble_ws/src/install/f1tenth_gym_ros/lib/python3.10/site-packages/f1tenth_gym_ros-0.0.0-py3.10.egg-info
+[4.084s] running install_scripts
+[4.145s] Installing gym_bridge script to /home/rstole01/Documents/CSE-596/humble_ws/src/install/f1tenth_gym_ros/lib/f1tenth_gym_ros
+[4.146s] writing list of installed files to '/home/rstole01/Documents/CSE-596/humble_ws/src/build/f1tenth_gym_ros/install.log'
+[4.204s] Invoked command in '/home/rstole01/Documents/CSE-596/humble_ws/src/f1tenth_gym_ros' returned '0': PYTHONPATH=/home/rstole01/Documents/CSE-596/humble_ws/src/build/f1tenth_gym_ros/prefix_override:/home/rstole01/Documents/CSE-596/humble_ws/src/install/f1tenth_gym_ros/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/f1tenth_gym_ros build --build-base /home/rstole01/Documents/CSE-596/humble_ws/src/build/f1tenth_gym_ros/build install --record /home/rstole01/Documents/CSE-596/humble_ws/src/build/f1tenth_gym_ros/install.log --install-scripts $base/lib/f1tenth_gym_ros --single-version-externally-managed install_data

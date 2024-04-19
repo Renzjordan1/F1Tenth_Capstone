@@ -1,0 +1,51 @@
+[0.674s] Invoking command in '/home/rstole01/Documents/CSE-596/humble_ws/src/build/lab1_package': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/rstole01/Documents/CSE-596/humble_ws/src/lab1_package -DCMAKE_INSTALL_PREFIX=/home/rstole01/Documents/CSE-596/humble_ws/src/install/lab1_package
+[0.799s] -- The C compiler identification is GNU 11.4.0
+[0.952s] -- The CXX compiler identification is GNU 11.4.0
+[0.976s] -- Detecting C compiler ABI info
+[1.159s] -- Detecting C compiler ABI info - done
+[1.187s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.188s] -- Detecting C compile features
+[1.189s] -- Detecting C compile features - done
+[1.199s] -- Detecting CXX compiler ABI info
+[1.406s] -- Detecting CXX compiler ABI info - done
+[1.433s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.435s] -- Detecting CXX compile features
+[1.436s] -- Detecting CXX compile features - done
+[1.443s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.836s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.096s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.398s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.398s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/rstole01/Documents/CSE-596/humble_ws/src/lab1_package/include>
+[2.398s] -- Configured cppcheck exclude dirs and/or files: 
+[2.401s] -- Added test 'lint_cmake' to check CMake code style
+[2.405s] -- Added test 'uncrustify' to check C / C++ code style
+[2.405s] -- Configured uncrustify additional arguments: 
+[2.406s] -- Added test 'xmllint' to check XML markup files
+[2.410s] -- Configuring done
+[2.424s] -- Generating done
+[2.429s] -- Build files have been written to: /home/rstole01/Documents/CSE-596/humble_ws/src/build/lab1_package
+[2.443s] Invoked command in '/home/rstole01/Documents/CSE-596/humble_ws/src/build/lab1_package' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/rstole01/Documents/CSE-596/humble_ws/src/lab1_package -DCMAKE_INSTALL_PREFIX=/home/rstole01/Documents/CSE-596/humble_ws/src/install/lab1_package
+[2.445s] Invoking command in '/home/rstole01/Documents/CSE-596/humble_ws/src/build/lab1_package': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/rstole01/Documents/CSE-596/humble_ws/src/build/lab1_package -- -j8 -l8
+[2.592s] [ 50%] [32mBuilding CXX object CMakeFiles/my_node.dir/src/my_node.cpp.o[0m
+[2.684s] [100%] [32m[1mLinking CXX executable my_node[0m
+[2.816s] [100%] Built target my_node
+[2.846s] Invoked command in '/home/rstole01/Documents/CSE-596/humble_ws/src/build/lab1_package' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/rstole01/Documents/CSE-596/humble_ws/src/build/lab1_package -- -j8 -l8
+[2.939s] Invoking command in '/home/rstole01/Documents/CSE-596/humble_ws/src/build/lab1_package': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/rstole01/Documents/CSE-596/humble_ws/src/build/lab1_package
+[2.960s] -- Install configuration: ""
+[2.960s] -- Installing: /home/rstole01/Documents/CSE-596/humble_ws/src/install/lab1_package/lib/lab1_package/my_node
+[2.962s] -- Installing: /home/rstole01/Documents/CSE-596/humble_ws/src/install/lab1_package/share/ament_index/resource_index/package_run_dependencies/lab1_package
+[2.962s] -- Installing: /home/rstole01/Documents/CSE-596/humble_ws/src/install/lab1_package/share/ament_index/resource_index/parent_prefix_path/lab1_package
+[2.963s] -- Installing: /home/rstole01/Documents/CSE-596/humble_ws/src/install/lab1_package/share/lab1_package/environment/ament_prefix_path.sh
+[2.964s] -- Installing: /home/rstole01/Documents/CSE-596/humble_ws/src/install/lab1_package/share/lab1_package/environment/ament_prefix_path.dsv
+[2.964s] -- Installing: /home/rstole01/Documents/CSE-596/humble_ws/src/install/lab1_package/share/lab1_package/environment/path.sh
+[2.965s] -- Installing: /home/rstole01/Documents/CSE-596/humble_ws/src/install/lab1_package/share/lab1_package/environment/path.dsv
+[2.965s] -- Installing: /home/rstole01/Documents/CSE-596/humble_ws/src/install/lab1_package/share/lab1_package/local_setup.bash
+[2.966s] -- Installing: /home/rstole01/Documents/CSE-596/humble_ws/src/install/lab1_package/share/lab1_package/local_setup.sh
+[2.967s] -- Installing: /home/rstole01/Documents/CSE-596/humble_ws/src/install/lab1_package/share/lab1_package/local_setup.zsh
+[2.967s] -- Installing: /home/rstole01/Documents/CSE-596/humble_ws/src/install/lab1_package/share/lab1_package/local_setup.dsv
+[2.968s] -- Installing: /home/rstole01/Documents/CSE-596/humble_ws/src/install/lab1_package/share/lab1_package/package.dsv
+[2.971s] -- Installing: /home/rstole01/Documents/CSE-596/humble_ws/src/install/lab1_package/share/ament_index/resource_index/packages/lab1_package
+[2.972s] -- Installing: /home/rstole01/Documents/CSE-596/humble_ws/src/install/lab1_package/share/lab1_package/cmake/lab1_packageConfig.cmake
+[2.972s] -- Installing: /home/rstole01/Documents/CSE-596/humble_ws/src/install/lab1_package/share/lab1_package/cmake/lab1_packageConfig-version.cmake
+[2.972s] -- Installing: /home/rstole01/Documents/CSE-596/humble_ws/src/install/lab1_package/share/lab1_package/package.xml
+[2.975s] Invoked command in '/home/rstole01/Documents/CSE-596/humble_ws/src/build/lab1_package' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/rstole01/Documents/CSE-596/humble_ws/src/build/lab1_package

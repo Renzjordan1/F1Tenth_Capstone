@@ -1,7 +1,0 @@
-[0.038s] Invoking command in '/home/rstole01/Documents/CapstoneGit/humble_ws/build/cpp_pubsub': CMAKE_PREFIX_PATH=/home/rstole01/Documents/CapstoneGit/humble_ws/install/tutorial_interfaces:/home/rstole01/Documents/CapstoneGit/humble_ws/install/scan_pubsub:/home/rstole01/Documents/CapstoneGit/humble_ws/install/cpp_pubsub:/home/rstole01/Documents/CapstoneGit/humble_ws/install/pursuit_lab:/home/rstole01/Documents/CapstoneGit/humble_ws/install/pure-pursuit_lab:/home/rstole01/Documents/CapstoneGit/humble_ws/install/pid_lab:/home/rstole01/Documents/CapstoneGit/humble_ws/install/lab1_package:/home/rstole01/Documents/CapstoneGit/humble_ws/install/aeb_lab:/home/rstole01/Documents/CapstoneGit/humble_ws/install/waypoint_logger:/home/rstole01/Documents/CapstoneGit/humble_ws/install/f1tenth_gym_ros:/opt/ros/humble /usr/bin/cmake --build /home/rstole01/Documents/CapstoneGit/humble_ws/build/cpp_pubsub -- -j8 -l8
-[0.171s] [ 25%] [32mBuilding CXX object CMakeFiles/listener.dir/src/subscriber_MSG.cpp.o[0m
-[0.172s] [ 50%] [32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_MSG.cpp.o[0m
-[9.180s] [ 75%] [32m[1mLinking CXX executable talker[0m
-[9.588s] [ 75%] Built target talker
-[16.368s] [100%] [32m[1mLinking CXX executable listener[0m
-[17.063s] [100%] Built target listener

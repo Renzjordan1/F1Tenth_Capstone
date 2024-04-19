@@ -1,0 +1,64 @@
+[0.027s] Invoking command in '/home/rstole01/Documents/CSE-596/humble_ws/src/build/cpp_pubsub': AMENT_PREFIX_PATH=/home/rstole01/Documents/CSE-596/humble_ws/src/install/tutorial_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rstole01/Documents/CSE-596/humble_ws/src/install/tutorial_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/rstole01/Documents/CSE-596/humble_ws/src/install/tutorial_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rstole01/Documents/CSE-596/humble_ws/src/install/tutorial_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/rstole01/Documents/CSE-596/humble_ws/src/cpp_pubsub -DCMAKE_INSTALL_PREFIX=/home/rstole01/Documents/CSE-596/humble_ws/src/install/cpp_pubsub
+[0.143s] -- The C compiler identification is GNU 11.4.0
+[0.270s] -- The CXX compiler identification is GNU 11.4.0
+[0.289s] -- Detecting C compiler ABI info
+[0.435s] -- Detecting C compiler ABI info - done
+[0.452s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.452s] -- Detecting C compile features
+[0.453s] -- Detecting C compile features - done
+[0.459s] -- Detecting CXX compiler ABI info
+[0.628s] -- Detecting CXX compiler ABI info - done
+[0.657s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.658s] -- Detecting CXX compile features
+[0.660s] -- Detecting CXX compile features - done
+[0.667s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.999s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.243s] -- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+[1.389s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.407s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.435s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.465s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.509s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.672s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.678s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[1.759s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[1.782s] -- Looking for pthread.h
+[1.943s] -- Looking for pthread.h - found
+[1.944s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.114s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.117s] -- Found Threads: TRUE  
+[2.521s] -- Found tutorial_interfaces: 0.0.0 (/home/rstole01/Documents/CSE-596/humble_ws/src/install/tutorial_interfaces/share/tutorial_interfaces/cmake)
+[2.961s] -- Configuring done
+[2.988s] -- Generating done
+[2.991s] -- Build files have been written to: /home/rstole01/Documents/CSE-596/humble_ws/src/build/cpp_pubsub
+[3.012s] Invoked command in '/home/rstole01/Documents/CSE-596/humble_ws/src/build/cpp_pubsub' returned '0': AMENT_PREFIX_PATH=/home/rstole01/Documents/CSE-596/humble_ws/src/install/tutorial_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rstole01/Documents/CSE-596/humble_ws/src/install/tutorial_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/rstole01/Documents/CSE-596/humble_ws/src/install/tutorial_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rstole01/Documents/CSE-596/humble_ws/src/install/tutorial_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/rstole01/Documents/CSE-596/humble_ws/src/cpp_pubsub -DCMAKE_INSTALL_PREFIX=/home/rstole01/Documents/CSE-596/humble_ws/src/install/cpp_pubsub
+[3.016s] Invoking command in '/home/rstole01/Documents/CSE-596/humble_ws/src/build/cpp_pubsub': AMENT_PREFIX_PATH=/home/rstole01/Documents/CSE-596/humble_ws/src/install/tutorial_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rstole01/Documents/CSE-596/humble_ws/src/install/tutorial_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/rstole01/Documents/CSE-596/humble_ws/src/install/tutorial_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rstole01/Documents/CSE-596/humble_ws/src/install/tutorial_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/rstole01/Documents/CSE-596/humble_ws/src/build/cpp_pubsub -- -j8 -l8
+[3.135s] [ 50%] [32mBuilding CXX object CMakeFiles/listener.dir/src/subscriber_MSG.cpp.o[0m
+[3.135s] [ 50%] [32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_MSG.cpp.o[0m
+[12.100s] [ 75%] [32m[1mLinking CXX executable talker[0m
+[12.498s] [ 75%] Built target talker
+[19.274s] [100%] [32m[1mLinking CXX executable listener[0m
+[20.042s] [100%] Built target listener
+[20.073s] Invoked command in '/home/rstole01/Documents/CSE-596/humble_ws/src/build/cpp_pubsub' returned '0': AMENT_PREFIX_PATH=/home/rstole01/Documents/CSE-596/humble_ws/src/install/tutorial_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rstole01/Documents/CSE-596/humble_ws/src/install/tutorial_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/rstole01/Documents/CSE-596/humble_ws/src/install/tutorial_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rstole01/Documents/CSE-596/humble_ws/src/install/tutorial_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/rstole01/Documents/CSE-596/humble_ws/src/build/cpp_pubsub -- -j8 -l8
+[20.131s] Invoking command in '/home/rstole01/Documents/CSE-596/humble_ws/src/build/cpp_pubsub': AMENT_PREFIX_PATH=/home/rstole01/Documents/CSE-596/humble_ws/src/install/tutorial_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rstole01/Documents/CSE-596/humble_ws/src/install/tutorial_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/rstole01/Documents/CSE-596/humble_ws/src/install/tutorial_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rstole01/Documents/CSE-596/humble_ws/src/install/tutorial_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/rstole01/Documents/CSE-596/humble_ws/src/build/cpp_pubsub
+[20.145s] -- Install configuration: ""
+[20.145s] -- Installing: /home/rstole01/Documents/CSE-596/humble_ws/src/install/cpp_pubsub/lib/cpp_pubsub/talker
+[20.148s] -- Set runtime path of "/home/rstole01/Documents/CSE-596/humble_ws/src/install/cpp_pubsub/lib/cpp_pubsub/talker" to ""
+[20.149s] -- Installing: /home/rstole01/Documents/CSE-596/humble_ws/src/install/cpp_pubsub/lib/cpp_pubsub/listener
+[20.156s] -- Set runtime path of "/home/rstole01/Documents/CSE-596/humble_ws/src/install/cpp_pubsub/lib/cpp_pubsub/listener" to ""
+[20.157s] -- Installing: /home/rstole01/Documents/CSE-596/humble_ws/src/install/cpp_pubsub/share/ament_index/resource_index/package_run_dependencies/cpp_pubsub
+[20.157s] -- Installing: /home/rstole01/Documents/CSE-596/humble_ws/src/install/cpp_pubsub/share/ament_index/resource_index/parent_prefix_path/cpp_pubsub
+[20.158s] -- Installing: /home/rstole01/Documents/CSE-596/humble_ws/src/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.sh
+[20.158s] -- Installing: /home/rstole01/Documents/CSE-596/humble_ws/src/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.dsv
+[20.158s] -- Installing: /home/rstole01/Documents/CSE-596/humble_ws/src/install/cpp_pubsub/share/cpp_pubsub/environment/path.sh
+[20.159s] -- Installing: /home/rstole01/Documents/CSE-596/humble_ws/src/install/cpp_pubsub/share/cpp_pubsub/environment/path.dsv
+[20.159s] -- Installing: /home/rstole01/Documents/CSE-596/humble_ws/src/install/cpp_pubsub/share/cpp_pubsub/local_setup.bash
+[20.159s] -- Installing: /home/rstole01/Documents/CSE-596/humble_ws/src/install/cpp_pubsub/share/cpp_pubsub/local_setup.sh
+[20.159s] -- Installing: /home/rstole01/Documents/CSE-596/humble_ws/src/install/cpp_pubsub/share/cpp_pubsub/local_setup.zsh
+[20.160s] -- Installing: /home/rstole01/Documents/CSE-596/humble_ws/src/install/cpp_pubsub/share/cpp_pubsub/local_setup.dsv
+[20.160s] -- Installing: /home/rstole01/Documents/CSE-596/humble_ws/src/install/cpp_pubsub/share/cpp_pubsub/package.dsv
+[20.160s] -- Installing: /home/rstole01/Documents/CSE-596/humble_ws/src/install/cpp_pubsub/share/ament_index/resource_index/packages/cpp_pubsub
+[20.161s] -- Installing: /home/rstole01/Documents/CSE-596/humble_ws/src/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig.cmake
+[20.161s] -- Installing: /home/rstole01/Documents/CSE-596/humble_ws/src/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig-version.cmake
+[20.161s] -- Installing: /home/rstole01/Documents/CSE-596/humble_ws/src/install/cpp_pubsub/share/cpp_pubsub/package.xml
+[20.165s] Invoked command in '/home/rstole01/Documents/CSE-596/humble_ws/src/build/cpp_pubsub' returned '0': AMENT_PREFIX_PATH=/home/rstole01/Documents/CSE-596/humble_ws/src/install/tutorial_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rstole01/Documents/CSE-596/humble_ws/src/install/tutorial_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/rstole01/Documents/CSE-596/humble_ws/src/install/tutorial_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rstole01/Documents/CSE-596/humble_ws/src/install/tutorial_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/rstole01/Documents/CSE-596/humble_ws/src/build/cpp_pubsub
