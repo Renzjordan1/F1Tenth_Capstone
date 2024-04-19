@@ -42,9 +42,12 @@ ros2 run pursuit_lab pure_pursuit_node.py
 <br />
 
 **To start F1Tenth car and slam_toolbox (requires Autoware and F1Tenth car):** <br />
-* Run
+* Give permissions:
 ``
 chmod +x /LaunchSlam.sh
+``
+* Run:
+``
 ./LaunchSlam.sh
 ``
 * Drive car around the track
