@@ -1,9 +1,9 @@
 # F1Tenth_Capstone
 >CSE 596 Capstone Spring 2024, F1Tenth Autonomous Racing
 
+### Demo: https://www.youtube.com/watch?v=7GemxeSg69k
+
 <br /> 
-
-
 
 ## How to Run
 **Source ROS prior to running any ROS2 related commands in a new terminal:** <br />
