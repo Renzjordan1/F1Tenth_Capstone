@@ -1,6 +1,7 @@
 # F1Tenth_Capstone
 >CSE 596 Capstone Spring 2024, F1Tenth Autonomous Racing
 
+Mapping with SLAM then autonomously driving on the built map
 ### Demo: https://www.youtube.com/watch?v=7GemxeSg69k
 
 <br /> 
